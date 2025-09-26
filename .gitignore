@@ -1,0 +1,5 @@
+# Ignore all demo files, should be pulled from an external source
+demos/**
+
+# ignore the generated video
+grenade_animation.mp4
