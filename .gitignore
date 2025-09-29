@@ -1,5 +1,10 @@
 # Ignore all demo files, should be pulled from an external source
 demos/**
+processed_rar_files/**
+raw_demos/**
 
 # ignore the generated video
 grenade_animation.mp4
+
+# Mac OS irrelevant file
+.DS_Store

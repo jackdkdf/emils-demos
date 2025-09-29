@@ -13,6 +13,20 @@ PROCESSED_RAR_DIR = "processed_rar_files"
 # A temporary folder for extractions. This will be created and deleted by the script.
 TEMP_EXTRACT_DIR = "temp_extract"
 
+# A list of common CS map names to look for in demo filenames.
+KNOWN_MAPS = [
+    "inferno",
+    "mirage",
+    "nuke",
+    "overpass",
+    "ancient",
+    "anubis",
+    "vertigo",
+    "dust2",
+    "train",
+    "cache",
+]
+
 
 def organize_demos(extraction_path, rar_filename_no_ext):
     """
@@ -26,10 +40,16 @@ def organize_demos(extraction_path, rar_filename_no_ext):
         for file in files:
             if file.endswith(".dem"):
                 found_demos = True
-                # Use regex to find the map name (e.g., de_inferno, de_nuke)
-                match = re.search(r"(de_[a-zA-Z0-9_]+)", file)
-                if match:
-                    map_name = match.group(1).replace("de_", "")
+
+                found_map_name = None
+                # Check the filename against our list of known maps
+                for known_map in KNOWN_MAPS:
+                    if known_map in file.lower():
+                        found_map_name = known_map
+                        break  # Found the map, no need to check further
+
+                if found_map_name:
+                    map_name = found_map_name
                     # Create the final directory structure: demos/<map_name>/<original_rar_name>/
                     final_map_dir = os.path.join(DEMO_BASE_DIR, map_name)
                     final_demo_set_dir = os.path.join(
@@ -93,6 +113,7 @@ def main():
 
         try:
             print(f"  -> Extracting '{rar_file}'...")
+            # Let patoolib automatically find the best program (unrar, unar, 7z, etc.)
             patoolib.extract_archive(
                 source_rar_path, outdir=current_extraction_path, verbosity=-1
             )
@@ -108,7 +129,7 @@ def main():
         except patoolib.util.PatoolError as e:
             print(f"  -> ERROR: Failed to extract '{rar_file}'. Error: {e}")
             print(
-                "  -> IMPORTANT: Ensure you have 'unrar' or '7zip'/'p7zip' installed and in your system's PATH."
+                "  -> IMPORTANT: Ensure you have 'unrar', 'unar', or '7zip' installed and in your system's PATH."
             )
             print(f"  -> Skipping this file.\n")
         except Exception as e:
