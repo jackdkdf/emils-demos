@@ -18,6 +18,12 @@ MAP_METADATA = {
         "image_url": "https://raw.githubusercontent.com/LaihoE/cs-demo-min-viewer/main/public/images/maps/de_mirage.png",
         "pos_x": -3230, "pos_y": 1713, "scale": 5.0,
     },
+    "de_overpass": {
+        "image_url": "https://static.wikia.nocookie.net/cswikia/images/8/89/Cs2_overpass_radar.png/revision/latest?cb=20231020113838",
+        "pos_x": -4700, # REVISED from -4831
+        "pos_y": 1781,
+        "scale": 4.9,
+    },
     # Add other maps here if needed
 }
 
@@ -175,5 +181,5 @@ def analyze_demo(demofile_path: str):
     create_grenade_animation(combined_df, map_name)
 
 if __name__ == "__main__":
-    DEMO_FILE = "demos/inferno/blast-austin-mouz-vs-vitality-m2-inferno.dem"
+    DEMO_FILE = r"demos\overpass\fissure-playground-2-astralis-vs-gamerlegion-bo3-mIBv2lw7vdlW0D_W2nyCqw\astralis-vs-gamerlegion-m1-overpass.dem"
     analyze_demo(DEMO_FILE)

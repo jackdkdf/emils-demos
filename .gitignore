@@ -2,7 +2,7 @@
 demos/**
 processed_rar_files/**
 raw_demos/**
-
+demos.zip
 # ignore the generated video
 grenade_animation.mp4
 
