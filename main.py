@@ -8,7 +8,7 @@ from PIL import Image
 import io
 import os
 
-# --- Calibrated Map Metadata (No changes here) ---
+# --- Calibrated Map Metadata ---
 MAP_METADATA = {
     "de_ancient": {
         "image_url": "https://static.wikia.nocookie.net/cswikia/images/9/9a/Ancient_Radar.png/revision/latest?cb=20221216234111",
@@ -17,7 +17,7 @@ MAP_METADATA = {
         "scale": 5.002,
     },
     "de_dust2": {
-        "image_url": "https://static.wikia.nocookie.net/cswikia/images/0/0f/Cs2_dust2_overview.png/revision/latest?cb=20230323162128",
+        "image_url": "https://raw.githubusercontent.com/zoido/cs2-radar-images/main/r_de_dust2_radar_psd.png",
         "pos_x": -2479.0,
         "pos_y": 3242.9,
         "scale": 4.452,
@@ -29,13 +29,13 @@ MAP_METADATA = {
         "scale": 4.86,
     },
     "de_mirage": {
-        "image_url": "https://static.wikia.nocookie.net/cswikia/images/9/95/Cs2_mirage_radar.png/revision/latest?cb=20231020111431",
+        "image_url": "https://raw.githubusercontent.com/LaihoE/cs-demo-min-viewer/main/public/images/maps/de_mirage.png",
         "pos_x": -3230,
         "pos_y": 1713,
         "scale": 5.0,
     },
     "de_nuke": {
-        "image_url": "https://static.wikia.nocookie.net/cswikia/images/8/8f/Cs2_nuke_radar.png/revision/latest?cb=20231020111944",
+        "image_url": "https://raw.githubusercontent.com/zoido/cs2-radar-images/main/r_de_nuke_radar_psd.png",
         "pos_x": -3554.0,
         "pos_y": 2971.5,
         "scale": 7.153,
@@ -47,15 +47,14 @@ MAP_METADATA = {
         "scale": 5.218,
     },
     "de_train": {
-        "image_url": "https://static.wikia.nocookie.net/cswikia/images/8/8c/CS2_Train_radar.png/revision/latest?cb=20241114093521",
+        "image_url": "https://raw.githubusercontent.com/zoido/cs2-radar-images/main/r_de_train_radar_psd.png",
         "pos_x": -2297.4,
         "pos_y": 2072.0,
         "scale": 4.070,
     },
 }
 
-
-# --- Utility and Log Functions (No changes here) ---
+# --- Utility and Log Functions ---
 def get_map_image(map_name, map_info):
     image_dir = "map_images"
     image_path = os.path.join(image_dir, f"{map_name}.png")
@@ -95,7 +94,7 @@ def print_grenade_log(df: pd.DataFrame):
         )
 
 
-# --- INTERACTIVE PLOTTER CLASS (No changes here) ---
+# --- INTERACTIVE PLOTTER CLASS ---
 class InteractivePlotter:
     def __init__(self, df: pd.DataFrame, map_name: str):
         self.df = df
@@ -110,15 +109,10 @@ class InteractivePlotter:
             "Decoy": "grey",
         }
 
-        self.df["pixel_x"] = (self.df["x"] - self.map_info["pos_x"]) / self.map_info[
-            "scale"
-        ]
-        self.df["pixel_y"] = (self.map_info["pos_y"] - self.df["y"]) / self.map_info[
-            "scale"
-        ]
+        self.df["pixel_x"] = (self.df["x"] - self.map_info["pos_x"]) / self.map_info["scale"]
+        self.df["pixel_y"] = (self.map_info["pos_y"] - self.df["y"]) / self.map_info["scale"]
         self.df["color"] = self.df["grenade_type"].map(self.palette)
 
-        # Filter out rounds with no data before creating the list
         self.rounds = sorted(self.df["round_number"].dropna().unique())
         if not self.rounds:
             print("No valid rounds with grenade data to display.")
@@ -132,9 +126,7 @@ class InteractivePlotter:
         if map_image:
             self.ax.imshow(map_image, extent=[0, 1024, 1024, 0])
 
-        self.scatter = self.ax.scatter(
-            [], [], s=100, alpha=0.9, edgecolor="black", linewidth=0.5
-        )
+        self.scatter = self.ax.scatter([], [], s=100, alpha=0.9, edgecolor="black", linewidth=0.5)
         self.annotations = []
 
         self.ax_prev = plt.axes([0.7, 0.05, 0.1, 0.075])
@@ -160,9 +152,7 @@ class InteractivePlotter:
         self.scatter.set_color(round_df["color"])
 
         for index, row in round_df.iterrows():
-            label = (
-                f"{row.get('user_team_abbr', '?')}\n{row.get('time_in_round', '?:??')}"
-            )
+            label = f"{row.get('user_team_abbr', '?')}\n{row.get('time_in_round', '?:??')}"
             ann = self.ax.text(
                 row["pixel_x"] + 8,
                 row["pixel_y"],
@@ -272,10 +262,8 @@ def analyze_demo(demofile_path: str):
 
         combined_df["time_in_round"] = seconds_in_round.apply(format_seconds)
 
-        # --- MODIFIED: Added data type enforcement and debugging ---
         player_team_df = event_dataframes.get("player_team")
 
-        # Check for necessary columns in both dataframes
         if (
             player_team_df is not None
             and not player_team_df.empty
@@ -283,22 +271,16 @@ def analyze_demo(demofile_path: str):
             and "user_steamid" in player_team_df.columns
             and "user_steamid" in combined_df.columns
         ):
-
-            # --- FIX: Enforce consistent data types for the join key ---
             player_team_df.dropna(subset=["user_steamid"], inplace=True)
             combined_df.dropna(subset=["user_steamid"], inplace=True)
-            player_team_df["user_steamid"] = player_team_df["user_steamid"].astype(
-                "Int64"
-            )
+            player_team_df["user_steamid"] = player_team_df["user_steamid"].astype("Int64")
             combined_df["user_steamid"] = combined_df["user_steamid"].astype("Int64")
 
             player_team_df["round_number"] = pd.cut(
                 player_team_df["tick"], bins=bins, right=False, labels=labels
             )
             player_team_df.dropna(subset=["round_number"], inplace=True)
-            player_team_df["round_number"] = player_team_df["round_number"].astype(
-                "Int64"
-            )
+            player_team_df["round_number"] = player_team_df["round_number"].astype("Int64")
 
             team_lookup = player_team_df.drop_duplicates(
                 subset=["round_number", "user_steamid"], keep="last"
@@ -313,35 +295,8 @@ def analyze_demo(demofile_path: str):
             combined_df["user_team_abbr"] = (
                 combined_df["team_num"].map(team_num_map).fillna("?")
             )
-
-            # --- AGGRESSIVE DEBUGGING (In case it still fails) ---
-            print("\n\n" + "=" * 20 + " DEBUGGING OUTPUT " + "=" * 20)
-            print(
-                f"\nSuccessfully found and used 'team' column. Lookups performed: {len(combined_df)}"
-            )
-            print(
-                "Number of successful team mappings:",
-                (combined_df["user_team_abbr"] != "?").sum(),
-            )
-            print("Sample of final data:")
-            print(
-                combined_df[
-                    [
-                        "round_number",
-                        "user_name",
-                        "user_steamid",
-                        "team_num",
-                        "user_team_abbr",
-                    ]
-                ].head()
-            )
-            print("\n" + "=" * 20 + " END DEBUGGING " + "=" * 25 + "\n")
-
         else:
             combined_df["user_team_abbr"] = "?"
-            print(
-                "Could not perform team lookup: 'player_team' data or 'user_steamid' column was missing."
-            )
 
     def format_time(tick):
         total_seconds = tick / tickrate
@@ -355,16 +310,19 @@ def analyze_demo(demofile_path: str):
 
 
 if __name__ == "__main__":
-    DEMO_FILE = r"demos\train\fissure-playground-2-virtuspro-vs-astralis-bo3-C6yzLSUiwN_qLnOK4Pb373\virtuspro-vs-astralis-m2-train.dem"
+    # --- CHOOSE YOUR DEMO FILE ---
+    # Make sure the path is correct for your system
+    DEMO_FILE = r"demos\overpass\fissure-playground-2-tyloo-vs-the-mongolz-bo3-_w_JW5xbXmj4WbVqwQxjZG\tyloo-vs-the-mongolz-m2-overpass.dem"
 
     full_grenade_df, map_name = analyze_demo(DEMO_FILE)
 
-    if full_grenade_df is not None:
+    if full_grenade_df is not None and map_name in MAP_METADATA:
         print_grenade_log(full_grenade_df)
         print("\n launching interactive plot...")
-        # Check if there's any data left to plot
         if not full_grenade_df.empty:
             plotter = InteractivePlotter(full_grenade_df, map_name)
             plt.show()
         else:
             print("No grenade data available to plot after processing.")
+    elif map_name:
+        print(f"\n❌ Could not launch plot: Calibration data for map '{map_name}' not found in MAP_METADATA.")
