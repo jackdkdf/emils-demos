@@ -87,9 +87,13 @@ def print_grenade_log(df: pd.DataFrame):
         ):
             current_round = nade["round_number"]
             print(f"\n{'='*15} Round {current_round} {'='*15}")
+        
         user_name = nade.get("user_name", "Unknown")
+        team_abbr = nade.get("user_team_abbr", "?")
+        player_identifier = f"{user_name} [{team_abbr}]"
+        
         print(
-            f"-> [{nade['time_formatted']}] {nade['grenade_type']:<12} by {user_name:<20} | "
+            f"-> [{nade['time_formatted']}] {nade['grenade_type']:<12} by {player_identifier:<25} | "
             f"Landing Spot (X, Y, Z): ({nade['x']:.2f}, {nade['y']:.2f}, {nade['z']:.2f})"
         )
 
@@ -191,35 +195,21 @@ def analyze_demo(demofile_path: str):
     try:
         print(f"Parsing demo: {demofile_path}")
         parser = DemoParser(demofile_path)
-        map_name = parser.parse_header()["map_name"]
-        event_names = [
-            "round_start",
-            "player_team",
-            "hegrenade_detonate",
-            "flashbang_detonate",
-            "smokegrenade_detonate",
-            "decoy_started",
-            "inferno_startburn", # Correct event for fire grenades
-        ]
+        header = parser.parse_header()
+        map_name = header["map_name"]
+        
+        event_names = ["round_start", "player_team", "hegrenade_detonate", "flashbang_detonate", "smokegrenade_detonate", "decoy_started", "inferno_startburn"]
         event_dataframes = dict(parser.parse_events(event_names))
     except (FileNotFoundError, Exception) as e:
         print(f"❌ An error occurred during parsing: {e}")
         return None, None
 
-    # --- MODIFIED: grenade_map now includes inferno_startburn as a placeholder ---
-    grenade_map = {
-        "hegrenade_detonate": "HE Grenade",
-        "flashbang_detonate": "Flashbang",
-        "smokegrenade_detonate": "Smoke",
-        "decoy_started": "Decoy",
-        "inferno_startburn": "Fire", # Temporary name
-    }
+    grenade_map = {"hegrenade_detonate": "HE Grenade", "flashbang_detonate": "Flashbang", "smokegrenade_detonate": "Smoke", "decoy_started": "Decoy", "inferno_startburn": "Fire"}
 
     all_grenades = []
     for event_name, friendly_name in grenade_map.items():
         df = event_dataframes.get(event_name)
         if df is not None and not df.empty:
-            # Use the event name as the temporary type
             df["grenade_type"] = event_name
             all_grenades.append(df)
 
@@ -228,78 +218,82 @@ def analyze_demo(demofile_path: str):
         return None, None
 
     combined_df = pd.concat(all_grenades, ignore_index=True).dropna(subset=["x", "y"])
-    tickrate = parser.parse_header().get("tick_rate", 128)
+    tickrate = header.get("tick_rate", 128)
     round_starts = event_dataframes.get("round_start", pd.DataFrame())
 
     if not round_starts.empty:
         round_starts = round_starts.sort_values(by="tick").reset_index(drop=True)
         round_starts["round_number"] = round_starts.index + 1
-
+        
         round_start_ticks = round_starts["tick"].tolist()
-        bins = round_start_ticks + [float("inf")]
+        bins = round_start_ticks + [float("inf")] 
         labels = round_starts["round_number"].tolist()
-        combined_df["round_number"] = pd.cut(
-            combined_df["tick"], bins=bins, right=False, labels=labels
-        )
+        combined_df["round_number"] = pd.cut(combined_df["tick"], bins=bins, right=False, labels=labels)
 
         combined_df.dropna(subset=["round_number"], inplace=True)
         combined_df["round_number"] = combined_df["round_number"].astype("Int64")
 
         round_start_map = round_starts.set_index("round_number")["tick"]
         combined_df["round_start_tick"] = combined_df["round_number"].map(round_start_map)
-
+        
         tick_in_round = combined_df["tick"] - combined_df["round_start_tick"]
         seconds_in_round = tick_in_round / tickrate
-
         def format_seconds(s):
             if pd.isna(s) or s < 0: return "0:00"
             minutes = int(s // 60); seconds = int(s % 60)
             return f"{minutes}:{seconds:02d}"
         combined_df["time_in_round"] = seconds_in_round.apply(format_seconds)
 
-        # Build team lookup table first
+        # --- MODIFIED: Final robust team lookup logic with halftime awareness ---
         player_team_df = event_dataframes.get("player_team")
         if (
-            player_team_df is not None and not player_team_df.empty and
-            "team" in player_team_df.columns and "user_steamid" in player_team_df.columns and
+            player_team_df is not None and not player_team_df.empty and 
+            "team" in player_team_df.columns and "user_steamid" in player_team_df.columns and 
             "user_steamid" in combined_df.columns
         ):
-            player_team_df.dropna(subset=["user_steamid"], inplace=True)
-            combined_df.dropna(subset=["user_steamid"], inplace=True)
-            player_team_df["user_steamid"] = player_team_df["user_steamid"].astype("Int64")
-            combined_df["user_steamid"] = combined_df["user_steamid"].astype("Int64")
-            
-            player_team_df["round_number"] = pd.cut(player_team_df["tick"], bins=bins, right=False, labels=labels)
-            player_team_df.dropna(subset=["round_number"], inplace=True)
-            player_team_df["round_number"] = player_team_df["round_number"].astype("Int64")
+            # 1. Prepare player_team dataframe
+            player_team_df.dropna(subset=['user_steamid', 'team'], inplace=True)
+            player_team_df['user_steamid'] = player_team_df['user_steamid'].astype('Int64')
 
-            team_lookup = player_team_df.drop_duplicates(
-                subset=["round_number", "user_steamid"], keep="last"
-            ).set_index(["round_number", "user_steamid"])["team"]
+            # 2. Get the last known team for each player
+            # This is their second-half team
+            last_known_teams = player_team_df.drop_duplicates(subset=['user_steamid'], keep='last').set_index('user_steamid')['team']
             
-            grenade_index = pd.MultiIndex.from_frame(combined_df[["round_number", "user_steamid"]])
-            combined_df["team_num"] = grenade_index.map(team_lookup)
+            # 3. Create a map of the team swap
+            team_swap_map = {2: 3, 3: 2}
             
+            # 4. Determine the correct team based on the round number
+            def assign_correct_team(row):
+                player_steamid = row['user_steamid']
+                second_half_team = last_known_teams.get(player_steamid)
+                if pd.isna(second_half_team):
+                    return None
+                
+                # MR12 halves (standard for CS2)
+                if row['round_number'] <= 12:
+                    return team_swap_map.get(second_half_team)
+                else:
+                    return second_half_team
+
+            # 5. Apply this logic to the main dataframe
+            combined_df.dropna(subset=['user_steamid'], inplace=True)
+            combined_df['user_steamid'] = combined_df['user_steamid'].astype('Int64')
+            combined_df['team_num'] = combined_df.apply(assign_correct_team, axis=1)
+            
+            # 6. Create abbreviations
             team_num_map = {2: "T", 3: "CT"}
             combined_df["user_team_abbr"] = combined_df["team_num"].map(team_num_map).fillna("?")
         else:
             combined_df["team_num"] = 0
             combined_df["user_team_abbr"] = "?"
 
-        # --- MODIFIED: Final assignment of grenade type based on team ---
-        final_grenade_map = {
-            "hegrenade_detonate": "HE Grenade",
-            "flashbang_detonate": "Flashbang",
-            "smokegrenade_detonate": "Smoke",
-            "decoy_started": "Decoy",
-        }
-        
+        # Assign final grenade type for fire grenades
+        final_grenade_map = {"hegrenade_detonate": "HE Grenade", "flashbang_detonate": "Flashbang", "smokegrenade_detonate": "Smoke", "decoy_started": "Decoy"}
         def assign_grenade_type(row):
             if row["grenade_type"] == "inferno_startburn":
                 return "Molotov" if row["team_num"] == 2 else "Incendiary"
             else:
                 return final_grenade_map.get(row["grenade_type"], "Unknown")
-        
         combined_df["grenade_type"] = combined_df.apply(assign_grenade_type, axis=1)
 
     def format_time(tick):
