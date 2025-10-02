@@ -209,6 +209,7 @@ def analyze_demo(demofile_path: str):
 
         event_names = [
             "round_start",
+            "round_end",
             "player_team",
             "hegrenade_detonate",
             "flashbang_detonate",
@@ -275,7 +276,34 @@ def analyze_demo(demofile_path: str):
 
         combined_df["time_in_round"] = seconds_in_round.apply(format_seconds)
 
-        # --- MODIFIED: Final halftime-aware team lookup logic ---
+        # --- MODIFIED: Final definitive team lookup logic ---
+        team_num_map = {2: "T", 3: "CT"}
+        is_mapping_confirmed = False
+        round_end_df = event_dataframes.get("round_end")
+
+        try:
+            if round_end_df is not None and not round_end_df.empty:
+                first_end = round_end_df.sort_values(by="tick").iloc[0]
+                winner_num = first_end["winner"]
+                winner_side_str = first_end["winner_side"]
+                if winner_side_str.upper() == "TERRORIST":
+                    if winner_num == 3:
+                        team_num_map = {3: "T", 2: "CT"}
+                elif winner_side_str.upper() == "CT":
+                    if winner_num == 2:
+                        team_num_map = {3: "T", 2: "CT"}
+                print(
+                    f"\nINFO: Dynamically determined team sides using 'round_end' event. Mapping: {team_num_map}"
+                )
+                is_mapping_confirmed = True
+        except (IndexError, KeyError):
+            pass
+
+        if not is_mapping_confirmed:
+            print(
+                f"\nWARNING: Could not dynamically determine team sides. Using default mapping (2=T, 3=CT)."
+            )
+
         player_team_df = event_dataframes.get("player_team")
         if (
             player_team_df is not None
@@ -284,58 +312,61 @@ def analyze_demo(demofile_path: str):
             and "user_steamid" in player_team_df.columns
             and "user_steamid" in combined_df.columns
         ):
-            # 1. Prepare dataframes
-            player_team_df.dropna(subset=["user_steamid", "team"], inplace=True)
-            combined_df.dropna(subset=["user_steamid"], inplace=True)
+            player_team_df["round_number"] = pd.cut(
+                player_team_df["tick"], bins=bins, right=False, labels=labels
+            )
+            player_team_df.dropna(
+                subset=["round_number", "user_steamid", "team"], inplace=True
+            )
             player_team_df["user_steamid"] = player_team_df["user_steamid"].astype(
                 "Int64"
             )
-            combined_df["user_steamid"] = combined_df["user_steamid"].astype("Int64")
-            player_team_df = player_team_df.sort_values(by="tick")
-
-            # 2. Establish team composition at the start of each half
-            first_half_start_tick = round_starts.iloc[0]["tick"]
-            second_half_start_tick = (
-                round_starts.iloc[12]["tick"]
-                if len(round_starts) > 12
-                else float("inf")
+            player_team_df["round_number"] = player_team_df["round_number"].astype(
+                "Int64"
             )
 
-            # Find the first definitive team assignment for each player in the first half
+            # Create a lookup of the first team seen for each player in each half
             first_half_teams = (
-                player_team_df[player_team_df["tick"] >= first_half_start_tick]
+                player_team_df[player_team_df["round_number"] <= 12]
                 .drop_duplicates(subset=["user_steamid"], keep="first")
                 .set_index("user_steamid")["team"]
             )
-
-            # Find the first definitive team assignment for each player in the second half
             second_half_teams = (
-                player_team_df[player_team_df["tick"] >= second_half_start_tick]
+                player_team_df[player_team_df["round_number"] > 12]
                 .drop_duplicates(subset=["user_steamid"], keep="first")
                 .set_index("user_steamid")["team"]
             )
 
-            # 3. Define a function to get the correct team based on the round
+            # Create a single, definitive lookup of the first team ever seen for each player
+            initial_teams = player_team_df.sort_values("tick").drop_duplicates(
+                subset=["user_steamid"], keep="first"
+            )
+            initial_team_lookup = initial_teams.set_index("user_steamid")["team"]
+            initial_round_lookup = initial_teams.set_index("user_steamid")[
+                "round_number"
+            ]
+
             def assign_correct_team(row):
                 player_id = row["user_steamid"]
-                # Standard MR12 halftime is after round 12
-                if row["round_number"] > 12:
-                    # Use the specific second-half team if that data exists
-                    if player_id in second_half_teams:
-                        return second_half_teams.get(player_id)
-                    # Otherwise, infer by swapping the first-half team
-                    else:
-                        first_team = first_half_teams.get(player_id)
-                        return {2: 3, 3: 2}.get(first_team)
+                initial_team = initial_team_lookup.get(player_id)
+                initial_round = initial_round_lookup.get(player_id)
+
+                if pd.isna(initial_team):
+                    return None
+
+                # If player's first team data is from the 2nd half, but we are in the 1st half
+                if initial_round > 12 and row["round_number"] <= 12:
+                    return {2: 3, 3: 2}.get(initial_team)
+                # If player's first team data is from the 1st half, but we are in the 2nd half
+                elif initial_round <= 12 and row["round_number"] > 12:
+                    return {2: 3, 3: 2}.get(initial_team)
+                # Otherwise, the team is correct for the half it was recorded in
                 else:
-                    # For the first half, always use the established first-half team
-                    return first_half_teams.get(player_id)
+                    return initial_team
 
-            # 4. Apply the logic
+            combined_df.dropna(subset=["user_steamid"], inplace=True)
+            combined_df["user_steamid"] = combined_df["user_steamid"].astype("Int64")
             combined_df["team_num"] = combined_df.apply(assign_correct_team, axis=1)
-
-            # 5. Create abbreviations
-            team_num_map = {2: "T", 3: "CT"}
             combined_df["user_team_abbr"] = (
                 combined_df["team_num"].map(team_num_map).fillna("?")
             )
@@ -343,7 +374,7 @@ def analyze_demo(demofile_path: str):
             combined_df["team_num"] = 0
             combined_df["user_team_abbr"] = "?"
 
-        # Assign final grenade type for fire grenades
+        # Assign final grenade type
         final_grenade_map = {
             "hegrenade_detonate": "HE Grenade",
             "flashbang_detonate": "Flashbang",
@@ -353,7 +384,11 @@ def analyze_demo(demofile_path: str):
 
         def assign_grenade_type(row):
             if row["grenade_type"] == "inferno_startburn":
-                return "Molotov" if row["team_num"] == 2 else "Incendiary"
+                return (
+                    "Molotov"
+                    if team_num_map.get(row["team_num"]) == "T"
+                    else "Incendiary"
+                )
             else:
                 return final_grenade_map.get(row["grenade_type"], "Unknown")
 
@@ -371,7 +406,7 @@ def analyze_demo(demofile_path: str):
 
 
 if __name__ == "__main__":
-    DEMO_FILE = r"demos/inferno/fissure-playground-2-the-mongolz-vs-3dmax-bo3-u02WLpVJ6Q22MzSL2B_-Tu/the-mongolz-vs-3dmax-m1-inferno.dem"
+    DEMO_FILE = r"demos/ancient/fissure-playground-2-legacy-vs-g2-bo3-XiHEY-Gw5tvmbaOvWhS2eq/legacy-vs-g2-m2-ancient.dem"
 
     full_grenade_df, map_name = analyze_demo(DEMO_FILE)
 
