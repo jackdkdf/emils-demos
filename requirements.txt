@@ -1,9 +1,0 @@
-requests
-beautifulsoup4
-lxml
-demoparser2
-matplotlib
-setuptools
-patool
-seaborn
-pandas
