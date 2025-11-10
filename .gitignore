@@ -1,6 +1,6 @@
 # Ignore all html files, should be pulled from an external source
 */__pycache__/
 scripts/team_html_pages/**
-
+/venv
 # Mac OS irrelevant file
 .DS_Store
