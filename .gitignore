@@ -1,10 +1,6 @@
-# Ignore all demo files, should be pulled from an external source
-demos/**
-processed_rar_files/**
-raw_demos/**
-demos.zip
-# ignore the generated video
-grenade_animation.mp4
+# Ignore all html files, should be pulled from an external source
+*/__pycache__/
+scripts/team_html_pages/**
 
 # Mac OS irrelevant file
 .DS_Store

@@ -1,0 +1,79 @@
+match_id,date,team_1,team_2,score_1,score_2,event
+2387379,2025-11-03,paiN,Spirit,0,2,IEM Chengdu 2025
+2387347,2025-10-31,paiN,Legacy,1,2,PGL Masters Bucharest 2025
+2387334,2025-10-28,paiN,B8,2,0,PGL Masters Bucharest 2025
+2387320,2025-10-27,paiN,GamerLegion,2,1,PGL Masters Bucharest 2025
+2387099,2025-10-26,paiN,Gentle Mates,2,0,PGL Masters Bucharest 2025
+2386839,2025-10-16,paiN,FUT,0,2,CS Asia Championships 2025
+2386835,2025-10-15,paiN,Fluxo,2,1,CS Asia Championships 2025
+2386824,2025-10-14,paiN,fnatic,8,13,CS Asia Championships 2025
+2385326,2025-09-19,paiN,Falcons,0,2,FISSURE Playground 2
+2385322,2025-09-17,paiN,Virtus.pro,2,1,FISSURE Playground 2
+2385318,2025-09-16,paiN,FURIA,0,2,FISSURE Playground 2
+2385307,2025-09-15,paiN,Astralis,2,0,FISSURE Playground 2
+2385305,2025-09-14,paiN,HEROIC,2,1,FISSURE Playground 2
+2385296,2025-09-13,paiN,FaZe,0,2,FISSURE Playground 2
+2384146,2025-08-10,paiN,The MongolZ,0,2,BLAST Bounty 2025 Season 2
+2384127,2025-08-07,paiN,Ninjas in Pyjamas,2,1,BLAST Bounty 2025 Season 2
+2383783,2025-07-25,paiN,Astralis,1,2,IEM Cologne 2025 Stage 1
+2383779,2025-07-25,paiN,BIG,2,1,IEM Cologne 2025 Stage 1
+2383750,2025-07-23,paiN,Liquid,0,2,IEM Cologne 2025 Stage 1
+2383594,2025-07-17,paiN,3DMAX,0,2,FISSURE Playground 1
+2383593,2025-07-16,paiN,Lynn Vision,1,2,FISSURE Playground 1
+2383574,2025-07-15,paiN,Rare Atom,2,0,FISSURE Playground 1
+2382617,2025-06-21,paiN,The MongolZ,0,2,BLAST.tv Austin Major 2025
+2382613,2025-06-19,paiN,FURIA,2,1,BLAST.tv Austin Major 2025
+2382612,2025-06-15,paiN,Virtus.pro,2,1,BLAST.tv Austin Major 2025
+2382605,2025-06-14,paiN,3DMAX,2,0,BLAST.tv Austin Major 2025
+2382603,2025-06-13,paiN,Nemiga,2,1,BLAST.tv Austin Major 2025
+2382595,2025-06-12,paiN,G2,6,13,BLAST.tv Austin Major 2025
+2382434,2025-06-12,paiN,Spirit,3,13,BLAST.tv Austin Major 2025
+2382581,2025-06-09,paiN,Lynn Vision,2,0,BLAST.tv Austin Major 2025 Stage 2
+2382576,2025-06-08,paiN,Virtus.pro,0,2,BLAST.tv Austin Major 2025 Stage 2
+2382440,2025-06-07,paiN,FURIA,13,11,BLAST.tv Austin Major 2025 Stage 2
+2382426,2025-06-07,paiN,Nemiga,13,7,BLAST.tv Austin Major 2025 Stage 2
+2382240,2025-05-13,paiN,MIBR,0,2,PGL Astana 2025
+2382230,2025-05-12,paiN,ODDIK,0,2,PGL Astana 2025
+2382221,2025-05-11,paiN,Astralis,0,2,PGL Astana 2025
+2382208,2025-05-10,paiN,HOTU,2,0,PGL Astana 2025
+2381910,2025-05-01,paiN,Wildcard,0,2,BLAST Rivals 2025 Season 1
+2381907,2025-04-30,paiN,MOUZ,1,2,BLAST Rivals 2025 Season 1
+2381754,2025-04-21,paiN,Complexity,0,2,IEM Melbourne 2025
+2381639,2025-04-20,paiN,FaZe,0,2,IEM Melbourne 2025
+2381313,2025-04-08,paiN,Falcons,1,2,PGL Bucharest 2025
+2381307,2025-04-07,paiN,FaZe,0,2,PGL Bucharest 2025
+2381255,2025-04-06,paiN,Aurora,1,2,PGL Bucharest 2025
+2380066,2025-03-10,paiN,Eternal Fire,0,2,ESL Pro League Season 21
+2380060,2025-03-09,paiN,Natus Vincere,0,2,ESL Pro League Season 21
+2380050,2025-03-08,paiN,GamerLegion,2,1,ESL Pro League Season 21
+2380043,2025-03-07,paiN,G2,0,2,ESL Pro League Season 21
+2380037,2025-03-05,paiN,Nemiga,2,1,ESL Pro League Season 21 Stage 1
+2380033,2025-03-04,paiN,Lynn Vision,2,1,ESL Pro League Season 21 Stage 1
+2380029,2025-03-03,paiN,FlyQuest,1,2,ESL Pro League Season 21 Stage 1
+2380020,2025-03-02,paiN,M80,0,2,ESL Pro League Season 21 Stage 1
+2379999,2025-03-01,paiN,Housebets,2,0,ESL Pro League Season 21 Stage 1
+2379359,2025-02-21,paiN,MOUZ,0,2,PGL Cluj-Napoca 2025
+2379354,2025-02-17,paiN,Virtus.pro,2,0,PGL Cluj-Napoca 2025
+2379348,2025-02-16,paiN,The MongolZ,1,2,PGL Cluj-Napoca 2025
+2379340,2025-02-15,paiN,Falcons,2,1,PGL Cluj-Napoca 2025
+2379332,2025-02-14,paiN,Astralis,2,1,PGL Cluj-Napoca 2025
+2379088,2025-02-09,paiN,Imperial,0,2,ACE SA Masters 2025 Season 1 - BLAST Premier Rising Event
+2379086,2025-02-08,paiN,RED Canids,2,0,ACE SA Masters 2025 Season 1 - BLAST Premier Rising Event
+2378695,2025-01-31,paiN,Astralis,0,2,IEM Katowice 2025 Play-in
+2378692,2025-01-30,paiN,GamerLegion,0,2,IEM Katowice 2025 Play-in
+2378419,2025-01-29,paiN,Virtus.pro,2,0,IEM Katowice 2025 Play-in
+2378455,2025-01-24,paiN,Natus Vincere,1,2,BLAST Bounty 2025 Season 1 Finals
+2378227,2025-01-18,paiN,FaZe,2,0,BLAST Bounty 2025 Season 1
+2378216,2025-01-17,paiN,GamerLegion,2,1,BLAST Bounty 2025 Season 1
+2377725,2024-12-07,paiN,FURIA,1,2,Perfect World Shanghai Major 2024
+2377719,2024-12-06,paiN,BIG,2,1,Perfect World Shanghai Major 2024
+2377711,2024-12-05,paiN,3DMAX,11,13,Perfect World Shanghai Major 2024
+2377700,2024-12-05,paiN,MOUZ,6,13,Perfect World Shanghai Major 2024
+2377689,2024-12-02,paiN,FlyQuest,2,0,Perfect World Shanghai Major 2024 Opening Stage
+2377682,2024-11-30,paiN,Cloud9,13,11,Perfect World Shanghai Major 2024 Opening Stage
+2377677,2024-11-30,paiN,GamerLegion,10,13,Perfect World Shanghai Major 2024 Opening Stage
+2377670,2024-11-30,paiN,Imperial,13,5,Perfect World Shanghai Major 2024 Opening Stage
+2376990,2024-11-14,paiN,9z,2,0,Perfect World Shanghai Major 2024 Americas RMR
+2376985,2024-11-13,paiN,Imperial,13,5,Perfect World Shanghai Major 2024 Americas RMR
+2376976,2024-11-12,paiN,Wildcard,10,13,Perfect World Shanghai Major 2024 Americas RMR
+2376933,2024-11-12,paiN,Nouns,13,5,Perfect World Shanghai Major 2024 Americas RMR

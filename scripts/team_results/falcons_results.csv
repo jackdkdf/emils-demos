@@ -1,0 +1,72 @@
+match_id,date,team_1,team_2,score_1,score_2,event
+2387377,2025-11-02,Falcons,TYLOO,2,0,IEM Chengdu 2025
+2385970,2025-10-12,Falcons,Vitality,0,3,ESL Pro League Season 22
+2385967,2025-10-11,Falcons,MOUZ,2,0,ESL Pro League Season 22
+2385963,2025-10-10,Falcons,3DMAX,2,1,ESL Pro League Season 22
+2385952,2025-10-06,Falcons,MOUZ,2,1,ESL Pro League Season 22
+2385938,2025-10-05,Falcons,Natus Vincere,2,0,ESL Pro League Season 22
+2385932,2025-10-04,Falcons,Astralis,2,0,ESL Pro League Season 22
+2385328,2025-09-20,Falcons,FURIA,0,2,FISSURE Playground 2
+2385326,2025-09-19,Falcons,paiN,2,0,FISSURE Playground 2
+2385312,2025-09-15,Falcons,FaZe,2,0,FISSURE Playground 2
+2385300,2025-09-14,Falcons,Legacy,2,0,FISSURE Playground 2
+2385292,2025-09-12,Falcons,Virtus.pro,2,0,FISSURE Playground 2
+2384387,2025-08-24,Falcons,Vitality,2,1,Esports World Cup 2025
+2384386,2025-08-23,Falcons,Aurora,0,2,Esports World Cup 2025
+2384383,2025-08-22,Falcons,MOUZ,2,1,Esports World Cup 2025
+2384304,2025-08-21,Falcons,G2,2,0,Esports World Cup 2025
+2383828,2025-07-28,Falcons,FURIA,1,2,IEM Cologne 2025
+2383825,2025-07-27,Falcons,The MongolZ,0,2,IEM Cologne 2025
+2383759,2025-07-26,Falcons,GamerLegion,2,0,IEM Cologne 2025
+2382582,2025-06-09,Falcons,MIBR,1,2,BLAST.tv Austin Major 2025 Stage 2
+2382577,2025-06-08,Falcons,OG,2,1,BLAST.tv Austin Major 2025 Stage 2
+2382444,2025-06-07,Falcons,Lynn Vision,9,13,BLAST.tv Austin Major 2025 Stage 2
+2382424,2025-06-07,Falcons,B8,8,13,BLAST.tv Austin Major 2025 Stage 2
+2382694,2025-05-24,Falcons,Vitality,1,2,IEM Dallas 2025
+2382692,2025-05-23,Falcons,GamerLegion,2,1,IEM Dallas 2025
+2382689,2025-05-21,Falcons,MOUZ,0,2,IEM Dallas 2025
+2382684,2025-05-20,Falcons,HEROIC,2,1,IEM Dallas 2025
+2382382,2025-05-19,Falcons,NRG,2,0,IEM Dallas 2025
+2381918,2025-05-04,Falcons,Vitality,2,3,BLAST Rivals 2025 Season 1
+2381916,2025-05-03,Falcons,MOUZ,2,0,BLAST Rivals 2025 Season 1
+2381913,2025-05-01,Falcons,Spirit,2,1,BLAST Rivals 2025 Season 1
+2381909,2025-04-30,Falcons,FaZe,2,0,BLAST Rivals 2025 Season 1
+2381773,2025-04-27,Falcons,Vitality,2,3,IEM Melbourne 2025
+2381771,2025-04-26,Falcons,MOUZ,2,0,IEM Melbourne 2025
+2381769,2025-04-25,Falcons,GamerLegion,2,0,IEM Melbourne 2025
+2381768,2025-04-23,Falcons,Vitality,0,2,IEM Melbourne 2025
+2381760,2025-04-22,Falcons,Natus Vincere,2,1,IEM Melbourne 2025
+2381643,2025-04-21,Falcons,SAW,2,0,IEM Melbourne 2025
+2381332,2025-04-13,Falcons,G2,3,0,PGL Bucharest 2025
+2381329,2025-04-12,Falcons,FaZe,2,1,PGL Bucharest 2025
+2381325,2025-04-11,Falcons,GamerLegion,2,1,PGL Bucharest 2025
+2381324,2025-04-10,Falcons,The MongolZ,2,1,PGL Bucharest 2025
+2381319,2025-04-09,Falcons,Rare Atom,2,0,PGL Bucharest 2025
+2381313,2025-04-08,Falcons,paiN,2,1,PGL Bucharest 2025
+2381301,2025-04-07,Falcons,GamerLegion,0,2,PGL Bucharest 2025
+2381253,2025-04-06,Falcons,Complexity,0,2,PGL Bucharest 2025
+2380122,2025-03-23,Falcons,Virtus.pro,1,2,BLAST Open Lisbon 2025
+2380112,2025-03-21,Falcons,The Huns,2,0,BLAST Open Lisbon 2025
+2380001,2025-03-19,Falcons,MOUZ,0,2,BLAST Open Lisbon 2025
+2380070,2025-03-11,Falcons,Eternal Fire,1,2,ESL Pro League Season 21
+2380068,2025-03-10,Falcons,FURIA,2,1,ESL Pro League Season 21
+2380056,2025-03-09,Falcons,3DMAX,1,2,ESL Pro League Season 21
+2380052,2025-03-08,Falcons,MOUZ,0,2,ESL Pro League Season 21
+2380046,2025-03-07,Falcons,Liquid,2,1,ESL Pro League Season 21
+2379366,2025-02-23,Falcons,MOUZ,1,3,PGL Cluj-Napoca 2025
+2379364,2025-02-22,Falcons,FaZe,2,0,PGL Cluj-Napoca 2025
+2379361,2025-02-21,Falcons,Eternal Fire,2,1,PGL Cluj-Napoca 2025
+2379350,2025-02-17,Falcons,MOUZ,2,1,PGL Cluj-Napoca 2025
+2379344,2025-02-16,Falcons,Astralis,2,1,PGL Cluj-Napoca 2025
+2379340,2025-02-15,Falcons,paiN,1,2,PGL Cluj-Napoca 2025
+2379329,2025-02-14,Falcons,FlyQuest,2,0,PGL Cluj-Napoca 2025
+2379277,2025-02-10,Falcons,BetBoom,2,0,IEM Dallas 2025 Europe Closed Qualifier
+2379269,2025-02-10,Falcons,TNL,2,1,IEM Dallas 2025 Europe Closed Qualifier
+2378898,2025-02-02,Falcons,G2,1,2,IEM Katowice 2025
+2378781,2025-02-01,Falcons,Eternal Fire,0,2,IEM Katowice 2025
+2378224,2025-01-19,Falcons,Eternal Fire,0,2,BLAST Bounty 2025 Season 1
+2378210,2025-01-15,Falcons,ENCE,2,0,BLAST Bounty 2025 Season 1
+2377021,2024-11-19,Falcons,GamerLegion,1,2,Perfect World Shanghai Major 2024 Europe RMR A
+2377010,2024-11-18,Falcons,SAW,5,13,Perfect World Shanghai Major 2024 Europe RMR A
+2377006,2024-11-17,Falcons,FaZe,12,16,Perfect World Shanghai Major 2024 Europe RMR A
+2376943,2024-11-17,Falcons,ECLOT,16,13,Perfect World Shanghai Major 2024 Europe RMR A
