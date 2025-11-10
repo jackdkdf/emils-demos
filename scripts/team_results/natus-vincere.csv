@@ -1,0 +1,140 @@
+team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+natus-vincere,4608,Mirage,31,2025-10-19,FURIA,8297,5,13,L,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Mirage,31,2025-10-16,Aurora,11861,13,11,W,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Mirage,31,2025-10-15,Imperial,9455,13,8,W,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Mirage,31,2025-10-04,Aurora,11861,13,10,W,ESL Pro League Season 22,8040
+natus-vincere,4608,Mirage,31,2025-08-29,FaZe,6667,10,13,L,BLAST Open London 2025,7907
+natus-vincere,4608,Mirage,31,2025-08-09,Astralis,6665,13,11,W,BLAST Bounty 2025 Season 2,7906
+natus-vincere,4608,Mirage,31,2025-05-10,M80,12376,13,4,W,PGL Astana 2025,8045
+natus-vincere,4608,Mirage,31,2025-04-22,Falcons,11283,4,13,L,IEM Melbourne 2025,8036
+natus-vincere,4608,Mirage,31,2025-03-28,Spirit,7020,7,13,L,BLAST Open Lisbon 2025,7904
+natus-vincere,4608,Mirage,31,2025-03-24,Eternal Fire,11251,5,13,L,BLAST Open Lisbon 2025,7904
+natus-vincere,4608,Mirage,31,2025-03-22,The MongolZ,6248,13,7,W,BLAST Open Lisbon 2025,7904
+natus-vincere,4608,Mirage,31,2025-02-08,Spirit,7020,14,16,L,IEM Katowice 2025,8034
+natus-vincere,4608,Mirage,31,2025-02-03,Spirit,7020,11,13,L,IEM Katowice 2025,8034
+natus-vincere,4608,Mirage,31,2025-02-01,FURIA,8297,13,5,W,IEM Katowice 2025,8034
+natus-vincere,4608,Mirage,31,2025-01-25,Spirit,7020,9,13,L,BLAST Bounty 2025 Season 1 Finals,7909
+natus-vincere,4608,Mirage,31,2025-01-24,paiN,4773,16,13,W,BLAST Bounty 2025 Season 1 Finals,7909
+natus-vincere,4608,Mirage,31,2024-11-18,MOUZ,4494,8,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+natus-vincere,4608,Inferno,32,2025-11-03,Astralis,6665,13,10,W,IEM Chengdu 2025,8041
+natus-vincere,4608,Inferno,32,2025-10-19,FURIA,8297,13,6,W,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Inferno,32,2025-10-18,The MongolZ,6248,13,9,W,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Inferno,32,2025-10-16,Aurora,11861,13,6,W,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Inferno,32,2025-10-15,Imperial,9455,10,13,L,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Inferno,32,2025-08-29,FaZe,6667,8,13,L,BLAST Open London 2025,7907
+natus-vincere,4608,Inferno,32,2025-08-27,fnatic,4991,13,8,W,BLAST Open London 2025,7907
+natus-vincere,4608,Inferno,32,2025-08-06,TNL,12833,13,9,W,BLAST Bounty 2025 Season 2,7906
+natus-vincere,4608,Inferno,32,2025-08-02,Spirit,7020,11,13,L,IEM Cologne 2025,8038
+natus-vincere,4608,Inferno,32,2025-07-28,MOUZ,4494,10,13,L,IEM Cologne 2025,8038
+natus-vincere,4608,Inferno,32,2025-07-26,FaZe,6667,13,9,W,IEM Cologne 2025,8038
+natus-vincere,4608,Inferno,32,2025-06-20,Vitality,9565,9,13,L,BLAST.tv Austin Major 2025,7902
+natus-vincere,4608,Inferno,32,2025-06-14,G2,5995,13,10,W,BLAST.tv Austin Major 2025,7902
+natus-vincere,4608,Inferno,32,2025-05-16,Astralis,6665,13,8,W,PGL Astana 2025,8045
+natus-vincere,4608,Inferno,32,2025-05-12,The MongolZ,6248,11,13,L,PGL Astana 2025,8045
+natus-vincere,4608,Inferno,32,2025-05-11,BIG,7532,13,10,W,PGL Astana 2025,8045
+natus-vincere,4608,Inferno,32,2025-05-10,M80,12376,13,7,W,PGL Astana 2025,8045
+natus-vincere,4608,Inferno,32,2025-04-23,FlyQuest,12774,9,13,L,IEM Melbourne 2025,8036
+natus-vincere,4608,Inferno,32,2025-04-22,Falcons,11283,11,13,L,IEM Melbourne 2025,8036
+natus-vincere,4608,Inferno,32,2025-04-21,MIBR,9215,13,5,W,IEM Melbourne 2025,8036
+natus-vincere,4608,Inferno,32,2025-03-22,The MongolZ,6248,16,13,W,BLAST Open Lisbon 2025,7904
+natus-vincere,4608,Inferno,32,2025-03-20,FURIA,8297,13,8,W,BLAST Open Lisbon 2025,7904
+natus-vincere,4608,Inferno,32,2025-03-14,The MongolZ,6248,6,13,L,ESL Pro League Season 21,8292
+natus-vincere,4608,Inferno,32,2025-03-10,G2,5995,13,9,W,ESL Pro League Season 21,8292
+natus-vincere,4608,Inferno,32,2025-03-09,paiN,4773,13,6,W,ESL Pro League Season 21,8292
+natus-vincere,4608,Inferno,32,2025-03-08,TYLOO,4863,13,5,W,ESL Pro League Season 21,8292
+natus-vincere,4608,Inferno,32,2025-02-08,Spirit,7020,8,13,L,IEM Katowice 2025,8034
+natus-vincere,4608,Inferno,32,2025-02-04,The MongolZ,6248,13,3,W,IEM Katowice 2025,8034
+natus-vincere,4608,Inferno,32,2025-02-03,Spirit,7020,13,8,W,IEM Katowice 2025,8034
+natus-vincere,4608,Inferno,32,2025-02-01,FURIA,8297,13,3,W,IEM Katowice 2025,8034
+natus-vincere,4608,Inferno,32,2025-01-24,paiN,4773,16,13,W,BLAST Bounty 2025 Season 1 Finals,7909
+natus-vincere,4608,Inferno,32,2025-01-16,Imperial Valkyries,12828,13,8,W,BLAST Bounty 2025 Season 1,7903
+natus-vincere,4608,Inferno,32,2024-12-08,HEROIC,7175,3,13,L,Perfect World Shanghai Major 2024,7524
+natus-vincere,4608,Inferno,32,2024-12-07,GamerLegion,9928,13,9,W,Perfect World Shanghai Major 2024,7524
+natus-vincere,4608,Inferno,32,2024-12-06,Spirit,7020,2,13,L,Perfect World Shanghai Major 2024,7524
+natus-vincere,4608,Inferno,32,2024-11-18,MOUZ,4494,13,4,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+natus-vincere,4608,Dust2,33,2025-11-03,Astralis,6665,12,16,L,IEM Chengdu 2025,8041
+natus-vincere,4608,Dust2,33,2025-10-19,FURIA,8297,13,9,W,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Dust2,33,2025-10-10,MOUZ,4494,8,13,L,ESL Pro League Season 22,8040
+natus-vincere,4608,Dust2,33,2025-10-06,3DMAX,4914,11,13,L,ESL Pro League Season 22,8040
+natus-vincere,4608,Dust2,33,2025-09-21,Ninjas in Pyjamas,4411,13,10,W,StarLadder StarSeries Fall 2025,8539
+natus-vincere,4608,Dust2,33,2025-09-20,Ninjas in Pyjamas,4411,13,7,W,StarLadder StarSeries Fall 2025,8539
+natus-vincere,4608,Dust2,33,2025-09-19,Passion UA,12426,13,10,W,StarLadder StarSeries Fall 2025,8539
+natus-vincere,4608,Dust2,33,2025-09-18,9INE,10278,13,8,W,StarLadder StarSeries Fall 2025,8539
+natus-vincere,4608,Dust2,33,2025-08-31,M80,12376,11,13,L,BLAST Open London 2025,7907
+natus-vincere,4608,Dust2,33,2025-08-20,3DMAX,4914,9,13,L,Esports World Cup 2025,8039
+natus-vincere,4608,Dust2,33,2025-08-09,Astralis,6665,7,13,L,BLAST Bounty 2025 Season 2,7906
+natus-vincere,4608,Dust2,33,2025-08-01,The MongolZ,6248,22,18,W,IEM Cologne 2025,8038
+natus-vincere,4608,Dust2,33,2025-07-29,FaZe,6667,13,10,W,IEM Cologne 2025,8038
+natus-vincere,4608,Dust2,33,2025-07-29,Ninjas in Pyjamas,4411,13,3,W,IEM Cologne 2025,8038
+natus-vincere,4608,Dust2,33,2025-06-14,G2,5995,19,16,W,BLAST.tv Austin Major 2025,7902
+natus-vincere,4608,Dust2,33,2025-06-12,3DMAX,4914,16,14,W,BLAST.tv Austin Major 2025,7902
+natus-vincere,4608,Dust2,33,2025-05-13,Aurora,11861,13,10,W,PGL Astana 2025,8045
+natus-vincere,4608,Dust2,33,2025-05-12,The MongolZ,6248,11,13,L,PGL Astana 2025,8045
+natus-vincere,4608,Dust2,33,2025-05-11,BIG,7532,13,8,W,PGL Astana 2025,8045
+natus-vincere,4608,Dust2,33,2025-04-23,Liquid,5973,13,10,W,IEM Melbourne 2025,8036
+natus-vincere,4608,Dust2,33,2025-04-23,FlyQuest,12774,13,7,W,IEM Melbourne 2025,8036
+natus-vincere,4608,Dust2,33,2025-04-22,Falcons,11283,13,9,W,IEM Melbourne 2025,8036
+natus-vincere,4608,Dust2,33,2025-04-21,MIBR,9215,13,9,W,IEM Melbourne 2025,8036
+natus-vincere,4608,Dust2,33,2025-03-24,Eternal Fire,11251,9,13,L,BLAST Open Lisbon 2025,7904
+natus-vincere,4608,Dust2,33,2025-03-22,The MongolZ,6248,1,13,L,BLAST Open Lisbon 2025,7904
+natus-vincere,4608,Dust2,33,2025-03-08,TYLOO,4863,10,13,L,ESL Pro League Season 21,8292
+natus-vincere,4608,Dust2,33,2025-03-07,SAW,10567,13,3,W,ESL Pro League Season 21,8292
+natus-vincere,4608,Dust2,33,2025-01-18,Astralis,6665,13,11,W,BLAST Bounty 2025 Season 1,7903
+natus-vincere,4608,Dust2,33,2024-12-05,MIBR,9215,11,13,L,Perfect World Shanghai Major 2024,7524
+natus-vincere,4608,Dust2,33,2024-11-18,MOUZ,4494,7,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+natus-vincere,4608,Dust2,33,2024-11-17,SINNERS,10577,13,5,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+natus-vincere,4608,Dust2,33,2024-11-17,fnatic,4991,13,9,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+natus-vincere,4608,Nuke,34,2025-11-03,Astralis,6665,13,16,L,IEM Chengdu 2025,8041
+natus-vincere,4608,Nuke,34,2025-10-19,FURIA,8297,8,13,L,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Nuke,34,2025-10-18,The MongolZ,6248,3,13,L,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Nuke,34,2025-10-16,Aurora,11861,4,13,L,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Nuke,34,2025-10-15,Imperial,9455,13,4,W,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Nuke,34,2025-10-08,The MongolZ,6248,13,3,W,ESL Pro League Season 22,8040
+natus-vincere,4608,Nuke,34,2025-10-06,3DMAX,4914,8,13,L,ESL Pro League Season 22,8040
+natus-vincere,4608,Nuke,34,2025-10-05,Falcons,11283,2,13,L,ESL Pro League Season 22,8040
+natus-vincere,4608,Nuke,34,2025-10-04,Aurora,11861,13,9,W,ESL Pro League Season 22,8040
+natus-vincere,4608,Nuke,34,2025-09-21,Ninjas in Pyjamas,4411,13,7,W,StarLadder StarSeries Fall 2025,8539
+natus-vincere,4608,Nuke,34,2025-09-20,Ninjas in Pyjamas,4411,13,9,W,StarLadder StarSeries Fall 2025,8539
+natus-vincere,4608,Nuke,34,2025-09-18,9INE,10278,13,4,W,StarLadder StarSeries Fall 2025,8539
+natus-vincere,4608,Nuke,34,2025-08-20,3DMAX,4914,11,13,L,Esports World Cup 2025,8039
+natus-vincere,4608,Nuke,34,2025-08-09,Astralis,6665,2,13,L,BLAST Bounty 2025 Season 2,7906
+natus-vincere,4608,Nuke,34,2025-08-06,TNL,12833,13,5,W,BLAST Bounty 2025 Season 2,7906
+natus-vincere,4608,Nuke,34,2025-08-02,Spirit,7020,13,9,W,IEM Cologne 2025,8038
+natus-vincere,4608,Nuke,34,2025-07-29,Ninjas in Pyjamas,4411,9,13,L,IEM Cologne 2025,8038
+natus-vincere,4608,Nuke,34,2025-07-28,MOUZ,4494,10,13,L,IEM Cologne 2025,8038
+natus-vincere,4608,Nuke,34,2025-07-26,FaZe,6667,13,5,W,IEM Cologne 2025,8038
+natus-vincere,4608,Nuke,34,2025-06-20,Vitality,9565,11,13,L,BLAST.tv Austin Major 2025,7902
+natus-vincere,4608,Nuke,34,2025-05-16,Astralis,6665,13,16,L,PGL Astana 2025,8045
+natus-vincere,4608,Nuke,34,2025-03-07,SAW,10567,9,13,L,ESL Pro League Season 21,8292
+natus-vincere,4608,Nuke,34,2025-02-03,Spirit,7020,16,14,W,IEM Katowice 2025,8034
+natus-vincere,4608,Nuke,34,2025-01-24,paiN,4773,7,13,L,BLAST Bounty 2025 Season 1 Finals,7909
+natus-vincere,4608,Nuke,34,2024-12-08,HEROIC,7175,13,5,W,Perfect World Shanghai Major 2024,7524
+natus-vincere,4608,Nuke,34,2024-12-07,GamerLegion,9928,13,6,W,Perfect World Shanghai Major 2024,7524
+natus-vincere,4608,Nuke,34,2024-12-05,Liquid,5973,13,10,W,Perfect World Shanghai Major 2024,7524
+natus-vincere,4608,Nuke,34,2024-11-19,SAW,10567,13,10,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+natus-vincere,4608,Ancient,47,2025-10-18,The MongolZ,6248,13,10,W,Thunderpick World Championship 2025,8067
+natus-vincere,4608,Ancient,47,2025-10-10,MOUZ,4494,16,14,W,ESL Pro League Season 22,8040
+natus-vincere,4608,Ancient,47,2025-10-08,The MongolZ,6248,16,12,W,ESL Pro League Season 22,8040
+natus-vincere,4608,Ancient,47,2025-10-07,HOTU,11581,13,7,W,ESL Pro League Season 22,8040
+natus-vincere,4608,Ancient,47,2025-10-05,Falcons,11283,14,16,L,ESL Pro League Season 22,8040
+natus-vincere,4608,Ancient,47,2025-09-18,9INE,10278,8,13,L,StarLadder StarSeries Fall 2025,8539
+natus-vincere,4608,Ancient,47,2025-08-31,M80,12376,9,13,L,BLAST Open London 2025,7907
+natus-vincere,4608,Ancient,47,2025-08-20,3DMAX,4914,13,10,W,Esports World Cup 2025,8039
+natus-vincere,4608,Ancient,47,2025-08-06,TNL,12833,14,16,L,BLAST Bounty 2025 Season 2,7906
+natus-vincere,4608,Ancient,47,2025-08-02,Spirit,7020,6,13,L,IEM Cologne 2025,8038
+natus-vincere,4608,Ancient,47,2025-08-01,The MongolZ,6248,13,6,W,IEM Cologne 2025,8038
+natus-vincere,4608,Ancient,47,2025-07-29,FaZe,6667,13,4,W,IEM Cologne 2025,8038
+natus-vincere,4608,Ancient,47,2025-07-26,FaZe,6667,11,13,L,IEM Cologne 2025,8038
+natus-vincere,4608,Ancient,47,2025-05-16,Astralis,6665,6,13,L,PGL Astana 2025,8045
+natus-vincere,4608,Ancient,47,2025-04-23,Liquid,5973,8,13,L,IEM Melbourne 2025,8036
+natus-vincere,4608,Ancient,47,2025-04-23,FlyQuest,12774,13,8,W,IEM Melbourne 2025,8036
+natus-vincere,4608,Ancient,47,2025-03-14,The MongolZ,6248,6,13,L,ESL Pro League Season 21,8292
+natus-vincere,4608,Ancient,47,2025-03-10,G2,5995,13,6,W,ESL Pro League Season 21,8292
+natus-vincere,4608,Ancient,47,2025-03-08,TYLOO,4863,13,5,W,ESL Pro League Season 21,8292
+natus-vincere,4608,Ancient,47,2025-03-07,SAW,10567,4,13,L,ESL Pro League Season 21,8292
+natus-vincere,4608,Ancient,47,2025-02-04,The MongolZ,6248,13,9,W,IEM Katowice 2025,8034
+natus-vincere,4608,Ancient,47,2025-01-25,Spirit,7020,20,22,L,BLAST Bounty 2025 Season 1 Finals,7909
+natus-vincere,4608,Ancient,47,2025-01-18,Astralis,6665,13,6,W,BLAST Bounty 2025 Season 1,7903
+natus-vincere,4608,Ancient,47,2025-01-16,Imperial Valkyries,12828,13,7,W,BLAST Bounty 2025 Season 1,7903
+natus-vincere,4608,Ancient,47,2024-12-08,HEROIC,7175,9,13,L,Perfect World Shanghai Major 2024,7524
+natus-vincere,4608,Ancient,47,2024-11-19,SAW,10567,13,2,W,Perfect World Shanghai Major 2024 Europe RMR A,7864

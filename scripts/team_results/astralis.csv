@@ -1,0 +1,187 @@
+team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+astralis,6665,Mirage,31,2025-10-06,FaZe,6667,4,13,L,ESL Pro League Season 22,8040
+astralis,6665,Mirage,31,2025-09-12,Aurora,11861,14,16,L,FISSURE Playground 2,8064
+astralis,6665,Mirage,31,2025-08-09,Natus Vincere,4608,11,13,L,BLAST Bounty 2025 Season 2,7906
+astralis,6665,Mirage,31,2025-07-27,FURIA,8297,4,13,L,IEM Cologne 2025,8038
+astralis,6665,Mirage,31,2025-07-25,FURIA,8297,9,13,L,IEM Cologne 2025 Stage 1,8230
+astralis,6665,Mirage,31,2025-07-18,Lynn Vision,8840,16,13,W,FISSURE Playground 1,8063
+astralis,6665,Mirage,31,2025-05-18,Spirit,7020,5,13,L,PGL Astana 2025,8045
+astralis,6665,Mirage,31,2025-05-13,Virtus.pro,5378,19,17,W,PGL Astana 2025,8045
+astralis,6665,Mirage,31,2025-05-12,Spirit,7020,7,13,L,PGL Astana 2025,8045
+astralis,6665,Mirage,31,2025-05-10,ODDIK,11768,13,9,W,PGL Astana 2025,8045
+astralis,6665,Mirage,31,2025-04-10,Virtus.pro,5378,10,13,L,PGL Bucharest 2025,8044
+astralis,6665,Mirage,31,2025-04-09,Legacy,12468,7,13,L,PGL Bucharest 2025,8044
+astralis,6665,Mirage,31,2025-04-07,3DMAX,4914,7,13,L,PGL Bucharest 2025,8044
+astralis,6665,Mirage,31,2025-04-06,FaZe,6667,13,16,L,PGL Bucharest 2025,8044
+astralis,6665,Mirage,31,2025-03-19,Vitality,9565,6,13,L,BLAST Open Lisbon 2025,7904
+astralis,6665,Mirage,31,2025-02-16,Falcons,11283,7,13,L,PGL Cluj-Napoca 2025,8043
+astralis,6665,Mirage,31,2025-02-09,PARIVISION,12467,13,6,W,RES Showdown 1: BLAST Premier Rising Event,8347
+astralis,6665,Mirage,31,2025-02-03,FURIA,8297,8,13,L,IEM Katowice 2025,8034
+astralis,6665,Mirage,31,2025-02-02,Spirit,7020,4,13,L,IEM Katowice 2025,8034
+astralis,6665,Mirage,31,2025-01-31,paiN,4773,13,9,W,IEM Katowice 2025 Play-in,8229
+astralis,6665,Mirage,31,2024-11-23,Eternal Fire,11251,13,8,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+astralis,6665,Inferno,32,2025-11-03,Natus Vincere,4608,10,13,L,IEM Chengdu 2025,8041
+astralis,6665,Inferno,32,2025-10-30,Aurora,11861,10,13,L,PGL Masters Bucharest 2025,8046
+astralis,6665,Inferno,32,2025-10-26,B8,11241,12,16,L,PGL Masters Bucharest 2025,8046
+astralis,6665,Inferno,32,2025-10-04,Falcons,11283,6,13,L,ESL Pro League Season 22,8040
+astralis,6665,Inferno,32,2025-10-01,HEROIC,7175,13,10,W,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Inferno,32,2025-09-28,Fluxo,11837,13,6,W,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Inferno,32,2025-09-16,Legacy,12468,13,8,W,FISSURE Playground 2,8064
+astralis,6665,Inferno,32,2025-09-15,paiN,4773,5,13,L,FISSURE Playground 2,8064
+astralis,6665,Inferno,32,2025-08-14,MOUZ,4494,4,13,L,BLAST Bounty 2025 Season 2 Finals,7910
+astralis,6665,Inferno,32,2025-07-23,B8,11241,13,2,W,IEM Cologne 2025 Stage 1,8230
+astralis,6665,Inferno,32,2025-07-20,TYLOO,4863,14,16,L,FISSURE Playground 1,8063
+astralis,6665,Inferno,32,2025-07-19,BetBoom,12394,13,10,W,FISSURE Playground 1,8063
+astralis,6665,Inferno,32,2025-07-17,MIBR,9215,13,6,W,FISSURE Playground 1,8063
+astralis,6665,Inferno,32,2025-07-16,TYLOO,4863,9,13,L,FISSURE Playground 1,8063
+astralis,6665,Inferno,32,2025-05-18,Spirit,7020,13,5,W,PGL Astana 2025,8045
+astralis,6665,Inferno,32,2025-05-17,Aurora,11861,11,13,L,PGL Astana 2025,8045
+astralis,6665,Inferno,32,2025-05-16,Natus Vincere,4608,8,13,L,PGL Astana 2025,8045
+astralis,6665,Inferno,32,2025-04-17,B8,11241,10,13,L,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Inferno,32,2025-04-16,BIG,7532,11,13,L,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Inferno,32,2025-04-16,Metizport,11641,13,7,W,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Inferno,32,2025-04-14,PARIVISION,12467,13,7,W,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Inferno,32,2025-04-08,Betclic,12916,8,13,L,PGL Bucharest 2025,8044
+astralis,6665,Inferno,32,2025-02-23,FaZe,6667,24,28,L,PGL Cluj-Napoca 2025,8043
+astralis,6665,Inferno,32,2025-02-21,The MongolZ,6248,13,8,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Inferno,32,2025-02-20,HEROIC,7175,3,13,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Inferno,32,2025-02-17,MIBR,9215,25,22,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Inferno,32,2025-02-14,paiN,4773,6,13,L,PGL Cluj-Napoca 2025,8043
+astralis,6665,Inferno,32,2025-02-11,BetBoom,12394,7,13,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Inferno,32,2025-02-11,Zero Tenacity,11523,10,13,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Inferno,32,2025-02-10,BC.Game,12878,9,13,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Inferno,32,2025-02-10,OG,10503,13,9,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Inferno,32,2025-02-04,GamerLegion,9928,7,13,L,IEM Katowice 2025,8034
+astralis,6665,Inferno,32,2025-01-29,MIBR,9215,12,16,L,IEM Katowice 2025 Play-in,8229
+astralis,6665,Inferno,32,2025-01-15,Wildcard,12257,13,5,W,BLAST Bounty 2025 Season 1,7903
+astralis,6665,Inferno,32,2024-11-22,B8,11241,11,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+astralis,6665,Dust2,33,2025-11-03,Natus Vincere,4608,16,12,W,IEM Chengdu 2025,8041
+astralis,6665,Dust2,33,2025-10-29,3DMAX,4914,13,10,W,PGL Masters Bucharest 2025,8046
+astralis,6665,Dust2,33,2025-10-28,Legacy,12468,14,16,L,PGL Masters Bucharest 2025,8046
+astralis,6665,Dust2,33,2025-10-27,MIBR,9215,13,4,W,PGL Masters Bucharest 2025,8046
+astralis,6665,Dust2,33,2025-10-04,Falcons,11283,8,13,L,ESL Pro League Season 22,8040
+astralis,6665,Dust2,33,2025-10-02,Legacy,12468,7,13,L,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Dust2,33,2025-10-01,HEROIC,7175,4,13,L,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Dust2,33,2025-09-28,Fluxo,11837,9,13,L,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Dust2,33,2025-09-15,paiN,4773,14,16,L,FISSURE Playground 2,8064
+astralis,6665,Dust2,33,2025-08-20,TYLOO,4863,13,8,W,Esports World Cup 2025,8039
+astralis,6665,Dust2,33,2025-08-09,Natus Vincere,4608,13,7,W,BLAST Bounty 2025 Season 2,7906
+astralis,6665,Dust2,33,2025-07-27,FURIA,8297,3,13,L,IEM Cologne 2025,8038
+astralis,6665,Dust2,33,2025-07-25,paiN,4773,13,11,W,IEM Cologne 2025 Stage 1,8230
+astralis,6665,Dust2,33,2025-07-23,B8,11241,16,12,W,IEM Cologne 2025 Stage 1,8230
+astralis,6665,Dust2,33,2025-07-20,TYLOO,4863,13,10,W,FISSURE Playground 1,8063
+astralis,6665,Dust2,33,2025-07-16,TYLOO,4863,6,13,L,FISSURE Playground 1,8063
+astralis,6665,Dust2,33,2025-05-13,Virtus.pro,5378,9,13,L,PGL Astana 2025,8045
+astralis,6665,Dust2,33,2025-05-11,paiN,4773,13,9,W,PGL Astana 2025,8045
+astralis,6665,Dust2,33,2025-05-10,ODDIK,11768,13,7,W,PGL Astana 2025,8045
+astralis,6665,Dust2,33,2025-04-17,B8,11241,13,7,W,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Dust2,33,2025-04-16,BIG,7532,13,9,W,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Dust2,33,2025-04-16,Metizport,11641,9,13,L,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Dust2,33,2025-04-07,3DMAX,4914,7,13,L,PGL Bucharest 2025,8044
+astralis,6665,Dust2,33,2025-03-19,Vitality,9565,4,13,L,BLAST Open Lisbon 2025,7904
+astralis,6665,Dust2,33,2025-02-23,FaZe,6667,13,8,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Dust2,33,2025-02-22,MOUZ,4494,14,16,L,PGL Cluj-Napoca 2025,8043
+astralis,6665,Dust2,33,2025-02-21,The MongolZ,6248,16,12,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Dust2,33,2025-02-18,BIG,7532,13,8,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Dust2,33,2025-02-17,MIBR,9215,13,16,L,PGL Cluj-Napoca 2025,8043
+astralis,6665,Dust2,33,2025-02-15,SAW,10567,13,6,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Dust2,33,2025-02-14,paiN,4773,13,7,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Dust2,33,2025-02-10,BC.Game,12878,17,19,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Dust2,33,2025-02-10,OG,10503,13,5,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Dust2,33,2025-02-09,PARIVISION,12467,11,13,L,RES Showdown 1: BLAST Premier Rising Event,8347
+astralis,6665,Dust2,33,2025-02-08,9INE,10278,28,26,W,RES Showdown 1: BLAST Premier Rising Event,8347
+astralis,6665,Dust2,33,2025-02-03,FURIA,8297,13,10,W,IEM Katowice 2025,8034
+astralis,6665,Dust2,33,2025-01-31,paiN,4773,13,7,W,IEM Katowice 2025 Play-in,8229
+astralis,6665,Dust2,33,2025-01-30,FlyQuest,12774,13,11,W,IEM Katowice 2025 Play-in,8229
+astralis,6665,Dust2,33,2025-01-18,Natus Vincere,4608,11,13,L,BLAST Bounty 2025 Season 1,7903
+astralis,6665,Dust2,33,2025-01-15,Wildcard,12257,13,8,W,BLAST Bounty 2025 Season 1,7903
+astralis,6665,Dust2,33,2024-11-24,Passion UA,12426,9,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+astralis,6665,Dust2,33,2024-11-23,Eternal Fire,11251,13,11,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+astralis,6665,Dust2,33,2024-11-21,Sashi,11712,11,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+astralis,6665,Nuke,34,2025-11-03,Natus Vincere,4608,16,13,W,IEM Chengdu 2025,8041
+astralis,6665,Nuke,34,2025-10-30,Aurora,11861,13,10,W,PGL Masters Bucharest 2025,8046
+astralis,6665,Nuke,34,2025-10-28,Legacy,12468,3,13,L,PGL Masters Bucharest 2025,8046
+astralis,6665,Nuke,34,2025-10-27,MIBR,9215,13,11,W,PGL Masters Bucharest 2025,8046
+astralis,6665,Nuke,34,2025-10-05,Aurora,11861,13,8,W,ESL Pro League Season 22,8040
+astralis,6665,Nuke,34,2025-10-01,HEROIC,7175,13,2,W,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Nuke,34,2025-09-30,GamerLegion,9928,0,13,L,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Nuke,34,2025-09-29,ENCE,4869,2,13,L,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Nuke,34,2025-09-28,Fluxo,11837,13,2,W,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Nuke,34,2025-09-19,FURIA,8297,15,19,L,FISSURE Playground 2,8064
+astralis,6665,Nuke,34,2025-09-17,GamerLegion,9928,13,10,W,FISSURE Playground 2,8064
+astralis,6665,Nuke,34,2025-09-16,Legacy,12468,13,8,W,FISSURE Playground 2,8064
+astralis,6665,Nuke,34,2025-09-12,Aurora,11861,13,8,W,FISSURE Playground 2,8064
+astralis,6665,Nuke,34,2025-08-14,MOUZ,4494,8,13,L,BLAST Bounty 2025 Season 2 Finals,7910
+astralis,6665,Nuke,34,2025-08-09,Natus Vincere,4608,13,2,W,BLAST Bounty 2025 Season 2,7906
+astralis,6665,Nuke,34,2025-07-26,Vitality,9565,11,13,L,IEM Cologne 2025,8038
+astralis,6665,Nuke,34,2025-07-25,paiN,4773,13,4,W,IEM Cologne 2025 Stage 1,8230
+astralis,6665,Nuke,34,2025-07-25,FURIA,8297,11,13,L,IEM Cologne 2025 Stage 1,8230
+astralis,6665,Nuke,34,2025-07-20,TYLOO,4863,4,13,L,FISSURE Playground 1,8063
+astralis,6665,Nuke,34,2025-07-19,BetBoom,12394,13,8,W,FISSURE Playground 1,8063
+astralis,6665,Nuke,34,2025-07-18,Lynn Vision,8840,13,2,W,FISSURE Playground 1,8063
+astralis,6665,Nuke,34,2025-07-17,MIBR,9215,13,11,W,FISSURE Playground 1,8063
+astralis,6665,Nuke,34,2025-07-16,TYLOO,4863,13,8,W,FISSURE Playground 1,8063
+astralis,6665,Nuke,34,2025-07-15,MIBR,9215,13,7,W,FISSURE Playground 1,8063
+astralis,6665,Nuke,34,2025-05-18,Spirit,7020,10,13,L,PGL Astana 2025,8045
+astralis,6665,Nuke,34,2025-05-17,Aurora,11861,13,8,W,PGL Astana 2025,8045
+astralis,6665,Nuke,34,2025-05-16,Natus Vincere,4608,16,13,W,PGL Astana 2025,8045
+astralis,6665,Nuke,34,2025-05-11,paiN,4773,13,4,W,PGL Astana 2025,8045
+astralis,6665,Nuke,34,2025-04-14,OG,10503,8,13,L,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Nuke,34,2025-04-09,Legacy,12468,19,16,W,PGL Bucharest 2025,8044
+astralis,6665,Nuke,34,2025-03-21,FaZe,6667,6,13,L,BLAST Open Lisbon 2025,7904
+astralis,6665,Nuke,34,2025-02-22,MOUZ,4494,13,8,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Nuke,34,2025-02-20,HEROIC,7175,2,13,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Nuke,34,2025-02-17,MIBR,9215,13,5,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Nuke,34,2025-02-16,Falcons,11283,6,13,L,PGL Cluj-Napoca 2025,8043
+astralis,6665,Nuke,34,2025-02-15,SAW,10567,13,11,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Nuke,34,2025-02-14,paiN,4773,11,13,L,PGL Cluj-Napoca 2025,8043
+astralis,6665,Nuke,34,2025-02-11,BetBoom,12394,13,11,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Nuke,34,2025-02-11,Zero Tenacity,11523,13,3,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Nuke,34,2025-02-09,500,12000,13,11,W,RES Showdown 1: BLAST Premier Rising Event,8347
+astralis,6665,Nuke,34,2025-02-04,GamerLegion,9928,7,13,L,IEM Katowice 2025,8034
+astralis,6665,Nuke,34,2025-02-03,FURIA,8297,13,11,W,IEM Katowice 2025,8034
+astralis,6665,Nuke,34,2025-02-02,Spirit,7020,5,13,L,IEM Katowice 2025,8034
+astralis,6665,Nuke,34,2024-11-22,B8,11241,13,11,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+astralis,6665,Nuke,34,2024-11-21,9 Pandas,11883,9,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+astralis,6665,Overpass,40,2025-10-05,Aurora,11861,9,13,L,ESL Pro League Season 22,8040
+astralis,6665,Overpass,40,2025-10-02,Legacy,12468,13,11,W,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Overpass,40,2025-09-30,GamerLegion,9928,9,13,L,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Overpass,40,2025-09-29,ENCE,4869,7,13,L,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Overpass,40,2025-09-17,GamerLegion,9928,13,9,W,FISSURE Playground 2,8064
+astralis,6665,Overpass,40,2025-09-12,Aurora,11861,9,13,L,FISSURE Playground 2,8064
+astralis,6665,Overpass,40,2025-08-20,TYLOO,4863,7,13,L,Esports World Cup 2025,8039
+astralis,6665,Overpass,40,2025-08-06,Rare Atom,11514,13,6,W,BLAST Bounty 2025 Season 2,7906
+astralis,6665,Overpass,40,2025-07-26,Vitality,9565,8,13,L,IEM Cologne 2025,8038
+astralis,6665,Ancient,47,2025-10-29,3DMAX,4914,13,3,W,PGL Masters Bucharest 2025,8046
+astralis,6665,Ancient,47,2025-10-26,B8,11241,4,13,L,PGL Masters Bucharest 2025,8046
+astralis,6665,Ancient,47,2025-10-06,FaZe,6667,7,13,L,ESL Pro League Season 22,8040
+astralis,6665,Ancient,47,2025-10-02,Legacy,12468,13,3,W,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Ancient,47,2025-09-29,ENCE,4869,16,13,W,ESL Pro League Season 22 Stage 1,8393
+astralis,6665,Ancient,47,2025-09-14,Virtus.pro,5378,13,7,W,FISSURE Playground 2,8064
+astralis,6665,Ancient,47,2025-08-06,Rare Atom,11514,13,1,W,BLAST Bounty 2025 Season 2,7906
+astralis,6665,Ancient,47,2025-07-25,paiN,4773,8,13,L,IEM Cologne 2025 Stage 1,8230
+astralis,6665,Ancient,47,2025-07-20,TYLOO,4863,10,13,L,FISSURE Playground 1,8063
+astralis,6665,Ancient,47,2025-07-15,MIBR,9215,13,5,W,FISSURE Playground 1,8063
+astralis,6665,Ancient,47,2025-05-16,Natus Vincere,4608,13,6,W,PGL Astana 2025,8045
+astralis,6665,Ancient,47,2025-05-13,Virtus.pro,5378,13,9,W,PGL Astana 2025,8045
+astralis,6665,Ancient,47,2025-05-12,Spirit,7020,5,13,L,PGL Astana 2025,8045
+astralis,6665,Ancient,47,2025-05-10,ODDIK,11768,2,13,L,PGL Astana 2025,8045
+astralis,6665,Ancient,47,2025-04-17,B8,11241,14,16,L,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Ancient,47,2025-04-16,BIG,7532,13,7,W,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Ancient,47,2025-04-16,Metizport,11641,9,13,L,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+astralis,6665,Ancient,47,2025-04-09,Legacy,12468,13,7,W,PGL Bucharest 2025,8044
+astralis,6665,Ancient,47,2025-04-08,Betclic,12916,9,13,L,PGL Bucharest 2025,8044
+astralis,6665,Ancient,47,2025-04-07,3DMAX,4914,13,7,W,PGL Bucharest 2025,8044
+astralis,6665,Ancient,47,2025-04-06,FaZe,6667,13,4,W,PGL Bucharest 2025,8044
+astralis,6665,Ancient,47,2025-02-23,FaZe,6667,13,9,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Ancient,47,2025-02-22,MOUZ,4494,5,13,L,PGL Cluj-Napoca 2025,8043
+astralis,6665,Ancient,47,2025-02-18,BIG,7532,13,7,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Ancient,47,2025-02-16,Falcons,11283,13,6,W,PGL Cluj-Napoca 2025,8043
+astralis,6665,Ancient,47,2025-02-11,BetBoom,12394,13,5,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+astralis,6665,Ancient,47,2025-02-09,PARIVISION,12467,13,10,W,RES Showdown 1: BLAST Premier Rising Event,8347
+astralis,6665,Ancient,47,2025-02-09,500,12000,13,11,W,RES Showdown 1: BLAST Premier Rising Event,8347
+astralis,6665,Ancient,47,2025-01-30,FlyQuest,12774,13,7,W,IEM Katowice 2025 Play-in,8229
+astralis,6665,Ancient,47,2025-01-29,MIBR,9215,11,13,L,IEM Katowice 2025 Play-in,8229
+astralis,6665,Ancient,47,2025-01-18,Natus Vincere,4608,6,13,L,BLAST Bounty 2025 Season 1,7903
+astralis,6665,Ancient,47,2024-11-24,Passion UA,12426,11,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+astralis,6665,Ancient,47,2024-11-22,B8,11241,13,9,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
