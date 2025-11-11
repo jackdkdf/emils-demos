@@ -14,14 +14,15 @@ import requests.exceptions
 
 # A helper dictionary for map names.
 MAP_ID_TO_NAME = {
-    "31": "Mirage",
-    "32": "Inferno",
-    "33": "Dust2",
+    "32": "Mirage",
+    "33": "Inferno",
+    "31": "Dust2",
     "34": "Nuke",  #
     "40": "Overpass",
-    "44": "Vertigo",
+    "46": "Vertigo",
     "47": "Ancient",  #
-    "52": "Anubis",
+    "48": "Anubis",
+    "35": "Train",
     # Add more as you find them
 }
 

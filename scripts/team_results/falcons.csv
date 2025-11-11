@@ -1,0 +1,176 @@
+team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+falcons,11283,Mirage,32,2025-10-04,Astralis,6665,13,6,W,ESL Pro League Season 22,8040
+falcons,11283,Mirage,32,2025-09-12,Virtus.pro,5378,13,1,W,FISSURE Playground 2,8064
+falcons,11283,Mirage,32,2025-07-28,FURIA,8297,11,13,L,IEM Cologne 2025,8038
+falcons,11283,Mirage,32,2025-07-27,The MongolZ,6248,9,13,L,IEM Cologne 2025,8038
+falcons,11283,Mirage,32,2025-07-26,GamerLegion,9928,13,6,W,IEM Cologne 2025,8038
+falcons,11283,Mirage,32,2025-06-08,OG,10503,13,6,W,BLAST.tv Austin Major 2025 Stage 2,8437
+falcons,11283,Mirage,32,2025-05-21,MOUZ,4494,12,16,L,IEM Dallas 2025,8037
+falcons,11283,Mirage,32,2025-05-04,Vitality,9565,16,14,W,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Mirage,32,2025-05-01,Spirit,7020,4,13,L,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Mirage,32,2025-04-27,Vitality,9565,13,10,W,IEM Melbourne 2025,8036
+falcons,11283,Mirage,32,2025-04-23,Vitality,9565,13,16,L,IEM Melbourne 2025,8036
+falcons,11283,Mirage,32,2025-04-22,Natus Vincere,4608,13,11,W,IEM Melbourne 2025,8036
+falcons,11283,Mirage,32,2025-04-13,G2,5995,13,5,W,PGL Bucharest 2025,8044
+falcons,11283,Mirage,32,2025-04-12,FaZe,6667,13,10,W,PGL Bucharest 2025,8044
+falcons,11283,Mirage,32,2025-04-10,The MongolZ,6248,9,13,L,PGL Bucharest 2025,8044
+falcons,11283,Mirage,32,2025-04-07,GamerLegion,9928,1,13,L,PGL Bucharest 2025,8044
+falcons,11283,Mirage,32,2025-03-23,Virtus.pro,5378,13,11,W,BLAST Open Lisbon 2025,7904
+falcons,11283,Mirage,32,2025-03-11,Eternal Fire,11251,16,13,W,ESL Pro League Season 21,8292
+falcons,11283,Mirage,32,2025-03-10,FURIA,8297,16,14,W,ESL Pro League Season 21,8292
+falcons,11283,Mirage,32,2025-02-23,MOUZ,4494,13,4,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Mirage,32,2025-02-17,MOUZ,4494,13,10,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Mirage,32,2025-02-15,paiN,4773,8,13,L,PGL Cluj-Napoca 2025,8043
+falcons,11283,Mirage,32,2025-02-10,TNL,12833,16,13,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+falcons,11283,Mirage,32,2025-02-02,G2,5995,11,13,L,IEM Katowice 2025,8034
+falcons,11283,Mirage,32,2024-11-19,GamerLegion,9928,7,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+falcons,11283,Inferno,33,2025-11-03,TYLOO,4863,13,8,W,IEM Chengdu 2025,8041
+falcons,11283,Inferno,33,2025-10-12,Vitality,9565,10,13,L,ESL Pro League Season 22,8040
+falcons,11283,Inferno,33,2025-10-11,MOUZ,4494,16,13,W,ESL Pro League Season 22,8040
+falcons,11283,Inferno,33,2025-10-10,3DMAX,4914,9,13,L,ESL Pro League Season 22,8040
+falcons,11283,Inferno,33,2025-10-06,MOUZ,4494,3,13,L,ESL Pro League Season 22,8040
+falcons,11283,Inferno,33,2025-10-04,Astralis,6665,13,8,W,ESL Pro League Season 22,8040
+falcons,11283,Inferno,33,2025-09-19,paiN,4773,13,4,W,FISSURE Playground 2,8064
+falcons,11283,Inferno,33,2025-09-14,Legacy,12468,13,4,W,FISSURE Playground 2,8064
+falcons,11283,Inferno,33,2025-08-24,Vitality,9565,9,13,L,Esports World Cup 2025,8039
+falcons,11283,Inferno,33,2025-08-23,Aurora,11861,6,13,L,Esports World Cup 2025,8039
+falcons,11283,Inferno,33,2025-08-22,MOUZ,4494,8,13,L,Esports World Cup 2025,8039
+falcons,11283,Inferno,33,2025-06-09,MIBR,9215,20,22,L,BLAST.tv Austin Major 2025 Stage 2,8437
+falcons,11283,Inferno,33,2025-05-24,Vitality,9565,11,13,L,IEM Dallas 2025,8037
+falcons,11283,Inferno,33,2025-05-23,GamerLegion,9928,13,8,W,IEM Dallas 2025,8037
+falcons,11283,Inferno,33,2025-05-04,Vitality,9565,13,9,W,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Inferno,33,2025-04-27,Vitality,9565,2,13,L,IEM Melbourne 2025,8036
+falcons,11283,Inferno,33,2025-04-23,Vitality,9565,8,13,L,IEM Melbourne 2025,8036
+falcons,11283,Inferno,33,2025-04-22,Natus Vincere,4608,9,13,L,IEM Melbourne 2025,8036
+falcons,11283,Inferno,33,2025-04-11,GamerLegion,9928,13,7,W,PGL Bucharest 2025,8044
+falcons,11283,Inferno,33,2025-04-09,Rare Atom,11514,13,6,W,PGL Bucharest 2025,8044
+falcons,11283,Inferno,33,2025-04-08,paiN,4773,13,9,W,PGL Bucharest 2025,8044
+falcons,11283,Inferno,33,2025-04-07,GamerLegion,9928,2,13,L,PGL Bucharest 2025,8044
+falcons,11283,Inferno,33,2025-03-23,Virtus.pro,5378,20,22,L,BLAST Open Lisbon 2025,7904
+falcons,11283,Inferno,33,2025-03-21,The Huns,12510,16,13,W,BLAST Open Lisbon 2025,7904
+falcons,11283,Inferno,33,2025-03-11,Eternal Fire,11251,8,13,L,ESL Pro League Season 21,8292
+falcons,11283,Inferno,33,2025-03-09,3DMAX,4914,11,13,L,ESL Pro League Season 21,8292
+falcons,11283,Inferno,33,2025-03-07,Liquid,5973,16,14,W,ESL Pro League Season 21,8292
+falcons,11283,Inferno,33,2025-02-14,FlyQuest,12774,13,9,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Inferno,33,2025-02-01,Eternal Fire,11251,7,13,L,IEM Katowice 2025,8034
+falcons,11283,Inferno,33,2025-01-19,Eternal Fire,11251,6,13,L,BLAST Bounty 2025 Season 1,7903
+falcons,11283,Dust2,31,2025-10-12,Vitality,9565,5,13,L,ESL Pro League Season 22,8040
+falcons,11283,Dust2,31,2025-09-15,FaZe,6667,13,6,W,FISSURE Playground 2,8064
+falcons,11283,Dust2,31,2025-07-28,FURIA,8297,7,13,L,IEM Cologne 2025,8038
+falcons,11283,Dust2,31,2025-07-27,The MongolZ,6248,9,13,L,IEM Cologne 2025,8038
+falcons,11283,Dust2,31,2025-06-08,OG,10503,11,13,L,BLAST.tv Austin Major 2025 Stage 2,8437
+falcons,11283,Dust2,31,2025-05-24,Vitality,9565,7,13,L,IEM Dallas 2025,8037
+falcons,11283,Dust2,31,2025-05-21,MOUZ,4494,4,13,L,IEM Dallas 2025,8037
+falcons,11283,Dust2,31,2025-05-20,HEROIC,7175,13,3,W,IEM Dallas 2025,8037
+falcons,11283,Dust2,31,2025-05-04,Vitality,9565,6,13,L,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Dust2,31,2025-05-03,MOUZ,4494,13,6,W,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Dust2,31,2025-05-01,Spirit,7020,16,12,W,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Dust2,31,2025-04-30,FaZe,6667,13,6,W,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Dust2,31,2025-04-27,Vitality,9565,16,12,W,IEM Melbourne 2025,8036
+falcons,11283,Dust2,31,2025-04-26,MOUZ,4494,13,3,W,IEM Melbourne 2025,8036
+falcons,11283,Dust2,31,2025-04-22,Natus Vincere,4608,13,4,W,IEM Melbourne 2025,8036
+falcons,11283,Dust2,31,2025-04-21,SAW,10567,13,9,W,IEM Melbourne 2025,8036
+falcons,11283,Dust2,31,2025-04-10,The MongolZ,6248,13,6,W,PGL Bucharest 2025,8044
+falcons,11283,Dust2,31,2025-04-06,Complexity,5005,5,13,L,PGL Bucharest 2025,8044
+falcons,11283,Dust2,31,2025-03-11,Eternal Fire,11251,9,13,L,ESL Pro League Season 21,8292
+falcons,11283,Dust2,31,2025-03-10,FURIA,8297,13,9,W,ESL Pro League Season 21,8292
+falcons,11283,Dust2,31,2025-03-09,3DMAX,4914,2,13,L,ESL Pro League Season 21,8292
+falcons,11283,Dust2,31,2025-03-07,Liquid,5973,9,13,L,ESL Pro League Season 21,8292
+falcons,11283,Dust2,31,2025-02-23,MOUZ,4494,6,13,L,PGL Cluj-Napoca 2025,8043
+falcons,11283,Dust2,31,2025-02-22,FaZe,6667,13,11,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Dust2,31,2025-02-21,Eternal Fire,11251,6,13,L,PGL Cluj-Napoca 2025,8043
+falcons,11283,Dust2,31,2025-02-17,MOUZ,4494,8,13,L,PGL Cluj-Napoca 2025,8043
+falcons,11283,Dust2,31,2025-02-16,Astralis,6665,13,7,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Dust2,31,2025-02-15,paiN,4773,16,12,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Dust2,31,2025-02-14,FlyQuest,12774,13,7,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Dust2,31,2025-02-10,BetBoom,12394,13,2,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+falcons,11283,Dust2,31,2025-02-02,G2,5995,13,7,W,IEM Katowice 2025,8034
+falcons,11283,Dust2,31,2025-01-15,ENCE,4869,16,14,W,BLAST Bounty 2025 Season 1,7903
+falcons,11283,Nuke,34,2025-10-10,3DMAX,4914,16,13,W,ESL Pro League Season 22,8040
+falcons,11283,Nuke,34,2025-10-06,MOUZ,4494,13,7,W,ESL Pro League Season 22,8040
+falcons,11283,Nuke,34,2025-10-05,Natus Vincere,4608,13,2,W,ESL Pro League Season 22,8040
+falcons,11283,Nuke,34,2025-09-20,FURIA,8297,11,13,L,FISSURE Playground 2,8064
+falcons,11283,Nuke,34,2025-09-15,FaZe,6667,13,11,W,FISSURE Playground 2,8064
+falcons,11283,Nuke,34,2025-08-24,Vitality,9565,13,3,W,Esports World Cup 2025,8039
+falcons,11283,Nuke,34,2025-08-22,MOUZ,4494,13,10,W,Esports World Cup 2025,8039
+falcons,11283,Nuke,34,2025-07-26,GamerLegion,9928,13,11,W,IEM Cologne 2025,8038
+falcons,11283,Nuke,34,2025-06-09,MIBR,9215,9,13,L,BLAST.tv Austin Major 2025 Stage 2,8437
+falcons,11283,Nuke,34,2025-06-08,OG,10503,13,10,W,BLAST.tv Austin Major 2025 Stage 2,8437
+falcons,11283,Nuke,34,2025-06-07,Lynn Vision,8840,9,13,L,BLAST.tv Austin Major 2025 Stage 2,8437
+falcons,11283,Nuke,34,2025-05-23,GamerLegion,9928,9,13,L,IEM Dallas 2025,8037
+falcons,11283,Nuke,34,2025-05-20,HEROIC,7175,13,16,L,IEM Dallas 2025,8037
+falcons,11283,Nuke,34,2025-05-19,NRG,6673,13,5,W,IEM Dallas 2025,8037
+falcons,11283,Nuke,34,2025-05-04,Vitality,9565,8,13,L,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Nuke,34,2025-05-03,MOUZ,4494,16,14,W,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Nuke,34,2025-04-27,Vitality,9565,20,22,L,IEM Melbourne 2025,8036
+falcons,11283,Nuke,34,2025-04-26,MOUZ,4494,13,6,W,IEM Melbourne 2025,8036
+falcons,11283,Nuke,34,2025-04-25,GamerLegion,9928,13,4,W,IEM Melbourne 2025,8036
+falcons,11283,Nuke,34,2025-04-21,SAW,10567,13,8,W,IEM Melbourne 2025,8036
+falcons,11283,Nuke,34,2025-04-13,G2,5995,13,7,W,PGL Bucharest 2025,8044
+falcons,11283,Nuke,34,2025-04-12,FaZe,6667,13,4,W,PGL Bucharest 2025,8044
+falcons,11283,Nuke,34,2025-04-08,paiN,4773,6,13,L,PGL Bucharest 2025,8044
+falcons,11283,Nuke,34,2025-03-08,MOUZ,4494,9,13,L,ESL Pro League Season 21,8292
+falcons,11283,Nuke,34,2025-02-23,MOUZ,4494,11,13,L,PGL Cluj-Napoca 2025,8043
+falcons,11283,Nuke,34,2025-02-21,Eternal Fire,11251,13,8,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Nuke,34,2025-02-16,Astralis,6665,13,6,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Nuke,34,2025-02-15,paiN,4773,11,13,L,PGL Cluj-Napoca 2025,8043
+falcons,11283,Nuke,34,2025-02-10,TNL,12833,13,6,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+falcons,11283,Nuke,34,2025-01-19,Eternal Fire,11251,17,19,L,BLAST Bounty 2025 Season 1,7903
+falcons,11283,Nuke,34,2024-11-19,GamerLegion,9928,13,7,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+falcons,11283,Nuke,34,2024-11-17,FaZe,6667,12,16,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+falcons,11283,Vertigo,46,2024-11-19,GamerLegion,9928,6,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+falcons,11283,Ancient,47,2025-11-03,TYLOO,4863,13,3,W,IEM Chengdu 2025,8041
+falcons,11283,Ancient,47,2025-10-11,MOUZ,4494,13,7,W,ESL Pro League Season 22,8040
+falcons,11283,Ancient,47,2025-10-10,3DMAX,4914,13,7,W,ESL Pro League Season 22,8040
+falcons,11283,Ancient,47,2025-10-06,MOUZ,4494,13,9,W,ESL Pro League Season 22,8040
+falcons,11283,Ancient,47,2025-10-05,Natus Vincere,4608,16,14,W,ESL Pro League Season 22,8040
+falcons,11283,Ancient,47,2025-09-19,paiN,4773,13,6,W,FISSURE Playground 2,8064
+falcons,11283,Ancient,47,2025-09-14,Legacy,12468,19,16,W,FISSURE Playground 2,8064
+falcons,11283,Ancient,47,2025-09-12,Virtus.pro,5378,13,2,W,FISSURE Playground 2,8064
+falcons,11283,Ancient,47,2025-08-22,MOUZ,4494,13,9,W,Esports World Cup 2025,8039
+falcons,11283,Ancient,47,2025-08-21,G2,5995,13,9,W,Esports World Cup 2025,8039
+falcons,11283,Ancient,47,2025-06-09,MIBR,9215,13,6,W,BLAST.tv Austin Major 2025 Stage 2,8437
+falcons,11283,Ancient,47,2025-06-07,B8,11241,8,13,L,BLAST.tv Austin Major 2025 Stage 2,8437
+falcons,11283,Ancient,47,2025-05-23,GamerLegion,9928,13,8,W,IEM Dallas 2025,8037
+falcons,11283,Ancient,47,2025-05-20,HEROIC,7175,13,9,W,IEM Dallas 2025,8037
+falcons,11283,Ancient,47,2025-05-01,Spirit,7020,13,6,W,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Ancient,47,2025-04-30,FaZe,6667,13,10,W,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Ancient,47,2025-04-13,G2,5995,13,8,W,PGL Bucharest 2025,8044
+falcons,11283,Ancient,47,2025-04-12,FaZe,6667,14,16,L,PGL Bucharest 2025,8044
+falcons,11283,Ancient,47,2025-04-11,GamerLegion,9928,13,7,W,PGL Bucharest 2025,8044
+falcons,11283,Ancient,47,2025-04-10,The MongolZ,6248,16,14,W,PGL Bucharest 2025,8044
+falcons,11283,Ancient,47,2025-03-23,Virtus.pro,5378,16,19,L,BLAST Open Lisbon 2025,7904
+falcons,11283,Ancient,47,2025-03-21,The Huns,12510,13,6,W,BLAST Open Lisbon 2025,7904
+falcons,11283,Ancient,47,2025-03-19,MOUZ,4494,10,13,L,BLAST Open Lisbon 2025,7904
+falcons,11283,Ancient,47,2025-03-09,3DMAX,4914,13,7,W,ESL Pro League Season 21,8292
+falcons,11283,Ancient,47,2025-03-07,Liquid,5973,16,13,W,ESL Pro League Season 21,8292
+falcons,11283,Ancient,47,2025-02-23,MOUZ,4494,9,13,L,PGL Cluj-Napoca 2025,8043
+falcons,11283,Ancient,47,2025-02-22,FaZe,6667,13,6,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Ancient,47,2025-02-17,MOUZ,4494,13,8,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Ancient,47,2025-02-16,Astralis,6665,6,13,L,PGL Cluj-Napoca 2025,8043
+falcons,11283,Ancient,47,2025-02-10,BetBoom,12394,13,2,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+falcons,11283,Ancient,47,2025-02-10,TNL,12833,9,13,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+falcons,11283,Ancient,47,2025-02-02,G2,5995,9,13,L,IEM Katowice 2025,8034
+falcons,11283,Anubis,48,2024-11-18,SAW,10567,5,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+falcons,11283,Anubis,48,2024-11-17,ECLOT,7441,16,13,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+falcons,11283,Train,35,2025-10-12,Vitality,9565,9,13,L,ESL Pro League Season 22,8040
+falcons,11283,Train,35,2025-09-20,FURIA,8297,12,16,L,FISSURE Playground 2,8064
+falcons,11283,Train,35,2025-08-24,Vitality,9565,13,3,W,Esports World Cup 2025,8039
+falcons,11283,Train,35,2025-08-23,Aurora,11861,11,13,L,Esports World Cup 2025,8039
+falcons,11283,Train,35,2025-08-21,G2,5995,13,7,W,Esports World Cup 2025,8039
+falcons,11283,Train,35,2025-07-28,FURIA,8297,13,7,W,IEM Cologne 2025,8038
+falcons,11283,Train,35,2025-05-24,Vitality,9565,13,6,W,IEM Dallas 2025,8037
+falcons,11283,Train,35,2025-05-19,NRG,6673,13,6,W,IEM Dallas 2025,8037
+falcons,11283,Train,35,2025-05-04,Vitality,9565,6,13,L,BLAST Rivals 2025 Season 1,7905
+falcons,11283,Train,35,2025-04-27,Vitality,9565,9,13,L,IEM Melbourne 2025,8036
+falcons,11283,Train,35,2025-04-25,GamerLegion,9928,13,3,W,IEM Melbourne 2025,8036
+falcons,11283,Train,35,2025-04-11,GamerLegion,9928,7,13,L,PGL Bucharest 2025,8044
+falcons,11283,Train,35,2025-04-09,Rare Atom,11514,13,2,W,PGL Bucharest 2025,8044
+falcons,11283,Train,35,2025-04-08,paiN,4773,13,8,W,PGL Bucharest 2025,8044
+falcons,11283,Train,35,2025-04-06,Complexity,5005,6,13,L,PGL Bucharest 2025,8044
+falcons,11283,Train,35,2025-03-19,MOUZ,4494,11,13,L,BLAST Open Lisbon 2025,7904
+falcons,11283,Train,35,2025-03-10,FURIA,8297,13,16,L,ESL Pro League Season 21,8292
+falcons,11283,Train,35,2025-03-08,MOUZ,4494,7,13,L,ESL Pro League Season 21,8292
+falcons,11283,Train,35,2025-02-21,Eternal Fire,11251,13,11,W,PGL Cluj-Napoca 2025,8043
+falcons,11283,Train,35,2025-02-01,Eternal Fire,11251,5,13,L,IEM Katowice 2025,8034
+falcons,11283,Train,35,2025-01-15,ENCE,4869,16,12,W,BLAST Bounty 2025 Season 1,7903
