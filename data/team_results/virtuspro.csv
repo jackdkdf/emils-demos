@@ -1,85 +1,85 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
-virtuspro,5378,Mirage,31,2025-11-03,Vitality,9565,11,13,L,IEM Chengdu 2025,8041
-virtuspro,5378,Mirage,31,2025-10-14,The Huns,12510,13,10,W,CS Asia Championships 2025,8027
-virtuspro,5378,Mirage,31,2025-09-17,paiN,4773,5,13,L,FISSURE Playground 2,8064
-virtuspro,5378,Mirage,31,2025-09-16,3DMAX,4914,13,11,W,FISSURE Playground 2,8064
-virtuspro,5378,Mirage,31,2025-09-15,Lynn Vision,8840,19,17,W,FISSURE Playground 2,8064
-virtuspro,5378,Mirage,31,2025-08-29,M80,12376,6,13,L,BLAST Open London 2025,7907
-virtuspro,5378,Mirage,31,2025-08-27,GamerLegion,9928,7,13,L,BLAST Open London 2025,7907
-virtuspro,5378,Mirage,31,2025-07-24,GamerLegion,9928,8,13,L,IEM Cologne 2025 Stage 1,8230
-virtuspro,5378,Mirage,31,2025-06-15,paiN,4773,11,13,L,BLAST.tv Austin Major 2025,7902
-virtuspro,5378,Mirage,31,2025-06-14,Vitality,9565,6,13,L,BLAST.tv Austin Major 2025,7902
-virtuspro,5378,Mirage,31,2025-06-08,paiN,4773,13,10,W,BLAST.tv Austin Major 2025 Stage 2,8437
-virtuspro,5378,Mirage,31,2025-05-13,Astralis,6665,17,19,L,PGL Astana 2025,8045
-virtuspro,5378,Mirage,31,2025-05-12,BIG,7532,13,9,W,PGL Astana 2025,8045
-virtuspro,5378,Mirage,31,2025-05-10,Ninjas in Pyjamas,4411,13,11,W,PGL Astana 2025,8045
-virtuspro,5378,Mirage,31,2025-04-22,FlyQuest,12774,6,13,L,IEM Melbourne 2025,8036
-virtuspro,5378,Mirage,31,2025-04-21,Liquid,5973,8,13,L,IEM Melbourne 2025,8036
-virtuspro,5378,Mirage,31,2025-04-11,G2,5995,11,13,L,PGL Bucharest 2025,8044
-virtuspro,5378,Mirage,31,2025-04-10,Astralis,6665,13,10,W,PGL Bucharest 2025,8044
-virtuspro,5378,Mirage,31,2025-04-08,FURIA,8297,13,8,W,PGL Bucharest 2025,8044
-virtuspro,5378,Mirage,31,2025-04-07,Liquid,5973,13,3,W,PGL Bucharest 2025,8044
-virtuspro,5378,Mirage,31,2025-03-19,FaZe,6667,13,0,W,BLAST Open Lisbon 2025,7904
-virtuspro,5378,Mirage,31,2025-02-16,Wildcard,12257,13,10,W,PGL Cluj-Napoca 2025,8043
-virtuspro,5378,Mirage,31,2025-02-15,Complexity,5005,13,8,W,PGL Cluj-Napoca 2025,8043
-virtuspro,5378,Mirage,31,2025-02-14,3DMAX,4914,11,13,L,PGL Cluj-Napoca 2025,8043
-virtuspro,5378,Mirage,31,2025-02-02,Eternal Fire,11251,13,10,W,IEM Katowice 2025,8034
-virtuspro,5378,Mirage,31,2025-01-30,SAW,10567,13,4,W,IEM Katowice 2025 Play-in,8229
-virtuspro,5378,Mirage,31,2025-01-29,paiN,4773,2,13,L,IEM Katowice 2025 Play-in,8229
-virtuspro,5378,Mirage,31,2025-01-16,Complexity,5005,13,10,W,BLAST Bounty 2025 Season 1,7903
-virtuspro,5378,Inferno,32,2025-11-03,Vitality,9565,4,13,L,IEM Chengdu 2025,8041
-virtuspro,5378,Inferno,32,2025-10-14,Legacy,12468,2,13,L,CS Asia Championships 2025,8027
-virtuspro,5378,Inferno,32,2025-09-17,paiN,4773,13,11,W,FISSURE Playground 2,8064
-virtuspro,5378,Inferno,32,2025-09-12,Falcons,11283,1,13,L,FISSURE Playground 2,8064
-virtuspro,5378,Inferno,32,2025-08-29,M80,12376,9,13,L,BLAST Open London 2025,7907
-virtuspro,5378,Inferno,32,2025-08-21,MOUZ,4494,4,13,L,Esports World Cup 2025,8039
-virtuspro,5378,Inferno,32,2025-07-25,HEROIC,7175,10,13,L,IEM Cologne 2025 Stage 1,8230
-virtuspro,5378,Inferno,32,2025-07-16,MIBR,9215,8,13,L,FISSURE Playground 1,8063
-virtuspro,5378,Inferno,32,2025-06-15,paiN,4773,8,13,L,BLAST.tv Austin Major 2025,7902
-virtuspro,5378,Inferno,32,2025-06-13,FURIA,8297,3,13,L,BLAST.tv Austin Major 2025,7902
-virtuspro,5378,Inferno,32,2025-06-12,MOUZ,4494,13,11,W,BLAST.tv Austin Major 2025,7902
-virtuspro,5378,Inferno,32,2025-06-08,paiN,4773,16,13,W,BLAST.tv Austin Major 2025 Stage 2,8437
-virtuspro,5378,Inferno,32,2025-05-14,MIBR,9215,11,13,L,PGL Astana 2025,8045
-virtuspro,5378,Inferno,32,2025-05-11,M80,12376,13,8,W,PGL Astana 2025,8045
-virtuspro,5378,Inferno,32,2025-04-21,Liquid,5973,13,8,W,IEM Melbourne 2025,8036
-virtuspro,5378,Inferno,32,2025-04-11,G2,5995,9,13,L,PGL Bucharest 2025,8044
-virtuspro,5378,Inferno,32,2025-04-09,GamerLegion,9928,8,13,L,PGL Bucharest 2025,8044
-virtuspro,5378,Inferno,32,2025-04-07,Liquid,5973,16,14,W,PGL Bucharest 2025,8044
-virtuspro,5378,Inferno,32,2025-04-06,Rare Atom,11514,3,13,L,PGL Bucharest 2025,8044
-virtuspro,5378,Inferno,32,2025-03-23,Falcons,11283,11,13,L,BLAST Open Lisbon 2025,7904
-virtuspro,5378,Inferno,32,2025-02-18,MOUZ,4494,2,13,L,PGL Cluj-Napoca 2025,8043
-virtuspro,5378,Inferno,32,2025-02-17,paiN,4773,10,13,L,PGL Cluj-Napoca 2025,8043
-virtuspro,5378,Inferno,32,2025-02-01,G2,5995,16,14,W,IEM Katowice 2025,8034
-virtuspro,5378,Inferno,32,2025-01-29,paiN,4773,8,13,L,IEM Katowice 2025 Play-in,8229
-virtuspro,5378,Inferno,32,2024-11-23,Sashi,11712,13,4,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
-virtuspro,5378,Inferno,32,2024-11-21,Passion UA,12426,14,16,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
-virtuspro,5378,Dust2,33,2025-10-16,3DMAX,4914,8,13,L,CS Asia Championships 2025,8027
-virtuspro,5378,Dust2,33,2025-10-14,The Huns,12510,13,6,W,CS Asia Championships 2025,8027
-virtuspro,5378,Dust2,33,2025-09-17,paiN,4773,9,13,L,FISSURE Playground 2,8064
-virtuspro,5378,Dust2,33,2025-09-16,3DMAX,4914,5,13,L,FISSURE Playground 2,8064
-virtuspro,5378,Dust2,33,2025-08-21,MOUZ,4494,13,6,W,Esports World Cup 2025,8039
-virtuspro,5378,Dust2,33,2025-08-09,FaZe,6667,13,9,W,BLAST Bounty 2025 Season 2,7906
-virtuspro,5378,Dust2,33,2025-07-23,TYLOO,4863,13,7,W,IEM Cologne 2025 Stage 1,8230
-virtuspro,5378,Dust2,33,2025-07-15,TYLOO,4863,9,13,L,FISSURE Playground 1,8063
-virtuspro,5378,Dust2,33,2025-06-15,paiN,4773,13,6,W,BLAST.tv Austin Major 2025,7902
-virtuspro,5378,Dust2,33,2025-06-07,B8,11241,13,3,W,BLAST.tv Austin Major 2025 Stage 2,8437
-virtuspro,5378,Dust2,33,2025-06-07,OG,10503,13,2,W,BLAST.tv Austin Major 2025 Stage 2,8437
-virtuspro,5378,Dust2,33,2025-05-13,Astralis,6665,13,9,W,PGL Astana 2025,8045
-virtuspro,5378,Dust2,33,2025-05-11,M80,12376,13,10,W,PGL Astana 2025,8045
-virtuspro,5378,Dust2,33,2025-04-22,FlyQuest,12774,11,13,L,IEM Melbourne 2025,8036
-virtuspro,5378,Dust2,33,2025-03-23,Falcons,11283,22,20,W,BLAST Open Lisbon 2025,7904
-virtuspro,5378,Dust2,33,2025-03-21,Vitality,9565,5,13,L,BLAST Open Lisbon 2025,7904
-virtuspro,5378,Dust2,33,2025-02-18,MOUZ,4494,16,13,W,PGL Cluj-Napoca 2025,8043
-virtuspro,5378,Dust2,33,2025-02-17,paiN,4773,9,13,L,PGL Cluj-Napoca 2025,8043
-virtuspro,5378,Dust2,33,2025-02-16,Wildcard,12257,13,10,W,PGL Cluj-Napoca 2025,8043
-virtuspro,5378,Dust2,33,2025-02-15,Complexity,5005,16,13,W,PGL Cluj-Napoca 2025,8043
-virtuspro,5378,Dust2,33,2025-02-14,3DMAX,4914,6,13,L,PGL Cluj-Napoca 2025,8043
-virtuspro,5378,Dust2,33,2025-02-04,Vitality,9565,5,13,L,IEM Katowice 2025,8034
-virtuspro,5378,Dust2,33,2025-02-01,G2,5995,13,9,W,IEM Katowice 2025,8034
-virtuspro,5378,Dust2,33,2025-01-30,SAW,10567,13,3,W,IEM Katowice 2025 Play-in,8229
-virtuspro,5378,Dust2,33,2025-01-19,Vitality,9565,6,13,L,BLAST Bounty 2025 Season 1,7903
-virtuspro,5378,Dust2,33,2024-12-02,Wildcard,12257,7,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
-virtuspro,5378,Dust2,33,2024-11-23,Sashi,11712,13,8,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+virtuspro,5378,Mirage,32,2025-11-03,Vitality,9565,4,13,L,IEM Chengdu 2025,8041
+virtuspro,5378,Mirage,32,2025-10-14,Legacy,12468,2,13,L,CS Asia Championships 2025,8027
+virtuspro,5378,Mirage,32,2025-09-17,paiN,4773,13,11,W,FISSURE Playground 2,8064
+virtuspro,5378,Mirage,32,2025-09-12,Falcons,11283,1,13,L,FISSURE Playground 2,8064
+virtuspro,5378,Mirage,32,2025-08-29,M80,12376,9,13,L,BLAST Open London 2025,7907
+virtuspro,5378,Mirage,32,2025-08-21,MOUZ,4494,4,13,L,Esports World Cup 2025,8039
+virtuspro,5378,Mirage,32,2025-07-25,HEROIC,7175,10,13,L,IEM Cologne 2025 Stage 1,8230
+virtuspro,5378,Mirage,32,2025-07-16,MIBR,9215,8,13,L,FISSURE Playground 1,8063
+virtuspro,5378,Mirage,32,2025-06-15,paiN,4773,8,13,L,BLAST.tv Austin Major 2025,7902
+virtuspro,5378,Mirage,32,2025-06-13,FURIA,8297,3,13,L,BLAST.tv Austin Major 2025,7902
+virtuspro,5378,Mirage,32,2025-06-12,MOUZ,4494,13,11,W,BLAST.tv Austin Major 2025,7902
+virtuspro,5378,Mirage,32,2025-06-08,paiN,4773,16,13,W,BLAST.tv Austin Major 2025 Stage 2,8437
+virtuspro,5378,Mirage,32,2025-05-14,MIBR,9215,11,13,L,PGL Astana 2025,8045
+virtuspro,5378,Mirage,32,2025-05-11,M80,12376,13,8,W,PGL Astana 2025,8045
+virtuspro,5378,Mirage,32,2025-04-21,Liquid,5973,13,8,W,IEM Melbourne 2025,8036
+virtuspro,5378,Mirage,32,2025-04-11,G2,5995,9,13,L,PGL Bucharest 2025,8044
+virtuspro,5378,Mirage,32,2025-04-09,GamerLegion,9928,8,13,L,PGL Bucharest 2025,8044
+virtuspro,5378,Mirage,32,2025-04-07,Liquid,5973,16,14,W,PGL Bucharest 2025,8044
+virtuspro,5378,Mirage,32,2025-04-06,Rare Atom,11514,3,13,L,PGL Bucharest 2025,8044
+virtuspro,5378,Mirage,32,2025-03-23,Falcons,11283,11,13,L,BLAST Open Lisbon 2025,7904
+virtuspro,5378,Mirage,32,2025-02-18,MOUZ,4494,2,13,L,PGL Cluj-Napoca 2025,8043
+virtuspro,5378,Mirage,32,2025-02-17,paiN,4773,10,13,L,PGL Cluj-Napoca 2025,8043
+virtuspro,5378,Mirage,32,2025-02-01,G2,5995,16,14,W,IEM Katowice 2025,8034
+virtuspro,5378,Mirage,32,2025-01-29,paiN,4773,8,13,L,IEM Katowice 2025 Play-in,8229
+virtuspro,5378,Mirage,32,2024-11-23,Sashi,11712,13,4,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+virtuspro,5378,Mirage,32,2024-11-21,Passion UA,12426,14,16,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+virtuspro,5378,Inferno,33,2025-10-16,3DMAX,4914,8,13,L,CS Asia Championships 2025,8027
+virtuspro,5378,Inferno,33,2025-10-14,The Huns,12510,13,6,W,CS Asia Championships 2025,8027
+virtuspro,5378,Inferno,33,2025-09-17,paiN,4773,9,13,L,FISSURE Playground 2,8064
+virtuspro,5378,Inferno,33,2025-09-16,3DMAX,4914,5,13,L,FISSURE Playground 2,8064
+virtuspro,5378,Inferno,33,2025-08-21,MOUZ,4494,13,6,W,Esports World Cup 2025,8039
+virtuspro,5378,Inferno,33,2025-08-09,FaZe,6667,13,9,W,BLAST Bounty 2025 Season 2,7906
+virtuspro,5378,Inferno,33,2025-07-23,TYLOO,4863,13,7,W,IEM Cologne 2025 Stage 1,8230
+virtuspro,5378,Inferno,33,2025-07-15,TYLOO,4863,9,13,L,FISSURE Playground 1,8063
+virtuspro,5378,Inferno,33,2025-06-15,paiN,4773,13,6,W,BLAST.tv Austin Major 2025,7902
+virtuspro,5378,Inferno,33,2025-06-07,B8,11241,13,3,W,BLAST.tv Austin Major 2025 Stage 2,8437
+virtuspro,5378,Inferno,33,2025-06-07,OG,10503,13,2,W,BLAST.tv Austin Major 2025 Stage 2,8437
+virtuspro,5378,Inferno,33,2025-05-13,Astralis,6665,13,9,W,PGL Astana 2025,8045
+virtuspro,5378,Inferno,33,2025-05-11,M80,12376,13,10,W,PGL Astana 2025,8045
+virtuspro,5378,Inferno,33,2025-04-22,FlyQuest,12774,11,13,L,IEM Melbourne 2025,8036
+virtuspro,5378,Inferno,33,2025-03-23,Falcons,11283,22,20,W,BLAST Open Lisbon 2025,7904
+virtuspro,5378,Inferno,33,2025-03-21,Vitality,9565,5,13,L,BLAST Open Lisbon 2025,7904
+virtuspro,5378,Inferno,33,2025-02-18,MOUZ,4494,16,13,W,PGL Cluj-Napoca 2025,8043
+virtuspro,5378,Inferno,33,2025-02-17,paiN,4773,9,13,L,PGL Cluj-Napoca 2025,8043
+virtuspro,5378,Inferno,33,2025-02-16,Wildcard,12257,13,10,W,PGL Cluj-Napoca 2025,8043
+virtuspro,5378,Inferno,33,2025-02-15,Complexity,5005,16,13,W,PGL Cluj-Napoca 2025,8043
+virtuspro,5378,Inferno,33,2025-02-14,3DMAX,4914,6,13,L,PGL Cluj-Napoca 2025,8043
+virtuspro,5378,Inferno,33,2025-02-04,Vitality,9565,5,13,L,IEM Katowice 2025,8034
+virtuspro,5378,Inferno,33,2025-02-01,G2,5995,13,9,W,IEM Katowice 2025,8034
+virtuspro,5378,Inferno,33,2025-01-30,SAW,10567,13,3,W,IEM Katowice 2025 Play-in,8229
+virtuspro,5378,Inferno,33,2025-01-19,Vitality,9565,6,13,L,BLAST Bounty 2025 Season 1,7903
+virtuspro,5378,Inferno,33,2024-12-02,Wildcard,12257,7,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
+virtuspro,5378,Inferno,33,2024-11-23,Sashi,11712,13,8,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+virtuspro,5378,Dust2,31,2025-11-03,Vitality,9565,11,13,L,IEM Chengdu 2025,8041
+virtuspro,5378,Dust2,31,2025-10-14,The Huns,12510,13,10,W,CS Asia Championships 2025,8027
+virtuspro,5378,Dust2,31,2025-09-17,paiN,4773,5,13,L,FISSURE Playground 2,8064
+virtuspro,5378,Dust2,31,2025-09-16,3DMAX,4914,13,11,W,FISSURE Playground 2,8064
+virtuspro,5378,Dust2,31,2025-09-15,Lynn Vision,8840,19,17,W,FISSURE Playground 2,8064
+virtuspro,5378,Dust2,31,2025-08-29,M80,12376,6,13,L,BLAST Open London 2025,7907
+virtuspro,5378,Dust2,31,2025-08-27,GamerLegion,9928,7,13,L,BLAST Open London 2025,7907
+virtuspro,5378,Dust2,31,2025-07-24,GamerLegion,9928,8,13,L,IEM Cologne 2025 Stage 1,8230
+virtuspro,5378,Dust2,31,2025-06-15,paiN,4773,11,13,L,BLAST.tv Austin Major 2025,7902
+virtuspro,5378,Dust2,31,2025-06-14,Vitality,9565,6,13,L,BLAST.tv Austin Major 2025,7902
+virtuspro,5378,Dust2,31,2025-06-08,paiN,4773,13,10,W,BLAST.tv Austin Major 2025 Stage 2,8437
+virtuspro,5378,Dust2,31,2025-05-13,Astralis,6665,17,19,L,PGL Astana 2025,8045
+virtuspro,5378,Dust2,31,2025-05-12,BIG,7532,13,9,W,PGL Astana 2025,8045
+virtuspro,5378,Dust2,31,2025-05-10,Ninjas in Pyjamas,4411,13,11,W,PGL Astana 2025,8045
+virtuspro,5378,Dust2,31,2025-04-22,FlyQuest,12774,6,13,L,IEM Melbourne 2025,8036
+virtuspro,5378,Dust2,31,2025-04-21,Liquid,5973,8,13,L,IEM Melbourne 2025,8036
+virtuspro,5378,Dust2,31,2025-04-11,G2,5995,11,13,L,PGL Bucharest 2025,8044
+virtuspro,5378,Dust2,31,2025-04-10,Astralis,6665,13,10,W,PGL Bucharest 2025,8044
+virtuspro,5378,Dust2,31,2025-04-08,FURIA,8297,13,8,W,PGL Bucharest 2025,8044
+virtuspro,5378,Dust2,31,2025-04-07,Liquid,5973,13,3,W,PGL Bucharest 2025,8044
+virtuspro,5378,Dust2,31,2025-03-19,FaZe,6667,13,0,W,BLAST Open Lisbon 2025,7904
+virtuspro,5378,Dust2,31,2025-02-16,Wildcard,12257,13,10,W,PGL Cluj-Napoca 2025,8043
+virtuspro,5378,Dust2,31,2025-02-15,Complexity,5005,13,8,W,PGL Cluj-Napoca 2025,8043
+virtuspro,5378,Dust2,31,2025-02-14,3DMAX,4914,11,13,L,PGL Cluj-Napoca 2025,8043
+virtuspro,5378,Dust2,31,2025-02-02,Eternal Fire,11251,13,10,W,IEM Katowice 2025,8034
+virtuspro,5378,Dust2,31,2025-01-30,SAW,10567,13,4,W,IEM Katowice 2025 Play-in,8229
+virtuspro,5378,Dust2,31,2025-01-29,paiN,4773,2,13,L,IEM Katowice 2025 Play-in,8229
+virtuspro,5378,Dust2,31,2025-01-16,Complexity,5005,13,10,W,BLAST Bounty 2025 Season 1,7903
 virtuspro,5378,Overpass,40,2025-11-03,Vitality,9565,13,9,W,IEM Chengdu 2025,8041
 virtuspro,5378,Overpass,40,2025-10-16,3DMAX,4914,13,9,W,CS Asia Championships 2025,8027
 virtuspro,5378,Overpass,40,2025-08-29,M80,12376,13,4,W,BLAST Open London 2025,7907
@@ -89,6 +89,7 @@ virtuspro,5378,Overpass,40,2025-08-09,FaZe,6667,13,10,W,BLAST Bounty 2025 Season
 virtuspro,5378,Overpass,40,2025-08-06,MIBR,9215,22,19,W,BLAST Bounty 2025 Season 2,7906
 virtuspro,5378,Overpass,40,2025-07-25,HEROIC,7175,8,13,L,IEM Cologne 2025 Stage 1,8230
 virtuspro,5378,Overpass,40,2025-07-23,TYLOO,4863,13,5,W,IEM Cologne 2025 Stage 1,8230
+virtuspro,5378,Vertigo,46,2024-12-01,BIG,7532,11,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
 virtuspro,5378,Ancient,47,2025-10-15,MIBR,9215,13,5,W,CS Asia Championships 2025,8027
 virtuspro,5378,Ancient,47,2025-09-14,Astralis,6665,7,13,L,FISSURE Playground 2,8064
 virtuspro,5378,Ancient,47,2025-09-12,Falcons,11283,2,13,L,FISSURE Playground 2,8064
@@ -117,3 +118,29 @@ virtuspro,5378,Ancient,47,2024-11-30,MIBR,9215,7,13,L,Perfect World Shanghai Maj
 virtuspro,5378,Ancient,47,2024-11-23,Sashi,11712,7,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
 virtuspro,5378,Ancient,47,2024-11-22,9 Pandas,11883,13,10,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 virtuspro,5378,Ancient,47,2024-11-21,TSM,5996,13,10,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+virtuspro,5378,Anubis,48,2025-07-15,TYLOO,4863,14,16,L,FISSURE Playground 1,8063
+virtuspro,5378,Anubis,48,2025-05-14,MIBR,9215,13,5,W,PGL Astana 2025,8045
+virtuspro,5378,Anubis,48,2025-04-08,FURIA,8297,13,11,W,PGL Bucharest 2025,8044
+virtuspro,5378,Anubis,48,2025-03-24,Spirit,7020,9,13,L,BLAST Open Lisbon 2025,7904
+virtuspro,5378,Anubis,48,2025-03-21,Vitality,9565,6,13,L,BLAST Open Lisbon 2025,7904
+virtuspro,5378,Anubis,48,2025-03-19,FaZe,6667,12,16,L,BLAST Open Lisbon 2025,7904
+virtuspro,5378,Anubis,48,2025-02-04,Vitality,9565,8,13,L,IEM Katowice 2025,8034
+virtuspro,5378,Anubis,48,2025-02-02,Eternal Fire,11251,9,13,L,IEM Katowice 2025,8034
+virtuspro,5378,Anubis,48,2025-01-31,MIBR,9215,13,4,W,IEM Katowice 2025 Play-in,8229
+virtuspro,5378,Anubis,48,2024-12-02,Wildcard,12257,8,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
+virtuspro,5378,Anubis,48,2024-11-30,Rare Atom,11514,13,4,W,Perfect World Shanghai Major 2024 Opening Stage,7861
+virtuspro,5378,Train,35,2025-10-16,3DMAX,4914,9,13,L,CS Asia Championships 2025,8027
+virtuspro,5378,Train,35,2025-10-15,MIBR,9215,13,11,W,CS Asia Championships 2025,8027
+virtuspro,5378,Train,35,2025-09-16,3DMAX,4914,13,11,W,FISSURE Playground 2,8064
+virtuspro,5378,Train,35,2025-09-15,Lynn Vision,8840,13,10,W,FISSURE Playground 2,8064
+virtuspro,5378,Train,35,2025-09-14,Astralis,6665,11,13,L,FISSURE Playground 2,8064
+virtuspro,5378,Train,35,2025-08-06,MIBR,9215,13,8,W,BLAST Bounty 2025 Season 2,7906
+virtuspro,5378,Train,35,2025-07-16,MIBR,9215,10,13,L,FISSURE Playground 1,8063
+virtuspro,5378,Train,35,2025-06-14,Vitality,9565,6,13,L,BLAST.tv Austin Major 2025,7902
+virtuspro,5378,Train,35,2025-06-13,FURIA,8297,5,13,L,BLAST.tv Austin Major 2025,7902
+virtuspro,5378,Train,35,2025-05-10,Ninjas in Pyjamas,4411,6,13,L,PGL Astana 2025,8045
+virtuspro,5378,Train,35,2025-04-10,Astralis,6665,13,6,W,PGL Bucharest 2025,8044
+virtuspro,5378,Train,35,2025-02-07,Spirit,7020,2,13,L,IEM Katowice 2025,8034
+virtuspro,5378,Train,35,2025-02-02,Eternal Fire,11251,16,13,W,IEM Katowice 2025,8034
+virtuspro,5378,Train,35,2025-01-19,Vitality,9565,11,13,L,BLAST Bounty 2025 Season 1,7903
+virtuspro,5378,Train,35,2025-01-16,Complexity,5005,13,10,W,BLAST Bounty 2025 Season 1,7903
