@@ -1,4 +1,8 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+nemiga,7969,Mirage,32,2025-11-22,Oramond,13470,3,13,L,JB Pro League 2025,8849
+nemiga,7969,Mirage,32,2025-11-12,Monte,11811,13,11,W,ESL Challenger League Season 50 Europe Cup 4,8778
+nemiga,7969,Mirage,32,2025-11-10,ALLINNERS,12812,13,8,W,ESL Challenger League Season 50 Europe Cup 4,8778
+nemiga,7969,Mirage,32,2025-11-09,Oramond,13470,11,13,L,CCT Season 3 Europe Series 10,8774
 nemiga,7969,Mirage,32,2025-11-02,FUT,13286,13,8,W,CCT Season 3 Europe Series 9,8766
 nemiga,7969,Mirage,32,2025-10-31,Nexus,7187,13,4,W,CCT Season 3 Europe Series 9,8766
 nemiga,7969,Mirage,32,2025-10-11,Inner Circle,13117,10,13,L,Galaxy Battle 2025 Phase 4,8688
@@ -41,6 +45,10 @@ nemiga,7969,Mirage,32,2025-01-17,FURIA,8297,13,7,W,BLAST Bounty 2025 Season 1,79
 nemiga,7969,Mirage,32,2024-11-19,BetBoom,12394,8,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
 nemiga,7969,Mirage,32,2024-11-08,500,12000,9,13,L,Hellcase Cup 11,8146
 nemiga,7969,Mirage,32,2024-11-07,PARIVISION,12467,13,5,W,Hellcase Cup 11,8146
+nemiga,7969,Inferno,33,2025-11-25,OlyBet,13551,13,2,W,X2ONE Masters Season 1,8860
+nemiga,7969,Inferno,33,2025-11-24,OlyBet,13551,13,11,W,X2ONE Masters Season 1,8860
+nemiga,7969,Inferno,33,2025-11-21,NOVAQ,13178,13,9,W,JB Pro League 2025,8849
+nemiga,7969,Inferno,33,2025-11-08,FAVBET,12818,3,13,L,CCT Season 3 Europe Series 10,8774
 nemiga,7969,Inferno,33,2025-10-23,Sangal,10333,9,13,L,Winline Insight Season 9,8772
 nemiga,7969,Inferno,33,2025-10-20,TPuDCATb TPu,13297,13,5,W,Winline Insight Season 9,8772
 nemiga,7969,Inferno,33,2025-10-19,ENCE,4869,13,9,W,NODWIN Clutch Series 1,8739
@@ -66,6 +74,13 @@ nemiga,7969,Inferno,33,2025-01-17,FURIA,8297,6,13,L,BLAST Bounty 2025 Season 1,7
 nemiga,7969,Inferno,33,2024-11-17,Cloud9,5752,5,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
 nemiga,7969,Inferno,33,2024-11-17,MOUZ,4494,3,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
 nemiga,7969,Inferno,33,2024-11-05,Into the Breach,11164,13,8,W,Hellcase Cup 11,8146
+nemiga,7969,Dust2,31,2025-11-22,Oramond,13470,13,6,W,JB Pro League 2025,8849
+nemiga,7969,Dust2,31,2025-11-12,Monte,11811,5,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
+nemiga,7969,Dust2,31,2025-11-11,1win,10621,13,10,W,ESL Challenger League Season 50 Europe Cup 4,8778
+nemiga,7969,Dust2,31,2025-11-11,JiJieHao,10245,4,13,L,NODWIN Clutch Series 2,8795
+nemiga,7969,Dust2,31,2025-11-09,Oramond,13470,13,7,W,CCT Season 3 Europe Series 10,8774
+nemiga,7969,Dust2,31,2025-11-08,FAVBET,12818,13,10,W,CCT Season 3 Europe Series 10,8774
+nemiga,7969,Dust2,31,2025-11-07,Nexus,7187,13,4,W,CCT Season 3 Europe Series 10,8774
 nemiga,7969,Dust2,31,2025-11-02,Venom,13419,10,13,L,CCT Season 3 Europe Series 9,8766
 nemiga,7969,Dust2,31,2025-11-02,FUT,13286,13,9,W,CCT Season 3 Europe Series 9,8766
 nemiga,7969,Dust2,31,2025-11-01,Spirit Academy,7900,11,13,L,CCT Season 3 Europe Series 9,8766
@@ -122,6 +137,9 @@ nemiga,7969,Dust2,31,2025-02-10,TNL,12833,13,8,W,IEM Dallas 2025 Europe Closed Q
 nemiga,7969,Dust2,31,2025-02-05,B8,11241,16,19,L,RES Showdown 1 Closed Qualifier,8346
 nemiga,7969,Dust2,31,2025-01-24,500,12000,13,4,W,ESL Challenger League Season 49 Europe,8294
 nemiga,7969,Dust2,31,2024-11-09,NAVI Junior,10371,13,16,L,Hellcase Cup 11,8146
+nemiga,7969,Overpass,40,2025-11-25,Sangal,10333,4,13,L,X2ONE Masters Season 1,8860
+nemiga,7969,Overpass,40,2025-11-24,K27,12895,14,16,L,X2ONE Masters Season 1,8860
+nemiga,7969,Overpass,40,2025-11-21,NOVAQ,13178,9,13,L,JB Pro League 2025,8849
 nemiga,7969,Overpass,40,2025-10-26,FORZE Reload,12857,13,11,W,ESL Challenger League Season 50 Europe Cup 4,8778
 nemiga,7969,Overpass,40,2025-10-23,Sangal,10333,1,13,L,Winline Insight Season 9,8772
 nemiga,7969,Overpass,40,2025-10-08,500,12000,13,7,W,Galaxy Battle 2025 Phase 4,8688
@@ -129,6 +147,12 @@ nemiga,7969,Overpass,40,2025-09-21,Monte,11811,16,14,W,Exort The Proving Grounds
 nemiga,7969,Overpass,40,2025-09-11,Venom,13419,5,13,L,Thunderpick World Championship 2025 Closed Qualifier,8481
 nemiga,7969,Overpass,40,2025-08-16,Zero Tenacity,11523,13,16,L,ESL Challenger League Season 50 Europe Cup 1,8597
 nemiga,7969,Vertigo,46,2024-11-18,Rebels,12642,13,8,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+nemiga,7969,Ancient,47,2025-11-21,NOVAQ,13178,19,17,W,JB Pro League 2025,8849
+nemiga,7969,Ancient,47,2025-11-11,1win,10621,13,5,W,ESL Challenger League Season 50 Europe Cup 4,8778
+nemiga,7969,Ancient,47,2025-11-11,JiJieHao,10245,5,13,L,NODWIN Clutch Series 2,8795
+nemiga,7969,Ancient,47,2025-11-09,Oramond,13470,5,13,L,CCT Season 3 Europe Series 10,8774
+nemiga,7969,Ancient,47,2025-11-08,FAVBET,12818,13,11,W,CCT Season 3 Europe Series 10,8774
+nemiga,7969,Ancient,47,2025-11-07,Nexus,7187,13,3,W,CCT Season 3 Europe Series 10,8774
 nemiga,7969,Ancient,47,2025-11-02,Venom,13419,13,2,W,CCT Season 3 Europe Series 9,8766
 nemiga,7969,Ancient,47,2025-11-02,FUT,13286,17,19,L,CCT Season 3 Europe Series 9,8766
 nemiga,7969,Ancient,47,2025-11-01,Spirit Academy,7900,13,8,W,CCT Season 3 Europe Series 9,8766
@@ -208,6 +232,13 @@ nemiga,7969,Anubis,48,2025-01-17,FURIA,8297,6,13,L,BLAST Bounty 2025 Season 1,79
 nemiga,7969,Anubis,48,2024-11-18,Rebels,12642,23,25,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
 nemiga,7969,Anubis,48,2024-11-08,500,12000,13,4,W,Hellcase Cup 11,8146
 nemiga,7969,Anubis,48,2024-11-07,PARIVISION,12467,13,6,W,Hellcase Cup 11,8146
+nemiga,7969,Train,35,2025-11-25,Sangal,10333,7,13,L,X2ONE Masters Season 1,8860
+nemiga,7969,Train,35,2025-11-25,OlyBet,13551,13,6,W,X2ONE Masters Season 1,8860
+nemiga,7969,Train,35,2025-11-24,K27,12895,5,13,L,X2ONE Masters Season 1,8860
+nemiga,7969,Train,35,2025-11-24,OlyBet,13551,13,3,W,X2ONE Masters Season 1,8860
+nemiga,7969,Train,35,2025-11-22,Oramond,13470,10,13,L,JB Pro League 2025,8849
+nemiga,7969,Train,35,2025-11-12,Monte,11811,10,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
+nemiga,7969,Train,35,2025-11-10,ALLINNERS,12812,13,4,W,ESL Challenger League Season 50 Europe Cup 4,8778
 nemiga,7969,Train,35,2025-11-02,Venom,13419,13,5,W,CCT Season 3 Europe Series 9,8766
 nemiga,7969,Train,35,2025-11-01,Spirit Academy,7900,13,7,W,CCT Season 3 Europe Series 9,8766
 nemiga,7969,Train,35,2025-10-31,Nexus,7187,16,12,W,CCT Season 3 Europe Series 9,8766

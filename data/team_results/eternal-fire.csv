@@ -1,4 +1,6 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+eternal-fire,11251,Mirage,32,2025-11-28,SPARTA,13214,9,13,L,CCT Season 3 Europe Series 12 Closed Qualifier,8864
+eternal-fire,11251,Mirage,32,2025-11-23,Fire Flux,12960,4,13,L,CCT Season 3 Contenders Europe Series 2,8838
 eternal-fire,11251,Mirage,32,2025-10-30,ENCE Academy,11790,10,13,L,NODWIN Clutch Series 2 Closed Qualifier,8794
 eternal-fire,11251,Mirage,32,2025-10-29,HAVU,7865,13,3,W,NODWIN Clutch Series 2 Closed Qualifier,8794
 eternal-fire,11251,Mirage,32,2025-10-27,AaB,9621,13,11,W,ESL Challenger League Season 50 Europe Cup 4,8778
@@ -37,6 +39,12 @@ eternal-fire,11251,Mirage,32,2025-02-07,The MongolZ,6248,18,22,L,IEM Katowice 20
 eternal-fire,11251,Mirage,32,2025-01-26,Spirit,7020,8,13,L,BLAST Bounty 2025 Season 1 Finals,7909
 eternal-fire,11251,Mirage,32,2025-01-24,Vitality,9565,13,11,W,BLAST Bounty 2025 Season 1 Finals,7909
 eternal-fire,11251,Mirage,32,2025-01-16,Fluxo,11837,13,9,W,BLAST Bounty 2025 Season 1,7903
+eternal-fire,11251,Inferno,33,2025-11-27,HAVU,7865,16,14,W,European Pro League Series 3,8844
+eternal-fire,11251,Inferno,33,2025-11-24,Leo,11446,13,7,W,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Inferno,33,2025-11-23,Fire Flux,12960,9,13,L,CCT Season 3 Contenders Europe Series 2,8838
+eternal-fire,11251,Inferno,33,2025-11-23,CPH Wolves,4548,13,10,W,European Pro League Series 3,8844
+eternal-fire,11251,Inferno,33,2025-11-22,AaB,9621,13,9,W,CCT Season 3 Contenders Europe Series 2,8838
+eternal-fire,11251,Inferno,33,2025-11-21,FAVBET,12818,7,13,L,JB Pro League 2025,8849
 eternal-fire,11251,Inferno,33,2025-10-23,TPuDCATb TPu,13297,11,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 eternal-fire,11251,Inferno,33,2025-10-11,BC.Game,12878,13,7,W,Exort The Proving Grounds Season 5,8745
 eternal-fire,11251,Inferno,33,2025-10-05,JiJieHao,10245,13,16,L,ESL Challenger League Season 50 Europe Cup 3,8721
@@ -90,6 +98,18 @@ eternal-fire,11251,Inferno,33,2025-02-01,Falcons,11283,13,7,W,IEM Katowice 2025,
 eternal-fire,11251,Inferno,33,2025-01-19,Falcons,11283,13,6,W,BLAST Bounty 2025 Season 1,7903
 eternal-fire,11251,Inferno,33,2024-11-23,Astralis,6665,11,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
 eternal-fire,11251,Inferno,33,2024-11-22,Sashi,11712,7,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+eternal-fire,11251,Dust2,31,2025-12-01,Nuclear TigeRES,13027,13,16,L,European Pro League Series 3,8844
+eternal-fire,11251,Dust2,31,2025-11-29,RUBY,12694,10,13,L,CCT Season 3 Europe Series 12 Closed Qualifier,8864
+eternal-fire,11251,Dust2,31,2025-11-28,SPARTA,13214,13,3,W,CCT Season 3 Europe Series 12 Closed Qualifier,8864
+eternal-fire,11251,Dust2,31,2025-11-23,Fire Flux,12960,13,11,W,CCT Season 3 Contenders Europe Series 2,8838
+eternal-fire,11251,Dust2,31,2025-11-22,AaB,9621,13,3,W,CCT Season 3 Contenders Europe Series 2,8838
+eternal-fire,11251,Dust2,31,2025-11-21,FAVBET,12818,5,13,L,JB Pro League 2025,8849
+eternal-fire,11251,Dust2,31,2025-11-20,Washington,13483,13,10,W,CCT Season 3 Contenders Europe Series 2,8838
+eternal-fire,11251,Dust2,31,2025-11-19,MANA,13310,13,5,W,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Dust2,31,2025-11-18,HyperSpirit,13012,13,9,W,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Dust2,31,2025-11-17,MANA,13310,13,16,L,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Dust2,31,2025-11-09,SPARTA,13214,8,13,L,CCT Season 3 Europe Series 11 Closed Qualifier,8830
+eternal-fire,11251,Dust2,31,2025-11-07,SPARTA,13214,13,11,W,CCT Season 3 Europe Series 11 Closed Qualifier,8830
 eternal-fire,11251,Dust2,31,2025-10-30,ENCE Academy,11790,16,13,W,NODWIN Clutch Series 2 Closed Qualifier,8794
 eternal-fire,11251,Dust2,31,2025-10-28,1win,10621,8,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 eternal-fire,11251,Dust2,31,2025-10-28,ENCE Academy,11790,11,13,L,NODWIN Clutch Series 2 Closed Qualifier,8794
@@ -145,6 +165,11 @@ eternal-fire,11251,Dust2,31,2025-01-25,G2,5995,9,13,L,BLAST Bounty 2025 Season 1
 eternal-fire,11251,Dust2,31,2025-01-16,Fluxo,11837,13,8,W,BLAST Bounty 2025 Season 1,7903
 eternal-fire,11251,Dust2,31,2024-11-23,Astralis,6665,8,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
 eternal-fire,11251,Dust2,31,2024-11-21,Aurora,11861,13,8,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+eternal-fire,11251,Nuke,34,2025-11-28,SPARTA,13214,11,13,L,CCT Season 3 Europe Series 12 Closed Qualifier,8864
+eternal-fire,11251,Nuke,34,2025-11-27,HAVU,7865,16,13,W,European Pro League Series 3,8844
+eternal-fire,11251,Nuke,34,2025-11-24,Leo,11446,13,11,W,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Nuke,34,2025-11-23,CPH Wolves,4548,6,13,L,European Pro League Series 3,8844
+eternal-fire,11251,Nuke,34,2025-11-07,SPARTA,13214,19,22,L,CCT Season 3 Europe Series 11 Closed Qualifier,8830
 eternal-fire,11251,Nuke,34,2025-10-30,ENCE Academy,11790,7,13,L,NODWIN Clutch Series 2 Closed Qualifier,8794
 eternal-fire,11251,Nuke,34,2025-10-29,HAVU,7865,25,23,W,NODWIN Clutch Series 2 Closed Qualifier,8794
 eternal-fire,11251,Nuke,34,2025-10-28,ENCE Academy,11790,11,13,L,NODWIN Clutch Series 2 Closed Qualifier,8794
@@ -185,6 +210,11 @@ eternal-fire,11251,Nuke,34,2025-01-26,Spirit,7020,6,13,L,BLAST Bounty 2025 Seaso
 eternal-fire,11251,Nuke,34,2025-01-25,G2,5995,13,10,W,BLAST Bounty 2025 Season 1 Finals,7909
 eternal-fire,11251,Nuke,34,2025-01-19,Falcons,11283,19,17,W,BLAST Bounty 2025 Season 1,7903
 eternal-fire,11251,Nuke,34,2024-11-21,3DMAX,4914,16,19,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+eternal-fire,11251,Overpass,40,2025-11-20,Washington,13483,10,13,L,CCT Season 3 Contenders Europe Series 2,8838
+eternal-fire,11251,Overpass,40,2025-11-19,MANA,13310,9,13,L,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Overpass,40,2025-11-18,HyperSpirit,13012,13,10,W,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Overpass,40,2025-11-17,MANA,13310,13,11,W,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Overpass,40,2025-11-09,SPARTA,13214,7,13,L,CCT Season 3 Europe Series 11 Closed Qualifier,8830
 eternal-fire,11251,Overpass,40,2025-10-11,BC.Game,12878,14,16,L,Exort The Proving Grounds Season 5,8745
 eternal-fire,11251,Overpass,40,2025-10-07,FAVBET,12818,4,13,L,ESL Challenger League Season 50 Europe Cup 3,8721
 eternal-fire,11251,Overpass,40,2025-10-01,Betclic,12916,13,16,L,Exort The Proving Grounds Season 5,8745
@@ -243,6 +273,14 @@ eternal-fire,11251,Anubis,48,2025-01-29,Complexity,5005,13,6,W,IEM Katowice 2025
 eternal-fire,11251,Anubis,48,2025-01-26,Spirit,7020,16,14,W,BLAST Bounty 2025 Season 1 Finals,7909
 eternal-fire,11251,Anubis,48,2025-01-25,G2,5995,13,11,W,BLAST Bounty 2025 Season 1 Finals,7909
 eternal-fire,11251,Anubis,48,2025-01-24,Vitality,9565,13,9,W,BLAST Bounty 2025 Season 1 Finals,7909
+eternal-fire,11251,Train,35,2025-12-01,Nuclear TigeRES,13027,5,13,L,European Pro League Series 3,8844
+eternal-fire,11251,Train,35,2025-11-29,RUBY,12694,11,13,L,CCT Season 3 Europe Series 12 Closed Qualifier,8864
+eternal-fire,11251,Train,35,2025-11-24,Leo,11446,9,13,L,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Train,35,2025-11-23,CPH Wolves,4548,6,13,L,European Pro League Series 3,8844
+eternal-fire,11251,Train,35,2025-11-20,Washington,13483,7,13,L,CCT Season 3 Contenders Europe Series 2,8838
+eternal-fire,11251,Train,35,2025-11-19,MANA,13310,13,5,W,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Train,35,2025-11-17,MANA,13310,11,13,L,NODWIN Clutch Series 3 Closed Qualifier,8856
+eternal-fire,11251,Train,35,2025-11-07,SPARTA,13214,9,13,L,CCT Season 3 Europe Series 11 Closed Qualifier,8830
 eternal-fire,11251,Train,35,2025-10-28,1win,10621,9,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 eternal-fire,11251,Train,35,2025-10-25,SPARTA,13214,13,10,W,ESL Challenger League Season 50 Europe Cup 4,8778
 eternal-fire,11251,Train,35,2025-10-23,TPuDCATb TPu,13297,7,13,L,ESL Challenger League Season 50 Europe Cup 4,8778

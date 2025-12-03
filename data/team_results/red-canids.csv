@@ -1,4 +1,7 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+red-canids,7176,Mirage,32,2025-11-26,FaZe,6667,13,7,W,StarLadder Budapest Major 2025 Stage 1,8504
+red-canids,7176,Mirage,32,2025-11-07,Yawara,11933,10,13,L,Circuit X Retake São Paulo 2025,8824
+red-canids,7176,Mirage,32,2025-11-07,Keyd Stars,6033,3,13,L,Circuit X Retake São Paulo 2025,8824
 red-canids,7176,Mirage,32,2025-10-17,Dusty Roots,12548,13,8,W,ESL Challenger League Season 50 South America Cup 3,8722
 red-canids,7176,Mirage,32,2025-10-16,Bounty Hunters,12776,14,16,L,CCT Season 3 South America Series 5,8750
 red-canids,7176,Mirage,32,2025-10-08,2GAME,12491,13,5,W,ESL Challenger League Season 50 South America Cup 3,8722
@@ -55,6 +58,7 @@ red-canids,7176,Mirage,32,2025-02-05,9z,9996,13,10,W,ACE South American Masters 
 red-canids,7176,Mirage,32,2025-02-01,Bounty Hunters,12776,8,13,L,CCT Season 2 South America Series 6,8290
 red-canids,7176,Mirage,32,2024-11-14,Legacy,12468,13,6,W,Perfect World Shanghai Major 2024 Americas RMR,7863
 red-canids,7176,Mirage,32,2024-11-13,Case,10894,4,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+red-canids,7176,Inferno,33,2025-11-26,FaZe,6667,5,13,L,StarLadder Budapest Major 2025 Stage 1,8504
 red-canids,7176,Inferno,33,2025-10-19,Gaimin Gladiators,11571,13,16,L,ESL Challenger League Season 50 South America Cup 3,8722
 red-canids,7176,Inferno,33,2025-10-17,Dusty Roots,12548,13,8,W,ESL Challenger League Season 50 South America Cup 3,8722
 red-canids,7176,Inferno,33,2025-09-19,BESTIA,12144,3,13,L,ESL Challenger League Season 50 South America Cup 2,8651
@@ -89,6 +93,11 @@ red-canids,7176,Dust2,31,2025-01-22,UNO MILLE,11555,10,13,L,ESL Challenger Leagu
 red-canids,7176,Dust2,31,2024-11-15,Imperial,9455,17,19,L,Perfect World Shanghai Major 2024 Americas RMR,7863
 red-canids,7176,Dust2,31,2024-11-13,Case,10894,13,8,W,Perfect World Shanghai Major 2024 Americas RMR,7863
 red-canids,7176,Dust2,31,2024-11-12,9z,9996,7,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+red-canids,7176,Nuke,34,2025-11-26,FaZe,6667,17,19,L,StarLadder Budapest Major 2025 Stage 1,8504
+red-canids,7176,Nuke,34,2025-11-25,Legacy,12468,6,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+red-canids,7176,Nuke,34,2025-11-07,Yawara,11933,11,13,L,Circuit X Retake São Paulo 2025,8824
+red-canids,7176,Nuke,34,2025-11-07,Keyd Stars,6033,14,16,L,Circuit X Retake São Paulo 2025,8824
+red-canids,7176,Nuke,34,2025-11-07,MIBR Academy,3044,13,4,W,Circuit X Retake São Paulo 2025,8824
 red-canids,7176,Nuke,34,2025-10-19,Gaimin Gladiators,11571,13,7,W,ESL Challenger League Season 50 South America Cup 3,8722
 red-canids,7176,Nuke,34,2025-10-16,Bounty Hunters,12776,8,13,L,CCT Season 3 South America Series 5,8750
 red-canids,7176,Nuke,34,2025-10-14,ODDIK,11768,13,9,W,ESL Challenger League Season 50 South America Cup 3,8722
@@ -151,6 +160,9 @@ red-canids,7176,Overpass,40,2025-08-03,Keyd Stars,6033,3,13,L,CCT Season 3 South
 red-canids,7176,Overpass,40,2025-07-24,MIBR Academy,3044,16,13,W,CCT Season 3 South America Series 2,8605
 red-canids,7176,Vertigo,46,2024-11-15,Imperial,9455,10,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
 red-canids,7176,Vertigo,46,2024-11-13,Case,10894,13,6,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+red-canids,7176,Ancient,47,2025-11-24,fnatic,4991,14,16,L,StarLadder Budapest Major 2025 Stage 1,8504
+red-canids,7176,Ancient,47,2025-11-07,Keyd Stars,6033,13,3,W,Circuit X Retake São Paulo 2025,8824
+red-canids,7176,Ancient,47,2025-11-07,MIBR Academy,3044,13,11,W,Circuit X Retake São Paulo 2025,8824
 red-canids,7176,Ancient,47,2025-10-06,Yawara,11933,13,8,W,ESL Challenger League Season 50 South America Cup 3,8722
 red-canids,7176,Ancient,47,2025-10-05,MIBR,9215,2,13,L,Circuit X South America Season 1,8735
 red-canids,7176,Ancient,47,2025-10-03,Fluxo,11837,13,7,W,Circuit X South America Season 1,8735
@@ -201,6 +213,7 @@ red-canids,7176,Anubis,48,2025-01-28,Yawara,11933,13,2,W,ESL Challenger League S
 red-canids,7176,Anubis,48,2025-01-21,UNO MILLE,11555,6,13,L,ESL Challenger League Season 49 South America,8296
 red-canids,7176,Anubis,48,2024-11-14,Legacy,12468,13,7,W,Perfect World Shanghai Major 2024 Americas RMR,7863
 red-canids,7176,Anubis,48,2024-11-12,M80,12376,13,16,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+red-canids,7176,Train,35,2025-11-24,GamerLegion,9928,13,6,W,StarLadder Budapest Major 2025 Stage 1,8504
 red-canids,7176,Train,35,2025-10-05,MIBR,9215,10,13,L,Circuit X South America Season 1,8735
 red-canids,7176,Train,35,2025-10-04,2GAME,12491,13,2,W,Circuit X South America Season 1,8735
 red-canids,7176,Train,35,2025-09-27,2GAME,12491,11,13,L,FERJEE Rush 2025,8683

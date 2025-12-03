@@ -1,0 +1,176 @@
+team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+liquid,5973,Mirage,32,2025-10-29,FlyQuest,12774,16,14,W,PGL Masters Bucharest 2025,8046
+liquid,5973,Mirage,32,2025-10-28,BetBoom,12394,13,5,W,PGL Masters Bucharest 2025,8046
+liquid,5973,Mirage,32,2025-10-27,Aurora,11861,19,16,W,PGL Masters Bucharest 2025,8046
+liquid,5973,Mirage,32,2025-10-26,Legacy,12468,11,13,L,PGL Masters Bucharest 2025,8046
+liquid,5973,Mirage,32,2025-10-19,HEROIC,7175,13,4,W,CS Asia Championships 2025,8027
+liquid,5973,Mirage,32,2025-10-16,Legacy,12468,6,13,L,CS Asia Championships 2025,8027
+liquid,5973,Mirage,32,2025-10-14,MIBR,9215,13,5,W,CS Asia Championships 2025,8027
+liquid,5973,Mirage,32,2025-09-28,Partizan,11838,13,3,W,Birch Cup 2025,8700
+liquid,5973,Mirage,32,2025-09-20,The MongolZ,6248,13,5,W,FISSURE Playground 2,8064
+liquid,5973,Mirage,32,2025-09-19,Aurora,11861,13,9,W,FISSURE Playground 2,8064
+liquid,5973,Mirage,32,2025-09-16,TYLOO,4863,13,8,W,FISSURE Playground 2,8064
+liquid,5973,Mirage,32,2025-09-15,HEROIC,7175,13,10,W,FISSURE Playground 2,8064
+liquid,5973,Mirage,32,2025-08-31,Spirit,7020,7,13,L,BLAST Open London 2025,7907
+liquid,5973,Mirage,32,2025-08-20,Vitality,9565,11,13,L,Esports World Cup 2025,8039
+liquid,5973,Mirage,32,2025-08-09,FURIA,8297,4,13,L,BLAST Bounty 2025 Season 2,7906
+liquid,5973,Mirage,32,2025-08-01,VP.Prodigy,10864,13,2,W,RES Showdown 2: BLAST Premier Rising Event,8594
+liquid,5973,Mirage,32,2025-07-28,FaZe,6667,6,13,L,IEM Cologne 2025,8038
+liquid,5973,Mirage,32,2025-07-24,FaZe,6667,6,13,L,IEM Cologne 2025 Stage 1,8230
+liquid,5973,Mirage,32,2025-07-23,paiN,4773,13,7,W,IEM Cologne 2025 Stage 1,8230
+liquid,5973,Mirage,32,2025-07-14,Sashi,11712,13,10,W,ESL Pro League Season 22 Europe Closed Qualifier,8569
+liquid,5973,Mirage,32,2025-06-13,MOUZ,4494,19,22,L,BLAST.tv Austin Major 2025,7902
+liquid,5973,Mirage,32,2025-04-22,Vitality,9565,5,13,L,IEM Melbourne 2025,8036
+liquid,5973,Mirage,32,2025-04-21,Virtus.pro,5378,8,13,L,IEM Melbourne 2025,8036
+liquid,5973,Mirage,32,2025-04-08,The MongolZ,6248,11,13,L,PGL Bucharest 2025,8044
+liquid,5973,Mirage,32,2025-04-07,Virtus.pro,5378,14,16,L,PGL Bucharest 2025,8044
+liquid,5973,Mirage,32,2025-02-02,The MongolZ,6248,8,13,L,IEM Katowice 2025,8034
+liquid,5973,Mirage,32,2025-01-18,HEROIC,7175,13,11,W,BLAST Bounty 2025 Season 1,7903
+liquid,5973,Mirage,32,2024-12-07,MIBR,9215,13,2,W,Perfect World Shanghai Major 2024,7524
+liquid,5973,Inferno,33,2025-10-31,SAW,10567,1,13,L,PGL Masters Bucharest 2025,8046
+liquid,5973,Inferno,33,2025-10-26,Legacy,12468,13,7,W,PGL Masters Bucharest 2025,8046
+liquid,5973,Inferno,33,2025-10-18,3DMAX,4914,8,13,L,CS Asia Championships 2025,8027
+liquid,5973,Inferno,33,2025-10-16,Legacy,12468,13,11,W,CS Asia Championships 2025,8027
+liquid,5973,Inferno,33,2025-10-14,GamerLegion,9928,13,9,W,CS Asia Championships 2025,8027
+liquid,5973,Inferno,33,2025-09-28,Partizan,11838,13,7,W,Birch Cup 2025,8700
+liquid,5973,Inferno,33,2025-09-19,Aurora,11861,13,8,W,FISSURE Playground 2,8064
+liquid,5973,Inferno,33,2025-09-16,TYLOO,4863,9,13,L,FISSURE Playground 2,8064
+liquid,5973,Inferno,33,2025-09-14,GamerLegion,9928,6,13,L,FISSURE Playground 2,8064
+liquid,5973,Inferno,33,2025-09-13,FURIA,8297,11,13,L,FISSURE Playground 2,8064
+liquid,5973,Inferno,33,2025-08-28,G2,5995,3,13,L,BLAST Open London 2025,7907
+liquid,5973,Inferno,33,2025-07-27,MOUZ,4494,7,13,L,IEM Cologne 2025,8038
+liquid,5973,Inferno,33,2025-07-24,FaZe,6667,13,10,W,IEM Cologne 2025 Stage 1,8230
+liquid,5973,Inferno,33,2025-07-14,Sashi,11712,6,13,L,ESL Pro League Season 22 Europe Closed Qualifier,8569
+liquid,5973,Inferno,33,2025-05-21,Aurora,11861,7,13,L,IEM Dallas 2025,8037
+liquid,5973,Inferno,33,2025-05-20,MOUZ,4494,8,13,L,IEM Dallas 2025,8037
+liquid,5973,Inferno,33,2025-05-19,FaZe,6667,13,10,W,IEM Dallas 2025,8037
+liquid,5973,Inferno,33,2025-04-25,The MongolZ,6248,10,13,L,IEM Melbourne 2025,8036
+liquid,5973,Inferno,33,2025-04-23,Natus Vincere,4608,10,13,L,IEM Melbourne 2025,8036
+liquid,5973,Inferno,33,2025-03-11,3DMAX,4914,13,11,W,ESL Pro League Season 21,8292
+liquid,5973,Inferno,33,2025-03-09,Eternal Fire,11251,13,11,W,ESL Pro League Season 21,8292
+liquid,5973,Inferno,33,2025-03-07,Falcons,11283,14,16,L,ESL Pro League Season 21,8292
+liquid,5973,Inferno,33,2025-01-31,Wildcard,12257,16,12,W,IEM Katowice 2025 Play-in,8229
+liquid,5973,Inferno,33,2025-01-31,Complexity,5005,13,8,W,IEM Katowice 2025 Play-in,8229
+liquid,5973,Inferno,33,2024-12-06,FURIA,8297,13,9,W,Perfect World Shanghai Major 2024,7524
+liquid,5973,Inferno,33,2024-12-05,GamerLegion,9928,13,10,W,Perfect World Shanghai Major 2024,7524
+liquid,5973,Inferno,33,2024-12-01,FlyQuest,12774,5,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
+liquid,5973,Inferno,33,2024-11-30,Wildcard,12257,13,10,W,Perfect World Shanghai Major 2024 Opening Stage,7861
+liquid,5973,Inferno,33,2024-11-14,FURIA,8297,13,7,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+liquid,5973,Inferno,33,2024-11-12,Wildcard,12257,12,16,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+liquid,5973,Dust2,31,2025-10-27,Aurora,11861,8,13,L,PGL Masters Bucharest 2025,8046
+liquid,5973,Dust2,31,2025-10-19,HEROIC,7175,13,5,W,CS Asia Championships 2025,8027
+liquid,5973,Dust2,31,2025-10-18,3DMAX,4914,13,10,W,CS Asia Championships 2025,8027
+liquid,5973,Dust2,31,2025-10-16,Legacy,12468,13,6,W,CS Asia Championships 2025,8027
+liquid,5973,Dust2,31,2025-09-28,9INE,10278,13,9,W,Birch Cup 2025,8700
+liquid,5973,Dust2,31,2025-09-28,500,12000,16,13,W,Birch Cup 2025,8700
+liquid,5973,Dust2,31,2025-09-20,The MongolZ,6248,3,13,L,FISSURE Playground 2,8064
+liquid,5973,Dust2,31,2025-09-17,FaZe,6667,13,7,W,FISSURE Playground 2,8064
+liquid,5973,Dust2,31,2025-09-15,HEROIC,7175,8,13,L,FISSURE Playground 2,8064
+liquid,5973,Dust2,31,2025-09-14,GamerLegion,9928,1,13,L,FISSURE Playground 2,8064
+liquid,5973,Dust2,31,2025-09-13,FURIA,8297,13,9,W,FISSURE Playground 2,8064
+liquid,5973,Dust2,31,2025-08-31,Spirit,7020,12,16,L,BLAST Open London 2025,7907
+liquid,5973,Dust2,31,2025-08-30,Imperial,9455,13,5,W,BLAST Open London 2025,7907
+liquid,5973,Dust2,31,2025-08-20,Vitality,9565,16,19,L,Esports World Cup 2025,8039
+liquid,5973,Dust2,31,2025-08-09,FURIA,8297,13,7,W,BLAST Bounty 2025 Season 2,7906
+liquid,5973,Dust2,31,2025-08-01,VP.Prodigy,10864,7,13,L,RES Showdown 2: BLAST Premier Rising Event,8594
+liquid,5973,Dust2,31,2025-07-25,FlyQuest,12774,3,13,L,IEM Cologne 2025 Stage 1,8230
+liquid,5973,Dust2,31,2025-07-23,paiN,4773,13,8,W,IEM Cologne 2025 Stage 1,8230
+liquid,5973,Dust2,31,2025-06-13,MOUZ,4494,8,13,L,BLAST.tv Austin Major 2025,7902
+liquid,5973,Dust2,31,2025-06-12,Lynn Vision,8840,5,13,L,BLAST.tv Austin Major 2025,7902
+liquid,5973,Dust2,31,2025-05-21,Aurora,11861,9,13,L,IEM Dallas 2025,8037
+liquid,5973,Dust2,31,2025-04-21,Virtus.pro,5378,13,8,W,IEM Melbourne 2025,8036
+liquid,5973,Dust2,31,2025-04-07,Virtus.pro,5378,3,13,L,PGL Bucharest 2025,8044
+liquid,5973,Dust2,31,2025-03-22,Imperial,9455,13,4,W,BLAST Open Lisbon 2025,7904
+liquid,5973,Dust2,31,2025-03-20,Eternal Fire,11251,7,13,L,BLAST Open Lisbon 2025,7904
+liquid,5973,Dust2,31,2025-03-14,Vitality,9565,9,13,L,ESL Pro League Season 21,8292
+liquid,5973,Dust2,31,2025-03-08,FURIA,8297,13,10,W,ESL Pro League Season 21,8292
+liquid,5973,Dust2,31,2025-03-07,Falcons,11283,13,9,W,ESL Pro League Season 21,8292
+liquid,5973,Dust2,31,2025-02-04,Spirit,7020,8,13,L,IEM Katowice 2025,8034
+liquid,5973,Dust2,31,2025-01-29,HEROIC,7175,8,13,L,IEM Katowice 2025 Play-in,8229
+liquid,5973,Dust2,31,2024-12-12,Spirit,7020,11,13,L,Perfect World Shanghai Major 2024,7524
+liquid,5973,Dust2,31,2024-11-14,FURIA,8297,3,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+liquid,5973,Nuke,34,2025-10-28,BetBoom,12394,3,13,L,PGL Masters Bucharest 2025,8046
+liquid,5973,Nuke,34,2025-10-26,Legacy,12468,13,9,W,PGL Masters Bucharest 2025,8046
+liquid,5973,Nuke,34,2025-10-18,3DMAX,4914,7,13,L,CS Asia Championships 2025,8027
+liquid,5973,Nuke,34,2025-10-14,MIBR,9215,13,5,W,CS Asia Championships 2025,8027
+liquid,5973,Nuke,34,2025-09-28,9INE,10278,8,13,L,Birch Cup 2025,8700
+liquid,5973,Nuke,34,2025-08-30,Imperial,9455,13,10,W,BLAST Open London 2025,7907
+liquid,5973,Nuke,34,2025-08-15,Vitality,9565,16,19,L,BLAST Bounty 2025 Season 2 Finals,7910
+liquid,5973,Nuke,34,2025-08-01,VP.Prodigy,10864,14,16,L,RES Showdown 2: BLAST Premier Rising Event,8594
+liquid,5973,Nuke,34,2025-07-25,FlyQuest,12774,13,6,W,IEM Cologne 2025 Stage 1,8230
+liquid,5973,Nuke,34,2025-07-24,FaZe,6667,2,13,L,IEM Cologne 2025 Stage 1,8230
+liquid,5973,Nuke,34,2025-07-14,Sashi,11712,8,13,L,ESL Pro League Season 22 Europe Closed Qualifier,8569
+liquid,5973,Nuke,34,2025-06-13,MOUZ,4494,13,4,W,BLAST.tv Austin Major 2025,7902
+liquid,5973,Nuke,34,2025-04-22,Vitality,9565,8,13,L,IEM Melbourne 2025,8036
+liquid,5973,Nuke,34,2025-04-06,Legacy,12468,4,13,L,PGL Bucharest 2025,8044
+liquid,5973,Nuke,34,2025-03-22,Imperial,9455,11,13,L,BLAST Open Lisbon 2025,7904
+liquid,5973,Nuke,34,2025-03-10,MOUZ,4494,4,13,L,ESL Pro League Season 21,8292
+liquid,5973,Nuke,34,2025-02-04,Spirit,7020,10,13,L,IEM Katowice 2025,8034
+liquid,5973,Nuke,34,2025-02-03,MOUZ,4494,13,7,W,IEM Katowice 2025,8034
+liquid,5973,Nuke,34,2025-02-02,The MongolZ,6248,13,10,W,IEM Katowice 2025,8034
+liquid,5973,Nuke,34,2025-01-29,HEROIC,7175,11,13,L,IEM Katowice 2025 Play-in,8229
+liquid,5973,Nuke,34,2025-01-14,9 Pandas,11883,13,9,W,BLAST Bounty 2025 Season 1,7903
+liquid,5973,Nuke,34,2024-12-07,MIBR,9215,10,13,L,Perfect World Shanghai Major 2024,7524
+liquid,5973,Nuke,34,2024-12-05,Natus Vincere,4608,10,13,L,Perfect World Shanghai Major 2024,7524
+liquid,5973,Nuke,34,2024-12-01,FlyQuest,12774,13,1,W,Perfect World Shanghai Major 2024 Opening Stage,7861
+liquid,5973,Ancient,47,2025-10-31,SAW,10567,13,4,W,PGL Masters Bucharest 2025,8046
+liquid,5973,Ancient,47,2025-10-28,BetBoom,12394,13,2,W,PGL Masters Bucharest 2025,8046
+liquid,5973,Ancient,47,2025-09-28,500,12000,13,8,W,Birch Cup 2025,8700
+liquid,5973,Ancient,47,2025-09-27,9INE,10278,7,13,L,Birch Cup 2025,8700
+liquid,5973,Ancient,47,2025-09-27,500,12000,13,9,W,Birch Cup 2025,8700
+liquid,5973,Ancient,47,2025-09-20,The MongolZ,6248,5,13,L,FISSURE Playground 2,8064
+liquid,5973,Ancient,47,2025-09-17,FaZe,6667,13,6,W,FISSURE Playground 2,8064
+liquid,5973,Ancient,47,2025-09-16,TYLOO,4863,13,10,W,FISSURE Playground 2,8064
+liquid,5973,Ancient,47,2025-09-15,HEROIC,7175,13,8,W,FISSURE Playground 2,8064
+liquid,5973,Ancient,47,2025-08-05,ECSTATIC,11419,13,9,W,BLAST Bounty 2025 Season 2,7906
+liquid,5973,Ancient,47,2025-07-28,FaZe,6667,2,13,L,IEM Cologne 2025,8038
+liquid,5973,Ancient,47,2025-07-25,FlyQuest,12774,13,9,W,IEM Cologne 2025 Stage 1,8230
+liquid,5973,Ancient,47,2025-06-12,The MongolZ,6248,7,13,L,BLAST.tv Austin Major 2025,7902
+liquid,5973,Ancient,47,2025-05-19,FaZe,6667,13,10,W,IEM Dallas 2025,8037
+liquid,5973,Ancient,47,2025-04-25,The MongolZ,6248,6,13,L,IEM Melbourne 2025,8036
+liquid,5973,Ancient,47,2025-04-23,Natus Vincere,4608,13,8,W,IEM Melbourne 2025,8036
+liquid,5973,Ancient,47,2025-04-23,MIBR,9215,13,10,W,IEM Melbourne 2025,8036
+liquid,5973,Ancient,47,2025-04-21,Virtus.pro,5378,13,10,W,IEM Melbourne 2025,8036
+liquid,5973,Ancient,47,2025-03-23,The MongolZ,6248,8,13,L,BLAST Open Lisbon 2025,7904
+liquid,5973,Ancient,47,2025-03-11,3DMAX,4914,6,13,L,ESL Pro League Season 21,8292
+liquid,5973,Ancient,47,2025-03-10,MOUZ,4494,8,13,L,ESL Pro League Season 21,8292
+liquid,5973,Ancient,47,2025-03-07,Falcons,11283,13,16,L,ESL Pro League Season 21,8292
+liquid,5973,Ancient,47,2025-02-03,MOUZ,4494,13,7,W,IEM Katowice 2025,8034
+liquid,5973,Ancient,47,2025-02-02,The MongolZ,6248,11,13,L,IEM Katowice 2025,8034
+liquid,5973,Ancient,47,2025-01-31,Complexity,5005,13,11,W,IEM Katowice 2025 Play-in,8229
+liquid,5973,Ancient,47,2025-01-18,HEROIC,7175,10,13,L,BLAST Bounty 2025 Season 1,7903
+liquid,5973,Ancient,47,2025-01-14,9 Pandas,11883,13,9,W,BLAST Bounty 2025 Season 1,7903
+liquid,5973,Ancient,47,2024-11-30,Cloud9,5752,13,10,W,Perfect World Shanghai Major 2024 Opening Stage,7861
+liquid,5973,Ancient,47,2024-11-12,KRÜ,10900,13,2,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+liquid,5973,Anubis,48,2025-04-25,The MongolZ,6248,13,5,W,IEM Melbourne 2025,8036
+liquid,5973,Anubis,48,2025-04-23,Natus Vincere,4608,13,6,W,IEM Melbourne 2025,8036
+liquid,5973,Anubis,48,2025-04-23,MIBR,9215,13,6,W,IEM Melbourne 2025,8036
+liquid,5973,Anubis,48,2025-04-08,The MongolZ,6248,7,13,L,PGL Bucharest 2025,8044
+liquid,5973,Anubis,48,2025-04-06,Legacy,12468,10,13,L,PGL Bucharest 2025,8044
+liquid,5973,Anubis,48,2025-03-23,The MongolZ,6248,7,13,L,BLAST Open Lisbon 2025,7904
+liquid,5973,Anubis,48,2025-03-22,Imperial,9455,13,5,W,BLAST Open Lisbon 2025,7904
+liquid,5973,Anubis,48,2025-03-20,Eternal Fire,11251,7,13,L,BLAST Open Lisbon 2025,7904
+liquid,5973,Anubis,48,2025-03-14,Vitality,9565,9,13,L,ESL Pro League Season 21,8292
+liquid,5973,Anubis,48,2025-03-11,3DMAX,4914,13,4,W,ESL Pro League Season 21,8292
+liquid,5973,Anubis,48,2025-03-08,FURIA,8297,13,8,W,ESL Pro League Season 21,8292
+liquid,5973,Anubis,48,2025-01-31,Wildcard,12257,13,0,W,IEM Katowice 2025 Play-in,8229
+liquid,5973,Anubis,48,2025-01-29,HEROIC,7175,13,9,W,IEM Katowice 2025 Play-in,8229
+liquid,5973,Anubis,48,2025-01-18,HEROIC,7175,8,13,L,BLAST Bounty 2025 Season 1,7903
+liquid,5973,Anubis,48,2024-12-12,Spirit,7020,9,13,L,Perfect World Shanghai Major 2024,7524
+liquid,5973,Anubis,48,2024-12-07,MIBR,9215,13,5,W,Perfect World Shanghai Major 2024,7524
+liquid,5973,Anubis,48,2024-12-01,FlyQuest,12774,13,9,W,Perfect World Shanghai Major 2024 Opening Stage,7861
+liquid,5973,Anubis,48,2024-11-14,FURIA,8297,13,3,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+liquid,5973,Anubis,48,2024-11-13,BESTIA,12144,13,4,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+liquid,5973,Train,35,2025-10-31,SAW,10567,2,13,L,PGL Masters Bucharest 2025,8046
+liquid,5973,Train,35,2025-10-29,FlyQuest,12774,13,10,W,PGL Masters Bucharest 2025,8046
+liquid,5973,Train,35,2025-10-27,Aurora,11861,4,13,L,PGL Masters Bucharest 2025,8046
+liquid,5973,Train,35,2025-09-28,9INE,10278,8,13,L,Birch Cup 2025,8700
+liquid,5973,Train,35,2025-09-13,FURIA,8297,7,13,L,FISSURE Playground 2,8064
+liquid,5973,Train,35,2025-08-30,Imperial,9455,9,13,L,BLAST Open London 2025,7907
+liquid,5973,Train,35,2025-08-28,G2,5995,8,13,L,BLAST Open London 2025,7907
+liquid,5973,Train,35,2025-08-15,Vitality,9565,13,16,L,BLAST Bounty 2025 Season 2 Finals,7910
+liquid,5973,Train,35,2025-08-09,FURIA,8297,13,6,W,BLAST Bounty 2025 Season 2,7906
+liquid,5973,Train,35,2025-08-05,ECSTATIC,11419,28,26,W,BLAST Bounty 2025 Season 2,7906
+liquid,5973,Train,35,2025-07-27,MOUZ,4494,9,13,L,IEM Cologne 2025,8038
+liquid,5973,Train,35,2025-05-20,MOUZ,4494,2,13,L,IEM Dallas 2025,8037
+liquid,5973,Train,35,2025-03-09,Eternal Fire,11251,19,17,W,ESL Pro League Season 21,8292

@@ -1,4 +1,12 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+m80,12376,Mirage,32,2025-12-01,Imperial,9455,11,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+m80,12376,Mirage,32,2025-11-25,NRG,6673,13,2,W,StarLadder Budapest Major 2025 Stage 1,8504
+m80,12376,Mirage,32,2025-11-24,PARIVISION,12467,13,9,W,StarLadder Budapest Major 2025 Stage 1,8504
+m80,12376,Mirage,32,2025-11-24,B8,11241,13,11,W,StarLadder Budapest Major 2025 Stage 1,8504
+m80,12376,Mirage,32,2025-11-09,NRG,6673,13,5,W,Fragadelphia Ultra Mega Jersey 2025,8804
+m80,12376,Mirage,32,2025-11-09,Reign Above,13425,13,2,W,Fragadelphia Ultra Mega Jersey 2025,8804
+m80,12376,Mirage,32,2025-11-08,Mavrek,13533,13,1,W,Fragadelphia Ultra Mega Jersey 2025,8804
+m80,12376,Mirage,32,2025-11-08,FoxHound,13536,13,1,W,Fragadelphia Ultra Mega Jersey 2025,8804
 m80,12376,Mirage,32,2025-11-02,BIG,7532,13,5,W,DreamHack Knockout Atlanta 2025,8725
 m80,12376,Mirage,32,2025-11-01,Radford University,13429,13,0,W,DreamHack Knockout Atlanta 2025,8725
 m80,12376,Mirage,32,2025-09-30,Rooster,9881,13,6,W,ESL Pro League Season 22 Stage 1,8393
@@ -28,6 +36,9 @@ m80,12376,Mirage,32,2025-02-08,Bad News Capybaras,13112,13,4,W,ACE North America
 m80,12376,Mirage,32,2025-01-21,500,12000,10,13,L,ICE Invitational 2025,8285
 m80,12376,Mirage,32,2025-01-21,Sashi,11712,16,14,W,ICE Invitational 2025,8285
 m80,12376,Mirage,32,2024-11-15,BESTIA,12144,4,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+m80,12376,Inferno,33,2025-11-09,NRG,6673,4,13,L,Fragadelphia Ultra Mega Jersey 2025,8804
+m80,12376,Inferno,33,2025-11-09,Marsborne,13124,13,8,W,Fragadelphia Ultra Mega Jersey 2025,8804
+m80,12376,Inferno,33,2025-11-08,Mavrek,13533,13,1,W,Fragadelphia Ultra Mega Jersey 2025,8804
 m80,12376,Inferno,33,2025-11-01,Marsborne,13124,10,13,L,DreamHack Knockout Atlanta 2025,8725
 m80,12376,Inferno,33,2025-11-01,Radford University,13429,13,1,W,DreamHack Knockout Atlanta 2025,8725
 m80,12376,Inferno,33,2025-10-01,FURIA,8297,7,13,L,ESL Pro League Season 22 Stage 1,8393
@@ -53,6 +64,10 @@ m80,12376,Inferno,33,2025-02-09,Marsborne,13124,10,13,L,ACE North American Maste
 m80,12376,Inferno,33,2025-01-21,Sashi,11712,13,11,W,ICE Invitational 2025,8285
 m80,12376,Inferno,33,2025-01-20,Nexus,7187,13,9,W,ICE Invitational 2025,8285
 m80,12376,Inferno,33,2025-01-16,FaZe,6667,13,7,W,BLAST Bounty 2025 Season 1,7903
+m80,12376,Dust2,31,2025-12-01,Imperial,9455,13,2,W,StarLadder Budapest Major 2025 Stage 2,8505
+m80,12376,Dust2,31,2025-11-29,Aurora,11861,6,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+m80,12376,Dust2,31,2025-11-25,NRG,6673,13,7,W,StarLadder Budapest Major 2025 Stage 1,8504
+m80,12376,Dust2,31,2025-11-09,NRG,6673,13,7,W,Fragadelphia Ultra Mega Jersey 2025,8804
 m80,12376,Dust2,31,2025-11-02,BIG,7532,16,13,W,DreamHack Knockout Atlanta 2025,8725
 m80,12376,Dust2,31,2025-09-29,HEROIC,7175,4,13,L,ESL Pro League Season 22 Stage 1,8393
 m80,12376,Dust2,31,2025-09-28,ENCE,4869,10,13,L,ESL Pro League Season 22 Stage 1,8393
@@ -86,6 +101,7 @@ m80,12376,Dust2,31,2025-02-13,Nouns,11948,13,3,W,ACE NA Masters 2025 Season 1 - 
 m80,12376,Dust2,31,2025-02-11,Marsborne,13124,13,5,W,ACE North American Masters Spring 2025 Closed Qualifier,8360
 m80,12376,Dust2,31,2025-01-16,FaZe,6667,9,13,L,BLAST Bounty 2025 Season 1,7903
 m80,12376,Dust2,31,2024-11-15,BESTIA,12144,13,7,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+m80,12376,Overpass,40,2025-11-09,NRG,6673,8,13,L,Fragadelphia Ultra Mega Jersey 2025,8804
 m80,12376,Overpass,40,2025-10-01,FURIA,8297,8,13,L,ESL Pro League Season 22 Stage 1,8393
 m80,12376,Overpass,40,2025-09-29,HEROIC,7175,9,13,L,ESL Pro League Season 22 Stage 1,8393
 m80,12376,Overpass,40,2025-09-10,OG,10503,10,13,L,Thunderpick World Championship 2025 Closed Qualifier,8481
@@ -109,6 +125,9 @@ m80,12376,Overpass,40,2025-07-19,Chicken Coop,13107,13,4,W,Fragadelphia 19,8482
 m80,12376,Vertigo,46,2024-11-15,FURIA,8297,8,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
 m80,12376,Vertigo,46,2024-11-14,Complexity,5005,9,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
 m80,12376,Vertigo,46,2024-11-12,BOSS,12534,7,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+m80,12376,Ancient,47,2025-11-29,Astralis,6665,13,11,W,StarLadder Budapest Major 2025 Stage 2,8505
+m80,12376,Ancient,47,2025-11-09,Marsborne,13124,13,5,W,Fragadelphia Ultra Mega Jersey 2025,8804
+m80,12376,Ancient,47,2025-11-08,FoxHound,13536,13,6,W,Fragadelphia Ultra Mega Jersey 2025,8804
 m80,12376,Ancient,47,2025-11-01,Marsborne,13124,13,10,W,DreamHack Knockout Atlanta 2025,8725
 m80,12376,Ancient,47,2025-09-28,ENCE,4869,8,13,L,ESL Pro League Season 22 Stage 1,8393
 m80,12376,Ancient,47,2025-09-10,OG,10503,10,13,L,Thunderpick World Championship 2025 Closed Qualifier,8481
@@ -164,6 +183,10 @@ m80,12376,Anubis,48,2024-11-15,FURIA,8297,8,13,L,Perfect World Shanghai Major 20
 m80,12376,Anubis,48,2024-11-15,BESTIA,12144,19,17,W,Perfect World Shanghai Major 2024 Americas RMR,7863
 m80,12376,Anubis,48,2024-11-14,Complexity,5005,8,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
 m80,12376,Anubis,48,2024-11-12,RED Canids,7176,16,13,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+m80,12376,Train,35,2025-12-01,Imperial,9455,11,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+m80,12376,Train,35,2025-11-30,TYLOO,4863,13,10,W,StarLadder Budapest Major 2025 Stage 2,8505
+m80,12376,Train,35,2025-11-09,NRG,6673,9,13,L,Fragadelphia Ultra Mega Jersey 2025,8804
+m80,12376,Train,35,2025-11-09,Reign Above,13425,13,3,W,Fragadelphia Ultra Mega Jersey 2025,8804
 m80,12376,Train,35,2025-11-01,Marsborne,13124,13,8,W,DreamHack Knockout Atlanta 2025,8725
 m80,12376,Train,35,2025-09-01,fnatic,4991,16,14,W,BLAST Open London 2025,7907
 m80,12376,Train,35,2025-08-31,Natus Vincere,4608,7,13,L,BLAST Open London 2025,7907

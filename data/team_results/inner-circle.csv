@@ -1,4 +1,8 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+inner-circle,13117,Mirage,32,2025-11-30,FUT,13286,13,11,W,DreamHack Knockout Stockholm 2025,8726
+inner-circle,13117,Mirage,32,2025-11-29,Sashi,11712,13,11,W,DreamHack Knockout Stockholm 2025,8726
+inner-circle,13117,Mirage,32,2025-11-29,AaB,9621,13,5,W,DreamHack Knockout Stockholm 2025,8726
+inner-circle,13117,Mirage,32,2025-11-22,FUT,13286,6,13,L,DraculaN Season 3,8841
 inner-circle,13117,Mirage,32,2025-10-12,PARIVISION,12467,2,13,L,Galaxy Battle 2025 Phase 4,8688
 inner-circle,13117,Mirage,32,2025-10-11,Nemiga,7969,13,10,W,Galaxy Battle 2025 Phase 4,8688
 inner-circle,13117,Mirage,32,2025-10-06,FURIA,8297,2,13,L,ESL Pro League Season 22,8040
@@ -18,6 +22,9 @@ inner-circle,13117,Mirage,32,2025-05-16,ex-Astralis Talent,12690,13,16,L,United2
 inner-circle,13117,Mirage,32,2025-05-15,ENCE Academy,11790,13,8,W,United21 League Season 31,8500
 inner-circle,13117,Mirage,32,2025-05-11,Young Ninjas,10960,13,10,W,United21 League Season 31,8500
 inner-circle,13117,Mirage,32,2025-03-14,ENCE Academy,11790,13,4,W,United21 League Season 28,8415
+inner-circle,13117,Dust2,31,2025-11-30,FUT,13286,5,13,L,DreamHack Knockout Stockholm 2025,8726
+inner-circle,13117,Dust2,31,2025-11-21,GenOne,11609,16,14,W,DraculaN Season 3,8841
+inner-circle,13117,Dust2,31,2025-11-07,Young Ninjas,10960,6,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
 inner-circle,13117,Dust2,31,2025-10-08,Eternal Fire,11251,13,6,W,Galaxy Battle 2025 Phase 4,8688
 inner-circle,13117,Dust2,31,2025-10-05,The MongolZ,6248,13,9,W,ESL Pro League Season 22,8040
 inner-circle,13117,Dust2,31,2025-09-29,GamerLegion,9928,13,1,W,ESL Pro League Season 22 Stage 1,8393
@@ -26,6 +33,11 @@ inner-circle,13117,Dust2,31,2025-09-10,1win,10621,13,11,W,ESEA Advanced Season 5
 inner-circle,13117,Dust2,31,2025-06-09,AMKAL,12586,13,10,W,ESEA Advanced Season 53 Europe,8526
 inner-circle,13117,Dust2,31,2025-06-07,Bushido Wildcats,13281,8,13,L,ESEA Advanced Season 53 Europe,8526
 inner-circle,13117,Dust2,31,2025-02-23,Roler Coaster,13192,3,13,L,PGL Bucharest 2025 Europe Open Qualifier 4,8370
+inner-circle,13117,Nuke,34,2025-11-29,Sashi,11712,11,13,L,DreamHack Knockout Stockholm 2025,8726
+inner-circle,13117,Nuke,34,2025-11-29,AaB,9621,13,6,W,DreamHack Knockout Stockholm 2025,8726
+inner-circle,13117,Nuke,34,2025-11-22,FUT,13286,10,13,L,DraculaN Season 3,8841
+inner-circle,13117,Nuke,34,2025-11-21,illwill,13501,9,13,L,DraculaN Season 3,8841
+inner-circle,13117,Nuke,34,2025-11-07,Johnny Speeds,12604,14,16,L,Red Bull GIBAWAY JOURNEY 2025,8768
 inner-circle,13117,Nuke,34,2025-10-10,Monte,11811,13,10,W,Galaxy Battle 2025 Phase 4,8688
 inner-circle,13117,Nuke,34,2025-10-08,Eternal Fire,11251,13,8,W,Galaxy Battle 2025 Phase 4,8688
 inner-circle,13117,Nuke,34,2025-10-07,FaZe,6667,9,13,L,ESL Pro League Season 22,8040
@@ -45,10 +57,17 @@ inner-circle,13117,Nuke,34,2025-05-15,ENCE Academy,11790,11,13,L,United21 League
 inner-circle,13117,Nuke,34,2025-05-14,Mousquetaires,13251,19,22,L,United21 League Season 31,8500
 inner-circle,13117,Nuke,34,2025-03-17,Johnny Speeds,12604,5,13,L,United21 League Season 28,8415
 inner-circle,13117,Nuke,34,2025-02-23,TNL,12833,13,7,W,PGL Bucharest 2025 Europe Open Qualifier 4,8370
+inner-circle,13117,Overpass,40,2025-11-29,AaB,9621,11,13,L,DreamHack Knockout Stockholm 2025,8726
 inner-circle,13117,Overpass,40,2025-10-12,PARIVISION,12467,10,13,L,Galaxy Battle 2025 Phase 4,8688
 inner-circle,13117,Overpass,40,2025-10-06,FURIA,8297,2,13,L,ESL Pro League Season 22,8040
 inner-circle,13117,Overpass,40,2025-09-29,GamerLegion,9928,20,22,L,ESL Pro League Season 22 Stage 1,8393
 inner-circle,13117,Overpass,40,2025-09-20,K27,12895,7,13,L,ESEA Advanced Season 54 Europe,8676
+inner-circle,13117,Ancient,47,2025-11-30,FUT,13286,3,13,L,DreamHack Knockout Stockholm 2025,8726
+inner-circle,13117,Ancient,47,2025-11-29,Sashi,11712,13,7,W,DreamHack Knockout Stockholm 2025,8726
+inner-circle,13117,Ancient,47,2025-11-21,GenOne,11609,13,11,W,DraculaN Season 3,8841
+inner-circle,13117,Ancient,47,2025-11-07,Metizport,11641,13,11,W,Red Bull GIBAWAY JOURNEY 2025,8768
+inner-circle,13117,Ancient,47,2025-11-07,Acend,13518,5,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
+inner-circle,13117,Ancient,47,2025-11-07,Minkens finest,13525,13,1,W,Red Bull GIBAWAY JOURNEY 2025,8768
 inner-circle,13117,Ancient,47,2025-10-12,PARIVISION,12467,11,13,L,Galaxy Battle 2025 Phase 4,8688
 inner-circle,13117,Ancient,47,2025-10-10,Monte,11811,13,7,W,Galaxy Battle 2025 Phase 4,8688
 inner-circle,13117,Ancient,47,2025-10-07,FaZe,6667,7,13,L,ESL Pro League Season 22,8040
@@ -68,6 +87,7 @@ inner-circle,13117,Anubis,48,2025-05-29,GenOne,11609,13,7,W,ESEA Advanced Season
 inner-circle,13117,Anubis,48,2025-05-14,Mousquetaires,13251,7,13,L,United21 League Season 31,8500
 inner-circle,13117,Anubis,48,2025-03-14,ENCE Academy,11790,11,13,L,United21 League Season 28,8415
 inner-circle,13117,Anubis,48,2025-02-23,K27,12895,16,14,W,PGL Bucharest 2025 Europe Open Qualifier 4,8370
+inner-circle,13117,Train,35,2025-11-22,FUT,13286,16,13,W,DraculaN Season 3,8841
 inner-circle,13117,Train,35,2025-10-11,Nemiga,7969,13,11,W,Galaxy Battle 2025 Phase 4,8688
 inner-circle,13117,Train,35,2025-09-28,3DMAX,4914,13,4,W,ESL Pro League Season 22 Stage 1,8393
 inner-circle,13117,Train,35,2025-09-08,Insilio,12124,13,8,W,ESEA Advanced Season 54 Europe,8676

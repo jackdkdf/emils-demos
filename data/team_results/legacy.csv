@@ -1,4 +1,5 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+legacy,12468,Mirage,32,2025-11-26,B8,11241,5,13,L,StarLadder Budapest Major 2025 Stage 1,8504
 legacy,12468,Mirage,32,2025-11-01,Aurora,11861,8,13,L,PGL Masters Bucharest 2025,8046
 legacy,12468,Mirage,32,2025-10-26,Liquid,5973,13,11,W,PGL Masters Bucharest 2025,8046
 legacy,12468,Mirage,32,2025-10-17,FUT,13286,8,13,L,CS Asia Championships 2025,8027
@@ -42,6 +43,7 @@ legacy,12468,Mirage,32,2025-02-08,BESTIA,12144,13,9,W,IEM Dallas 2025 South Amer
 legacy,12468,Mirage,32,2025-01-31,Imperial,9455,7,13,L,CCT Season 2 South America Series 6,8290
 legacy,12468,Mirage,32,2025-01-10,ShindeN,12959,13,5,W,Frost and Fire South America Season 1,8220
 legacy,12468,Mirage,32,2024-11-14,RED Canids,7176,6,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+legacy,12468,Inferno,33,2025-11-27,PARIVISION,12467,13,5,W,StarLadder Budapest Major 2025 Stage 1,8504
 legacy,12468,Inferno,33,2025-11-01,Aurora,11861,13,8,W,PGL Masters Bucharest 2025,8046
 legacy,12468,Inferno,33,2025-10-31,SAW,10567,7,13,L,PGL Masters Bucharest 2025,8046
 legacy,12468,Inferno,33,2025-10-31,paiN,4773,13,7,W,PGL Masters Bucharest 2025,8046
@@ -90,6 +92,9 @@ legacy,12468,Inferno,33,2025-02-07,Solid,12233,13,5,W,ACE South American Masters
 legacy,12468,Inferno,33,2025-02-05,Solid,12233,13,7,W,ACE South American Masters Spring 2025 Closed Qualifier,8348
 legacy,12468,Inferno,33,2025-01-12,BESTIA,12144,14,16,L,Frost and Fire South America Season 1,8220
 legacy,12468,Inferno,33,2024-11-12,FURIA,8297,19,17,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+legacy,12468,Dust2,31,2025-11-27,PARIVISION,12467,16,19,L,StarLadder Budapest Major 2025 Stage 1,8504
+legacy,12468,Dust2,31,2025-11-26,B8,11241,12,16,L,StarLadder Budapest Major 2025 Stage 1,8504
+legacy,12468,Dust2,31,2025-11-24,Rare Atom,11514,13,6,W,StarLadder Budapest Major 2025 Stage 1,8504
 legacy,12468,Dust2,31,2025-11-01,Aurora,11861,11,13,L,PGL Masters Bucharest 2025,8046
 legacy,12468,Dust2,31,2025-10-31,paiN,4773,10,13,L,PGL Masters Bucharest 2025,8046
 legacy,12468,Dust2,31,2025-10-30,FlyQuest,12774,13,11,W,PGL Masters Bucharest 2025,8046
@@ -124,6 +129,7 @@ legacy,12468,Dust2,31,2025-02-07,Solid,12233,13,7,W,ACE South American Masters S
 legacy,12468,Dust2,31,2025-02-05,Familia Maquininha,13137,13,9,W,ACE South American Masters Spring 2025 Closed Qualifier,8348
 legacy,12468,Dust2,31,2025-01-12,BESTIA,12144,13,8,W,Frost and Fire South America Season 1,8220
 legacy,12468,Dust2,31,2025-01-11,Dusty Roots,12548,13,3,W,Frost and Fire South America Season 1,8220
+legacy,12468,Nuke,34,2025-11-25,RED Canids,7176,13,6,W,StarLadder Budapest Major 2025 Stage 1,8504
 legacy,12468,Nuke,34,2025-11-01,Aurora,11861,11,13,L,PGL Masters Bucharest 2025,8046
 legacy,12468,Nuke,34,2025-10-31,SAW,10567,16,12,W,PGL Masters Bucharest 2025,8046
 legacy,12468,Nuke,34,2025-10-31,paiN,4773,13,7,W,PGL Masters Bucharest 2025,8046
@@ -167,6 +173,7 @@ legacy,12468,Nuke,34,2025-01-11,Dusty Roots,12548,13,8,W,Frost and Fire South Am
 legacy,12468,Overpass,40,2025-10-30,FlyQuest,12774,13,7,W,PGL Masters Bucharest 2025,8046
 legacy,12468,Overpass,40,2025-10-02,Astralis,6665,11,13,L,ESL Pro League Season 22 Stage 1,8393
 legacy,12468,Overpass,40,2025-08-03,Imperial,9455,13,6,W,Ace SA Masters 2025 Season 2 - BLAST Premier Rising Event,8607
+legacy,12468,Ancient,47,2025-11-27,PARIVISION,12467,9,13,L,StarLadder Budapest Major 2025 Stage 1,8504
 legacy,12468,Ancient,47,2025-10-31,SAW,10567,13,3,W,PGL Masters Bucharest 2025,8046
 legacy,12468,Ancient,47,2025-10-29,B8,11241,10,13,L,PGL Masters Bucharest 2025,8046
 legacy,12468,Ancient,47,2025-10-27,Gentle Mates,13404,13,5,W,PGL Masters Bucharest 2025,8046
@@ -224,6 +231,7 @@ legacy,12468,Anubis,48,2025-01-31,Imperial,9455,6,13,L,CCT Season 2 South Americ
 legacy,12468,Anubis,48,2025-01-12,BESTIA,12144,8,13,L,Frost and Fire South America Season 1,8220
 legacy,12468,Anubis,48,2025-01-10,ShindeN,12959,13,9,W,Frost and Fire South America Season 1,8220
 legacy,12468,Anubis,48,2024-11-14,RED Canids,7176,7,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+legacy,12468,Train,35,2025-11-24,FlyQuest,12774,10,13,L,StarLadder Budapest Major 2025 Stage 1,8504
 legacy,12468,Train,35,2025-11-01,Aurora,11861,19,17,W,PGL Masters Bucharest 2025,8046
 legacy,12468,Train,35,2025-10-29,B8,11241,11,13,L,PGL Masters Bucharest 2025,8046
 legacy,12468,Train,35,2025-10-19,3DMAX,4914,13,10,W,CS Asia Championships 2025,8027

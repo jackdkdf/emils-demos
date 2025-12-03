@@ -1,4 +1,10 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+bcgame,12878,Mirage,32,2025-11-22,RUBY,12694,8,13,L,JB Pro League 2025,8849
+bcgame,12878,Mirage,32,2025-11-20,FORZE Reload,12857,13,7,W,JB Pro League 2025,8849
+bcgame,12878,Mirage,32,2025-11-20,K27,12895,3,13,L,CCT Season 3 Europe Series 11,8831
+bcgame,12878,Mirage,32,2025-11-18,PARIVISION,12467,5,13,L,ESL Challenger League Season 50 Europe Finals,8729
+bcgame,12878,Mirage,32,2025-11-07,Sashi,11712,13,16,L,Red Bull GIBAWAY JOURNEY 2025,8768
+bcgame,12878,Mirage,32,2025-11-07,aimclub,6810,13,5,W,Red Bull GIBAWAY JOURNEY 2025,8768
 bcgame,12878,Mirage,32,2025-10-31,EYEBALLERS,11737,13,7,W,CCT Season 3 Europe Series 9,8766
 bcgame,12878,Mirage,32,2025-10-22,BIG,7532,5,13,L,Skyesports Chennai Esports Global Championship 2025 Europe Open Qualifier,8781
 bcgame,12878,Mirage,32,2025-10-21,NOVAQ,13178,16,19,L,Skyesports Chennai Esports Global Championship 2025 Europe Open Qualifier,8781
@@ -63,6 +69,7 @@ bcgame,12878,Mirage,32,2024-11-28,500,12000,8,13,L,ESEA Advanced Season 51 Europ
 bcgame,12878,Mirage,32,2024-11-15,FLuffy Gangsters,6668,11,13,L,CCT Season 2 Europe Series 15 Closed Qualifier,8171
 bcgame,12878,Mirage,32,2024-11-12,WW,12967,13,9,W,CCT Season 2 Europe Series 15 Closed Qualifier,8171
 bcgame,12878,Mirage,32,2024-11-11,Aurora Young Blud,12366,7,13,L,CCT Season 2 Europe Series 15 Closed Qualifier,8171
+bcgame,12878,Inferno,33,2025-11-07,WOPA,12787,13,9,W,Red Bull GIBAWAY JOURNEY 2025,8768
 bcgame,12878,Inferno,33,2025-11-01,ECSTATIC,11419,3,13,L,CCT Season 3 Europe Series 9,8766
 bcgame,12878,Inferno,33,2025-10-21,NOVAQ,13178,16,13,W,Skyesports Chennai Esports Global Championship 2025 Europe Open Qualifier,8781
 bcgame,12878,Inferno,33,2025-10-11,Eternal Fire,11251,7,13,L,Exort The Proving Grounds Season 5,8745
@@ -93,6 +100,8 @@ bcgame,12878,Inferno,33,2024-12-01,kONO,12858,2,13,L,ESEA Advanced Season 51 Eur
 bcgame,12878,Inferno,33,2024-11-28,500,12000,11,13,L,ESEA Advanced Season 51 Europe,8199
 bcgame,12878,Inferno,33,2024-11-27,Viperio,9506,16,14,W,ESEA Advanced Season 51 Europe,8199
 bcgame,12878,Inferno,33,2024-11-25,L&G,12266,13,7,W,European Pro League 2nd Division Season 17,8195
+bcgame,12878,Dust2,31,2025-11-20,K27,12895,3,13,L,CCT Season 3 Europe Series 11,8831
+bcgame,12878,Dust2,31,2025-11-07,boomer demons,12135,13,6,W,Red Bull GIBAWAY JOURNEY 2025,8768
 bcgame,12878,Dust2,31,2025-11-01,ECSTATIC,11419,13,11,W,CCT Season 3 Europe Series 9,8766
 bcgame,12878,Dust2,31,2025-10-21,NOVAQ,13178,13,11,W,Skyesports Chennai Esports Global Championship 2025 Europe Open Qualifier,8781
 bcgame,12878,Dust2,31,2025-10-11,Eternal Fire,11251,9,13,L,Exort The Proving Grounds Season 5,8745
@@ -141,6 +150,8 @@ bcgame,12878,Dust2,31,2024-11-29,kONO,12858,13,3,W,United21 League Season 23,820
 bcgame,12878,Dust2,31,2024-11-27,Aurora Young Blud,12366,13,8,W,European Pro League 2nd Division Season 17,8195
 bcgame,12878,Dust2,31,2024-11-23,GenOne,11609,16,13,W,European Pro League 2nd Division Season 17,8195
 bcgame,12878,Dust2,31,2024-11-12,WW,12967,9,13,L,CCT Season 2 Europe Series 15 Closed Qualifier,8171
+bcgame,12878,Nuke,34,2025-11-22,RUBY,12694,8,13,L,JB Pro League 2025,8849
+bcgame,12878,Nuke,34,2025-11-07,Sashi,11712,11,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
 bcgame,12878,Nuke,34,2025-10-05,RUBY,12694,13,5,W,ESL Challenger League Season 50 Europe Cup 3,8721
 bcgame,12878,Nuke,34,2025-09-22,RUBY,12694,9,13,L,European Pro League Series 2,8660
 bcgame,12878,Nuke,34,2025-09-09,Sashi,11712,13,10,W,ESL Challenger League Season 50 Europe Cup 2,8653
@@ -164,6 +175,11 @@ bcgame,12878,Overpass,40,2025-10-11,Eternal Fire,11251,16,14,W,Exort The Proving
 bcgame,12878,Overpass,40,2025-08-21,Spirit Academy,7900,13,4,W,Exort The Proving Grounds Season 3,8626
 bcgame,12878,Overpass,40,2025-08-11,Betclic,12916,6,13,L,ESL Challenger League Season 50 Europe Cup 1,8597
 bcgame,12878,Overpass,40,2025-08-10,CYBERSHOKE,12380,13,16,L,Exort The Proving Grounds Season 3,8626
+bcgame,12878,Ancient,47,2025-11-20,FORZE Reload,12857,13,11,W,JB Pro League 2025,8849
+bcgame,12878,Ancient,47,2025-11-20,K27,12895,13,11,W,CCT Season 3 Europe Series 11,8831
+bcgame,12878,Ancient,47,2025-11-18,PARIVISION,12467,11,13,L,ESL Challenger League Season 50 Europe Finals,8729
+bcgame,12878,Ancient,47,2025-11-07,Alliance,12474,3,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
+bcgame,12878,Ancient,47,2025-11-07,AM,13237,9,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
 bcgame,12878,Ancient,47,2025-11-01,ECSTATIC,11419,4,13,L,CCT Season 3 Europe Series 9,8766
 bcgame,12878,Ancient,47,2025-10-31,EYEBALLERS,11737,8,13,L,CCT Season 3 Europe Series 9,8766
 bcgame,12878,Ancient,47,2025-10-05,RUBY,12694,11,13,L,ESL Challenger League Season 50 Europe Cup 3,8721

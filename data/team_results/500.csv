@@ -1,4 +1,10 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+500,12000,Mirage,32,2025-11-23,AaB,9621,13,4,W,Galaxy Battle 2025 Phase 5,8798
+500,12000,Mirage,32,2025-11-21,HEROIC,7175,17,19,L,CCT Season 3 Europe Series 11,8831
+500,12000,Mirage,32,2025-11-20,CPH Wolves,4548,13,2,W,JB Pro League 2025,8849
+500,12000,Mirage,32,2025-11-19,ECLOT,7441,13,10,W,CCT Season 3 Europe Series 11,8831
+500,12000,Mirage,32,2025-11-13,SPARTA,13214,13,16,L,CCT Season 3 Europe Series 11,8831
+500,12000,Mirage,32,2025-11-05,SPARTA,13214,16,12,W,CCT Season 3 Europe Series 10,8774
 500,12000,Mirage,32,2025-10-29,GUN5,12471,10,13,L,CCT Season 3 Europe Series 10,8774
 500,12000,Mirage,32,2025-10-15,ARCRED,10459,14,16,L,NODWIN Clutch Series 1,8739
 500,12000,Mirage,32,2025-10-13,Oramond,13470,8,13,L,NODWIN Clutch Series 1,8739
@@ -60,6 +66,12 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 500,12000,Mirage,32,2024-11-07,SINNERS,10577,19,16,W,YaLLa Compass Fall 2024,8108
 500,12000,Mirage,32,2024-11-06,Passion UA,12426,19,17,W,Hellcase Cup 11,8146
 500,12000,Mirage,32,2024-11-04,Zero Tenacity,11523,10,13,L,YaLLa Compass Fall 2024,8108
+500,12000,Inferno,33,2025-11-29,Monte,11811,3,13,L,DreamHack Knockout Stockholm 2025,8726
+500,12000,Inferno,33,2025-11-23,AaB,9621,10,13,L,Galaxy Battle 2025 Phase 5,8798
+500,12000,Inferno,33,2025-11-22,FAVBET,12818,7,13,L,JB Pro League 2025,8849
+500,12000,Inferno,33,2025-11-20,CPH Wolves,4548,20,22,L,JB Pro League 2025,8849
+500,12000,Inferno,33,2025-11-12,Nuclear TigeRES,13027,4,13,L,CCT Season 3 Europe Series 11,8831
+500,12000,Inferno,33,2025-11-07,ECSTATIC,11419,13,11,W,CCT Season 3 Europe Series 10,8774
 500,12000,Inferno,33,2025-11-01,ALLINNERS,12812,13,7,W,CCT Season 3 Europe Series 10,8774
 500,12000,Inferno,33,2025-10-29,GUN5,12471,11,13,L,CCT Season 3 Europe Series 10,8774
 500,12000,Inferno,33,2025-10-26,Nexus,7187,16,12,W,ESL Challenger League Season 50 Europe Cup 4,8778
@@ -105,6 +117,18 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 500,12000,Inferno,33,2024-11-07,SINNERS,10577,11,13,L,YaLLa Compass Fall 2024,8108
 500,12000,Inferno,33,2024-11-06,Passion UA,12426,13,5,W,Hellcase Cup 11,8146
 500,12000,Inferno,33,2024-11-04,Zero Tenacity,11523,16,12,W,YaLLa Compass Fall 2024,8108
+500,12000,Dust2,31,2025-11-21,HEROIC,7175,7,13,L,CCT Season 3 Europe Series 11,8831
+500,12000,Dust2,31,2025-11-21,FORZE Reload,12857,11,13,L,Galaxy Battle 2025 Phase 5,8798
+500,12000,Dust2,31,2025-11-17,RUBY,12694,13,9,W,CCT Season 3 Europe Series 11,8831
+500,12000,Dust2,31,2025-11-15,Leo,11446,6,13,L,CCT Season 3 Europe Series 11,8831
+500,12000,Dust2,31,2025-11-13,SPARTA,13214,13,7,W,CCT Season 3 Europe Series 11,8831
+500,12000,Dust2,31,2025-11-13,Monte,11811,19,17,W,NODWIN Clutch Series 2,8795
+500,12000,Dust2,31,2025-11-12,NOVAQ,13178,13,9,W,NODWIN Clutch Series 2,8795
+500,12000,Dust2,31,2025-11-12,CYBERSHOKE,12380,13,16,L,Galaxy Battle 2025 Phase 5,8798
+500,12000,Dust2,31,2025-11-11,K27,12895,9,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
+500,12000,Dust2,31,2025-11-11,9BOOMPRO,13380,1,13,L,NODWIN Clutch Series 2,8795
+500,12000,Dust2,31,2025-11-08,Betera,12431,4,13,L,CCT Season 3 Europe Series 10,8774
+500,12000,Dust2,31,2025-11-04,Nuclear TigeRES,13027,13,16,L,CCT Season 3 Europe Series 10,8774
 500,12000,Dust2,31,2025-10-29,GUN5,12471,13,6,W,CCT Season 3 Europe Series 10,8774
 500,12000,Dust2,31,2025-10-26,Nexus,7187,10,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 500,12000,Dust2,31,2025-10-14,GUN5,12471,14,16,L,ESL Challenger League Season 50 Europe Cup 3,8721
@@ -144,6 +168,20 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 500,12000,Dust2,31,2024-12-03,Partizan,11838,13,10,W,ESEA Advanced Season 51 Europe,8199
 500,12000,Dust2,31,2024-12-01,Spirit Academy,7900,10,13,L,ESEA Advanced Season 51 Europe,8199
 500,12000,Dust2,31,2024-11-11,ENCE,4869,13,7,W,YaLLa Compass Fall 2024,8108
+500,12000,Nuke,34,2025-11-29,Monte,11811,12,16,L,DreamHack Knockout Stockholm 2025,8726
+500,12000,Nuke,34,2025-11-23,AaB,9621,13,7,W,Galaxy Battle 2025 Phase 5,8798
+500,12000,Nuke,34,2025-11-19,ECLOT,7441,3,13,L,CCT Season 3 Europe Series 11,8831
+500,12000,Nuke,34,2025-11-18,TPuDCATb TPu,13297,13,9,W,Galaxy Battle 2025 Phase 5,8798
+500,12000,Nuke,34,2025-11-17,RUBY,12694,13,11,W,CCT Season 3 Europe Series 11,8831
+500,12000,Nuke,34,2025-11-15,Betclic,12916,13,7,W,Galaxy Battle 2025 Phase 5,8798
+500,12000,Nuke,34,2025-11-15,Leo,11446,13,6,W,CCT Season 3 Europe Series 11,8831
+500,12000,Nuke,34,2025-11-13,Monte,11811,2,13,L,NODWIN Clutch Series 2,8795
+500,12000,Nuke,34,2025-11-12,NOVAQ,13178,5,13,L,NODWIN Clutch Series 2,8795
+500,12000,Nuke,34,2025-11-12,CYBERSHOKE,12380,13,9,W,Galaxy Battle 2025 Phase 5,8798
+500,12000,Nuke,34,2025-11-12,Nuclear TigeRES,13027,13,3,W,CCT Season 3 Europe Series 11,8831
+500,12000,Nuke,34,2025-11-11,9BOOMPRO,13380,13,1,W,NODWIN Clutch Series 2,8795
+500,12000,Nuke,34,2025-11-10,FORZE Reload,12857,13,4,W,ESL Challenger League Season 50 Europe Cup 4,8778
+500,12000,Nuke,34,2025-11-08,Betera,12431,11,13,L,CCT Season 3 Europe Series 10,8774
 500,12000,Nuke,34,2025-11-01,ALLINNERS,12812,13,5,W,CCT Season 3 Europe Series 10,8774
 500,12000,Nuke,34,2025-10-13,Oramond,13470,13,9,W,NODWIN Clutch Series 1,8739
 500,12000,Nuke,34,2025-10-08,EYEBALLERS,11737,13,9,W,ESL Challenger League Season 50 Europe Cup 3,8721
@@ -195,6 +233,7 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 500,12000,Nuke,34,2024-11-07,Monte,11811,7,13,L,Hellcase Cup 11,8146
 500,12000,Nuke,34,2024-11-07,SINNERS,10577,13,16,L,YaLLa Compass Fall 2024,8108
 500,12000,Nuke,34,2024-11-04,Zero Tenacity,11523,13,8,W,YaLLa Compass Fall 2024,8108
+500,12000,Overpass,40,2025-11-10,FORZE Reload,12857,13,5,W,ESL Challenger League Season 50 Europe Cup 4,8778
 500,12000,Overpass,40,2025-10-10,Sangal,10333,14,16,L,ESL Challenger League Season 50 Europe Cup 3,8721
 500,12000,Overpass,40,2025-10-08,Nemiga,7969,7,13,L,Galaxy Battle 2025 Phase 4,8688
 500,12000,Overpass,40,2025-10-06,kONO,12858,13,5,W,NODWIN Clutch Series 1,8739
@@ -212,6 +251,24 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 500,12000,Overpass,40,2025-08-14,SINNERS,10577,3,13,L,Thunderpick World Championship 2025 European Series 2,8550
 500,12000,Overpass,40,2025-08-13,Passion UA,12426,13,8,W,Thunderpick World Championship 2025 European Series 2,8550
 500,12000,Overpass,40,2025-08-12,Betclic,12916,13,5,W,Exort The Proving Grounds Season 3,8626
+500,12000,Ancient,47,2025-11-22,FAVBET,12818,9,13,L,JB Pro League 2025,8849
+500,12000,Ancient,47,2025-11-21,FORZE Reload,12857,4,13,L,Galaxy Battle 2025 Phase 5,8798
+500,12000,Ancient,47,2025-11-20,CPH Wolves,4548,13,9,W,JB Pro League 2025,8849
+500,12000,Ancient,47,2025-11-19,ECLOT,7441,13,11,W,CCT Season 3 Europe Series 11,8831
+500,12000,Ancient,47,2025-11-18,TPuDCATb TPu,13297,13,8,W,Galaxy Battle 2025 Phase 5,8798
+500,12000,Ancient,47,2025-11-15,Betclic,12916,13,10,W,Galaxy Battle 2025 Phase 5,8798
+500,12000,Ancient,47,2025-11-15,Leo,11446,7,13,L,CCT Season 3 Europe Series 11,8831
+500,12000,Ancient,47,2025-11-13,SPARTA,13214,13,11,W,CCT Season 3 Europe Series 11,8831
+500,12000,Ancient,47,2025-11-13,Monte,11811,8,13,L,NODWIN Clutch Series 2,8795
+500,12000,Ancient,47,2025-11-12,NOVAQ,13178,13,9,W,NODWIN Clutch Series 2,8795
+500,12000,Ancient,47,2025-11-12,Nuclear TigeRES,13027,6,13,L,CCT Season 3 Europe Series 11,8831
+500,12000,Ancient,47,2025-11-11,K27,12895,8,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
+500,12000,Ancient,47,2025-11-11,9BOOMPRO,13380,13,10,W,NODWIN Clutch Series 2,8795
+500,12000,Ancient,47,2025-11-10,FORZE Reload,12857,12,16,L,ESL Challenger League Season 50 Europe Cup 4,8778
+500,12000,Ancient,47,2025-11-08,Betera,12431,13,9,W,CCT Season 3 Europe Series 10,8774
+500,12000,Ancient,47,2025-11-07,ECSTATIC,11419,13,11,W,CCT Season 3 Europe Series 10,8774
+500,12000,Ancient,47,2025-11-05,SPARTA,13214,13,1,W,CCT Season 3 Europe Series 10,8774
+500,12000,Ancient,47,2025-11-04,Nuclear TigeRES,13027,5,13,L,CCT Season 3 Europe Series 10,8774
 500,12000,Ancient,47,2025-11-01,ALLINNERS,12812,14,16,L,CCT Season 3 Europe Series 10,8774
 500,12000,Ancient,47,2025-10-26,Nexus,7187,13,8,W,ESL Challenger League Season 50 Europe Cup 4,8778
 500,12000,Ancient,47,2025-10-17,Nuclear TigeRES,13027,1,13,L,NODWIN Clutch Series 1,8739

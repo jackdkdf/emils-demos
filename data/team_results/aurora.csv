@@ -1,4 +1,5 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+aurora,11861,Mirage,32,2025-12-01,Astralis,6665,11,13,L,StarLadder Budapest Major 2025 Stage 2,8505
 aurora,11861,Mirage,32,2025-11-01,Legacy,12468,13,8,W,PGL Masters Bucharest 2025,8046
 aurora,11861,Mirage,32,2025-10-31,B8,11241,8,13,L,PGL Masters Bucharest 2025,8046
 aurora,11861,Mirage,32,2025-10-30,Astralis,6665,13,10,W,PGL Masters Bucharest 2025,8046
@@ -103,6 +104,8 @@ aurora,11861,Inferno,33,2025-01-27,Alliance,12474,13,9,W,European Pro League Sea
 aurora,11861,Inferno,33,2025-01-26,Iberian Soul,13104,13,16,L,CCT Season 2 Europe Series 16,8289
 aurora,11861,Inferno,33,2025-01-23,ECSTATIC,11419,4,13,L,CCT Season 2 Europe Series 16,8289
 aurora,11861,Inferno,33,2024-11-05,9INE,10278,13,6,W,Hellcase Cup 11,8146
+aurora,11861,Dust2,31,2025-11-29,FaZe,6667,10,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+aurora,11861,Dust2,31,2025-11-29,M80,12376,13,6,W,StarLadder Budapest Major 2025 Stage 2,8505
 aurora,11861,Dust2,31,2025-11-01,Legacy,12468,13,11,W,PGL Masters Bucharest 2025,8046
 aurora,11861,Dust2,31,2025-10-31,GamerLegion,9928,13,1,W,PGL Masters Bucharest 2025,8046
 aurora,11861,Dust2,31,2025-10-31,B8,11241,13,10,W,PGL Masters Bucharest 2025,8046
@@ -134,6 +137,7 @@ aurora,11861,Dust2,31,2024-11-23,9 Pandas,11883,3,13,L,Perfect World Shanghai Ma
 aurora,11861,Dust2,31,2024-11-22,Spirit,7020,7,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
 aurora,11861,Dust2,31,2024-11-21,Eternal Fire,11251,8,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
 aurora,11861,Dust2,31,2024-11-07,9 Pandas,11883,6,13,L,Hellcase Cup 11,8146
+aurora,11861,Nuke,34,2025-12-01,Astralis,6665,13,11,W,StarLadder Budapest Major 2025 Stage 2,8505
 aurora,11861,Nuke,34,2025-11-01,Legacy,12468,13,11,W,PGL Masters Bucharest 2025,8046
 aurora,11861,Nuke,34,2025-10-30,Astralis,6665,10,13,L,PGL Masters Bucharest 2025,8046
 aurora,11861,Nuke,34,2025-10-29,SAW,10567,13,10,W,PGL Masters Bucharest 2025,8046
@@ -183,6 +187,7 @@ aurora,11861,Nuke,34,2024-12-11,GUN5,12471,2,13,L,500 Casino Christmas Cup 2024,
 aurora,11861,Nuke,34,2024-12-09,Sashi,11712,11,13,L,500 Casino Christmas Cup 2024,8209
 aurora,11861,Nuke,34,2024-11-07,9 Pandas,11883,13,3,W,Hellcase Cup 11,8146
 aurora,11861,Nuke,34,2024-11-05,9INE,10278,10,13,L,Hellcase Cup 11,8146
+aurora,11861,Overpass,40,2025-11-30,PARIVISION,12467,11,13,L,StarLadder Budapest Major 2025 Stage 2,8505
 aurora,11861,Overpass,40,2025-10-31,GamerLegion,9928,13,1,W,PGL Masters Bucharest 2025,8046
 aurora,11861,Overpass,40,2025-10-31,B8,11241,13,3,W,PGL Masters Bucharest 2025,8046
 aurora,11861,Overpass,40,2025-10-18,FURIA,8297,5,13,L,Thunderpick World Championship 2025,8067
@@ -254,6 +259,7 @@ aurora,11861,Anubis,48,2025-01-28,GUN5,12471,10,13,L,ESL Challenger League Seaso
 aurora,11861,Anubis,48,2025-01-27,FAVBET,12818,10,13,L,CCT Season 2 Europe Series 17 Closed Qualifier,8312
 aurora,11861,Anubis,48,2025-01-23,ECSTATIC,11419,14,16,L,CCT Season 2 Europe Series 16,8289
 aurora,11861,Anubis,48,2024-12-10,Monte,11811,13,16,L,500 Casino Christmas Cup 2024,8209
+aurora,11861,Train,35,2025-12-01,Astralis,6665,8,13,L,StarLadder Budapest Major 2025 Stage 2,8505
 aurora,11861,Train,35,2025-11-01,Legacy,12468,17,19,L,PGL Masters Bucharest 2025,8046
 aurora,11861,Train,35,2025-10-30,Astralis,6665,13,8,W,PGL Masters Bucharest 2025,8046
 aurora,11861,Train,35,2025-10-29,SAW,10567,9,13,L,PGL Masters Bucharest 2025,8046

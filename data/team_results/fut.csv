@@ -1,4 +1,12 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+fut,13286,Mirage,32,2025-11-30,Inner Circle,13117,11,13,L,DreamHack Knockout Stockholm 2025,8726
+fut,13286,Mirage,32,2025-11-29,EYEBALLERS,11737,13,7,W,DreamHack Knockout Stockholm 2025,8726
+fut,13286,Mirage,32,2025-11-23,Passion UA,12426,16,14,W,DraculaN Season 3,8841
+fut,13286,Mirage,32,2025-11-22,ENCE,4869,13,3,W,DraculaN Season 3,8841
+fut,13286,Mirage,32,2025-11-22,Tricked,4602,5,13,L,DraculaN Season 3,8841
+fut,13286,Mirage,32,2025-11-22,Inner Circle,13117,13,6,W,DraculaN Season 3,8841
+fut,13286,Mirage,32,2025-11-21,Friendly Campers,13547,13,4,W,DraculaN Season 3,8841
+fut,13286,Mirage,32,2025-11-21,UNiTY,12267,13,4,W,DraculaN Season 3,8841
 fut,13286,Mirage,32,2025-11-02,Nemiga,7969,8,13,L,CCT Season 3 Europe Series 9,8766
 fut,13286,Mirage,32,2025-11-01,Partizan,11838,13,7,W,CCT Season 3 Europe Series 9,8766
 fut,13286,Mirage,32,2025-10-17,Legacy,12468,13,8,W,CS Asia Championships 2025,8027
@@ -34,6 +42,10 @@ fut,13286,Inferno,33,2025-09-07,Zero Tenacity,11523,13,10,W,Betclic Clash Summer
 fut,13286,Inferno,33,2025-09-07,Phantom,13173,13,7,W,Betclic Clash Summer 2025 Play-in,8682
 fut,13286,Inferno,33,2025-08-30,Alliance,12474,13,16,L,CCT Season 3 Europe Series 5,8629
 fut,13286,Inferno,33,2025-07-19,dag love fatties,13338,13,4,W,Intel epic45,8584
+fut,13286,Dust2,31,2025-11-30,Monte,11811,6,13,L,DreamHack Knockout Stockholm 2025,8726
+fut,13286,Dust2,31,2025-11-30,Inner Circle,13117,13,5,W,DreamHack Knockout Stockholm 2025,8726
+fut,13286,Dust2,31,2025-11-29,kONO,12858,13,7,W,DreamHack Knockout Stockholm 2025,8726
+fut,13286,Dust2,31,2025-11-23,ECSTATIC,11419,13,8,W,DraculaN Season 3,8841
 fut,13286,Dust2,31,2025-11-02,Nemiga,7969,9,13,L,CCT Season 3 Europe Series 9,8766
 fut,13286,Dust2,31,2025-11-01,Partizan,11838,8,13,L,CCT Season 3 Europe Series 9,8766
 fut,13286,Dust2,31,2025-10-30,TPuDCATb TPu,13297,13,8,W,CCT Season 3 Europe Series 9,8766
@@ -57,6 +69,9 @@ fut,13286,Dust2,31,2025-08-05,B8,11241,12,16,L,BLAST Bounty 2025 Season 2,7906
 fut,13286,Dust2,31,2025-08-02,VP.Prodigy,10864,6,13,L,RES Showdown 2: BLAST Premier Rising Event,8594
 fut,13286,Dust2,31,2025-07-19,Alliance,12474,11,13,L,Intel epic45,8584
 fut,13286,Dust2,31,2025-07-19,Glitchtech,13285,13,11,W,Intel epic45,8584
+fut,13286,Nuke,34,2025-11-30,Monte,11811,16,14,W,DreamHack Knockout Stockholm 2025,8726
+fut,13286,Nuke,34,2025-11-22,Tricked,4602,13,5,W,DraculaN Season 3,8841
+fut,13286,Nuke,34,2025-11-22,Inner Circle,13117,13,10,W,DraculaN Season 3,8841
 fut,13286,Nuke,34,2025-11-01,Partizan,11838,13,7,W,CCT Season 3 Europe Series 9,8766
 fut,13286,Nuke,34,2025-10-21,Mousquetaires,13251,13,3,W,Skyesports Chennai Esports Global Championship 2025 Europe Open Qualifier,8781
 fut,13286,Nuke,34,2025-09-20,GUN5,12471,11,13,L,CCT Season 3 Europe Series 6,8680
@@ -70,11 +85,19 @@ fut,13286,Nuke,34,2025-08-15,Iberian Soul,13104,19,22,L,StarLadder StarSeries Fa
 fut,13286,Nuke,34,2025-08-11,Ninjas in Pyjamas,4411,6,13,L,CS Asia Championships 2025 Europe Open Qualifier,8627
 fut,13286,Nuke,34,2025-07-19,dag love fatties,13338,13,6,W,Intel epic45,8584
 fut,13286,Nuke,34,2025-07-19,Glitchtech,13285,13,7,W,Intel epic45,8584
+fut,13286,Overpass,40,2025-11-29,EYEBALLERS,11737,13,5,W,DreamHack Knockout Stockholm 2025,8726
+fut,13286,Overpass,40,2025-11-29,kONO,12858,13,3,W,DreamHack Knockout Stockholm 2025,8726
 fut,13286,Overpass,40,2025-10-15,HEROIC,7175,8,13,L,CS Asia Championships 2025,8027
 fut,13286,Overpass,40,2025-09-17,Sangal,10333,7,13,L,ESL Challenger League Season 50 Europe Cup 2,8653
 fut,13286,Overpass,40,2025-08-31,BetBoom,12394,13,3,W,CCT Season 3 Europe Series 5,8629
 fut,13286,Overpass,40,2025-08-16,Spirit Academy,7900,13,11,W,StarLadder StarSeries Fall 2025 Europe Closed Qualifier,8566
 fut,13286,Overpass,40,2025-08-14,Spirit Academy,7900,4,13,L,StarLadder StarSeries Fall 2025 Europe Closed Qualifier,8566
+fut,13286,Ancient,47,2025-11-30,Monte,11811,10,13,L,DreamHack Knockout Stockholm 2025,8726
+fut,13286,Ancient,47,2025-11-30,Inner Circle,13117,13,3,W,DreamHack Knockout Stockholm 2025,8726
+fut,13286,Ancient,47,2025-11-22,ENCE,4869,16,14,W,DraculaN Season 3,8841
+fut,13286,Ancient,47,2025-11-21,Friendly Campers,13547,13,4,W,DraculaN Season 3,8841
+fut,13286,Ancient,47,2025-11-21,UNiTY,12267,11,13,L,DraculaN Season 3,8841
+fut,13286,Ancient,47,2025-11-21,AM,13237,7,13,L,DraculaN Season 3,8841
 fut,13286,Ancient,47,2025-11-02,Nemiga,7969,19,17,W,CCT Season 3 Europe Series 9,8766
 fut,13286,Ancient,47,2025-10-30,TPuDCATb TPu,13297,13,11,W,CCT Season 3 Europe Series 9,8766
 fut,13286,Ancient,47,2025-10-21,Mousquetaires,13251,4,13,L,Skyesports Chennai Esports Global Championship 2025 Europe Open Qualifier,8781
@@ -92,3 +115,8 @@ fut,13286,Ancient,47,2025-08-14,Spirit Academy,7900,19,15,W,StarLadder StarSerie
 fut,13286,Ancient,47,2025-08-11,Ninjas in Pyjamas,4411,13,11,W,CS Asia Championships 2025 Europe Open Qualifier,8627
 fut,13286,Ancient,47,2025-08-02,VP.Prodigy,10864,5,13,L,RES Showdown 2: BLAST Premier Rising Event,8594
 fut,13286,Ancient,47,2025-07-19,Alliance,12474,22,25,L,Intel epic45,8584
+fut,13286,Train,35,2025-11-23,ECSTATIC,11419,16,14,W,DraculaN Season 3,8841
+fut,13286,Train,35,2025-11-23,Passion UA,12426,13,4,W,DraculaN Season 3,8841
+fut,13286,Train,35,2025-11-22,Tricked,4602,13,10,W,DraculaN Season 3,8841
+fut,13286,Train,35,2025-11-22,Inner Circle,13117,13,16,L,DraculaN Season 3,8841
+fut,13286,Train,35,2025-11-21,UNiTY,12267,13,10,W,DraculaN Season 3,8841

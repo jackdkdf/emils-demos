@@ -1,4 +1,5 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+gentle-mates,13404,Mirage,32,2025-11-15,Rare Atom,11514,8,13,L,Perfect World CS Challenge Series 2,8834
 gentle-mates,13404,Mirage,32,2025-10-29,BetBoom,12394,11,13,L,PGL Masters Bucharest 2025,8046
 gentle-mates,13404,Mirage,32,2025-10-26,paiN,4773,10,13,L,PGL Masters Bucharest 2025,8046
 gentle-mates,13404,Mirage,32,2025-10-11,PARIVISION,12467,11,13,L,Galaxy Battle 2025 Phase 4,8688
@@ -13,6 +14,8 @@ gentle-mates,13404,Mirage,32,2025-09-20,PARIVISION,12467,6,13,L,StarLadder StarS
 gentle-mates,13404,Mirage,32,2025-08-30,ENCE,4869,9,13,L,DraculaN Season 1,8635
 gentle-mates,13404,Mirage,32,2025-08-30,Monte,11811,5,13,L,DraculaN Season 1,8635
 gentle-mates,13404,Mirage,32,2025-08-27,OG,10503,5,13,L,ESL Challenger League Season 50 Europe Cup 1,8597
+gentle-mates,13404,Inferno,33,2025-11-15,Rare Atom,11514,10,13,L,Perfect World CS Challenge Series 2,8834
+gentle-mates,13404,Inferno,33,2025-11-13,Change The Game,13175,13,9,W,Perfect World CS Challenge Series 2,8834
 gentle-mates,13404,Inferno,33,2025-10-30,GamerLegion,9928,9,13,L,PGL Masters Bucharest 2025,8046
 gentle-mates,13404,Inferno,33,2025-10-28,Ninjas in Pyjamas,4411,13,9,W,PGL Masters Bucharest 2025,8046
 gentle-mates,13404,Inferno,33,2025-10-27,Legacy,12468,13,16,L,PGL Masters Bucharest 2025,8046
@@ -27,6 +30,7 @@ gentle-mates,13404,Inferno,33,2025-09-14,SAW,10567,13,7,W,Radio Popular Roman Im
 gentle-mates,13404,Inferno,33,2025-09-14,Rebels,12642,13,7,W,Radio Popular Roman Imperium Cup II,8699
 gentle-mates,13404,Inferno,33,2025-08-29,9INE,10278,13,8,W,DraculaN Season 1,8635
 gentle-mates,13404,Inferno,33,2025-08-26,Nemiga,7969,13,4,W,ESL Challenger League Season 50 Europe Cup 1,8597
+gentle-mates,13404,Nuke,34,2025-11-16,9INE,10278,13,10,W,Perfect World CS Challenge Series 2,8834
 gentle-mates,13404,Nuke,34,2025-10-29,BetBoom,12394,13,11,W,PGL Masters Bucharest 2025,8046
 gentle-mates,13404,Nuke,34,2025-10-10,Betclic,12916,13,4,W,Galaxy Battle 2025 Phase 4,8688
 gentle-mates,13404,Nuke,34,2025-10-08,Anonymo,10973,13,7,W,Galaxy Battle 2025 Phase 4,8688
@@ -43,6 +47,8 @@ gentle-mates,13404,Nuke,34,2025-08-30,Monte,11811,4,13,L,DraculaN Season 1,8635
 gentle-mates,13404,Nuke,34,2025-08-29,9INE,10278,13,1,W,DraculaN Season 1,8635
 gentle-mates,13404,Overpass,40,2025-10-10,Betclic,12916,13,10,W,Galaxy Battle 2025 Phase 4,8688
 gentle-mates,13404,Overpass,40,2025-09-14,Rebels,12642,13,9,W,Radio Popular Roman Imperium Cup II,8699
+gentle-mates,13404,Ancient,47,2025-11-15,Rare Atom,11514,13,5,W,Perfect World CS Challenge Series 2,8834
+gentle-mates,13404,Ancient,47,2025-11-13,Change The Game,13175,13,6,W,Perfect World CS Challenge Series 2,8834
 gentle-mates,13404,Ancient,47,2025-10-29,BetBoom,12394,13,7,W,PGL Masters Bucharest 2025,8046
 gentle-mates,13404,Ancient,47,2025-10-28,Ninjas in Pyjamas,4411,13,10,W,PGL Masters Bucharest 2025,8046
 gentle-mates,13404,Ancient,47,2025-10-27,Legacy,12468,5,13,L,PGL Masters Bucharest 2025,8046
@@ -59,6 +65,7 @@ gentle-mates,13404,Ancient,47,2025-09-14,Rhyno YNG,13443,13,5,W,Radio Popular Ro
 gentle-mates,13404,Ancient,47,2025-08-29,9INE,10278,11,13,L,DraculaN Season 1,8635
 gentle-mates,13404,Ancient,47,2025-08-27,OG,10503,10,13,L,ESL Challenger League Season 50 Europe Cup 1,8597
 gentle-mates,13404,Ancient,47,2025-08-26,Nemiga,7969,13,10,W,ESL Challenger League Season 50 Europe Cup 1,8597
+gentle-mates,13404,Train,35,2025-11-16,9INE,10278,13,2,W,Perfect World CS Challenge Series 2,8834
 gentle-mates,13404,Train,35,2025-10-30,GamerLegion,9928,5,13,L,PGL Masters Bucharest 2025,8046
 gentle-mates,13404,Train,35,2025-10-28,Ninjas in Pyjamas,4411,9,13,L,PGL Masters Bucharest 2025,8046
 gentle-mates,13404,Train,35,2025-10-10,Betclic,12916,11,13,L,Galaxy Battle 2025 Phase 4,8688

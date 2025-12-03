@@ -1,4 +1,7 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+fluxo,11837,Mirage,32,2025-11-27,FaZe,6667,10,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+fluxo,11837,Mirage,32,2025-11-09,Sharks,8113,13,11,W,Circuit X Retake São Paulo 2025,8824
+fluxo,11837,Mirage,32,2025-11-06,Charrados,13519,13,11,W,Circuit X Retake São Paulo 2025,8824
 fluxo,11837,Mirage,32,2025-10-05,ShindeN,12959,13,10,W,Circuit X South America Season 1,8735
 fluxo,11837,Mirage,32,2025-10-04,Imperial,9455,13,2,W,Circuit X South America Season 1,8735
 fluxo,11837,Mirage,32,2025-10-03,Yawara,11933,13,11,W,Circuit X South America Season 1,8735
@@ -45,6 +48,10 @@ fluxo,11837,Mirage,32,2024-11-28,Yawara,11933,13,1,W,CCT Season 2 South America 
 fluxo,11837,Mirage,32,2024-11-24,Solid,12233,13,3,W,Desafio Brasileiro de Esports 2024 Finals,8194
 fluxo,11837,Mirage,32,2024-11-23,Sharks,8113,13,6,W,Desafio Brasileiro de Esports 2024 Finals,8194
 fluxo,11837,Mirage,32,2024-11-06,9z Academy,11006,13,1,W,CCT Season 2 South America Series 4,8154
+fluxo,11837,Inferno,33,2025-11-27,FaZe,6667,6,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+fluxo,11837,Inferno,33,2025-11-25,FlyQuest,12774,3,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+fluxo,11837,Inferno,33,2025-11-09,Sharks,8113,5,13,L,Circuit X Retake São Paulo 2025,8824
+fluxo,11837,Inferno,33,2025-11-08,9z,9996,13,8,W,Circuit X Retake São Paulo 2025,8824
 fluxo,11837,Inferno,33,2025-10-15,paiN,4773,2,13,L,CS Asia Championships 2025,8027
 fluxo,11837,Inferno,33,2025-10-05,ShindeN,12959,13,11,W,Circuit X South America Season 1,8735
 fluxo,11837,Inferno,33,2025-10-04,MIBR,9215,11,13,L,Circuit X South America Season 1,8735
@@ -108,6 +115,10 @@ fluxo,11837,Dust2,31,2025-01-30,Bounty Hunters,12776,10,13,L,CCT Season 2 South 
 fluxo,11837,Dust2,31,2025-01-16,Eternal Fire,11251,8,13,L,BLAST Bounty 2025 Season 1,7903
 fluxo,11837,Dust2,31,2024-11-29,Tropa do Taco,13025,13,7,W,CCT Season 2 South America Series 5,8187
 fluxo,11837,Dust2,31,2024-11-08,Tropa do Taco,13025,13,8,W,CCT Season 2 South America Series 4,8154
+fluxo,11837,Nuke,34,2025-11-27,FaZe,6667,13,7,W,StarLadder Budapest Major 2025 Stage 1,8504
+fluxo,11837,Nuke,34,2025-11-26,Ninjas in Pyjamas,4411,5,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+fluxo,11837,Nuke,34,2025-11-24,GamerLegion,9928,13,10,W,StarLadder Budapest Major 2025 Stage 1,8504
+fluxo,11837,Nuke,34,2025-11-07,Bounty Hunters,12776,13,8,W,Circuit X Retake São Paulo 2025,8824
 fluxo,11837,Nuke,34,2025-10-15,paiN,4773,10,13,L,CS Asia Championships 2025,8027
 fluxo,11837,Nuke,34,2025-10-03,Afundacao,13472,13,6,W,Circuit X South America Season 1,8735
 fluxo,11837,Nuke,34,2025-09-30,NRG,6673,13,8,W,ESL Pro League Season 22 Stage 1,8393
@@ -146,11 +157,17 @@ fluxo,11837,Nuke,34,2024-11-30,ODDIK,11768,13,4,W,CCT Season 2 South America Ser
 fluxo,11837,Nuke,34,2024-11-09,Sharks,8113,13,4,W,CCT Season 2 South America Series 4,8154
 fluxo,11837,Nuke,34,2024-11-09,ODDIK,11768,9,13,L,CCT Season 2 South America Series 4,8154
 fluxo,11837,Nuke,34,2024-11-06,9z Academy,11006,13,10,W,CCT Season 2 South America Series 4,8154
+fluxo,11837,Overpass,40,2025-11-25,FlyQuest,12774,1,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+fluxo,11837,Overpass,40,2025-11-09,Sharks,8113,16,14,W,Circuit X Retake São Paulo 2025,8824
+fluxo,11837,Overpass,40,2025-11-09,Galorys,12677,13,3,W,Circuit X Retake São Paulo 2025,8824
+fluxo,11837,Overpass,40,2025-11-08,9z,9996,13,8,W,Circuit X Retake São Paulo 2025,8824
 fluxo,11837,Overpass,40,2025-10-04,Imperial,9455,5,13,L,Circuit X South America Season 1,8735
 fluxo,11837,Overpass,40,2025-09-09,ex-W7M,13288,4,13,L,ESL Challenger League Season 50 South America Cup 2,8651
 fluxo,11837,Overpass,40,2025-09-06,Wildcard,12257,13,11,W,Fragadelphia Fragville 2025,8647
 fluxo,11837,Vertigo,46,2024-11-09,Sharks,8113,16,14,W,CCT Season 2 South America Series 4,8154
 fluxo,11837,Vertigo,46,2024-11-09,ODDIK,11768,13,8,W,CCT Season 2 South America Series 4,8154
+fluxo,11837,Ancient,47,2025-11-07,Bounty Hunters,12776,5,13,L,Circuit X Retake São Paulo 2025,8824
+fluxo,11837,Ancient,47,2025-11-06,Charrados,13519,13,4,W,Circuit X Retake São Paulo 2025,8824
 fluxo,11837,Ancient,47,2025-10-15,paiN,4773,13,10,W,CS Asia Championships 2025,8027
 fluxo,11837,Ancient,47,2025-10-04,MIBR,9215,2,13,L,Circuit X South America Season 1,8735
 fluxo,11837,Ancient,47,2025-10-03,Yawara,11933,3,13,L,Circuit X South America Season 1,8735
@@ -197,6 +214,11 @@ fluxo,11837,Ancient,47,2024-11-09,Sharks,8113,8,13,L,CCT Season 2 South America 
 fluxo,11837,Ancient,47,2024-11-09,ODDIK,11768,13,8,W,CCT Season 2 South America Series 4,8154
 fluxo,11837,Ancient,47,2024-11-08,Tropa do Taco,13025,13,7,W,CCT Season 2 South America Series 4,8154
 fluxo,11837,Anubis,48,2025-04-08,Solid,12233,9,13,L,ESL Challenger League Season 49 South America,8296
+fluxo,11837,Train,35,2025-11-26,Ninjas in Pyjamas,4411,5,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+fluxo,11837,Train,35,2025-11-24,fnatic,4991,13,9,W,StarLadder Budapest Major 2025 Stage 1,8504
+fluxo,11837,Train,35,2025-11-09,Sharks,8113,19,16,W,Circuit X Retake São Paulo 2025,8824
+fluxo,11837,Train,35,2025-11-09,Galorys,12677,13,10,W,Circuit X Retake São Paulo 2025,8824
+fluxo,11837,Train,35,2025-11-07,Bounty Hunters,12776,13,7,W,Circuit X Retake São Paulo 2025,8824
 fluxo,11837,Train,35,2025-10-14,TYLOO,4863,20,22,L,CS Asia Championships 2025,8027
 fluxo,11837,Train,35,2025-10-04,Imperial,9455,13,11,W,Circuit X South America Season 1,8735
 fluxo,11837,Train,35,2025-10-03,Yawara,11933,13,7,W,Circuit X South America Season 1,8735

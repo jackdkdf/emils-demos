@@ -1,4 +1,7 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+sangal,10333,Mirage,32,2025-11-24,WW,12967,13,11,W,X2ONE Masters Season 1,8860
+sangal,10333,Mirage,32,2025-11-24,INFINITE,10823,13,3,W,X2ONE Masters Season 1,8860
+sangal,10333,Mirage,32,2025-11-06,Spirit Academy,7900,13,9,W,Winline Insight Season 9,8772
 sangal,10333,Mirage,32,2025-10-28,9BOOMPRO,13380,2,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 sangal,10333,Mirage,32,2025-10-27,ECLOT,7441,13,10,W,ESL Challenger League Season 50 Europe Cup 4,8778
 sangal,10333,Mirage,32,2025-10-26,TPuDCATb TPu,13297,4,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
@@ -43,6 +46,9 @@ sangal,10333,Mirage,32,2025-03-02,Permitta,12009,11,13,L,European Pro League Sea
 sangal,10333,Mirage,32,2024-11-19,ECLOT,7441,6,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
 sangal,10333,Mirage,32,2024-11-18,Cloud9,5752,2,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
 sangal,10333,Mirage,32,2024-11-17,MOUZ,4494,3,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+sangal,10333,Inferno,33,2025-11-22,AaB,9621,10,13,L,Galaxy Battle 2025 Phase 5,8798
+sangal,10333,Inferno,33,2025-11-22,GUN5,12471,16,14,W,GLuck Yungstar 2025,8854
+sangal,10333,Inferno,33,2025-11-17,ECLOT,7441,3,13,L,Galaxy Battle 2025 Phase 5,8798
 sangal,10333,Inferno,33,2025-10-30,Partizan,11838,13,7,W,CCT Season 3 Europe Series 9,8766
 sangal,10333,Inferno,33,2025-10-26,Sashi,11712,13,7,W,CCT Season 3 Europe Series 9,8766
 sangal,10333,Inferno,33,2025-10-24,Zero Tenacity,11523,3,13,L,CCT Season 3 Europe Series 9,8766
@@ -86,6 +92,14 @@ sangal,10333,Dust2,31,2025-04-20,ECSTATIC,11419,13,9,W,Galaxy Battle 2025 Phase 
 sangal,10333,Dust2,31,2025-04-17,Monte,11811,13,9,W,Galaxy Battle 2025 Phase 1,8456
 sangal,10333,Dust2,31,2025-04-12,Fire Flux,12960,13,11,W,Galaxy Battle 2025 Phase 1,8456
 sangal,10333,Dust2,31,2025-03-29,Monte,11811,13,10,W,PGL Astana 2025 Europe Closed Qualifier,8419
+sangal,10333,Nuke,34,2025-11-26,CYBERSHOKE,12380,6,13,L,X2ONE Masters Season 1,8860
+sangal,10333,Nuke,34,2025-11-24,INFINITE,10823,13,7,W,X2ONE Masters Season 1,8860
+sangal,10333,Nuke,34,2025-11-22,GUN5,12471,8,13,L,GLuck Yungstar 2025,8854
+sangal,10333,Nuke,34,2025-11-17,ECLOT,7441,13,7,W,Galaxy Battle 2025 Phase 5,8798
+sangal,10333,Nuke,34,2025-11-16,ARCRED,10459,9,13,L,Galaxy Battle 2025 Phase 5,8798
+sangal,10333,Nuke,34,2025-11-12,SPARTA,13214,10,13,L,Galaxy Battle 2025 Phase 5,8798
+sangal,10333,Nuke,34,2025-11-10,K27,12895,4,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
+sangal,10333,Nuke,34,2025-11-05,ECSTATIC,11419,13,8,W,Winline Insight Season 9,8772
 sangal,10333,Nuke,34,2025-10-28,9BOOMPRO,13380,13,5,W,ESL Challenger League Season 50 Europe Cup 4,8778
 sangal,10333,Nuke,34,2025-10-26,Sashi,11712,9,13,L,CCT Season 3 Europe Series 9,8766
 sangal,10333,Nuke,34,2025-10-24,Zero Tenacity,11523,13,10,W,CCT Season 3 Europe Series 9,8766
@@ -126,6 +140,14 @@ sangal,10333,Nuke,34,2025-04-28,Nexus,7187,7,13,L,YGames Pro Series Season 5,845
 sangal,10333,Nuke,34,2025-04-22,Sashi,11712,4,13,L,Galaxy Battle 2025 Phase 1,8456
 sangal,10333,Nuke,34,2025-04-20,ECSTATIC,11419,5,13,L,Galaxy Battle 2025 Phase 1,8456
 sangal,10333,Nuke,34,2025-03-27,Metizport,11641,11,13,L,PGL Astana 2025 Europe Closed Qualifier,8419
+sangal,10333,Overpass,40,2025-11-26,CYBERSHOKE,12380,13,5,W,X2ONE Masters Season 1,8860
+sangal,10333,Overpass,40,2025-11-25,Nemiga,7969,13,4,W,X2ONE Masters Season 1,8860
+sangal,10333,Overpass,40,2025-11-24,WW,12967,13,10,W,X2ONE Masters Season 1,8860
+sangal,10333,Overpass,40,2025-11-21,BAKS,11699,13,5,W,GLuck Yungstar 2025,8854
+sangal,10333,Overpass,40,2025-11-17,ECLOT,7441,3,13,L,Galaxy Battle 2025 Phase 5,8798
+sangal,10333,Overpass,40,2025-11-12,SPARTA,13214,13,6,W,Galaxy Battle 2025 Phase 5,8798
+sangal,10333,Overpass,40,2025-11-06,Spirit Academy,7900,15,19,L,Winline Insight Season 9,8772
+sangal,10333,Overpass,40,2025-11-04,Betera,12431,13,8,W,Winline Insight Season 9,8772
 sangal,10333,Overpass,40,2025-10-30,Partizan,11838,10,13,L,CCT Season 3 Europe Series 9,8766
 sangal,10333,Overpass,40,2025-10-28,9BOOMPRO,13380,13,6,W,ESL Challenger League Season 50 Europe Cup 4,8778
 sangal,10333,Overpass,40,2025-10-27,ECLOT,7441,13,11,W,ESL Challenger League Season 50 Europe Cup 4,8778
@@ -166,6 +188,11 @@ sangal,10333,Overpass,40,2025-08-03,Zero Tenacity,11523,10,13,L,CCT Season 3 Eur
 sangal,10333,Overpass,40,2025-08-01,CYBERSHOKE,12380,13,6,W,CCT Season 3 Europe Series 4,8604
 sangal,10333,Overpass,40,2025-07-29,Monte,11811,6,13,L,CCT Season 3 Europe Series 4,8604
 sangal,10333,Vertigo,46,2024-11-17,Rebels,12642,13,8,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+sangal,10333,Ancient,47,2025-11-26,CYBERSHOKE,12380,7,13,L,X2ONE Masters Season 1,8860
+sangal,10333,Ancient,47,2025-11-22,GUN5,12471,4,13,L,GLuck Yungstar 2025,8854
+sangal,10333,Ancient,47,2025-11-16,ARCRED,10459,13,3,W,Galaxy Battle 2025 Phase 5,8798
+sangal,10333,Ancient,47,2025-11-05,ECSTATIC,11419,6,13,L,Winline Insight Season 9,8772
+sangal,10333,Ancient,47,2025-11-04,Betera,12431,13,8,W,Winline Insight Season 9,8772
 sangal,10333,Ancient,47,2025-10-30,Partizan,11838,11,13,L,CCT Season 3 Europe Series 9,8766
 sangal,10333,Ancient,47,2025-10-10,BetBoom,12394,7,13,L,Exort The Proving Grounds Season 5,8745
 sangal,10333,Ancient,47,2025-10-09,JiJieHao,10245,13,10,W,Exort The Proving Grounds Season 5,8745
@@ -206,6 +233,13 @@ sangal,10333,Anubis,48,2025-03-27,Metizport,11641,3,13,L,PGL Astana 2025 Europe 
 sangal,10333,Anubis,48,2025-03-09,Permitta,12009,6,13,L,European Pro League Season 23,8404
 sangal,10333,Anubis,48,2025-03-02,Permitta,12009,13,3,W,European Pro League Season 23,8404
 sangal,10333,Anubis,48,2024-11-19,ECLOT,7441,10,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+sangal,10333,Train,35,2025-11-25,Nemiga,7969,13,7,W,X2ONE Masters Season 1,8860
+sangal,10333,Train,35,2025-11-21,BAKS,11699,13,8,W,GLuck Yungstar 2025,8854
+sangal,10333,Train,35,2025-11-16,ARCRED,10459,13,8,W,Galaxy Battle 2025 Phase 5,8798
+sangal,10333,Train,35,2025-11-12,SPARTA,13214,7,13,L,Galaxy Battle 2025 Phase 5,8798
+sangal,10333,Train,35,2025-11-10,K27,12895,17,19,L,ESL Challenger League Season 50 Europe Cup 4,8778
+sangal,10333,Train,35,2025-11-06,Spirit Academy,7900,13,11,W,Winline Insight Season 9,8772
+sangal,10333,Train,35,2025-11-05,ECSTATIC,11419,8,13,L,Winline Insight Season 9,8772
 sangal,10333,Train,35,2025-10-26,TPuDCATb TPu,13297,11,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 sangal,10333,Train,35,2025-10-23,SPARTA,13214,9,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 sangal,10333,Train,35,2025-10-23,Nemiga,7969,8,13,L,Winline Insight Season 9,8772

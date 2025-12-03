@@ -1,4 +1,10 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+eclot,7441,Mirage,32,2025-11-29,SINNERS,10577,11,13,L,Tipsport MČR 2025,8847
+eclot,7441,Mirage,32,2025-11-23,ARCRED,10459,13,6,W,Galaxy Battle 2025 Phase 5,8798
+eclot,7441,Mirage,32,2025-11-21,CYBERSHOKE,12380,11,13,L,Galaxy Battle 2025 Phase 5,8798
+eclot,7441,Mirage,32,2025-11-19,500,12000,10,13,L,CCT Season 3 Europe Series 11,8831
+eclot,7441,Mirage,32,2025-11-13,Oramond,13470,7,13,L,Galaxy Battle 2025 Phase 5,8798
+eclot,7441,Mirage,32,2025-11-12,CPH Wolves,4548,13,8,W,CCT Season 3 Europe Series 11,8831
 eclot,7441,Mirage,32,2025-11-02,FORZE Reload,12857,3,13,L,Galaxy Battle 2025 Phase 5 Closed Qualifier,8797
 eclot,7441,Mirage,32,2025-10-27,Sangal,10333,10,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 eclot,7441,Mirage,32,2025-10-25,VP.Prodigy,10864,13,7,W,ESL Challenger League Season 50 Europe Cup 4,8778
@@ -101,6 +107,12 @@ eclot,7441,Mirage,32,2024-11-09,Rebels,12642,7,13,L,European Pro League Season 2
 eclot,7441,Mirage,32,2024-11-08,DMS,12747,13,4,W,Winline Insight Season 6,8129
 eclot,7441,Mirage,32,2024-11-08,Into the Breach,11164,13,7,W,European Pro League Season 20,8144
 eclot,7441,Mirage,32,2024-11-05,SINNERS,10577,13,9,W,European Pro League Season 20,8144
+eclot,7441,Inferno,33,2025-11-29,SINNERS,10577,7,13,L,Tipsport MČR 2025,8847
+eclot,7441,Inferno,33,2025-11-28,BRUTE,9139,13,11,W,Tipsport MČR 2025,8847
+eclot,7441,Inferno,33,2025-11-17,Sangal,10333,13,3,W,Galaxy Battle 2025 Phase 5,8798
+eclot,7441,Inferno,33,2025-11-15,JiJieHao,10245,11,13,L,CCT Season 3 Europe Series 11,8831
+eclot,7441,Inferno,33,2025-11-07,TPuDCATb TPu,13297,9,13,L,Exort Series 18,8829
+eclot,7441,Inferno,33,2025-11-05,GUN5,12471,13,7,W,Galaxy Battle 2025 Phase 5 Closed Qualifier,8797
 eclot,7441,Inferno,33,2025-11-03,Young Ninjas,10960,13,5,W,Galaxy Battle 2025 Phase 5 Closed Qualifier,8797
 eclot,7441,Inferno,33,2025-10-31,Dziuseppe,13465,13,5,W,Galaxy Battle 2025 Phase 5 Closed Qualifier,8797
 eclot,7441,Inferno,33,2025-10-16,TPuDCATb TPu,13297,22,20,W,Exort Series 17,8769
@@ -160,6 +172,10 @@ eclot,7441,Inferno,33,2024-11-08,Into the Breach,11164,13,4,W,European Pro Leagu
 eclot,7441,Inferno,33,2024-11-07,9 Pandas,11883,7,13,L,European Pro League Season 20,8144
 eclot,7441,Inferno,33,2024-11-05,SINNERS,10577,13,6,W,European Pro League Season 20,8144
 eclot,7441,Inferno,33,2024-11-04,GUN5,12471,6,13,L,YaLLa Compass Fall 2024,8108
+eclot,7441,Dust2,31,2025-11-29,SINNERS,10577,10,13,L,Tipsport MČR 2025,8847
+eclot,7441,Dust2,31,2025-11-21,CYBERSHOKE,12380,1,13,L,Galaxy Battle 2025 Phase 5,8798
+eclot,7441,Dust2,31,2025-11-15,JiJieHao,10245,8,13,L,CCT Season 3 Europe Series 11,8831
+eclot,7441,Dust2,31,2025-11-05,GUN5,12471,7,13,L,Galaxy Battle 2025 Phase 5 Closed Qualifier,8797
 eclot,7441,Dust2,31,2025-11-03,Young Ninjas,10960,22,18,W,Galaxy Battle 2025 Phase 5 Closed Qualifier,8797
 eclot,7441,Dust2,31,2025-10-25,VP.Prodigy,10864,13,10,W,ESL Challenger League Season 50 Europe Cup 4,8778
 eclot,7441,Dust2,31,2025-10-24,K27,12895,11,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
@@ -193,6 +209,15 @@ eclot,7441,Dust2,31,2025-02-17,FORZE Reload,12857,9,13,L,YaLLa Compass Winter 20
 eclot,7441,Dust2,31,2024-12-17,GUN5,12471,6,13,L,500 Casino Christmas Cup 2024,8209
 eclot,7441,Dust2,31,2024-11-24,UNiTY,12267,13,2,W,Tipsport MČR 2024,8166
 eclot,7441,Dust2,31,2024-11-11,BetBoom,12394,13,7,W,YaLLa Compass Fall 2024,8108
+eclot,7441,Nuke,34,2025-11-19,500,12000,13,3,W,CCT Season 3 Europe Series 11,8831
+eclot,7441,Nuke,34,2025-11-17,Sangal,10333,7,13,L,Galaxy Battle 2025 Phase 5,8798
+eclot,7441,Nuke,34,2025-11-13,Oramond,13470,10,13,L,Galaxy Battle 2025 Phase 5,8798
+eclot,7441,Nuke,34,2025-11-12,CPH Wolves,4548,11,13,L,CCT Season 3 Europe Series 11,8831
+eclot,7441,Nuke,34,2025-11-11,Nuclear TigeRES,13027,12,16,L,NODWIN Clutch Series 2,8795
+eclot,7441,Nuke,34,2025-11-07,TPuDCATb TPu,13297,5,13,L,Exort Series 18,8829
+eclot,7441,Nuke,34,2025-11-07,Flame Sharks,13387,13,7,W,Exort Series 18,8829
+eclot,7441,Nuke,34,2025-11-06,HyperSpirit,13012,13,4,W,Exort Series 18,8829
+eclot,7441,Nuke,34,2025-11-05,GUN5,12471,13,8,W,Galaxy Battle 2025 Phase 5 Closed Qualifier,8797
 eclot,7441,Nuke,34,2025-10-24,K27,12895,5,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 eclot,7441,Nuke,34,2025-10-16,TPuDCATb TPu,13297,13,7,W,Exort Series 17,8769
 eclot,7441,Nuke,34,2025-10-11,SINNERS,10577,12,16,L,Slovak National Championship 2025 Finals,8733
@@ -245,6 +270,8 @@ eclot,7441,Nuke,34,2024-11-09,Sashi,11712,13,10,W,Winline Insight Season 6,8129
 eclot,7441,Nuke,34,2024-11-09,Rebels,12642,13,6,W,European Pro League Season 20,8144
 eclot,7441,Nuke,34,2024-11-06,Johnny Speeds,12604,13,6,W,YaLLa Compass Fall 2024,8108
 eclot,7441,Nuke,34,2024-11-04,GUN5,12471,7,13,L,YaLLa Compass Fall 2024,8108
+eclot,7441,Overpass,40,2025-11-17,Sangal,10333,13,3,W,Galaxy Battle 2025 Phase 5,8798
+eclot,7441,Overpass,40,2025-11-17,FAVBET,12818,13,6,W,CCT Season 3 Europe Series 11,8831
 eclot,7441,Overpass,40,2025-11-02,FORZE Reload,12857,7,13,L,Galaxy Battle 2025 Phase 5 Closed Qualifier,8797
 eclot,7441,Overpass,40,2025-10-27,Sangal,10333,11,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 eclot,7441,Overpass,40,2025-10-11,SINNERS,10577,9,13,L,Slovak National Championship 2025 Finals,8733
@@ -258,6 +285,14 @@ eclot,7441,Overpass,40,2025-08-07,CPH Wolves,4548,10,13,L,Thunderpick World Cham
 eclot,7441,Overpass,40,2025-08-06,Partizan,11838,14,16,L,Thunderpick World Championship 2025 European Series 2,8550
 eclot,7441,Overpass,40,2025-08-06,CPH Wolves,4548,19,16,W,Thunderpick World Championship 2025 European Series 2,8550
 eclot,7441,Overpass,40,2025-07-24,ex-SABRE,13298,9,13,L,CCT Season 3 Europe Series 4 Closed Qualifier,8603
+eclot,7441,Ancient,47,2025-11-28,BRUTE,9139,13,5,W,Tipsport MČR 2025,8847
+eclot,7441,Ancient,47,2025-11-23,ARCRED,10459,13,7,W,Galaxy Battle 2025 Phase 5,8798
+eclot,7441,Ancient,47,2025-11-19,500,12000,11,13,L,CCT Season 3 Europe Series 11,8831
+eclot,7441,Ancient,47,2025-11-17,FAVBET,12818,13,4,W,CCT Season 3 Europe Series 11,8831
+eclot,7441,Ancient,47,2025-11-12,CPH Wolves,4548,5,13,L,CCT Season 3 Europe Series 11,8831
+eclot,7441,Ancient,47,2025-11-11,Nuclear TigeRES,13027,17,19,L,NODWIN Clutch Series 2,8795
+eclot,7441,Ancient,47,2025-11-07,Flame Sharks,13387,13,6,W,Exort Series 18,8829
+eclot,7441,Ancient,47,2025-11-06,HyperSpirit,13012,16,13,W,Exort Series 18,8829
 eclot,7441,Ancient,47,2025-10-31,Dziuseppe,13465,13,1,W,Galaxy Battle 2025 Phase 5 Closed Qualifier,8797
 eclot,7441,Ancient,47,2025-10-11,BRUTE,9139,13,11,W,Slovak National Championship 2025 Finals,8733
 eclot,7441,Ancient,47,2025-10-06,Sashi,11712,15,19,L,Winline Insight Season 8,8716

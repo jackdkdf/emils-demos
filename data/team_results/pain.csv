@@ -1,4 +1,5 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+pain,4773,Mirage,32,2025-11-12,FURIA,8297,11,13,L,BLAST Rivals 2025 Season 2,7908
 pain,4773,Mirage,32,2025-10-28,B8,11241,13,10,W,PGL Masters Bucharest 2025,8046
 pain,4773,Mirage,32,2025-10-26,Gentle Mates,13404,13,10,W,PGL Masters Bucharest 2025,8046
 pain,4773,Mirage,32,2025-10-16,FUT,13286,13,16,L,CS Asia Championships 2025,8027
@@ -29,6 +30,9 @@ pain,4773,Mirage,32,2025-01-17,GamerLegion,9928,13,7,W,BLAST Bounty 2025 Season 
 pain,4773,Mirage,32,2024-12-07,FURIA,8297,9,13,L,Perfect World Shanghai Major 2024,7524
 pain,4773,Mirage,32,2024-12-06,BIG,7532,13,6,W,Perfect World Shanghai Major 2024,7524
 pain,4773,Mirage,32,2024-11-14,9z,9996,13,11,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+pain,4773,Inferno,33,2025-11-14,Passion UA,12426,13,7,W,BLAST Rivals 2025 Season 2,7908
+pain,4773,Inferno,33,2025-11-05,The MongolZ,6248,13,16,L,IEM Chengdu 2025,8041
+pain,4773,Inferno,33,2025-11-04,TYLOO,4863,13,11,W,IEM Chengdu 2025,8041
 pain,4773,Inferno,33,2025-10-31,Legacy,12468,7,13,L,PGL Masters Bucharest 2025,8046
 pain,4773,Inferno,33,2025-10-15,Fluxo,11837,13,2,W,CS Asia Championships 2025,8027
 pain,4773,Inferno,33,2025-09-19,Falcons,11283,4,13,L,FISSURE Playground 2,8064
@@ -100,6 +104,12 @@ pain,4773,Dust2,31,2024-12-06,BIG,7532,11,13,L,Perfect World Shanghai Major 2024
 pain,4773,Dust2,31,2024-12-05,3DMAX,4914,11,13,L,Perfect World Shanghai Major 2024,7524
 pain,4773,Dust2,31,2024-11-30,Imperial,9455,13,5,W,Perfect World Shanghai Major 2024 Opening Stage,7861
 pain,4773,Dust2,31,2024-11-14,9z,9996,13,0,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+pain,4773,Nuke,34,2025-11-15,FURIA,8297,3,13,L,BLAST Rivals 2025 Season 2,7908
+pain,4773,Nuke,34,2025-11-14,Passion UA,12426,13,4,W,BLAST Rivals 2025 Season 2,7908
+pain,4773,Nuke,34,2025-11-13,TYLOO,4863,13,7,W,BLAST Rivals 2025 Season 2,7908
+pain,4773,Nuke,34,2025-11-12,FURIA,8297,13,7,W,BLAST Rivals 2025 Season 2,7908
+pain,4773,Nuke,34,2025-11-05,The MongolZ,6248,13,9,W,IEM Chengdu 2025,8041
+pain,4773,Nuke,34,2025-11-04,TYLOO,4863,13,6,W,IEM Chengdu 2025,8041
 pain,4773,Nuke,34,2025-11-03,Spirit,7020,11,13,L,IEM Chengdu 2025,8041
 pain,4773,Nuke,34,2025-10-31,Legacy,12468,7,13,L,PGL Masters Bucharest 2025,8046
 pain,4773,Nuke,34,2025-10-27,GamerLegion,9928,10,13,L,PGL Masters Bucharest 2025,8046
@@ -133,12 +143,17 @@ pain,4773,Nuke,34,2025-01-17,GamerLegion,9928,13,11,W,BLAST Bounty 2025 Season 1
 pain,4773,Nuke,34,2024-12-05,MOUZ,4494,6,13,L,Perfect World Shanghai Major 2024,7524
 pain,4773,Nuke,34,2024-11-30,GamerLegion,9928,10,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
 pain,4773,Nuke,34,2024-11-12,Wildcard,12257,10,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+pain,4773,Overpass,40,2025-11-15,FURIA,8297,12,16,L,BLAST Rivals 2025 Season 2,7908
+pain,4773,Overpass,40,2025-11-13,TYLOO,4863,13,10,W,BLAST Rivals 2025 Season 2,7908
+pain,4773,Overpass,40,2025-11-12,FURIA,8297,6,13,L,BLAST Rivals 2025 Season 2,7908
 pain,4773,Overpass,40,2025-10-27,GamerLegion,9928,13,5,W,PGL Masters Bucharest 2025,8046
 pain,4773,Overpass,40,2025-10-14,fnatic,4991,8,13,L,CS Asia Championships 2025,8027
 pain,4773,Vertigo,46,2024-12-07,FURIA,8297,13,11,W,Perfect World Shanghai Major 2024,7524
 pain,4773,Vertigo,46,2024-12-06,BIG,7532,13,10,W,Perfect World Shanghai Major 2024,7524
 pain,4773,Vertigo,46,2024-12-02,FlyQuest,12774,16,14,W,Perfect World Shanghai Major 2024 Opening Stage,7861
 pain,4773,Vertigo,46,2024-11-12,Nouns,11948,13,5,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+pain,4773,Ancient,47,2025-11-13,TYLOO,4863,9,13,L,BLAST Rivals 2025 Season 2,7908
+pain,4773,Ancient,47,2025-11-05,The MongolZ,6248,6,13,L,IEM Chengdu 2025,8041
 pain,4773,Ancient,47,2025-11-03,Spirit,7020,7,13,L,IEM Chengdu 2025,8041
 pain,4773,Ancient,47,2025-10-26,Gentle Mates,13404,19,15,W,PGL Masters Bucharest 2025,8046
 pain,4773,Ancient,47,2025-10-15,Fluxo,11837,10,13,L,CS Asia Championships 2025,8027

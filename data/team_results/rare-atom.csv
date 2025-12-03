@@ -1,4 +1,6 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+rare-atom,11514,Mirage,32,2025-11-15,Gentle Mates,13404,13,8,W,Perfect World CS Challenge Series 2,8834
+rare-atom,11514,Mirage,32,2025-11-13,Kaleido,13331,13,10,W,Perfect World CS Challenge Series 2,8834
 rare-atom,11514,Mirage,32,2025-10-17,The Huns,12510,13,7,W,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
 rare-atom,11514,Mirage,32,2025-10-16,FengDa,12899,10,13,L,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
 rare-atom,11514,Mirage,32,2025-10-15,The Huns,12510,5,13,L,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
@@ -40,6 +42,10 @@ rare-atom,11514,Mirage,32,2025-02-11,TYLOO,4863,13,2,W,BLAST Rising Asia 2025 Se
 rare-atom,11514,Mirage,32,2025-02-10,Fated Rise,13097,16,13,W,BLAST Rising Asia Spring 2025 Closed Qualifier,8352
 rare-atom,11514,Mirage,32,2025-01-18,Real Original,13095,13,6,W,ZOWIE eXTREMESLAND Asia Open 2024,8120
 rare-atom,11514,Mirage,32,2024-12-28,Eruption,12097,7,13,L,1xBet MESA Asia Series 2024 Finals,8256
+rare-atom,11514,Inferno,33,2025-11-25,GamerLegion,9928,7,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+rare-atom,11514,Inferno,33,2025-11-20,Lynn Vision,8840,13,11,W,ESL Challenger League Season 50 Asia-Pacific Finals,8728
+rare-atom,11514,Inferno,33,2025-11-16,Lynn Vision,8840,13,9,W,Perfect World CS Challenge Series 2,8834
+rare-atom,11514,Inferno,33,2025-11-15,Gentle Mates,13404,13,10,W,Perfect World CS Challenge Series 2,8834
 rare-atom,11514,Inferno,33,2025-10-16,FengDa,12899,16,13,W,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
 rare-atom,11514,Inferno,33,2025-10-08,Kaleido,13331,10,13,L,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
 rare-atom,11514,Inferno,33,2025-10-06,FengDa,12899,13,8,W,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
@@ -85,6 +91,11 @@ rare-atom,11514,Inferno,33,2024-12-27,The Huns,12510,13,8,W,1xBet MESA Asia Seri
 rare-atom,11514,Inferno,33,2024-12-02,MIBR,9215,9,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
 rare-atom,11514,Inferno,33,2024-12-01,fnatic,4991,13,10,W,Perfect World Shanghai Major 2024 Opening Stage,7861
 rare-atom,11514,Inferno,33,2024-11-12,TALON,8210,13,8,W,Perfect World Shanghai Major 2024 Asia RMR,7862
+rare-atom,11514,Dust2,31,2025-11-24,Legacy,12468,6,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+rare-atom,11514,Dust2,31,2025-11-24,Imperial,9455,11,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+rare-atom,11514,Dust2,31,2025-11-20,Lynn Vision,8840,16,19,L,ESL Challenger League Season 50 Asia-Pacific Finals,8728
+rare-atom,11514,Dust2,31,2025-11-16,Lynn Vision,8840,14,16,L,Perfect World CS Challenge Series 2,8834
+rare-atom,11514,Dust2,31,2025-11-13,Kaleido,13331,9,13,L,Perfect World CS Challenge Series 2,8834
 rare-atom,11514,Dust2,31,2025-10-17,The Huns,12510,13,1,W,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
 rare-atom,11514,Dust2,31,2025-10-16,FengDa,12899,13,10,W,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
 rare-atom,11514,Dust2,31,2025-10-08,Kaleido,13331,13,4,W,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
@@ -117,11 +128,16 @@ rare-atom,11514,Dust2,31,2025-01-22,The QUBE,12825,13,5,W,ESL Challenger League 
 rare-atom,11514,Dust2,31,2025-01-19,XO,13055,5,13,L,ZOWIE eXTREMESLAND Asia Open 2024,8120
 rare-atom,11514,Dust2,31,2025-01-11,Lynn Vision,8840,13,2,W,XSE Pro League 2025,8281
 rare-atom,11514,Dust2,31,2025-12-29,ATOX,12312,13,10,W,1xBet MESA Asia Series 2024 Finals,8256
+rare-atom,11514,Overpass,40,2025-11-25,GamerLegion,9928,5,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+rare-atom,11514,Overpass,40,2025-11-20,Lynn Vision,8840,18,22,L,ESL Challenger League Season 50 Asia-Pacific Finals,8728
 rare-atom,11514,Overpass,40,2025-08-27,Lynn Vision,8840,6,13,L,ESL Challenger League Season 50 Asia-Pacific Cup 1,8601
 rare-atom,11514,Overpass,40,2025-08-14,TBO,13354,13,2,W,ESL Challenger League Season 50 Asia-Pacific Cup 1,8601
 rare-atom,11514,Overpass,40,2025-08-06,Astralis,6665,6,13,L,BLAST Bounty 2025 Season 2,7906
 rare-atom,11514,Vertigo,46,2024-12-01,fnatic,4991,13,4,W,Perfect World Shanghai Major 2024 Opening Stage,7861
 rare-atom,11514,Vertigo,46,2024-11-12,TALON,8210,13,8,W,Perfect World Shanghai Major 2024 Asia RMR,7862
+rare-atom,11514,Ancient,47,2025-11-20,Lynn Vision,8840,13,11,W,ESL Challenger League Season 50 Asia-Pacific Finals,8728
+rare-atom,11514,Ancient,47,2025-11-15,Gentle Mates,13404,5,13,L,Perfect World CS Challenge Series 2,8834
+rare-atom,11514,Ancient,47,2025-11-13,Kaleido,13331,16,14,W,Perfect World CS Challenge Series 2,8834
 rare-atom,11514,Ancient,47,2025-10-17,The Huns,12510,10,13,L,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
 rare-atom,11514,Ancient,47,2025-10-15,The Huns,12510,9,13,L,ESL Challenger League Season 50 Asia-Pacific Cup 3,8720
 rare-atom,11514,Ancient,47,2025-09-20,Chinggis Warriors,12646,13,8,W,ESL Challenger League Season 50 Asia-Pacific Cup 2,8650
@@ -200,6 +216,8 @@ rare-atom,11514,Anubis,48,2024-12-02,MIBR,9215,13,11,W,Perfect World Shanghai Ma
 rare-atom,11514,Anubis,48,2024-11-30,Virtus.pro,5378,4,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
 rare-atom,11514,Anubis,48,2024-11-30,The MongolZ,6248,2,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
 rare-atom,11514,Anubis,48,2024-11-11,GR,12088,13,4,W,Perfect World Shanghai Major 2024 Asia RMR,7862
+rare-atom,11514,Train,35,2025-11-20,Lynn Vision,8840,11,13,L,ESL Challenger League Season 50 Asia-Pacific Finals,8728
+rare-atom,11514,Train,35,2025-11-16,Lynn Vision,8840,7,13,L,Perfect World CS Challenge Series 2,8834
 rare-atom,11514,Train,35,2025-09-14,Take me away,12160,9,13,L,CS Asia Championships 2025 China Open Qualifier,8704
 rare-atom,11514,Train,35,2025-08-25,Pressure Monsters,13402,13,8,W,Perfect World CS Challenge Series 1 China Closed Qualifier,8664
 rare-atom,11514,Train,35,2025-05-18,TYLOO,4863,7,13,L,XSE Pro League Chengdu 2025,8493

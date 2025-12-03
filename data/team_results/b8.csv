@@ -1,4 +1,8 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+b8,11241,Mirage,32,2025-11-30,Natus Vincere,4608,8,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+b8,11241,Mirage,32,2025-11-29,Liquid,5973,13,7,W,StarLadder Budapest Major 2025 Stage 2,8505
+b8,11241,Mirage,32,2025-11-26,Legacy,12468,13,5,W,StarLadder Budapest Major 2025 Stage 1,8504
+b8,11241,Mirage,32,2025-11-24,M80,12376,11,13,L,StarLadder Budapest Major 2025 Stage 1,8504
 b8,11241,Mirage,32,2025-10-31,Aurora,11861,13,8,W,PGL Masters Bucharest 2025,8046
 b8,11241,Mirage,32,2025-10-28,paiN,4773,10,13,L,PGL Masters Bucharest 2025,8046
 b8,11241,Mirage,32,2025-10-26,Astralis,6665,16,12,W,PGL Masters Bucharest 2025,8046
@@ -55,6 +59,7 @@ b8,11241,Mirage,32,2025-01-28,Zero Tenacity,11523,13,8,W,ESL Challenger League S
 b8,11241,Mirage,32,2025-01-24,ARCRED,10459,13,6,W,ESL Challenger League Season 49 Europe,8294
 b8,11241,Mirage,32,2024-11-22,Astralis,6665,13,11,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 b8,11241,Mirage,32,2024-11-21,Aurora,11861,9,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+b8,11241,Inferno,33,2025-11-25,PARIVISION,12467,13,11,W,StarLadder Budapest Major 2025 Stage 1,8504
 b8,11241,Inferno,33,2025-10-27,3DMAX,4914,13,9,W,PGL Masters Bucharest 2025,8046
 b8,11241,Inferno,33,2025-10-02,FURIA,8297,8,13,L,ESL Pro League Season 22 Stage 1,8393
 b8,11241,Inferno,33,2025-10-01,GamerLegion,9928,11,13,L,ESL Pro League Season 22 Stage 1,8393
@@ -88,6 +93,8 @@ b8,11241,Inferno,33,2025-02-01,SINNERS,10577,5,13,L,CCT Season 2 Europe Series 1
 b8,11241,Inferno,33,2025-01-30,fnatic,4991,13,8,W,CCT Season 2 Europe Series 16,8289
 b8,11241,Inferno,33,2025-01-24,ARCRED,10459,13,5,W,ESL Challenger League Season 49 Europe,8294
 b8,11241,Inferno,33,2025-01-17,G2,5995,6,13,L,BLAST Bounty 2025 Season 1,7903
+b8,11241,Dust2,31,2025-12-01,3DMAX,4914,13,8,W,StarLadder Budapest Major 2025 Stage 2,8505
+b8,11241,Dust2,31,2025-11-26,Legacy,12468,16,12,W,StarLadder Budapest Major 2025 Stage 1,8504
 b8,11241,Dust2,31,2025-10-31,Aurora,11861,10,13,L,PGL Masters Bucharest 2025,8046
 b8,11241,Dust2,31,2025-10-29,Legacy,12468,3,13,L,PGL Masters Bucharest 2025,8046
 b8,11241,Dust2,31,2025-10-28,paiN,4773,8,13,L,PGL Masters Bucharest 2025,8046
@@ -140,6 +147,9 @@ b8,11241,Overpass,40,2025-10-31,Aurora,11861,3,13,L,PGL Masters Bucharest 2025,8
 b8,11241,Overpass,40,2025-10-02,FURIA,8297,9,13,L,ESL Pro League Season 22 Stage 1,8393
 b8,11241,Overpass,40,2025-09-29,HOTU,11581,13,7,W,ESL Pro League Season 22 Stage 1,8393
 b8,11241,Overpass,40,2025-08-29,TYLOO,4863,13,9,W,Perfect World CS Challenge Series 1,8648
+b8,11241,Ancient,47,2025-12-01,3DMAX,4914,13,9,W,StarLadder Budapest Major 2025 Stage 2,8505
+b8,11241,Ancient,47,2025-11-29,fnatic,4991,13,11,W,StarLadder Budapest Major 2025 Stage 2,8505
+b8,11241,Ancient,47,2025-11-24,The Huns,12510,13,11,W,StarLadder Budapest Major 2025 Stage 1,8504
 b8,11241,Ancient,47,2025-10-29,Legacy,12468,13,10,W,PGL Masters Bucharest 2025,8046
 b8,11241,Ancient,47,2025-10-27,3DMAX,4914,13,11,W,PGL Masters Bucharest 2025,8046
 b8,11241,Ancient,47,2025-10-26,Astralis,6665,13,4,W,PGL Masters Bucharest 2025,8046
@@ -190,6 +200,8 @@ b8,11241,Anubis,48,2025-01-28,Zero Tenacity,11523,22,19,W,ESL Challenger League 
 b8,11241,Anubis,48,2025-01-24,ARCRED,10459,14,16,L,ESL Challenger League Season 49 Europe,8294
 b8,11241,Anubis,48,2025-01-22,Spirit Academy,7900,13,6,W,ESL Challenger League Season 49 Europe,8294
 b8,11241,Anubis,48,2024-12-12,ECSTATIC,11419,13,2,W,CCT Season 2 Europe Series 15,8172
+b8,11241,Train,35,2025-12-01,3DMAX,4914,3,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+b8,11241,Train,35,2025-11-30,Natus Vincere,4608,6,13,L,StarLadder Budapest Major 2025 Stage 2,8505
 b8,11241,Train,35,2025-10-29,Legacy,12468,13,11,W,PGL Masters Bucharest 2025,8046
 b8,11241,Train,35,2025-09-28,Legacy,12468,13,2,W,ESL Pro League Season 22 Stage 1,8393
 b8,11241,Train,35,2025-09-21,Ninjas in Pyjamas,4411,7,13,L,StarLadder StarSeries Fall 2025,8539

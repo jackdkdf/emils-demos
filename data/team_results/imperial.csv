@@ -1,4 +1,9 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+imperial,9455,Mirage,32,2025-12-01,M80,12376,13,11,W,StarLadder Budapest Major 2025 Stage 2,8505
+imperial,9455,Mirage,32,2025-11-29,Natus Vincere,4608,10,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+imperial,9455,Mirage,32,2025-11-26,The Huns,12510,16,12,W,StarLadder Budapest Major 2025 Stage 1,8504
+imperial,9455,Mirage,32,2025-11-09,Galorys,12677,9,13,L,Circuit X Retake São Paulo 2025,8824
+imperial,9455,Mirage,32,2025-11-06,ALZON,13471,13,3,W,Circuit X Retake São Paulo 2025,8824
 imperial,9455,Mirage,32,2025-11-01,BIG,7532,10,13,L,DreamHack Knockout Atlanta 2025,8725
 imperial,9455,Mirage,32,2025-11-01,SportsBetExpert,13375,13,8,W,DreamHack Knockout Atlanta 2025,8725
 imperial,9455,Mirage,32,2025-10-15,Natus Vincere,4608,13,10,W,Thunderpick World Championship 2025,8067
@@ -40,6 +45,8 @@ imperial,9455,Mirage,32,2025-02-01,Bounty Hunters,12776,13,10,W,CCT Season 2 Sou
 imperial,9455,Mirage,32,2025-01-31,Legacy,12468,13,7,W,CCT Season 2 South America Series 6,8290
 imperial,9455,Mirage,32,2025-01-31,Bad News Chickens,12890,13,7,W,CCT Season 2 South America Series 6,8290
 imperial,9455,Mirage,32,2024-11-12,Case,10894,13,5,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+imperial,9455,Inferno,33,2025-11-24,FlyQuest,12774,6,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+imperial,9455,Inferno,33,2025-11-08,Sharks,8113,10,13,L,Circuit X Retake São Paulo 2025,8824
 imperial,9455,Inferno,33,2025-10-03,Gaimin Gladiators,11571,13,3,W,Circuit X South America Season 1,8735
 imperial,9455,Inferno,33,2025-09-30,MIBR,9215,13,7,W,FERJEE Rush 2025,8683
 imperial,9455,Inferno,33,2025-09-30,Gaimin Gladiators,11571,13,6,W,FERJEE Rush 2025,8683
@@ -71,6 +78,11 @@ imperial,9455,Inferno,33,2025-02-09,MIBR,9215,13,10,W,ACE SA Masters 2025 Season
 imperial,9455,Inferno,33,2025-02-08,NITRO,12915,13,6,W,IEM Dallas 2025 South America Open Qualifier,8276
 imperial,9455,Inferno,33,2025-02-08,Fluxo,11837,13,4,W,ACE SA Masters 2025 Season 1 - BLAST Premier Rising Event,8349
 imperial,9455,Inferno,33,2024-12-01,Complexity,5005,4,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
+imperial,9455,Dust2,31,2025-12-01,M80,12376,2,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+imperial,9455,Dust2,31,2025-11-30,fnatic,4991,13,10,W,StarLadder Budapest Major 2025 Stage 2,8505
+imperial,9455,Dust2,31,2025-11-24,Rare Atom,11514,13,11,W,StarLadder Budapest Major 2025 Stage 1,8504
+imperial,9455,Dust2,31,2025-11-06,Galorys,12677,13,8,W,Circuit X Retake São Paulo 2025,8824
+imperial,9455,Dust2,31,2025-11-06,ALZON,13471,13,6,W,Circuit X Retake São Paulo 2025,8824
 imperial,9455,Dust2,31,2025-11-01,SportsBetExpert,13375,13,11,W,DreamHack Knockout Atlanta 2025,8725
 imperial,9455,Dust2,31,2025-10-16,Venom,13419,11,13,L,Thunderpick World Championship 2025,8067
 imperial,9455,Dust2,31,2025-10-15,Natus Vincere,4608,8,13,L,Thunderpick World Championship 2025,8067
@@ -112,6 +124,11 @@ imperial,9455,Dust2,31,2025-02-01,Bounty Hunters,12776,9,13,L,CCT Season 2 South
 imperial,9455,Dust2,31,2024-11-30,paiN,4773,5,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
 imperial,9455,Dust2,31,2024-11-15,RED Canids,7176,19,17,W,Perfect World Shanghai Major 2024 Americas RMR,7863
 imperial,9455,Dust2,31,2024-11-14,KRÜ,10900,13,7,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+imperial,9455,Nuke,34,2025-11-29,MIBR,9215,13,5,W,StarLadder Budapest Major 2025 Stage 2,8505
+imperial,9455,Nuke,34,2025-11-27,NRG,6673,13,8,W,StarLadder Budapest Major 2025 Stage 1,8504
+imperial,9455,Nuke,34,2025-11-26,The Huns,12510,13,8,W,StarLadder Budapest Major 2025 Stage 1,8504
+imperial,9455,Nuke,34,2025-11-08,Sharks,8113,16,19,L,Circuit X Retake São Paulo 2025,8824
+imperial,9455,Nuke,34,2025-11-08,Yawara,11933,13,8,W,Circuit X Retake São Paulo 2025,8824
 imperial,9455,Nuke,34,2025-10-15,Natus Vincere,4608,4,13,L,Thunderpick World Championship 2025,8067
 imperial,9455,Nuke,34,2025-10-03,Gaimin Gladiators,11571,13,3,W,Circuit X South America Season 1,8735
 imperial,9455,Nuke,34,2025-09-30,MIBR,9215,12,16,L,FERJEE Rush 2025,8683
@@ -153,6 +170,9 @@ imperial,9455,Nuke,34,2025-02-05,Fake do Biru,13081,7,13,L,ACE South American Ma
 imperial,9455,Nuke,34,2025-02-01,Bounty Hunters,12776,13,8,W,CCT Season 2 South America Series 6,8290
 imperial,9455,Nuke,34,2025-01-31,Bad News Chickens,12890,19,16,W,CCT Season 2 South America Series 6,8290
 imperial,9455,Nuke,34,2024-11-12,MIBR,9215,9,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+imperial,9455,Overpass,40,2025-11-09,Galorys,12677,8,13,L,Circuit X Retake São Paulo 2025,8824
+imperial,9455,Overpass,40,2025-11-08,Sharks,8113,13,5,W,Circuit X Retake São Paulo 2025,8824
+imperial,9455,Overpass,40,2025-11-06,Galorys,12677,13,1,W,Circuit X Retake São Paulo 2025,8824
 imperial,9455,Overpass,40,2025-11-01,BIG,7532,10,13,L,DreamHack Knockout Atlanta 2025,8725
 imperial,9455,Overpass,40,2025-10-16,Venom,13419,13,5,W,Thunderpick World Championship 2025,8067
 imperial,9455,Overpass,40,2025-10-04,Fluxo,11837,13,5,W,Circuit X South America Season 1,8735
@@ -183,6 +203,11 @@ imperial,9455,Anubis,48,2025-02-20,MIBR Academy,3044,16,13,W,CCT Season 2 South 
 imperial,9455,Anubis,48,2025-02-05,Fake do Biru,13081,13,8,W,ACE South American Masters Spring 2025 Closed Qualifier,8348
 imperial,9455,Anubis,48,2025-01-31,Legacy,12468,13,6,W,CCT Season 2 South America Series 6,8290
 imperial,9455,Anubis,48,2024-11-30,FURIA,8297,11,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
+imperial,9455,Train,35,2025-12-01,M80,12376,13,11,W,StarLadder Budapest Major 2025 Stage 2,8505
+imperial,9455,Train,35,2025-11-27,NRG,6673,13,5,W,StarLadder Budapest Major 2025 Stage 1,8504
+imperial,9455,Train,35,2025-11-25,fnatic,4991,3,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+imperial,9455,Train,35,2025-11-09,Galorys,12677,13,5,W,Circuit X Retake São Paulo 2025,8824
+imperial,9455,Train,35,2025-11-08,Yawara,11933,13,5,W,Circuit X Retake São Paulo 2025,8824
 imperial,9455,Train,35,2025-11-01,BIG,7532,16,13,W,DreamHack Knockout Atlanta 2025,8725
 imperial,9455,Train,35,2025-10-16,Venom,13419,6,13,L,Thunderpick World Championship 2025,8067
 imperial,9455,Train,35,2025-10-04,Fluxo,11837,11,13,L,Circuit X South America Season 1,8735

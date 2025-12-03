@@ -1,4 +1,6 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+saw,10567,Inferno,33,2025-11-09,Marsborne,13124,6,13,L,Fragadelphia Ultra Mega Jersey 2025,8804
+saw,10567,Inferno,33,2025-11-09,NRG,6673,13,8,W,Fragadelphia Ultra Mega Jersey 2025,8804
 saw,10567,Inferno,33,2025-11-01,GamerLegion,9928,13,11,W,PGL Masters Bucharest 2025,8046
 saw,10567,Inferno,33,2025-10-31,Legacy,12468,13,7,W,PGL Masters Bucharest 2025,8046
 saw,10567,Inferno,33,2025-10-31,Liquid,5973,13,1,W,PGL Masters Bucharest 2025,8046
@@ -27,6 +29,8 @@ saw,10567,Inferno,33,2025-02-16,FlyQuest,12774,16,14,W,PGL Cluj-Napoca 2025,8043
 saw,10567,Inferno,33,2025-02-15,Astralis,6665,6,13,L,PGL Cluj-Napoca 2025,8043
 saw,10567,Inferno,33,2025-01-30,Virtus.pro,5378,3,13,L,IEM Katowice 2025 Play-in,8229
 saw,10567,Inferno,33,2025-01-29,GamerLegion,9928,9,13,L,IEM Katowice 2025 Play-in,8229
+saw,10567,Dust2,31,2025-11-09,NRG,6673,11,13,L,Fragadelphia Ultra Mega Jersey 2025,8804
+saw,10567,Dust2,31,2025-11-08,FlyQuest RED,12301,13,0,W,Fragadelphia Ultra Mega Jersey 2025,8804
 saw,10567,Dust2,31,2025-10-04,9INE,10278,13,4,W,Fragadelphia Blocktober 2025,8645
 saw,10567,Dust2,31,2025-10-04,Marsborne,13124,13,8,W,Fragadelphia Blocktober 2025,8645
 saw,10567,Dust2,31,2025-09-23,ENCE,4869,9,13,L,Exort The Proving Grounds Season 4,8692
@@ -48,6 +52,11 @@ saw,10567,Dust2,31,2025-02-16,FlyQuest,12774,7,13,L,PGL Cluj-Napoca 2025,8043
 saw,10567,Dust2,31,2025-02-05,Eco Warriors,13121,13,3,W,RES Showdown 1 Closed Qualifier,8346
 saw,10567,Dust2,31,2025-01-30,Virtus.pro,5378,4,13,L,IEM Katowice 2025 Play-in,8229
 saw,10567,Dust2,31,2024-11-17,UNiTY,12267,13,8,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+saw,10567,Nuke,34,2025-11-09,Marsborne,13124,9,13,L,Fragadelphia Ultra Mega Jersey 2025,8804
+saw,10567,Nuke,34,2025-11-09,NRG,6673,10,13,L,Fragadelphia Ultra Mega Jersey 2025,8804
+saw,10567,Nuke,34,2025-11-09,Reactor 9,13427,13,2,W,Fragadelphia Ultra Mega Jersey 2025,8804
+saw,10567,Nuke,34,2025-11-08,FlyQuest RED,12301,13,5,W,Fragadelphia Ultra Mega Jersey 2025,8804
+saw,10567,Nuke,34,2025-11-08,Zealous,13537,13,1,W,Fragadelphia Ultra Mega Jersey 2025,8804
 saw,10567,Nuke,34,2025-11-01,GamerLegion,9928,13,8,W,PGL Masters Bucharest 2025,8046
 saw,10567,Nuke,34,2025-10-31,Legacy,12468,12,16,L,PGL Masters Bucharest 2025,8046
 saw,10567,Nuke,34,2025-10-29,Aurora,11861,10,13,L,PGL Masters Bucharest 2025,8046
@@ -85,11 +94,15 @@ saw,10567,Nuke,34,2025-02-05,Eco Warriors,13121,13,3,W,RES Showdown 1 Closed Qua
 saw,10567,Nuke,34,2025-01-29,GamerLegion,9928,11,13,L,IEM Katowice 2025 Play-in,8229
 saw,10567,Nuke,34,2025-01-15,BIG,7532,14,16,L,BLAST Bounty 2025 Season 1,7903
 saw,10567,Nuke,34,2024-11-19,Natus Vincere,4608,10,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+saw,10567,Overpass,40,2025-11-22,EYEBALLERS,11737,5,13,L,CCT Season 3 Europe Series 11,8831
+saw,10567,Overpass,40,2025-11-09,Reactor 9,13427,13,4,W,Fragadelphia Ultra Mega Jersey 2025,8804
 saw,10567,Overpass,40,2025-11-01,GamerLegion,9928,4,13,L,PGL Masters Bucharest 2025,8046
 saw,10567,Overpass,40,2025-09-23,ENCE,4869,11,13,L,Exort The Proving Grounds Season 4,8692
 saw,10567,Overpass,40,2025-08-12,Johnny Speeds,12604,11,13,L,ESL Challenger League Season 50 Europe Cup 1,8597
 saw,10567,Vertigo,46,2024-11-20,BetBoom,12394,9,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
 saw,10567,Vertigo,46,2024-11-17,SINNERS,10577,11,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+saw,10567,Ancient,47,2025-11-22,EYEBALLERS,11737,7,13,L,CCT Season 3 Europe Series 11,8831
+saw,10567,Ancient,47,2025-11-08,Zealous,13537,13,3,W,Fragadelphia Ultra Mega Jersey 2025,8804
 saw,10567,Ancient,47,2025-10-31,Legacy,12468,3,13,L,PGL Masters Bucharest 2025,8046
 saw,10567,Ancient,47,2025-10-31,Liquid,5973,4,13,L,PGL Masters Bucharest 2025,8046
 saw,10567,Ancient,47,2025-10-28,GamerLegion,9928,16,14,W,PGL Masters Bucharest 2025,8046

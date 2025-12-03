@@ -12,6 +12,13 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 9z,9996,Mirage,32,2025-02-05,RED Canids,7176,10,13,L,ACE South American Masters Spring 2025 Closed Qualifier,8348
 9z,9996,Mirage,32,2025-02-05,Tropa do VSM,13138,13,11,W,ACE South American Masters Spring 2025 Closed Qualifier,8348
 9z,9996,Mirage,32,2024-11-14,paiN,4773,11,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+9z,9996,Inferno,33,2025-11-20,Gaimin Gladiators,11571,7,13,L,ESL Challenger League Season 50 South America Finals,8730
+9z,9996,Inferno,33,2025-11-13,Sharks,8113,13,10,W,ESL Challenger League Season 50 South America Cup 4,8779
+9z,9996,Inferno,33,2025-11-10,KRÜ,10900,13,10,W,ESL Challenger League Season 50 South America Cup 4,8779
+9z,9996,Inferno,33,2025-11-08,Fluxo,11837,8,13,L,Circuit X Retake São Paulo 2025,8824
+9z,9996,Inferno,33,2025-11-08,Fuego,13511,13,5,W,Circuit X Retake São Paulo 2025,8824
+9z,9996,Inferno,33,2025-11-08,Sharks,8113,4,13,L,Circuit X Retake São Paulo 2025,8824
+9z,9996,Inferno,33,2025-11-07,Four Magic,13520,13,6,W,Circuit X Retake São Paulo 2025,8824
 9z,9996,Inferno,33,2025-10-26,Keyd Stars,6033,13,2,W,ESL Challenger League Season 50 South America Cup 4,8779
 9z,9996,Inferno,33,2025-10-12,BESTIA,12144,3,13,L,Argentina Game Show Cup 2025,8759
 9z,9996,Inferno,33,2025-10-11,R2,13327,13,3,W,Argentina Game Show Cup 2025,8759
@@ -33,6 +40,9 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 9z,9996,Inferno,33,2025-03-29,BURN,13228,13,3,W,PGL Astana 2025 South America Closed Qualifier,8421
 9z,9996,Inferno,33,2025-03-11,Solid,12233,13,8,W,PGL Bucharest 2025 South America Closed Qualifier,8363
 9z,9996,Inferno,33,2024-11-13,Wildcard,12257,6,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+9z,9996,Dust2,31,2025-11-20,Gaimin Gladiators,11571,16,13,W,ESL Challenger League Season 50 South America Finals,8730
+9z,9996,Dust2,31,2025-11-12,Prison Breakers,13512,13,11,W,CCT Season 3 South America Series 6,8812
+9z,9996,Dust2,31,2025-11-07,Four Magic,13520,13,6,W,Circuit X Retake São Paulo 2025,8824
 9z,9996,Dust2,31,2025-10-15,The MongolZ,6248,3,13,L,Thunderpick World Championship 2025,8067
 9z,9996,Dust2,31,2025-10-12,BESTIA,12144,7,13,L,Argentina Game Show Cup 2025,8759
 9z,9996,Dust2,31,2025-09-29,Gaimin Gladiators,11571,7,13,L,FERJEE Rush 2025,8683
@@ -70,6 +80,12 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 9z,9996,Dust2,31,2024-11-15,FURIA,8297,10,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
 9z,9996,Dust2,31,2024-11-14,paiN,4773,0,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
 9z,9996,Dust2,31,2024-11-12,RED Canids,7176,13,7,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+9z,9996,Nuke,34,2025-11-15,Sharks,8113,13,9,W,ESL Challenger League Season 50 South America Cup 4,8779
+9z,9996,Nuke,34,2025-11-15,ODDIK,11768,13,8,W,CCT Season 3 South America Series 6,8812
+9z,9996,Nuke,34,2025-11-14,Bounty Hunters,12776,13,11,W,ESL Challenger League Season 50 South America Cup 4,8779
+9z,9996,Nuke,34,2025-11-14,Keyd Stars,6033,13,5,W,CCT Season 3 South America Series 6,8812
+9z,9996,Nuke,34,2025-11-10,KRÜ,10900,13,7,W,ESL Challenger League Season 50 South America Cup 4,8779
+9z,9996,Nuke,34,2025-11-08,Sharks,8113,13,9,W,Circuit X Retake São Paulo 2025,8824
 9z,9996,Nuke,34,2025-10-26,Keyd Stars,6033,5,13,L,ESL Challenger League Season 50 South America Cup 4,8779
 9z,9996,Nuke,34,2025-10-24,Yawara,11933,13,5,W,ESL Challenger League Season 50 South America Cup 4,8779
 9z,9996,Nuke,34,2025-10-17,The MongolZ,6248,7,13,L,Thunderpick World Championship 2025,8067
@@ -113,9 +129,19 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 9z,9996,Nuke,34,2025-02-06,Elevate,5775,11,13,L,ACE South American Masters Spring 2025 Closed Qualifier,8348
 9z,9996,Nuke,34,2025-02-05,RED Canids,7176,8,13,L,ACE South American Masters Spring 2025 Closed Qualifier,8348
 9z,9996,Nuke,34,2024-11-13,Wildcard,12257,14,16,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+9z,9996,Overpass,40,2025-11-20,Gaimin Gladiators,11571,8,13,L,ESL Challenger League Season 50 South America Finals,8730
+9z,9996,Overpass,40,2025-11-15,Sharks,8113,13,9,W,ESL Challenger League Season 50 South America Cup 4,8779
+9z,9996,Overpass,40,2025-11-14,Keyd Stars,6033,13,6,W,CCT Season 3 South America Series 6,8812
+9z,9996,Overpass,40,2025-11-13,Sharks,8113,11,13,L,ESL Challenger League Season 50 South America Cup 4,8779
+9z,9996,Overpass,40,2025-11-08,Fluxo,11837,8,13,L,Circuit X Retake São Paulo 2025,8824
+9z,9996,Overpass,40,2025-11-08,Fuego,13511,13,11,W,Circuit X Retake São Paulo 2025,8824
 9z,9996,Overpass,40,2025-10-12,BESTIA,12144,17,19,L,Argentina Game Show Cup 2025,8759
 9z,9996,Overpass,40,2025-09-20,Sharks,8113,13,7,W,Odyssey Cup Champions 2025,8714
 9z,9996,Overpass,40,2025-09-19,Newstar,13452,13,11,W,Odyssey Cup Champions 2025,8714
+9z,9996,Ancient,47,2025-11-20,Gaimin Gladiators,11571,1,13,L,ESL Challenger League Season 50 South America Finals,8730
+9z,9996,Ancient,47,2025-11-15,ODDIK,11768,13,10,W,CCT Season 3 South America Series 6,8812
+9z,9996,Ancient,47,2025-11-13,Sharks,8113,7,13,L,ESL Challenger League Season 50 South America Cup 4,8779
+9z,9996,Ancient,47,2025-11-08,Sharks,8113,11,13,L,Circuit X Retake São Paulo 2025,8824
 9z,9996,Ancient,47,2025-10-26,Keyd Stars,6033,13,6,W,ESL Challenger League Season 50 South America Cup 4,8779
 9z,9996,Ancient,47,2025-10-24,Yawara,11933,13,9,W,ESL Challenger League Season 50 South America Cup 4,8779
 9z,9996,Ancient,47,2025-10-17,The MongolZ,6248,11,13,L,Thunderpick World Championship 2025,8067
@@ -158,6 +184,9 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 9z,9996,Anubis,48,2025-03-09,ShindeN,12959,11,13,L,CCT Season 2 South America Series 8,8399
 9z,9996,Anubis,48,2025-02-19,ODDIK,11768,13,16,L,CCT Season 2 South America Series 7,8354
 9z,9996,Anubis,48,2024-11-15,FURIA,8297,8,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+9z,9996,Train,35,2025-11-20,Gaimin Gladiators,11571,13,5,W,ESL Challenger League Season 50 South America Finals,8730
+9z,9996,Train,35,2025-11-14,Bounty Hunters,12776,13,6,W,ESL Challenger League Season 50 South America Cup 4,8779
+9z,9996,Train,35,2025-11-12,Prison Breakers,13512,13,7,W,CCT Season 3 South America Series 6,8812
 9z,9996,Train,35,2025-10-16,OG,10503,7,13,L,Thunderpick World Championship 2025,8067
 9z,9996,Train,35,2025-10-04,9INE,10278,11,13,L,Fragadelphia Blocktober 2025,8645
 9z,9996,Train,35,2025-09-29,Gaimin Gladiators,11571,16,12,W,FERJEE Rush 2025,8683

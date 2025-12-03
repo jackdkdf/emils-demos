@@ -1,4 +1,7 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+vitality,9565,Mirage,32,2025-11-14,Spirit,7020,16,13,W,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Mirage,32,2025-11-07,Astralis,6665,13,7,W,IEM Chengdu 2025,8041
+vitality,9565,Mirage,32,2025-11-05,G2,5995,13,11,W,IEM Chengdu 2025,8041
 vitality,9565,Mirage,32,2025-11-03,Virtus.pro,5378,13,4,W,IEM Chengdu 2025,8041
 vitality,9565,Mirage,32,2025-10-11,FaZe,6667,20,22,L,ESL Pro League Season 22,8040
 vitality,9565,Mirage,32,2025-10-07,G2,5995,16,13,W,ESL Pro League Season 22,8040
@@ -37,6 +40,13 @@ vitality,9565,Mirage,32,2024-12-06,MIBR,9215,13,3,W,Perfect World Shanghai Major
 vitality,9565,Mirage,32,2024-12-05,FURIA,8297,16,13,W,Perfect World Shanghai Major 2024,7524
 vitality,9565,Mirage,32,2024-12-05,GamerLegion,9928,13,7,W,Perfect World Shanghai Major 2024,7524
 vitality,9565,Mirage,32,2024-11-18,FaZe,6667,13,5,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+vitality,9565,Inferno,33,2025-11-15,Falcons,11283,13,16,L,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Inferno,33,2025-11-13,FURIA,8297,5,13,L,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Inferno,33,2025-11-12,TYLOO,4863,13,11,W,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Inferno,33,2025-11-09,FURIA,8297,10,13,L,IEM Chengdu 2025,8041
+vitality,9565,Inferno,33,2025-11-08,MOUZ,4494,13,10,W,IEM Chengdu 2025,8041
+vitality,9565,Inferno,33,2025-11-07,Astralis,6665,13,7,W,IEM Chengdu 2025,8041
+vitality,9565,Inferno,33,2025-11-04,MOUZ,4494,19,22,L,IEM Chengdu 2025,8041
 vitality,9565,Inferno,33,2025-10-12,Falcons,11283,13,10,W,ESL Pro League Season 22,8040
 vitality,9565,Inferno,33,2025-10-11,FaZe,6667,13,9,W,ESL Pro League Season 22,8040
 vitality,9565,Inferno,33,2025-10-10,FURIA,8297,13,7,W,ESL Pro League Season 22,8040
@@ -74,6 +84,8 @@ vitality,9565,Inferno,33,2025-02-04,Virtus.pro,5378,13,5,W,IEM Katowice 2025,803
 vitality,9565,Inferno,33,2025-02-01,3DMAX,4914,19,16,W,IEM Katowice 2025,8034
 vitality,9565,Inferno,33,2025-01-19,Virtus.pro,5378,13,6,W,BLAST Bounty 2025 Season 1,7903
 vitality,9565,Inferno,33,2024-11-17,GamerLegion,9928,13,8,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+vitality,9565,Dust2,31,2025-11-14,Spirit,7020,11,13,L,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Dust2,31,2025-11-05,Lynn Vision,8840,13,2,W,IEM Chengdu 2025,8041
 vitality,9565,Dust2,31,2025-11-03,Virtus.pro,5378,13,11,W,IEM Chengdu 2025,8041
 vitality,9565,Dust2,31,2025-10-12,Falcons,11283,13,5,W,ESL Pro League Season 22,8040
 vitality,9565,Dust2,31,2025-10-11,FaZe,6667,13,8,W,ESL Pro League Season 22,8040
@@ -105,6 +117,14 @@ vitality,9565,Dust2,31,2025-02-09,Spirit,7020,13,6,W,IEM Katowice 2025,8034
 vitality,9565,Dust2,31,2025-02-02,FaZe,6667,19,16,W,IEM Katowice 2025,8034
 vitality,9565,Dust2,31,2025-01-15,Metizport,11641,13,9,W,BLAST Bounty 2025 Season 1,7903
 vitality,9565,Dust2,31,2024-11-18,FaZe,6667,13,11,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+vitality,9565,Nuke,34,2025-11-15,Falcons,11283,7,13,L,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Nuke,34,2025-11-14,Spirit,7020,19,16,W,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Nuke,34,2025-11-13,FURIA,8297,11,13,L,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Nuke,34,2025-11-12,TYLOO,4863,4,13,L,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Nuke,34,2025-11-08,MOUZ,4494,16,13,W,IEM Chengdu 2025,8041
+vitality,9565,Nuke,34,2025-11-07,Astralis,6665,14,16,L,IEM Chengdu 2025,8041
+vitality,9565,Nuke,34,2025-11-05,Lynn Vision,8840,13,5,W,IEM Chengdu 2025,8041
+vitality,9565,Nuke,34,2025-11-04,MOUZ,4494,13,8,W,IEM Chengdu 2025,8041
 vitality,9565,Nuke,34,2025-10-10,FURIA,8297,13,7,W,ESL Pro League Season 22,8040
 vitality,9565,Nuke,34,2025-10-04,Gentle Mates,13404,6,13,L,ESL Pro League Season 22,8040
 vitality,9565,Nuke,34,2025-09-01,FaZe,6667,19,16,W,BLAST Open London 2025,7907
@@ -134,6 +154,9 @@ vitality,9565,Nuke,34,2025-02-02,FaZe,6667,13,3,W,IEM Katowice 2025,8034
 vitality,9565,Nuke,34,2025-02-01,3DMAX,4914,13,9,W,IEM Katowice 2025,8034
 vitality,9565,Nuke,34,2024-12-13,FaZe,6667,13,6,W,Perfect World Shanghai Major 2024,7524
 vitality,9565,Nuke,34,2024-11-17,BetBoom,12394,13,3,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+vitality,9565,Overpass,40,2025-11-13,FURIA,8297,16,13,W,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Overpass,40,2025-11-12,TYLOO,4863,13,2,W,BLAST Rivals 2025 Season 2,7908
+vitality,9565,Overpass,40,2025-11-09,FURIA,8297,11,13,L,IEM Chengdu 2025,8041
 vitality,9565,Overpass,40,2025-11-03,Virtus.pro,5378,9,13,L,IEM Chengdu 2025,8041
 vitality,9565,Overpass,40,2025-10-10,FURIA,8297,9,13,L,ESL Pro League Season 22,8040
 vitality,9565,Overpass,40,2025-10-06,HOTU,11581,13,8,W,ESL Pro League Season 22,8040
@@ -141,6 +164,7 @@ vitality,9565,Overpass,40,2025-10-05,GamerLegion,9928,13,3,W,ESL Pro League Seas
 vitality,9565,Overpass,40,2025-09-07,G2,5995,13,6,W,BLAST Open London 2025 Finals,7912
 vitality,9565,Overpass,40,2025-08-27,M80,12376,3,13,L,BLAST Open London 2025,7907
 vitality,9565,Overpass,40,2025-07-26,Astralis,6665,13,8,W,IEM Cologne 2025,8038
+vitality,9565,Ancient,47,2025-11-09,FURIA,8297,11,13,L,IEM Chengdu 2025,8041
 vitality,9565,Anubis,48,2025-04-21,FlyQuest,12774,13,2,W,IEM Melbourne 2025,8036
 vitality,9565,Anubis,48,2025-03-29,Spirit,7020,13,6,W,BLAST Open Lisbon 2025,7904
 vitality,9565,Anubis,48,2025-03-21,Virtus.pro,5378,13,6,W,BLAST Open Lisbon 2025,7904
@@ -152,6 +176,9 @@ vitality,9565,Anubis,48,2025-02-02,FaZe,6667,10,13,L,IEM Katowice 2025,8034
 vitality,9565,Anubis,48,2025-01-24,Eternal Fire,11251,9,13,L,BLAST Bounty 2025 Season 1 Finals,7909
 vitality,9565,Anubis,48,2024-12-13,FaZe,6667,7,13,L,Perfect World Shanghai Major 2024,7524
 vitality,9565,Anubis,48,2024-12-06,MIBR,9215,13,5,W,Perfect World Shanghai Major 2024,7524
+vitality,9565,Train,35,2025-11-08,MOUZ,4494,11,13,L,IEM Chengdu 2025,8041
+vitality,9565,Train,35,2025-11-05,G2,5995,13,4,W,IEM Chengdu 2025,8041
+vitality,9565,Train,35,2025-11-04,MOUZ,4494,3,13,L,IEM Chengdu 2025,8041
 vitality,9565,Train,35,2025-10-12,Falcons,11283,13,9,W,ESL Pro League Season 22,8040
 vitality,9565,Train,35,2025-10-04,Gentle Mates,13404,11,13,L,ESL Pro League Season 22,8040
 vitality,9565,Train,35,2025-09-07,G2,5995,6,13,L,BLAST Open London 2025 Finals,7912

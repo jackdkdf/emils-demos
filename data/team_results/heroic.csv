@@ -1,4 +1,6 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+heroic,7175,Mirage,32,2025-11-23,BetBoom,12394,10,13,L,CCT Season 3 Europe Series 11,8831
+heroic,7175,Mirage,32,2025-11-21,500,12000,19,17,W,CCT Season 3 Europe Series 11,8831
 heroic,7175,Mirage,32,2025-10-28,Aurora,11861,13,4,W,PGL Masters Bucharest 2025,8046
 heroic,7175,Mirage,32,2025-10-27,BetBoom,12394,13,11,W,PGL Masters Bucharest 2025,8046
 heroic,7175,Mirage,32,2025-10-19,Liquid,5973,4,13,L,CS Asia Championships 2025,8027
@@ -38,12 +40,16 @@ heroic,7175,Mirage,32,2024-12-07,Spirit,7020,13,10,W,Perfect World Shanghai Majo
 heroic,7175,Mirage,32,2024-12-06,The MongolZ,6248,13,8,W,Perfect World Shanghai Major 2024,7524
 heroic,7175,Mirage,32,2024-12-05,BIG,7532,13,7,W,Perfect World Shanghai Major 2024,7524
 heroic,7175,Mirage,32,2024-11-23,Passion UA,12426,13,7,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+heroic,7175,Inferno,33,2025-11-04,Natus Vincere,4608,13,8,W,IEM Chengdu 2025,8041
 heroic,7175,Inferno,33,2025-11-03,The MongolZ,6248,6,13,L,IEM Chengdu 2025,8041
 heroic,7175,Inferno,33,2025-10-28,Aurora,11861,13,11,W,PGL Masters Bucharest 2025,8046
 heroic,7175,Inferno,33,2025-10-18,Legacy,12468,8,13,L,CS Asia Championships 2025,8027
 heroic,7175,Inferno,33,2025-10-16,fnatic,4991,13,3,W,CS Asia Championships 2025,8027
 heroic,7175,Inferno,33,2025-10-01,Astralis,6665,13,4,W,ESL Pro League Season 22 Stage 1,8393
 heroic,7175,Inferno,33,2025-09-30,3DMAX,4914,9,13,L,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Dust2,31,2025-11-22,Nuclear TigeRES,13027,13,7,W,CCT Season 3 Europe Series 11,8831
+heroic,7175,Dust2,31,2025-11-21,500,12000,13,7,W,CCT Season 3 Europe Series 11,8831
+heroic,7175,Dust2,31,2025-11-05,Spirit,7020,13,16,L,IEM Chengdu 2025,8041
 heroic,7175,Dust2,31,2025-10-31,GamerLegion,9928,6,13,L,PGL Masters Bucharest 2025,8046
 heroic,7175,Dust2,31,2025-10-26,Ninjas in Pyjamas,4411,13,10,W,PGL Masters Bucharest 2025,8046
 heroic,7175,Dust2,31,2025-10-19,Liquid,5973,5,13,L,CS Asia Championships 2025,8027
@@ -84,6 +90,8 @@ heroic,7175,Dust2,31,2025-02-09,PARIVISION,12467,7,13,L,RES Showdown 1: BLAST Pr
 heroic,7175,Dust2,31,2025-01-29,Liquid,5973,13,8,W,IEM Katowice 2025 Play-in,8229
 heroic,7175,Dust2,31,2025-01-14,3DMAX,4914,10,13,L,BLAST Bounty 2025 Season 1,7903
 heroic,7175,Dust2,31,2024-12-07,Spirit,7020,7,13,L,Perfect World Shanghai Major 2024,7524
+heroic,7175,Nuke,34,2025-11-23,BetBoom,12394,7,13,L,CCT Season 3 Europe Series 11,8831
+heroic,7175,Nuke,34,2025-11-04,Natus Vincere,4608,8,13,L,IEM Chengdu 2025,8041
 heroic,7175,Nuke,34,2025-10-31,GamerLegion,9928,7,13,L,PGL Masters Bucharest 2025,8046
 heroic,7175,Nuke,34,2025-10-27,BetBoom,12394,13,8,W,PGL Masters Bucharest 2025,8046
 heroic,7175,Nuke,34,2025-10-26,Ninjas in Pyjamas,4411,13,7,W,PGL Masters Bucharest 2025,8046
@@ -114,6 +122,7 @@ heroic,7175,Nuke,34,2025-01-29,Liquid,5973,13,11,W,IEM Katowice 2025 Play-in,822
 heroic,7175,Nuke,34,2025-01-23,Spirit,7020,3,13,L,BLAST Bounty 2025 Season 1 Finals,7909
 heroic,7175,Nuke,34,2024-12-13,G2,5995,9,13,L,Perfect World Shanghai Major 2024,7524
 heroic,7175,Nuke,34,2024-12-08,Natus Vincere,4608,5,13,L,Perfect World Shanghai Major 2024,7524
+heroic,7175,Overpass,40,2025-11-05,Spirit,7020,13,11,W,IEM Chengdu 2025,8041
 heroic,7175,Overpass,40,2025-11-03,The MongolZ,6248,13,10,W,IEM Chengdu 2025,8041
 heroic,7175,Overpass,40,2025-10-15,FUT,13286,13,8,W,CS Asia Championships 2025,8027
 heroic,7175,Overpass,40,2025-09-29,M80,12376,13,9,W,ESL Pro League Season 22 Stage 1,8393
@@ -123,6 +132,9 @@ heroic,7175,Overpass,40,2025-08-08,Complexity,5005,13,11,W,BLAST Bounty 2025 Sea
 heroic,7175,Overpass,40,2025-07-25,Virtus.pro,5378,13,8,W,IEM Cologne 2025 Stage 1,8230
 heroic,7175,Overpass,40,2025-07-23,Ninjas in Pyjamas,4411,9,13,L,IEM Cologne 2025 Stage 1,8230
 heroic,7175,Vertigo,46,2024-11-23,Passion UA,12426,13,7,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+heroic,7175,Ancient,47,2025-11-22,Nuclear TigeRES,13027,13,4,W,CCT Season 3 Europe Series 11,8831
+heroic,7175,Ancient,47,2025-11-05,Spirit,7020,6,13,L,IEM Chengdu 2025,8041
+heroic,7175,Ancient,47,2025-11-04,Natus Vincere,4608,13,8,W,IEM Chengdu 2025,8041
 heroic,7175,Ancient,47,2025-11-03,The MongolZ,6248,5,13,L,IEM Chengdu 2025,8041
 heroic,7175,Ancient,47,2025-10-31,GamerLegion,9928,13,8,W,PGL Masters Bucharest 2025,8046
 heroic,7175,Ancient,47,2025-10-18,Legacy,12468,6,13,L,CS Asia Championships 2025,8027

@@ -1,0 +1,201 @@
+team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+heroic,7175,Mirage,32,2025-10-28,Aurora,11861,13,4,W,PGL Masters Bucharest 2025,8046
+heroic,7175,Mirage,32,2025-10-27,BetBoom,12394,13,11,W,PGL Masters Bucharest 2025,8046
+heroic,7175,Mirage,32,2025-10-19,Liquid,5973,4,13,L,CS Asia Championships 2025,8027
+heroic,7175,Mirage,32,2025-10-16,fnatic,4991,22,18,W,CS Asia Championships 2025,8027
+heroic,7175,Mirage,32,2025-10-01,Astralis,6665,10,13,L,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Mirage,32,2025-09-28,Gentle Mates,13404,13,7,W,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Mirage,32,2025-09-15,Liquid,5973,10,13,L,FISSURE Playground 2,8064
+heroic,7175,Mirage,32,2025-09-14,paiN,4773,10,13,L,FISSURE Playground 2,8064
+heroic,7175,Mirage,32,2025-09-13,Legacy,12468,13,16,L,FISSURE Playground 2,8064
+heroic,7175,Mirage,32,2025-08-22,Aurora,11861,7,13,L,Esports World Cup 2025,8039
+heroic,7175,Mirage,32,2025-08-20,Spirit,7020,16,14,W,Esports World Cup 2025,8039
+heroic,7175,Mirage,32,2025-07-25,Virtus.pro,5378,13,10,W,IEM Cologne 2025 Stage 1,8230
+heroic,7175,Mirage,32,2025-07-15,BIG,7532,13,7,W,FISSURE Playground 1,8063
+heroic,7175,Mirage,32,2025-06-10,Nemiga,7969,11,13,L,BLAST.tv Austin Major 2025 Stage 2,8437
+heroic,7175,Mirage,32,2025-06-09,TYLOO,4863,13,10,W,BLAST.tv Austin Major 2025 Stage 2,8437
+heroic,7175,Mirage,32,2025-06-07,BetBoom,12394,13,9,W,BLAST.tv Austin Major 2025 Stage 2,8437
+heroic,7175,Mirage,32,2025-06-04,FlyQuest,12774,13,6,W,BLAST.tv Austin Major 2025 Stage 1,8436
+heroic,7175,Mirage,32,2025-05-21,Aurora,11861,9,13,L,IEM Dallas 2025,8037
+heroic,7175,Mirage,32,2025-05-21,FaZe,6667,16,14,W,IEM Dallas 2025,8037
+heroic,7175,Mirage,32,2025-05-20,Aurora,11861,13,6,W,IEM Dallas 2025,8037
+heroic,7175,Mirage,32,2025-05-04,BIG,7532,3,13,L,MESA Nomadic Masters Spring 2025,8358
+heroic,7175,Mirage,32,2025-05-03,Chinggis Warriors,12646,13,3,W,MESA Nomadic Masters Spring 2025,8358
+heroic,7175,Mirage,32,2025-04-27,B8,11241,13,4,W,CCT Global Finals 2025,8400
+heroic,7175,Mirage,32,2025-04-25,B8,11241,3,13,L,CCT Global Finals 2025,8400
+heroic,7175,Mirage,32,2025-04-15,Nemiga,7969,16,13,W,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+heroic,7175,Mirage,32,2025-03-08,GUN5,12471,11,13,L,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Mirage,32,2025-03-04,Nemiga,7969,13,6,W,ESL Pro League Season 21 Stage 1,8035
+heroic,7175,Mirage,32,2025-03-02,Housebets,12921,13,3,W,ESL Pro League Season 21 Stage 1,8035
+heroic,7175,Mirage,32,2025-02-20,Astralis,6665,13,3,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Mirage,32,2025-02-11,BIG,7532,13,8,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Mirage,32,2025-02-10,Zero Tenacity,11523,13,7,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Mirage,32,2025-02-08,Passion UA,12426,22,19,W,RES Showdown 1: BLAST Premier Rising Event,8347
+heroic,7175,Mirage,32,2025-01-18,Liquid,5973,11,13,L,BLAST Bounty 2025 Season 1,7903
+heroic,7175,Mirage,32,2024-12-13,G2,5995,13,16,L,Perfect World Shanghai Major 2024,7524
+heroic,7175,Mirage,32,2024-12-08,Natus Vincere,4608,13,3,W,Perfect World Shanghai Major 2024,7524
+heroic,7175,Mirage,32,2024-12-07,Spirit,7020,13,10,W,Perfect World Shanghai Major 2024,7524
+heroic,7175,Mirage,32,2024-12-06,The MongolZ,6248,13,8,W,Perfect World Shanghai Major 2024,7524
+heroic,7175,Mirage,32,2024-12-05,BIG,7532,13,7,W,Perfect World Shanghai Major 2024,7524
+heroic,7175,Mirage,32,2024-11-23,Passion UA,12426,13,7,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+heroic,7175,Inferno,33,2025-11-03,The MongolZ,6248,6,13,L,IEM Chengdu 2025,8041
+heroic,7175,Inferno,33,2025-10-28,Aurora,11861,13,11,W,PGL Masters Bucharest 2025,8046
+heroic,7175,Inferno,33,2025-10-18,Legacy,12468,8,13,L,CS Asia Championships 2025,8027
+heroic,7175,Inferno,33,2025-10-16,fnatic,4991,13,3,W,CS Asia Championships 2025,8027
+heroic,7175,Inferno,33,2025-10-01,Astralis,6665,13,4,W,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Inferno,33,2025-09-30,3DMAX,4914,9,13,L,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Dust2,31,2025-10-31,GamerLegion,9928,6,13,L,PGL Masters Bucharest 2025,8046
+heroic,7175,Dust2,31,2025-10-26,Ninjas in Pyjamas,4411,13,10,W,PGL Masters Bucharest 2025,8046
+heroic,7175,Dust2,31,2025-10-19,Liquid,5973,5,13,L,CS Asia Championships 2025,8027
+heroic,7175,Dust2,31,2025-10-18,Legacy,12468,13,2,W,CS Asia Championships 2025,8027
+heroic,7175,Dust2,31,2025-10-16,fnatic,4991,2,13,L,CS Asia Championships 2025,8027
+heroic,7175,Dust2,31,2025-10-14,B8,11241,16,12,W,CS Asia Championships 2025,8027
+heroic,7175,Dust2,31,2025-09-30,3DMAX,4914,8,13,L,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Dust2,31,2025-09-29,M80,12376,13,4,W,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Dust2,31,2025-09-15,Liquid,5973,13,8,W,FISSURE Playground 2,8064
+heroic,7175,Dust2,31,2025-09-14,paiN,4773,13,11,W,FISSURE Playground 2,8064
+heroic,7175,Dust2,31,2025-09-13,Legacy,12468,5,13,L,FISSURE Playground 2,8064
+heroic,7175,Dust2,31,2025-08-22,Aurora,11861,11,13,L,Esports World Cup 2025,8039
+heroic,7175,Dust2,31,2025-08-11,Passion UA,12426,3,13,L,CS Asia Championships 2025 Europe Open Qualifier,8627
+heroic,7175,Dust2,31,2025-08-10,Aurora,11861,9,13,L,BLAST Bounty 2025 Season 2,7906
+heroic,7175,Dust2,31,2025-07-15,BIG,7532,6,13,L,FISSURE Playground 1,8063
+heroic,7175,Dust2,31,2025-06-10,Nemiga,7969,9,13,L,BLAST.tv Austin Major 2025 Stage 2,8437
+heroic,7175,Dust2,31,2025-06-08,B8,11241,10,13,L,BLAST.tv Austin Major 2025 Stage 2,8437
+heroic,7175,Dust2,31,2025-06-07,FaZe,6667,3,13,L,BLAST.tv Austin Major 2025 Stage 2,8437
+heroic,7175,Dust2,31,2025-06-03,NRG,6673,13,5,W,BLAST.tv Austin Major 2025 Stage 1,8436
+heroic,7175,Dust2,31,2025-05-21,Aurora,11861,8,13,L,IEM Dallas 2025,8037
+heroic,7175,Dust2,31,2025-05-20,Falcons,11283,3,13,L,IEM Dallas 2025,8037
+heroic,7175,Dust2,31,2025-05-20,Aurora,11861,9,13,L,IEM Dallas 2025,8037
+heroic,7175,Dust2,31,2025-05-04,BIG,7532,13,9,W,MESA Nomadic Masters Spring 2025,8358
+heroic,7175,Dust2,31,2025-04-30,Chinggis Warriors,12646,13,5,W,MESA Nomadic Masters Spring 2025,8358
+heroic,7175,Dust2,31,2025-04-27,B8,11241,13,7,W,CCT Global Finals 2025,8400
+heroic,7175,Dust2,31,2025-04-26,Partizan,11838,13,7,W,CCT Global Finals 2025,8400
+heroic,7175,Dust2,31,2025-04-26,Wildcard,12257,13,7,W,CCT Global Finals 2025,8400
+heroic,7175,Dust2,31,2025-04-15,Nemiga,7969,13,8,W,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+heroic,7175,Dust2,31,2025-03-11,OG,10503,13,7,W,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Dust2,31,2025-03-10,9INE,10278,13,4,W,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Dust2,31,2025-03-09,9 Pandas,11883,13,8,W,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Dust2,31,2025-03-04,Nemiga,7969,14,16,L,ESL Pro League Season 21 Stage 1,8035
+heroic,7175,Dust2,31,2025-03-02,Housebets,12921,13,3,W,ESL Pro League Season 21 Stage 1,8035
+heroic,7175,Dust2,31,2025-03-01,SAW,10567,13,9,W,ESL Pro League Season 21 Stage 1,8035
+heroic,7175,Dust2,31,2025-02-11,Metizport,11641,13,4,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Dust2,31,2025-02-10,3DMAX,4914,5,13,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Dust2,31,2025-02-09,PARIVISION,12467,7,13,L,RES Showdown 1: BLAST Premier Rising Event,8347
+heroic,7175,Dust2,31,2025-01-29,Liquid,5973,13,8,W,IEM Katowice 2025 Play-in,8229
+heroic,7175,Dust2,31,2025-01-14,3DMAX,4914,10,13,L,BLAST Bounty 2025 Season 1,7903
+heroic,7175,Dust2,31,2024-12-07,Spirit,7020,7,13,L,Perfect World Shanghai Major 2024,7524
+heroic,7175,Nuke,34,2025-10-31,GamerLegion,9928,7,13,L,PGL Masters Bucharest 2025,8046
+heroic,7175,Nuke,34,2025-10-27,BetBoom,12394,13,8,W,PGL Masters Bucharest 2025,8046
+heroic,7175,Nuke,34,2025-10-26,Ninjas in Pyjamas,4411,13,7,W,PGL Masters Bucharest 2025,8046
+heroic,7175,Nuke,34,2025-10-01,Astralis,6665,2,13,L,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Nuke,34,2025-09-28,Gentle Mates,13404,6,13,L,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Nuke,34,2025-09-14,paiN,4773,20,22,L,FISSURE Playground 2,8064
+heroic,7175,Nuke,34,2025-09-13,Legacy,12468,13,9,W,FISSURE Playground 2,8064
+heroic,7175,Nuke,34,2025-08-20,Spirit,7020,13,3,W,Esports World Cup 2025,8039
+heroic,7175,Nuke,34,2025-07-28,Ninjas in Pyjamas,4411,6,13,L,IEM Cologne 2025,8038
+heroic,7175,Nuke,34,2025-07-27,Spirit,7020,8,13,L,IEM Cologne 2025,8038
+heroic,7175,Nuke,34,2025-07-23,Ninjas in Pyjamas,4411,13,10,W,IEM Cologne 2025 Stage 1,8230
+heroic,7175,Nuke,34,2025-07-16,BetBoom,12394,13,11,W,FISSURE Playground 1,8063
+heroic,7175,Nuke,34,2025-07-15,BIG,7532,5,13,L,FISSURE Playground 1,8063
+heroic,7175,Nuke,34,2025-05-20,Falcons,11283,16,13,W,IEM Dallas 2025,8037
+heroic,7175,Nuke,34,2025-04-30,Chinggis Warriors,12646,13,8,W,MESA Nomadic Masters Spring 2025,8358
+heroic,7175,Nuke,34,2025-04-26,Wildcard,12257,14,16,L,CCT Global Finals 2025,8400
+heroic,7175,Nuke,34,2025-03-11,OG,10503,7,13,L,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Nuke,34,2025-03-10,9INE,10278,13,8,W,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Nuke,34,2025-03-09,9 Pandas,11883,13,11,W,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Nuke,34,2025-03-08,GUN5,12471,13,2,W,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Nuke,34,2025-03-03,3DMAX,4914,5,13,L,ESL Pro League Season 21 Stage 1,8035
+heroic,7175,Nuke,34,2025-02-20,Astralis,6665,13,2,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Nuke,34,2025-02-11,BIG,7532,13,7,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Nuke,34,2025-02-10,Zero Tenacity,11523,11,13,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Nuke,34,2025-01-31,BIG,7532,2,13,L,IEM Katowice 2025 Play-in,8229
+heroic,7175,Nuke,34,2025-01-30,Eternal Fire,11251,11,13,L,IEM Katowice 2025 Play-in,8229
+heroic,7175,Nuke,34,2025-01-29,Liquid,5973,13,11,W,IEM Katowice 2025 Play-in,8229
+heroic,7175,Nuke,34,2025-01-23,Spirit,7020,3,13,L,BLAST Bounty 2025 Season 1 Finals,7909
+heroic,7175,Nuke,34,2024-12-13,G2,5995,9,13,L,Perfect World Shanghai Major 2024,7524
+heroic,7175,Nuke,34,2024-12-08,Natus Vincere,4608,5,13,L,Perfect World Shanghai Major 2024,7524
+heroic,7175,Overpass,40,2025-11-03,The MongolZ,6248,13,10,W,IEM Chengdu 2025,8041
+heroic,7175,Overpass,40,2025-10-15,FUT,13286,13,8,W,CS Asia Championships 2025,8027
+heroic,7175,Overpass,40,2025-09-29,M80,12376,13,9,W,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Overpass,40,2025-08-11,Passion UA,12426,13,5,W,CS Asia Championships 2025 Europe Open Qualifier,8627
+heroic,7175,Overpass,40,2025-08-10,Aurora,11861,2,13,L,BLAST Bounty 2025 Season 2,7906
+heroic,7175,Overpass,40,2025-08-08,Complexity,5005,13,11,W,BLAST Bounty 2025 Season 2,7906
+heroic,7175,Overpass,40,2025-07-25,Virtus.pro,5378,13,8,W,IEM Cologne 2025 Stage 1,8230
+heroic,7175,Overpass,40,2025-07-23,Ninjas in Pyjamas,4411,9,13,L,IEM Cologne 2025 Stage 1,8230
+heroic,7175,Vertigo,46,2024-11-23,Passion UA,12426,13,7,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+heroic,7175,Ancient,47,2025-11-03,The MongolZ,6248,5,13,L,IEM Chengdu 2025,8041
+heroic,7175,Ancient,47,2025-10-31,GamerLegion,9928,13,8,W,PGL Masters Bucharest 2025,8046
+heroic,7175,Ancient,47,2025-10-18,Legacy,12468,6,13,L,CS Asia Championships 2025,8027
+heroic,7175,Ancient,47,2025-10-15,FUT,13286,13,6,W,CS Asia Championships 2025,8027
+heroic,7175,Ancient,47,2025-09-28,Gentle Mates,13404,12,16,L,ESL Pro League Season 22 Stage 1,8393
+heroic,7175,Ancient,47,2025-09-15,Liquid,5973,8,13,L,FISSURE Playground 2,8064
+heroic,7175,Ancient,47,2025-08-20,Spirit,7020,5,13,L,Esports World Cup 2025,8039
+heroic,7175,Ancient,47,2025-08-11,Passion UA,12426,13,11,W,CS Asia Championships 2025 Europe Open Qualifier,8627
+heroic,7175,Ancient,47,2025-08-08,Complexity,5005,13,6,W,BLAST Bounty 2025 Season 2,7906
+heroic,7175,Ancient,47,2025-07-27,Spirit,7020,14,16,L,IEM Cologne 2025,8038
+heroic,7175,Ancient,47,2025-07-24,MIBR,9215,13,4,W,IEM Cologne 2025 Stage 1,8230
+heroic,7175,Ancient,47,2025-07-23,Ninjas in Pyjamas,4411,9,13,L,IEM Cologne 2025 Stage 1,8230
+heroic,7175,Ancient,47,2025-07-16,BetBoom,12394,10,13,L,FISSURE Playground 1,8063
+heroic,7175,Ancient,47,2025-06-09,TYLOO,4863,12,16,L,BLAST.tv Austin Major 2025 Stage 2,8437
+heroic,7175,Ancient,47,2025-06-04,FlyQuest,12774,13,7,W,BLAST.tv Austin Major 2025 Stage 1,8436
+heroic,7175,Ancient,47,2025-05-21,FaZe,6667,9,13,L,IEM Dallas 2025,8037
+heroic,7175,Ancient,47,2025-05-20,Falcons,11283,9,13,L,IEM Dallas 2025,8037
+heroic,7175,Ancient,47,2025-05-04,BIG,7532,13,8,W,MESA Nomadic Masters Spring 2025,8358
+heroic,7175,Ancient,47,2025-05-03,Chinggis Warriors,12646,13,10,W,MESA Nomadic Masters Spring 2025,8358
+heroic,7175,Ancient,47,2025-05-01,JiJieHao,10245,13,11,W,MESA Nomadic Masters Spring 2025,8358
+heroic,7175,Ancient,47,2025-04-27,BetBoom,12394,8,13,L,CCT Global Finals 2025,8400
+heroic,7175,Ancient,47,2025-04-26,Partizan,11838,13,9,W,CCT Global Finals 2025,8400
+heroic,7175,Ancient,47,2025-04-25,B8,11241,13,8,W,CCT Global Finals 2025,8400
+heroic,7175,Ancient,47,2025-04-14,ENCE,4869,13,6,W,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+heroic,7175,Ancient,47,2025-04-14,PARIVISION,12467,13,9,W,BLAST.tv Austin Major 2025 Europe Regional Qualifier,8315
+heroic,7175,Ancient,47,2025-03-11,OG,10503,5,13,L,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Ancient,47,2025-03-09,9 Pandas,11883,14,16,L,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Ancient,47,2025-03-08,GUN5,12471,13,5,W,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Ancient,47,2025-03-01,SAW,10567,10,13,L,ESL Pro League Season 21 Stage 1,8035
+heroic,7175,Ancient,47,2025-02-11,BIG,7532,9,13,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Ancient,47,2025-02-10,3DMAX,4914,7,13,L,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Ancient,47,2025-02-08,Passion UA,12426,13,2,W,RES Showdown 1: BLAST Premier Rising Event,8347
+heroic,7175,Ancient,47,2025-01-31,BIG,7532,4,13,L,IEM Katowice 2025 Play-in,8229
+heroic,7175,Ancient,47,2025-01-18,Liquid,5973,13,10,W,BLAST Bounty 2025 Season 1,7903
+heroic,7175,Ancient,47,2025-01-14,3DMAX,4914,16,14,W,BLAST Bounty 2025 Season 1,7903
+heroic,7175,Ancient,47,2024-12-13,G2,5995,13,6,W,Perfect World Shanghai Major 2024,7524
+heroic,7175,Ancient,47,2024-12-08,Natus Vincere,4608,13,9,W,Perfect World Shanghai Major 2024,7524
+heroic,7175,Ancient,47,2024-12-07,Spirit,7020,14,16,L,Perfect World Shanghai Major 2024,7524
+heroic,7175,Ancient,47,2024-12-06,The MongolZ,6248,6,13,L,Perfect World Shanghai Major 2024,7524
+heroic,7175,Ancient,47,2024-12-05,FaZe,6667,13,8,W,Perfect World Shanghai Major 2024,7524
+heroic,7175,Ancient,47,2024-11-23,Passion UA,12426,9,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+heroic,7175,Ancient,47,2024-11-21,BIG,7532,8,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+heroic,7175,Ancient,47,2024-11-21,PARIVISION,12467,13,8,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+heroic,7175,Anubis,48,2025-07-16,BetBoom,12394,10,13,L,FISSURE Playground 1,8063
+heroic,7175,Anubis,48,2025-06-04,FlyQuest,12774,11,13,L,BLAST.tv Austin Major 2025 Stage 1,8436
+heroic,7175,Anubis,48,2025-06-03,Chinggis Warriors,12646,13,7,W,BLAST.tv Austin Major 2025 Stage 1,8436
+heroic,7175,Anubis,48,2025-05-21,FaZe,6667,13,7,W,IEM Dallas 2025,8037
+heroic,7175,Anubis,48,2025-05-20,Aurora,11861,13,10,W,IEM Dallas 2025,8037
+heroic,7175,Anubis,48,2025-05-01,JiJieHao,10245,13,7,W,MESA Nomadic Masters Spring 2025,8358
+heroic,7175,Anubis,48,2025-04-27,BetBoom,12394,13,8,W,CCT Global Finals 2025,8400
+heroic,7175,Anubis,48,2025-04-26,Wildcard,12257,13,10,W,CCT Global Finals 2025,8400
+heroic,7175,Anubis,48,2025-04-25,B8,11241,11,13,L,CCT Global Finals 2025,8400
+heroic,7175,Anubis,48,2025-04-24,BC.Game,12878,13,6,W,CCT Global Finals 2025,8400
+heroic,7175,Anubis,48,2025-02-11,Metizport,11641,13,11,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Anubis,48,2025-02-10,3DMAX,4914,16,14,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Anubis,48,2025-02-10,Zero Tenacity,11523,13,9,W,IEM Dallas 2025 Europe Closed Qualifier,8273
+heroic,7175,Anubis,48,2025-02-09,PARIVISION,12467,9,13,L,RES Showdown 1: BLAST Premier Rising Event,8347
+heroic,7175,Anubis,48,2025-01-30,Eternal Fire,11251,14,16,L,IEM Katowice 2025 Play-in,8229
+heroic,7175,Anubis,48,2025-01-29,Liquid,5973,9,13,L,IEM Katowice 2025 Play-in,8229
+heroic,7175,Anubis,48,2025-01-23,Spirit,7020,11,13,L,BLAST Bounty 2025 Season 1 Finals,7909
+heroic,7175,Anubis,48,2025-01-18,Liquid,5973,13,8,W,BLAST Bounty 2025 Season 1,7903
+heroic,7175,Anubis,48,2025-01-14,3DMAX,4914,13,7,W,BLAST Bounty 2025 Season 1,7903
+heroic,7175,Anubis,48,2024-12-06,The MongolZ,6248,17,19,L,Perfect World Shanghai Major 2024,7524
+heroic,7175,Anubis,48,2024-11-22,Ninjas in Pyjamas,4411,13,5,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+heroic,7175,Train,35,2025-08-08,Complexity,5005,11,13,L,BLAST Bounty 2025 Season 2,7906
+heroic,7175,Train,35,2025-07-28,Ninjas in Pyjamas,4411,4,13,L,IEM Cologne 2025,8038
+heroic,7175,Train,35,2025-07-24,MIBR,9215,13,6,W,IEM Cologne 2025 Stage 1,8230
+heroic,7175,Train,35,2025-06-09,TYLOO,4863,13,10,W,BLAST.tv Austin Major 2025 Stage 2,8437
+heroic,7175,Train,35,2025-05-21,Aurora,11861,13,3,W,IEM Dallas 2025,8037
+heroic,7175,Train,35,2025-05-04,BIG,7532,13,6,W,MESA Nomadic Masters Spring 2025,8358
+heroic,7175,Train,35,2025-04-27,BetBoom,12394,25,23,W,CCT Global Finals 2025,8400
+heroic,7175,Train,35,2025-04-24,BC.Game,12878,13,5,W,CCT Global Finals 2025,8400
+heroic,7175,Train,35,2025-03-10,9INE,10278,8,13,L,PGL Bucharest 2025 Europe Closed Qualifier,8362
+heroic,7175,Train,35,2025-03-04,Nemiga,7969,11,13,L,ESL Pro League Season 21 Stage 1,8035
+heroic,7175,Train,35,2025-03-03,3DMAX,4914,20,22,L,ESL Pro League Season 21 Stage 1,8035
+heroic,7175,Train,35,2025-03-01,SAW,10567,6,13,L,ESL Pro League Season 21 Stage 1,8035
