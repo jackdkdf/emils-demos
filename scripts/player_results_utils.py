@@ -2,10 +2,10 @@
 
 import datetime
 from bs4 import BeautifulSoup
+import re
+import time
 
-# Import or Redefine the map dictionary.
-# If you want to keep it centralized, you can import from map_stats_utils,
-# but for standalone safety, I have included it here.
+# Helper dictionary for map names
 MAP_ID_TO_NAME = {
     "32": "Mirage",
     "33": "Inferno",
@@ -20,9 +20,7 @@ MAP_ID_TO_NAME = {
 
 
 def get_weekly_intervals(start_str, end_str):
-    """
-    Generates a list of (start_date, end_date) strings, each 7 days apart.
-    """
+    """Generates a list of (start_date, end_date) strings, each 7 days apart."""
     try:
         start_date = datetime.datetime.strptime(start_str, "%Y-%m-%d")
         end_date = datetime.datetime.strptime(end_str, "%Y-%m-%d")
@@ -34,7 +32,6 @@ def get_weekly_intervals(start_str, end_str):
     current = start_date
     while current < end_date:
         next_week = current + datetime.timedelta(days=7)
-        # If the next week goes past the end date, stop (or clamp to end_date)
         if next_week > end_date:
             break
 
@@ -47,34 +44,30 @@ def get_weekly_intervals(start_str, end_str):
 
 
 def format_map_for_url(map_name):
-    """
-    Converts 'Ancient' -> 'de_ancient' for HLTV URL parameters.
-    """
+    """Converts 'Ancient' -> 'de_ancient' for HLTV URL parameters."""
     clean = map_name.lower().strip()
     if not clean.startswith("de_"):
         return f"de_{clean}"
     return clean
 
 
-def scrape_column_average(scraper, url, possible_headers):
+def scrape_player_stats_dict(scraper, url, possible_keywords):
     """
-    Fetches a URL, finds the stats table, looks for a specific column header,
-    and calculates the average value of that column for all rows (players).
-
-    :param scraper: The cloudscraper instance
-    :param url: The full URL to scrape
-    :param possible_headers: List of strings to match header (e.g. ['Rating 2.0', 'Rating 1.0'])
-    :return: Float (average) or None if failed/no data.
+    Fetches a URL and returns a DICTIONARY of player stats.
+    Format: { "PlayerName": float_value }
     """
     try:
         resp = scraper.get(url)
         if resp.status_code != 200:
-            # 404s are common if a team didn't play that map that week
             return None
 
         soup = BeautifulSoup(resp.content, "html.parser")
 
-        # Player stats are usually in '.stats-table'
+        if "Just a moment..." in soup.get_text():
+            print(f"      [!] Cloudflare Blocked: {url}")
+            return None
+
+        # Matches class="stats-table" even if other classes like "player-ratings-table" exist
         table = soup.find("table", class_="stats-table")
         if not table:
             return None
@@ -84,45 +77,51 @@ def scrape_column_average(scraper, url, possible_headers):
         if not thead:
             return None
 
-        headers = thead.find_all("th")
+        headers = [th.get_text(strip=True) for th in thead.find_all("th")]
         target_idx = -1
 
-        for i, th in enumerate(headers):
-            text = th.get_text(strip=True)
-            if text in possible_headers:
+        for i, text in enumerate(headers):
+            # Checks if any keyword (e.g., "Succ") is inside the header text (e.g., "Success")
+            if any(keyword in text for keyword in possible_keywords):
                 target_idx = i
                 break
 
         if target_idx == -1:
-            return None  # Column not found
+            return None
 
-        # 2. Sum values
+        # 2. Extract Data for each player
+        player_data = {}
         rows = table.find("tbody").find_all("tr")
-        total = 0.0
-        count = 0
 
         for row in rows:
             cols = row.find_all("td")
             if len(cols) <= target_idx:
                 continue
 
-            val_str = cols[target_idx].get_text(strip=True)
+            # Find player name (usually in the first column class="playerCol" or "playerColSmall")
+            # We look for the cell containing the player link/flag
+            player_col = row.find("td", class_=re.compile("playerCol"))
+            if not player_col:
+                continue
 
-            # Cleaning data: remove '%' (for Flash Success) and handle '-'
+            player_name = player_col.get_text(strip=True)
+
+            val_str = cols[target_idx].get_text(strip=True)
             val_str = val_str.replace("%", "")
-            if val_str == "-" or val_str == "":
+
+            if val_str in ["-", ""]:
+                player_data[player_name] = 0.0
                 continue
 
             try:
-                total += float(val_str)
-                count += 1
+                player_data[player_name] = float(val_str)
             except ValueError:
-                continue
+                player_data[player_name] = 0.0
 
-        if count == 0:
-            return 0.0
+        if not player_data:
+            return None
 
-        return round(total / count, 2)
+        return player_data
 
     except Exception as e:
         print(f"Error scraping {url}: {e}")
