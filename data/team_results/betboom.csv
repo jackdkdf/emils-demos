@@ -1,4 +1,10 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+betboom,12394,Mirage,32,2025-11-23,EYEBALLERS,11737,16,13,W,CCT Season 3 Europe Series 11,8831
+betboom,12394,Mirage,32,2025-11-23,HEROIC,7175,13,10,W,CCT Season 3 Europe Series 11,8831
+betboom,12394,Mirage,32,2025-11-22,Oramond,13470,13,6,W,CCT Season 3 Europe Series 11,8831
+betboom,12394,Mirage,32,2025-11-08,EYEBALLERS,11737,16,13,W,Red Bull GIBAWAY JOURNEY 2025,8768
+betboom,12394,Mirage,32,2025-11-07,Betclic,12916,13,5,W,Red Bull GIBAWAY JOURNEY 2025,8768
+betboom,12394,Mirage,32,2025-11-07,777,10943,13,7,W,Red Bull GIBAWAY JOURNEY 2025,8768
 betboom,12394,Mirage,32,2025-10-29,Gentle Mates,13404,13,11,W,PGL Masters Bucharest 2025,8046
 betboom,12394,Mirage,32,2025-10-28,Liquid,5973,5,13,L,PGL Masters Bucharest 2025,8046
 betboom,12394,Mirage,32,2025-10-27,HEROIC,7175,11,13,L,PGL Masters Bucharest 2025,8046
@@ -55,6 +61,8 @@ betboom,12394,Mirage,32,2024-11-19,Nemiga,7969,13,8,W,Perfect World Shanghai Maj
 betboom,12394,Mirage,32,2024-11-12,500,12000,13,9,W,YaLLa Compass Fall 2024,8108
 betboom,12394,Mirage,32,2024-11-11,ECLOT,7441,13,9,W,YaLLa Compass Fall 2024,8108
 betboom,12394,Inferno,33,2025-04-17,Spirit Academy,7900,13,10,W,YaLLa Compass Spring 2025,8062
+betboom,12394,Dust2,31,2025-11-23,EYEBALLERS,11737,13,16,L,CCT Season 3 Europe Series 11,8831
+betboom,12394,Dust2,31,2025-11-20,JiJieHao,10245,15,19,L,CCT Season 3 Europe Series 11,8831
 betboom,12394,Dust2,31,2025-10-12,RUBY,12694,11,13,L,CCT Season 3 Europe Series 8,8718
 betboom,12394,Dust2,31,2025-10-12,1win,10621,16,14,W,CCT Season 3 Europe Series 8,8718
 betboom,12394,Dust2,31,2025-09-28,PARIVISION,12467,13,7,W,Majestic LanDaLan 3,8638
@@ -84,6 +92,10 @@ betboom,12394,Dust2,31,2025-01-23,G2,5995,3,13,L,BLAST Bounty 2025 Season 1 Fina
 betboom,12394,Dust2,31,2025-01-19,FURIA,8297,11,13,L,BLAST Bounty 2025 Season 1,7903
 betboom,12394,Dust2,31,2025-01-17,MOUZ,4494,17,19,L,BLAST Bounty 2025 Season 1,7903
 betboom,12394,Dust2,31,2024-11-11,ECLOT,7441,7,13,L,YaLLa Compass Fall 2024,8108
+betboom,12394,Nuke,34,2025-11-23,HEROIC,7175,13,7,W,CCT Season 3 Europe Series 11,8831
+betboom,12394,Nuke,34,2025-11-20,JiJieHao,10245,13,6,W,CCT Season 3 Europe Series 11,8831
+betboom,12394,Nuke,34,2025-11-08,Metizport,11641,13,2,W,Red Bull GIBAWAY JOURNEY 2025,8768
+betboom,12394,Nuke,34,2025-11-07,Sashi,11712,13,9,W,Red Bull GIBAWAY JOURNEY 2025,8768
 betboom,12394,Nuke,34,2025-10-29,Gentle Mates,13404,11,13,L,PGL Masters Bucharest 2025,8046
 betboom,12394,Nuke,34,2025-10-28,Liquid,5973,13,3,W,PGL Masters Bucharest 2025,8046
 betboom,12394,Nuke,34,2025-10-27,HEROIC,7175,8,13,L,PGL Masters Bucharest 2025,8046
@@ -146,6 +158,9 @@ betboom,12394,Nuke,34,2024-11-18,fnatic,4991,11,13,L,Perfect World Shanghai Majo
 betboom,12394,Nuke,34,2024-11-17,Vitality,9565,3,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
 betboom,12394,Nuke,34,2024-11-12,500,12000,13,7,W,YaLLa Compass Fall 2024,8108
 betboom,12394,Nuke,34,2024-11-06,OG,10503,5,13,L,Hellcase Cup 11,8146
+betboom,12394,Overpass,40,2025-11-23,EYEBALLERS,11737,12,16,L,CCT Season 3 Europe Series 11,8831
+betboom,12394,Overpass,40,2025-11-08,Sashi,11712,16,14,W,Red Bull GIBAWAY JOURNEY 2025,8768
+betboom,12394,Overpass,40,2025-11-08,Metizport,11641,13,11,W,Red Bull GIBAWAY JOURNEY 2025,8768
 betboom,12394,Overpass,40,2025-10-26,MIBR,9215,13,1,W,PGL Masters Bucharest 2025,8046
 betboom,12394,Overpass,40,2025-10-12,Johnny Speeds,12604,7,13,L,Exort The Proving Grounds Season 5,8745
 betboom,12394,Overpass,40,2025-10-10,Sangal,10333,9,13,L,Exort The Proving Grounds Season 5,8745
@@ -156,6 +171,9 @@ betboom,12394,Overpass,40,2025-08-15,fnatic,4991,8,13,L,StarLadder StarSeries Fa
 betboom,12394,Overpass,40,2025-08-14,HOTU,11581,13,8,W,ESL Challenger League Season 50 Europe Cup 1,8597
 betboom,12394,Overpass,40,2025-08-10,Sashi,11712,19,15,W,CS Asia Championships 2025 Europe Open Qualifier,8627
 betboom,12394,Vertigo,46,2024-11-20,SAW,10567,13,9,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+betboom,12394,Ancient,47,2025-11-20,JiJieHao,10245,13,2,W,CCT Season 3 Europe Series 11,8831
+betboom,12394,Ancient,47,2025-11-08,EYEBALLERS,11737,10,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
+betboom,12394,Ancient,47,2025-11-07,Boys N Da HUD,13526,13,1,W,Red Bull GIBAWAY JOURNEY 2025,8768
 betboom,12394,Ancient,47,2025-10-29,Gentle Mates,13404,7,13,L,PGL Masters Bucharest 2025,8046
 betboom,12394,Ancient,47,2025-10-28,Liquid,5973,2,13,L,PGL Masters Bucharest 2025,8046
 betboom,12394,Ancient,47,2025-10-26,MIBR,9215,13,7,W,PGL Masters Bucharest 2025,8046
@@ -234,6 +252,10 @@ betboom,12394,Anubis,48,2025-01-19,FURIA,8297,13,7,W,BLAST Bounty 2025 Season 1,
 betboom,12394,Anubis,48,2024-11-17,UNiTY,12267,13,4,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
 betboom,12394,Anubis,48,2024-11-12,Ninjas in Pyjamas,4411,16,12,W,YaLLa Compass Fall 2024,8108
 betboom,12394,Anubis,48,2024-11-11,ECLOT,7441,19,15,W,YaLLa Compass Fall 2024,8108
+betboom,12394,Train,35,2025-11-22,Oramond,13470,13,3,W,CCT Season 3 Europe Series 11,8831
+betboom,12394,Train,35,2025-11-08,EYEBALLERS,11737,8,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
+betboom,12394,Train,35,2025-11-08,Sashi,11712,13,6,W,Red Bull GIBAWAY JOURNEY 2025,8768
+betboom,12394,Train,35,2025-11-07,Lilmix,9735,13,4,W,Red Bull GIBAWAY JOURNEY 2025,8768
 betboom,12394,Train,35,2025-10-01,CYBERSHOKE,12380,16,19,L,CCT Season 3 Europe Series 7,8696
 betboom,12394,Train,35,2025-09-29,KHAN,11175,13,5,W,CCT Season 3 Europe Series 7,8696
 betboom,12394,Train,35,2025-09-28,PARIVISION,12467,13,8,W,Majestic LanDaLan 3,8638

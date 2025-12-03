@@ -1,4 +1,9 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+monte,11811,Mirage,32,2025-11-30,OG,10503,13,9,W,DreamHack Knockout Stockholm 2025,8726
+monte,11811,Mirage,32,2025-11-12,Nemiga,7969,11,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
+monte,11811,Mirage,32,2025-11-12,CYBERSHOKE,12380,13,6,W,NODWIN Clutch Series 2,8795
+monte,11811,Mirage,32,2025-11-11,SINNERS,10577,8,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
+monte,11811,Mirage,32,2025-11-06,Nuclear TigeRES,13027,13,16,L,CCT Season 3 Europe Series 10,8774
 monte,11811,Mirage,32,2025-10-26,JiJieHao,10245,13,3,W,ESL Challenger League Season 50 Europe Cup 4,8778
 monte,11811,Mirage,32,2025-10-24,Phantom,13173,13,6,W,ESL Challenger League Season 50 Europe Cup 4,8778
 monte,11811,Mirage,32,2025-10-14,SINNERS,10577,16,13,W,ESL Challenger League Season 50 Europe Cup 3,8721
@@ -69,9 +74,20 @@ monte,11811,Mirage,32,2024-12-13,Metizport,11641,3,13,L,CCT Season 2 Europe Seri
 monte,11811,Mirage,32,2024-12-10,Aurora,11861,5,13,L,500 Casino Christmas Cup 2024,8209
 monte,11811,Mirage,32,2024-11-24,ENCE,4869,9,13,L,A1 Gaming League Season 9,8111
 monte,11811,Mirage,32,2024-11-07,500,12000,6,13,L,Hellcase Cup 11,8146
+monte,11811,Inferno,33,2025-11-30,OG,10503,9,13,L,DreamHack Knockout Stockholm 2025,8726
+monte,11811,Inferno,33,2025-11-29,GenOne,11609,19,16,W,DreamHack Knockout Stockholm 2025,8726
+monte,11811,Inferno,33,2025-11-29,500,12000,13,3,W,DreamHack Knockout Stockholm 2025,8726
+monte,11811,Inferno,33,2025-11-13,TPuDCATb TPu,13297,22,20,W,ESL Challenger League Season 50 Europe Cup 4,8778
+monte,11811,Inferno,33,2025-11-06,Nuclear TigeRES,13027,7,13,L,CCT Season 3 Europe Series 10,8774
 monte,11811,Inferno,33,2025-10-10,Betera,12431,8,13,L,Exort The Proving Grounds Season 5,8745
 monte,11811,Inferno,33,2025-08-26,Betclic,12916,13,8,W,CCT Season 3 Europe Series 5,8629
 monte,11811,Inferno,33,2025-05-13,RUBY,12694,13,4,W,CCT Season 3 Europe Series 1,8485
+monte,11811,Dust2,31,2025-11-30,FUT,13286,13,6,W,DreamHack Knockout Stockholm 2025,8726
+monte,11811,Dust2,31,2025-11-30,OG,10503,13,11,W,DreamHack Knockout Stockholm 2025,8726
+monte,11811,Dust2,31,2025-11-16,SINNERS,10577,8,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
+monte,11811,Dust2,31,2025-11-15,Venom,13419,13,6,W,ESL Challenger League Season 50 Europe Cup 4,8778
+monte,11811,Dust2,31,2025-11-13,500,12000,17,19,L,NODWIN Clutch Series 2,8795
+monte,11811,Dust2,31,2025-11-12,Nemiga,7969,13,5,W,ESL Challenger League Season 50 Europe Cup 4,8778
 monte,11811,Dust2,31,2025-10-30,CYBERSHOKE,12380,9,13,L,CCT Season 3 Europe Series 9,8766
 monte,11811,Dust2,31,2025-10-28,K27,12895,13,4,W,ESL Challenger League Season 50 Europe Cup 4,8778
 monte,11811,Dust2,31,2025-10-15,Partizan,11838,4,13,L,ESL Challenger League Season 50 Europe Cup 3,8721
@@ -129,6 +145,14 @@ monte,11811,Dust2,31,2025-01-21,9 Pandas,11883,13,10,W,ESL Challenger League Sea
 monte,11811,Dust2,31,2025-01-20,PARIVISION,12467,13,9,W,CCT Season 2 Europe Series 16,8289
 monte,11811,Dust2,31,2024-12-09,GUN5,12471,13,7,W,500 Casino Christmas Cup 2024,8209
 monte,11811,Dust2,31,2024-11-10,FAVBET,12818,13,7,W,A1 Gaming League Season 9,8111
+monte,11811,Nuke,34,2025-11-30,FUT,13286,14,16,L,DreamHack Knockout Stockholm 2025,8726
+monte,11811,Nuke,34,2025-11-29,500,12000,16,12,W,DreamHack Knockout Stockholm 2025,8726
+monte,11811,Nuke,34,2025-11-16,SINNERS,10577,3,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
+monte,11811,Nuke,34,2025-11-15,Venom,13419,9,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
+monte,11811,Nuke,34,2025-11-13,Nuclear TigeRES,13027,8,13,L,NODWIN Clutch Series 2,8795
+monte,11811,Nuke,34,2025-11-13,500,12000,13,2,W,NODWIN Clutch Series 2,8795
+monte,11811,Nuke,34,2025-11-12,CYBERSHOKE,12380,6,13,L,NODWIN Clutch Series 2,8795
+monte,11811,Nuke,34,2025-11-10,Oramond,13470,13,4,W,NODWIN Clutch Series 2,8795
 monte,11811,Nuke,34,2025-10-30,CYBERSHOKE,12380,10,13,L,CCT Season 3 Europe Series 9,8766
 monte,11811,Nuke,34,2025-10-28,K27,12895,13,8,W,ESL Challenger League Season 50 Europe Cup 4,8778
 monte,11811,Nuke,34,2025-10-24,Phantom,13173,14,16,L,ESL Challenger League Season 50 Europe Cup 4,8778
@@ -224,6 +248,10 @@ monte,11811,Overpass,40,2025-07-29,Sangal,10333,13,6,W,CCT Season 3 Europe Serie
 monte,11811,Overpass,40,2025-07-26,RUBY,12694,13,16,L,CCT Season 3 Europe Series 4 Closed Qualifier,8603
 monte,11811,Vertigo,46,2024-11-24,ENCE,4869,4,13,L,A1 Gaming League Season 9,8111
 monte,11811,Vertigo,46,2024-11-06,Spirit Academy,7900,13,7,W,Hellcase Cup 11,8146
+monte,11811,Ancient,47,2025-11-30,FUT,13286,13,10,W,DreamHack Knockout Stockholm 2025,8726
+monte,11811,Ancient,47,2025-11-13,Nuclear TigeRES,13027,11,13,L,NODWIN Clutch Series 2,8795
+monte,11811,Ancient,47,2025-11-13,500,12000,13,8,W,NODWIN Clutch Series 2,8795
+monte,11811,Ancient,47,2025-11-11,SINNERS,10577,5,13,L,ESL Challenger League Season 50 Europe Cup 4,8778
 monte,11811,Ancient,47,2025-10-14,SINNERS,10577,13,7,W,ESL Challenger League Season 50 Europe Cup 3,8721
 monte,11811,Ancient,47,2025-10-10,FAVBET,12818,13,5,W,ESL Challenger League Season 50 Europe Cup 3,8721
 monte,11811,Ancient,47,2025-10-10,Inner Circle,13117,7,13,L,Galaxy Battle 2025 Phase 4,8688
@@ -324,6 +352,12 @@ monte,11811,Anubis,48,2025-01-21,9 Pandas,11883,6,13,L,ESL Challenger League Sea
 monte,11811,Anubis,48,2025-01-20,PARIVISION,12467,13,11,W,CCT Season 2 Europe Series 16,8289
 monte,11811,Anubis,48,2024-12-16,ECLOT,7441,10,13,L,500 Casino Christmas Cup 2024,8209
 monte,11811,Anubis,48,2024-12-10,Aurora,11861,16,13,W,500 Casino Christmas Cup 2024,8209
+monte,11811,Train,35,2025-11-29,GenOne,11609,13,1,W,DreamHack Knockout Stockholm 2025,8726
+monte,11811,Train,35,2025-11-15,Venom,13419,13,6,W,ESL Challenger League Season 50 Europe Cup 4,8778
+monte,11811,Train,35,2025-11-13,TPuDCATb TPu,13297,13,8,W,ESL Challenger League Season 50 Europe Cup 4,8778
+monte,11811,Train,35,2025-11-12,Nemiga,7969,13,10,W,ESL Challenger League Season 50 Europe Cup 4,8778
+monte,11811,Train,35,2025-11-12,CYBERSHOKE,12380,13,5,W,NODWIN Clutch Series 2,8795
+monte,11811,Train,35,2025-11-10,Oramond,13470,13,11,W,NODWIN Clutch Series 2,8795
 monte,11811,Train,35,2025-10-26,JiJieHao,10245,13,8,W,ESL Challenger League Season 50 Europe Cup 4,8778
 monte,11811,Train,35,2025-10-24,Phantom,13173,13,5,W,ESL Challenger League Season 50 Europe Cup 4,8778
 monte,11811,Train,35,2025-10-10,Betera,12431,5,13,L,Exort The Proving Grounds Season 5,8745

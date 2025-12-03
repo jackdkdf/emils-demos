@@ -1,4 +1,7 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+og,10503,Mirage,32,2025-11-30,Monte,11811,9,13,L,DreamHack Knockout Stockholm 2025,8726
+og,10503,Mirage,32,2025-11-29,Venom,13419,13,5,W,DreamHack Knockout Stockholm 2025,8726
+og,10503,Mirage,32,2025-11-29,INFINITE,10823,13,2,W,DreamHack Knockout Stockholm 2025,8726
 og,10503,Mirage,32,2025-10-05,fnatic,4991,8,13,L,Fragadelphia Blocktober 2025,8645
 og,10503,Mirage,32,2025-09-30,MOUZ NXT,11176,13,16,L,Urban Riga Open Season 1,8712
 og,10503,Mirage,32,2025-09-26,SINNERS,10577,13,8,W,DraculaN Season 2,8698
@@ -42,6 +45,8 @@ og,10503,Mirage,32,2025-02-09,Sashi,11712,16,14,W,CCT Season 2 Europe Series 17,
 og,10503,Mirage,32,2025-02-08,TNL,12833,13,7,W,IEM Dallas 2025 Europe Open Qualifier,8272
 og,10503,Mirage,32,2025-01-24,Aurora,11861,13,10,W,CCT Season 2 Europe Series 16,8289
 og,10503,Mirage,32,2025-01-20,fnatic,4991,19,22,L,CCT Season 2 Europe Series 16,8289
+og,10503,Inferno,33,2025-11-30,Monte,11811,13,9,W,DreamHack Knockout Stockholm 2025,8726
+og,10503,Inferno,33,2025-11-29,INFINITE,10823,13,6,W,DreamHack Knockout Stockholm 2025,8726
 og,10503,Inferno,33,2025-10-15,FURIA,8297,9,13,L,Thunderpick World Championship 2025,8067
 og,10503,Inferno,33,2025-10-04,Wildcard,12257,3,13,L,Fragadelphia Blocktober 2025,8645
 og,10503,Inferno,33,2025-09-26,SINNERS,10577,13,9,W,DraculaN Season 2,8698
@@ -81,6 +86,9 @@ og,10503,Inferno,33,2025-02-05,SINNERS,10577,13,9,W,CCT Season 2 Europe Series 1
 og,10503,Inferno,33,2025-02-01,fnatic,4991,11,13,L,CCT Season 2 Europe Series 17,8313
 og,10503,Inferno,33,2025-01-27,SINNERS,10577,6,13,L,CCT Season 2 Europe Series 16,8289
 og,10503,Inferno,33,2025-01-14,BC.Game,12878,4,13,L,YaLLa Compass Winter 2025 Contenders,8282
+og,10503,Dust2,31,2025-11-30,Monte,11811,11,13,L,DreamHack Knockout Stockholm 2025,8726
+og,10503,Dust2,31,2025-11-29,Venom,13419,13,7,W,DreamHack Knockout Stockholm 2025,8726
+og,10503,Dust2,31,2025-11-29,INFINITE,10823,14,16,L,DreamHack Knockout Stockholm 2025,8726
 og,10503,Dust2,31,2025-07-15,Nemiga,7969,13,11,W,ESL Pro League Season 22 Europe Closed Qualifier,8569
 og,10503,Dust2,31,2025-06-18,RUBY,12694,6,13,L,Exort The Proving Grounds Season 1,8530
 og,10503,Dust2,31,2025-06-08,Falcons,11283,13,11,W,BLAST.tv Austin Major 2025 Stage 2,8437
@@ -98,6 +106,7 @@ og,10503,Dust2,31,2025-03-01,FAVBET,12818,13,8,W,CCT Season 2 Europe Series 20 C
 og,10503,Dust2,31,2025-02-24,Tricked,4602,13,4,W,CCT Season 2 Europe Series 20 Closed Qualifier,8397
 og,10503,Dust2,31,2025-02-22,BC.Game,12878,5,13,L,CCT Season 2 Europe Series 19 Closed Qualifier,8387
 og,10503,Dust2,31,2025-01-14,BC.Game,12878,13,11,W,YaLLa Compass Winter 2025 Contenders,8282
+og,10503,Nuke,34,2025-11-29,Venom,13419,10,13,L,DreamHack Knockout Stockholm 2025,8726
 og,10503,Nuke,34,2025-10-16,9z,9996,8,13,L,Thunderpick World Championship 2025,8067
 og,10503,Nuke,34,2025-10-15,FURIA,8297,10,13,L,Thunderpick World Championship 2025,8067
 og,10503,Nuke,34,2025-10-05,ECSTATIC,11419,13,4,W,Fragadelphia Blocktober 2025,8645

@@ -1,4 +1,5 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+spirit-academy,7900,Mirage,32,2025-11-06,Sangal,10333,9,13,L,Winline Insight Season 9,8772
 spirit-academy,7900,Mirage,32,2025-10-30,Betera,12431,13,9,W,Winline Insight Season 9,8772
 spirit-academy,7900,Mirage,32,2025-10-11,EYEBALLERS,11737,19,17,W,Exort The Proving Grounds Season 5,8745
 spirit-academy,7900,Mirage,32,2025-10-09,1win,10621,4,13,L,CCT Season 3 Europe Series 8,8718
@@ -88,6 +89,7 @@ spirit-academy,7900,Dust2,31,2024-12-06,FLuffy Gangsters,6668,13,10,W,CCT Season
 spirit-academy,7900,Dust2,31,2024-12-02,CPH Wolves,4548,10,13,L,ESEA Advanced Season 51 Europe,8199
 spirit-academy,7900,Dust2,31,2024-12-01,500,12000,13,10,W,ESEA Advanced Season 51 Europe,8199
 spirit-academy,7900,Dust2,31,2024-11-29,FLuffy Gangsters,6668,13,6,W,ESEA Advanced Season 51 Europe,8199
+spirit-academy,7900,Nuke,34,2025-11-05,SINNERS,10577,9,13,L,Winline Insight Season 9,8772
 spirit-academy,7900,Nuke,34,2025-11-03,TPuDCATb TPu,13297,2,13,L,Winline Insight Season 9,8772
 spirit-academy,7900,Nuke,34,2025-10-30,Sashi,11712,13,11,W,CCT Season 3 Europe Series 9,8766
 spirit-academy,7900,Nuke,34,2025-10-13,BetBoom,12394,4,13,L,Exort The Proving Grounds Season 5,8745
@@ -125,6 +127,7 @@ spirit-academy,7900,Nuke,34,2024-12-15,ECSTATIC,11419,13,11,W,CCT Season 2 Europ
 spirit-academy,7900,Nuke,34,2024-12-13,JiJieHao,10245,13,7,W,ESL Challenger League Season 48 Europe Relegation,8134
 spirit-academy,7900,Nuke,34,2024-12-03,Insilio,12124,13,8,W,CCT Season 2 Europe Series 15,8172
 spirit-academy,7900,Nuke,34,2024-12-02,CPH Wolves,4548,13,7,W,ESEA Advanced Season 51 Europe,8199
+spirit-academy,7900,Overpass,40,2025-11-06,Sangal,10333,19,15,W,Winline Insight Season 9,8772
 spirit-academy,7900,Overpass,40,2025-10-27,AaB,9621,13,9,W,Winline Insight Season 9,8772
 spirit-academy,7900,Overpass,40,2025-10-11,EYEBALLERS,11737,13,5,W,Exort The Proving Grounds Season 5,8745
 spirit-academy,7900,Overpass,40,2025-09-26,Betera,12431,4,13,L,Majestic LanDaLan 3,8638
@@ -140,6 +143,7 @@ spirit-academy,7900,Vertigo,46,2024-12-10,KOI,12591,13,10,W,CCT Season 2 Europe 
 spirit-academy,7900,Vertigo,46,2024-12-08,DMS,12747,8,13,L,CCT Season 2 Europe Series 15,8172
 spirit-academy,7900,Vertigo,46,2024-12-03,Insilio,12124,13,6,W,CCT Season 2 Europe Series 15,8172
 spirit-academy,7900,Vertigo,46,2024-11-06,Monte,11811,7,13,L,Hellcase Cup 11,8146
+spirit-academy,7900,Ancient,47,2025-11-05,SINNERS,10577,12,16,L,Winline Insight Season 9,8772
 spirit-academy,7900,Ancient,47,2025-11-03,TPuDCATb TPu,13297,22,18,W,Winline Insight Season 9,8772
 spirit-academy,7900,Ancient,47,2025-11-01,Nemiga,7969,8,13,L,CCT Season 3 Europe Series 9,8766
 spirit-academy,7900,Ancient,47,2025-10-30,Betera,12431,13,5,W,Winline Insight Season 9,8772
@@ -207,6 +211,7 @@ spirit-academy,7900,Anubis,48,2024-12-14,Fire Flux,12960,13,11,W,ESL Challenger 
 spirit-academy,7900,Anubis,48,2024-12-13,JiJieHao,10245,13,4,W,ESL Challenger League Season 48 Europe Relegation,8134
 spirit-academy,7900,Anubis,48,2024-12-10,KOI,12591,13,10,W,CCT Season 2 Europe Series 15,8172
 spirit-academy,7900,Anubis,48,2024-12-05,Fire Flux,12960,7,13,L,ESEA Advanced Season 51 Europe,8199
+spirit-academy,7900,Train,35,2025-11-06,Sangal,10333,11,13,L,Winline Insight Season 9,8772
 spirit-academy,7900,Train,35,2025-11-01,Nemiga,7969,7,13,L,CCT Season 3 Europe Series 9,8766
 spirit-academy,7900,Train,35,2025-10-30,Sashi,11712,13,11,W,CCT Season 3 Europe Series 9,8766
 spirit-academy,7900,Train,35,2025-10-12,Betera,12431,13,8,W,Exort The Proving Grounds Season 5,8745

@@ -1,4 +1,9 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+nrg,6673,Mirage,32,2025-11-26,fnatic,4991,13,3,W,StarLadder Budapest Major 2025 Stage 1,8504
+nrg,6673,Mirage,32,2025-11-25,M80,12376,2,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+nrg,6673,Mirage,32,2025-11-09,M80,12376,5,13,L,Fragadelphia Ultra Mega Jersey 2025,8804
+nrg,6673,Mirage,32,2025-11-08,Reign Above,13425,13,6,W,Fragadelphia Ultra Mega Jersey 2025,8804
+nrg,6673,Mirage,32,2025-11-08,Outfit 49,13294,13,9,W,Fragadelphia Ultra Mega Jersey 2025,8804
 nrg,6673,Mirage,32,2025-10-26,Voca,13499,13,10,W,PrizePicks NA Revival Series 10,8782
 nrg,6673,Mirage,32,2025-10-25,SKDC,5454,13,0,W,PrizePicks NA Revival Series 10,8782
 nrg,6673,Mirage,32,2025-09-29,Legacy,12468,13,6,W,ESL Pro League Season 22 Stage 1,8393
@@ -41,6 +46,12 @@ nrg,6673,Mirage,32,2024-12-07,Undone,13056,13,9,W,Fragadelphia 18,8079
 nrg,6673,Mirage,32,2024-11-25,Nouns,11948,2,13,L,PrizePicks NA Revival Series 4,8193
 nrg,6673,Mirage,32,2024-11-24,timbermen,10464,13,5,W,PrizePicks NA Revival Series 4,8193
 nrg,6673,Mirage,32,2024-11-23,Revenge Nation,12762,13,11,W,PrizePicks NA Revival Series 4,8193
+nrg,6673,Inferno,33,2025-11-26,fnatic,4991,10,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+nrg,6673,Inferno,33,2025-11-21,SkinRave,13414,13,11,W,ESL Challenger League Season 50 North America Finals,8731
+nrg,6673,Inferno,33,2025-11-09,M80,12376,13,4,W,Fragadelphia Ultra Mega Jersey 2025,8804
+nrg,6673,Inferno,33,2025-11-09,SAW,10567,8,13,L,Fragadelphia Ultra Mega Jersey 2025,8804
+nrg,6673,Inferno,33,2025-11-09,Mavrek,13533,13,3,W,Fragadelphia Ultra Mega Jersey 2025,8804
+nrg,6673,Inferno,33,2025-11-08,Outfit 49,13294,13,3,W,Fragadelphia Ultra Mega Jersey 2025,8804
 nrg,6673,Inferno,33,2025-10-25,SKDC,5454,13,2,W,PrizePicks NA Revival Series 10,8782
 nrg,6673,Inferno,33,2025-09-06,GameHunters,12988,13,8,W,Fragadelphia Fragville 2025,8647
 nrg,6673,Inferno,33,2025-09-06,Radford University,13429,13,8,W,Fragadelphia Fragville 2025,8647
@@ -66,6 +77,12 @@ nrg,6673,Inferno,33,2024-12-15,Make Your Mind,13059,13,3,W,PrizePicks NA Revival
 nrg,6673,Inferno,33,2024-12-09,Sharks,8113,13,4,W,Fragadelphia 18,8079
 nrg,6673,Inferno,33,2024-12-08,Sharks,8113,13,11,W,Fragadelphia 18,8079
 nrg,6673,Inferno,33,2024-12-07,Stand On Business,12280,13,3,W,Fragadelphia 18,8079
+nrg,6673,Dust2,31,2025-11-26,fnatic,4991,9,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+nrg,6673,Dust2,31,2025-11-25,M80,12376,7,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+nrg,6673,Dust2,31,2025-11-24,FaZe,6667,13,10,W,StarLadder Budapest Major 2025 Stage 1,8504
+nrg,6673,Dust2,31,2025-11-21,SkinRave,13414,13,8,W,ESL Challenger League Season 50 North America Finals,8731
+nrg,6673,Dust2,31,2025-11-09,M80,12376,7,13,L,Fragadelphia Ultra Mega Jersey 2025,8804
+nrg,6673,Dust2,31,2025-11-09,SAW,10567,13,11,W,Fragadelphia Ultra Mega Jersey 2025,8804
 nrg,6673,Dust2,31,2025-09-29,Legacy,12468,5,13,L,ESL Pro League Season 22 Stage 1,8393
 nrg,6673,Dust2,31,2025-09-07,Ninjas in Pyjamas,4411,13,5,W,Fragadelphia Fragville 2025,8647
 nrg,6673,Dust2,31,2025-09-07,ODDIK,11768,13,8,W,Fragadelphia Fragville 2025,8647
@@ -114,6 +131,9 @@ nrg,6673,Dust2,31,2024-12-16,timbermen,10464,13,6,W,PrizePicks NA Revival Series
 nrg,6673,Dust2,31,2024-12-15,Party Astronauts,8038,13,3,W,PrizePicks NA Revival Series 5,8216
 nrg,6673,Dust2,31,2024-12-15,Make Your Mind,13059,13,4,W,PrizePicks NA Revival Series 5,8216
 nrg,6673,Dust2,31,2024-12-07,Stand On Business,12280,13,5,W,Fragadelphia 18,8079
+nrg,6673,Nuke,34,2025-11-27,Imperial,9455,8,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+nrg,6673,Nuke,34,2025-11-09,SAW,10567,13,10,W,Fragadelphia Ultra Mega Jersey 2025,8804
+nrg,6673,Nuke,34,2025-11-09,Mavrek,13533,13,1,W,Fragadelphia Ultra Mega Jersey 2025,8804
 nrg,6673,Nuke,34,2025-10-26,Marsborne,13124,16,14,W,PrizePicks NA Revival Series 10,8782
 nrg,6673,Nuke,34,2025-10-26,Voca,13499,13,2,W,PrizePicks NA Revival Series 10,8782
 nrg,6673,Nuke,34,2025-09-30,Fluxo,11837,8,13,L,ESL Pro League Season 22 Stage 1,8393
@@ -141,6 +161,9 @@ nrg,6673,Nuke,34,2025-03-03,Eternal Fire,11251,5,13,L,ESL Pro League Season 21 S
 nrg,6673,Nuke,34,2025-02-13,Nouns,11948,13,1,W,IEM Dallas 2025 North America Closed Qualifier,8275
 nrg,6673,Nuke,34,2025-02-07,MIGHT,12483,13,4,W,CCT Season 2 North America Series 4,8291
 nrg,6673,Nuke,34,2025-01-25,Getting Info,13106,12,16,L,ESL Challenger League Season 49 North America,8303
+nrg,6673,Overpass,40,2025-11-24,Ninjas in Pyjamas,4411,13,7,W,StarLadder Budapest Major 2025 Stage 1,8504
+nrg,6673,Overpass,40,2025-11-21,SkinRave,13414,13,6,W,ESL Challenger League Season 50 North America Finals,8731
+nrg,6673,Overpass,40,2025-11-09,M80,12376,13,8,W,Fragadelphia Ultra Mega Jersey 2025,8804
 nrg,6673,Overpass,40,2025-10-26,Marsborne,13124,8,13,L,PrizePicks NA Revival Series 10,8782
 nrg,6673,Overpass,40,2025-09-28,GamerLegion,9928,9,13,L,ESL Pro League Season 22 Stage 1,8393
 nrg,6673,Overpass,40,2025-08-17,Getting Info,13106,10,13,L,PrizePicks NA Revival Series 8,8631
@@ -173,6 +196,9 @@ nrg,6673,Anubis,48,2025-01-22,Alter Iron,12968,13,6,W,ESL Challenger League Seas
 nrg,6673,Anubis,48,2024-12-07,Undone,13056,13,6,W,Fragadelphia 18,8079
 nrg,6673,Anubis,48,2024-11-25,Nouns,11948,13,10,W,PrizePicks NA Revival Series 4,8193
 nrg,6673,Anubis,48,2024-11-24,timbermen,10464,16,12,W,PrizePicks NA Revival Series 4,8193
+nrg,6673,Train,35,2025-11-27,Imperial,9455,5,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+nrg,6673,Train,35,2025-11-09,M80,12376,13,9,W,Fragadelphia Ultra Mega Jersey 2025,8804
+nrg,6673,Train,35,2025-11-08,Reign Above,13425,13,7,W,Fragadelphia Ultra Mega Jersey 2025,8804
 nrg,6673,Train,35,2025-10-26,Marsborne,13124,13,9,W,PrizePicks NA Revival Series 10,8782
 nrg,6673,Train,35,2025-09-30,Fluxo,11837,11,13,L,ESL Pro League Season 22 Stage 1,8393
 nrg,6673,Train,35,2025-09-28,GamerLegion,9928,11,13,L,ESL Pro League Season 22 Stage 1,8393

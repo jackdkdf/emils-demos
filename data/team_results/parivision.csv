@@ -1,4 +1,9 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+parivision,12467,Mirage,32,2025-11-29,TYLOO,4863,5,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+parivision,12467,Mirage,32,2025-11-24,M80,12376,9,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+parivision,12467,Mirage,32,2025-11-24,The Huns,12510,13,8,W,StarLadder Budapest Major 2025 Stage 1,8504
+parivision,12467,Mirage,32,2025-11-20,SINNERS,10577,13,7,W,ESL Challenger League Season 50 Europe Finals,8729
+parivision,12467,Mirage,32,2025-11-18,BC.Game,12878,13,5,W,ESL Challenger League Season 50 Europe Finals,8729
 parivision,12467,Mirage,32,2025-10-12,Inner Circle,13117,13,2,W,Galaxy Battle 2025 Phase 4,8688
 parivision,12467,Mirage,32,2025-10-11,Gentle Mates,13404,13,11,W,Galaxy Battle 2025 Phase 4,8688
 parivision,12467,Mirage,32,2025-09-28,BetBoom,12394,13,10,W,Majestic LanDaLan 3,8638
@@ -67,6 +72,9 @@ parivision,12467,Mirage,32,2025-01-28,Sashi,11712,13,2,W,CCT Season 2 Europe Ser
 parivision,12467,Mirage,32,2025-01-22,SINNERS,10577,17,19,L,CCT Season 2 Europe Series 16,8289
 parivision,12467,Mirage,32,2024-11-07,Nemiga,7969,5,13,L,Hellcase Cup 11,8146
 parivision,12467,Mirage,32,2024-11-06,SINNERS,10577,13,7,W,Hellcase Cup 11,8146
+parivision,12467,Inferno,33,2025-11-27,Legacy,12468,5,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+parivision,12467,Inferno,33,2025-11-25,B8,11241,11,13,L,StarLadder Budapest Major 2025 Stage 1,8504
+parivision,12467,Inferno,33,2025-11-20,SINNERS,10577,13,7,W,ESL Challenger League Season 50 Europe Finals,8729
 parivision,12467,Inferno,33,2025-10-11,Gentle Mates,13404,13,5,W,Galaxy Battle 2025 Phase 4,8688
 parivision,12467,Inferno,33,2025-10-09,GUN5,12471,13,7,W,Galaxy Battle 2025 Phase 4,8688
 parivision,12467,Inferno,33,2025-09-26,9BOOMPRO,13380,13,6,W,Majestic LanDaLan 3,8638
@@ -104,6 +112,9 @@ parivision,12467,Inferno,33,2025-02-02,SINNERS,10577,13,3,W,CCT Season 2 Europe 
 parivision,12467,Inferno,33,2025-01-28,Sashi,11712,13,7,W,CCT Season 2 Europe Series 16,8289
 parivision,12467,Inferno,33,2025-01-27,JiJieHao,10245,13,6,W,ESL Challenger League Season 49 Europe,8294
 parivision,12467,Inferno,33,2025-01-21,SINNERS,10577,14,16,L,ESL Challenger League Season 49 Europe,8294
+parivision,12467,Dust2,31,2025-12-01,Ninjas in Pyjamas,4411,19,16,W,StarLadder Budapest Major 2025 Stage 2,8505
+parivision,12467,Dust2,31,2025-11-29,Liquid,5973,13,3,W,StarLadder Budapest Major 2025 Stage 2,8505
+parivision,12467,Dust2,31,2025-11-27,Legacy,12468,19,16,W,StarLadder Budapest Major 2025 Stage 1,8504
 parivision,12467,Dust2,31,2025-09-28,BetBoom,12394,7,13,L,Majestic LanDaLan 3,8638
 parivision,12467,Dust2,31,2025-09-27,TPuDCATb TPu,13297,13,2,W,Majestic LanDaLan 3,8638
 parivision,12467,Dust2,31,2025-09-25,Nuclear TigeRES,13027,13,7,W,Majestic LanDaLan 3,8638
@@ -174,10 +185,16 @@ parivision,12467,Dust2,31,2025-01-23,CPH Wolves,4548,13,3,W,ESL Challenger Leagu
 parivision,12467,Dust2,31,2025-01-20,Monte,11811,9,13,L,CCT Season 2 Europe Series 16,8289
 parivision,12467,Dust2,31,2024-11-22,TSM,5996,13,5,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 parivision,12467,Nuke,34,2024-11-06,SINNERS,10577,10,13,L,Hellcase Cup 11,8146
+parivision,12467,Overpass,40,2025-11-30,Aurora,11861,13,11,W,StarLadder Budapest Major 2025 Stage 2,8505
+parivision,12467,Overpass,40,2025-11-26,GamerLegion,9928,16,14,W,StarLadder Budapest Major 2025 Stage 1,8504
+parivision,12467,Overpass,40,2025-11-20,SINNERS,10577,13,8,W,ESL Challenger League Season 50 Europe Finals,8729
 parivision,12467,Overpass,40,2025-10-12,Inner Circle,13117,13,10,W,Galaxy Battle 2025 Phase 4,8688
 parivision,12467,Overpass,40,2025-09-28,BetBoom,12394,13,3,W,Majestic LanDaLan 3,8638
 parivision,12467,Overpass,40,2025-08-27,9INE,10278,13,7,W,ESL Challenger League Season 50 Europe Cup 1,8597
 parivision,12467,Vertigo,46,2024-11-22,TSM,5996,9,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+parivision,12467,Ancient,47,2025-11-27,Legacy,12468,13,9,W,StarLadder Budapest Major 2025 Stage 1,8504
+parivision,12467,Ancient,47,2025-11-26,GamerLegion,9928,16,12,W,StarLadder Budapest Major 2025 Stage 1,8504
+parivision,12467,Ancient,47,2025-11-18,BC.Game,12878,13,11,W,ESL Challenger League Season 50 Europe Finals,8729
 parivision,12467,Ancient,47,2025-10-12,Inner Circle,13117,13,11,W,Galaxy Battle 2025 Phase 4,8688
 parivision,12467,Ancient,47,2025-10-09,GUN5,12471,13,7,W,Galaxy Battle 2025 Phase 4,8688
 parivision,12467,Ancient,47,2025-10-08,FAVBET,12818,13,7,W,Galaxy Battle 2025 Phase 4,8688
@@ -287,6 +304,7 @@ parivision,12467,Anubis,48,2025-01-22,SINNERS,10577,9,13,L,CCT Season 2 Europe S
 parivision,12467,Anubis,48,2025-01-20,Monte,11811,11,13,L,CCT Season 2 Europe Series 16,8289
 parivision,12467,Anubis,48,2024-11-21,Ninjas in Pyjamas,4411,12,16,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
 parivision,12467,Anubis,48,2024-11-07,Nemiga,7969,6,13,L,Hellcase Cup 11,8146
+parivision,12467,Train,35,2025-12-01,Ninjas in Pyjamas,4411,16,12,W,StarLadder Budapest Major 2025 Stage 2,8505
 parivision,12467,Train,35,2025-10-08,FAVBET,12818,13,5,W,Galaxy Battle 2025 Phase 4,8688
 parivision,12467,Train,35,2025-09-28,BetBoom,12394,8,13,L,Majestic LanDaLan 3,8638
 parivision,12467,Train,35,2025-09-19,Ninjas in Pyjamas,4411,2,13,L,StarLadder StarSeries Fall 2025,8539

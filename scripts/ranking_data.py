@@ -35,6 +35,10 @@ END_DATE = datetime(year=2024, month=11, day=4)
 #    You can populate this list yourself if you prefer.
 #    e.g., "https://www.hltv.org/ranking/teams/2025/november/3"
 MANUAL_URLS_TO_SCRAPE = [
+    "https://www.hltv.org/ranking/teams/2025/december/1",
+    "https://www.hltv.org/ranking/teams/2025/november/24",
+    "https://www.hltv.org/ranking/teams/2025/november/17",
+    "https://www.hltv.org/ranking/teams/2025/november/10",
     "https://www.hltv.org/ranking/teams/2025/november/3",
     "https://www.hltv.org/ranking/teams/2025/october/27",
     "https://www.hltv.org/ranking/teams/2025/october/20",

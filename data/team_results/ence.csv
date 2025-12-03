@@ -1,4 +1,7 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+ence,4869,Mirage,32,2025-11-22,FUT,13286,3,13,L,DraculaN Season 3,8841
+ence,4869,Mirage,32,2025-11-07,Johnny Speeds,12604,13,9,W,Red Bull GIBAWAY JOURNEY 2025,8768
+ence,4869,Mirage,32,2025-11-07,EYEBALLERS,11737,8,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
 ence,4869,Mirage,32,2025-09-28,M80,12376,9,13,L,ESL Pro League Season 22 Stage 1,8393
 ence,4869,Mirage,32,2025-09-27,FUT,13286,13,9,W,Birch Cup 2025,8700
 ence,4869,Mirage,32,2025-09-24,FUT,13286,10,13,L,Exort The Proving Grounds Season 4,8692
@@ -49,7 +52,12 @@ ence,4869,Mirage,32,2025-02-02,Monte,11811,4,13,L,CCT Season 2 Europe Series 16,
 ence,4869,Mirage,32,2024-12-15,Spirit Academy,7900,11,13,L,CCT Season 2 Europe Series 15,8172
 ence,4869,Mirage,32,2024-11-24,Monte,11811,13,9,W,A1 Gaming League Season 9,8111
 ence,4869,Mirage,32,2024-11-11,500,12000,9,13,L,YaLLa Compass Fall 2024,8108
+ence,4869,Inferno,33,2025-11-08,EYEBALLERS,11737,9,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
 ence,4869,Inferno,33,2025-10-19,Nemiga,7969,9,13,L,NODWIN Clutch Series 1,8739
+ence,4869,Dust2,31,2025-11-22,Nexus,7187,13,10,W,DraculaN Season 3,8841
+ence,4869,Dust2,31,2025-11-22,illwill,13501,19,17,W,DraculaN Season 3,8841
+ence,4869,Dust2,31,2025-11-21,Nexus,7187,9,13,L,DraculaN Season 3,8841
+ence,4869,Dust2,31,2025-11-08,EYEBALLERS,11737,9,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
 ence,4869,Dust2,31,2025-10-19,Nemiga,7969,4,13,L,NODWIN Clutch Series 1,8739
 ence,4869,Dust2,31,2025-10-19,1win,10621,13,7,W,NODWIN Clutch Series 1,8739
 ence,4869,Dust2,31,2025-10-18,kONO,12858,16,13,W,NODWIN Clutch Series 1,8739
@@ -110,6 +118,9 @@ ence,4869,Dust2,31,2025-02-01,ECSTATIC,11419,13,7,W,CCT Season 2 Europe Series 1
 ence,4869,Dust2,31,2025-01-15,Falcons,11283,14,16,L,BLAST Bounty 2025 Season 1,7903
 ence,4869,Dust2,31,2024-12-14,AMKAL,12586,13,16,L,CCT Season 2 Europe Series 15,8172
 ence,4869,Dust2,31,2024-11-11,500,12000,7,13,L,YaLLa Compass Fall 2024,8108
+ence,4869,Nuke,34,2025-11-22,illwill,13501,19,16,W,DraculaN Season 3,8841
+ence,4869,Nuke,34,2025-11-07,MOUZ NXT,11176,19,17,W,Red Bull GIBAWAY JOURNEY 2025,8768
+ence,4869,Nuke,34,2025-11-07,Falcons Force,13321,16,13,W,Red Bull GIBAWAY JOURNEY 2025,8768
 ence,4869,Nuke,34,2025-10-01,3DMAX,4914,5,13,L,ESL Pro League Season 22 Stage 1,8393
 ence,4869,Nuke,34,2025-09-29,Astralis,6665,13,2,W,ESL Pro League Season 22 Stage 1,8393
 ence,4869,Nuke,34,2025-09-27,Johnny Speeds,12604,5,13,L,Birch Cup 2025,8700
@@ -151,6 +162,9 @@ ence,4869,Nuke,34,2025-02-07,9INE,10278,9,13,L,RES Showdown 1 Closed Qualifier,8
 ence,4869,Nuke,34,2025-02-05,9INE,10278,13,10,W,RES Showdown 1 Closed Qualifier,8346
 ence,4869,Nuke,34,2025-02-05,ECLOT,7441,13,9,W,RES Showdown 1 Closed Qualifier,8346
 ence,4869,Nuke,34,2024-11-23,Zero Tenacity,11523,7,13,L,A1 Gaming League Season 9,8111
+ence,4869,Overpass,40,2025-11-21,AM,13237,13,4,W,DraculaN Season 3,8841
+ence,4869,Overpass,40,2025-11-21,WOPA,12787,13,6,W,DraculaN Season 3,8841
+ence,4869,Overpass,40,2025-11-07,MASONIC,10867,13,4,W,Red Bull GIBAWAY JOURNEY 2025,8768
 ence,4869,Overpass,40,2025-10-02,G2,5995,9,13,L,ESL Pro League Season 22 Stage 1,8393
 ence,4869,Overpass,40,2025-09-29,Astralis,6665,13,7,W,ESL Pro League Season 22 Stage 1,8393
 ence,4869,Overpass,40,2025-09-24,fnatic,4991,13,5,W,Exort The Proving Grounds Season 4,8692
@@ -166,6 +180,12 @@ ence,4869,Vertigo,46,2024-12-12,Endpoint,7234,11,13,L,CCT Season 2 Europe Series
 ence,4869,Vertigo,46,2024-11-24,Monte,11811,13,4,W,A1 Gaming League Season 9,8111
 ence,4869,Vertigo,46,2024-11-23,Zero Tenacity,11523,13,11,W,A1 Gaming League Season 9,8111
 ence,4869,Vertigo,46,2024-11-09,Into the Breach,11164,13,7,W,A1 Gaming League Season 9,8111
+ence,4869,Ancient,47,2025-11-22,FUT,13286,14,16,L,DraculaN Season 3,8841
+ence,4869,Ancient,47,2025-11-22,Nexus,7187,13,10,W,DraculaN Season 3,8841
+ence,4869,Ancient,47,2025-11-21,AM,13237,13,2,W,DraculaN Season 3,8841
+ence,4869,Ancient,47,2025-11-21,WOPA,12787,13,11,W,DraculaN Season 3,8841
+ence,4869,Ancient,47,2025-11-07,Johnny Speeds,12604,13,4,W,Red Bull GIBAWAY JOURNEY 2025,8768
+ence,4869,Ancient,47,2025-11-07,FUT Academy,13474,16,14,W,Red Bull GIBAWAY JOURNEY 2025,8768
 ence,4869,Ancient,47,2025-10-19,1win,10621,13,8,W,NODWIN Clutch Series 1,8739
 ence,4869,Ancient,47,2025-10-18,kONO,12858,13,7,W,NODWIN Clutch Series 1,8739
 ence,4869,Ancient,47,2025-10-01,3DMAX,4914,14,16,L,ESL Pro League Season 22 Stage 1,8393
@@ -265,6 +285,7 @@ ence,4869,Anubis,48,2025-02-02,Monte,11811,6,13,L,CCT Season 2 Europe Series 16,
 ence,4869,Anubis,48,2024-12-12,Endpoint,7234,13,10,W,CCT Season 2 Europe Series 15,8172
 ence,4869,Anubis,48,2024-11-23,Zero Tenacity,11523,13,11,W,A1 Gaming League Season 9,8111
 ence,4869,Anubis,48,2024-11-09,Into the Breach,11164,9,13,L,A1 Gaming League Season 9,8111
+ence,4869,Train,35,2025-11-21,WOPA,12787,9,13,L,DraculaN Season 3,8841
 ence,4869,Train,35,2025-10-19,1win,10621,15,19,L,NODWIN Clutch Series 1,8739
 ence,4869,Train,35,2025-10-18,kONO,12858,9,13,L,NODWIN Clutch Series 1,8739
 ence,4869,Train,35,2025-10-02,G2,5995,5,13,L,ESL Pro League Season 22 Stage 1,8393

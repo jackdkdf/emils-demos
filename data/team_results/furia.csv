@@ -1,4 +1,8 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+furia,8297,Mirage,32,2025-11-16,Falcons,11283,19,16,W,BLAST Rivals 2025 Season 2,7908
+furia,8297,Mirage,32,2025-11-12,paiN,4773,13,11,W,BLAST Rivals 2025 Season 2,7908
+furia,8297,Mirage,32,2025-11-08,Falcons,11283,13,11,W,IEM Chengdu 2025,8041
+furia,8297,Mirage,32,2025-11-07,The MongolZ,6248,13,5,W,IEM Chengdu 2025,8041
 furia,8297,Mirage,32,2025-10-19,Natus Vincere,4608,6,13,L,Thunderpick World Championship 2025,8067
 furia,8297,Mirage,32,2025-10-16,The MongolZ,6248,13,11,W,Thunderpick World Championship 2025,8067
 furia,8297,Mirage,32,2025-10-07,Aurora,11861,9,13,L,ESL Pro League Season 22,8040
@@ -37,6 +41,11 @@ furia,8297,Mirage,32,2024-12-08,FaZe,6667,10,13,L,Perfect World Shanghai Major 2
 furia,8297,Mirage,32,2024-12-07,paiN,4773,13,9,W,Perfect World Shanghai Major 2024,7524
 furia,8297,Mirage,32,2024-12-05,Vitality,9565,13,16,L,Perfect World Shanghai Major 2024,7524
 furia,8297,Mirage,32,2024-12-02,BIG,7532,13,11,W,Perfect World Shanghai Major 2024 Opening Stage,7861
+furia,8297,Inferno,33,2025-11-16,Falcons,11283,3,13,L,BLAST Rivals 2025 Season 2,7908
+furia,8297,Inferno,33,2025-11-13,Vitality,9565,13,5,W,BLAST Rivals 2025 Season 2,7908
+furia,8297,Inferno,33,2025-11-09,Vitality,9565,13,10,W,IEM Chengdu 2025,8041
+furia,8297,Inferno,33,2025-11-08,Falcons,11283,13,5,W,IEM Chengdu 2025,8041
+furia,8297,Inferno,33,2025-11-05,MOUZ,4494,2,13,L,IEM Chengdu 2025,8041
 furia,8297,Inferno,33,2025-10-19,Natus Vincere,4608,9,13,L,Thunderpick World Championship 2025,8067
 furia,8297,Inferno,33,2025-10-15,OG,10503,13,9,W,Thunderpick World Championship 2025,8067
 furia,8297,Inferno,33,2025-10-10,Vitality,9565,7,13,L,ESL Pro League Season 22,8040
@@ -123,6 +132,10 @@ furia,8297,Dust2,31,2024-12-05,Spirit,7020,13,6,W,Perfect World Shanghai Major 2
 furia,8297,Dust2,31,2024-12-02,BIG,7532,13,3,W,Perfect World Shanghai Major 2024 Opening Stage,7861
 furia,8297,Dust2,31,2024-11-15,9z,9996,13,10,W,Perfect World Shanghai Major 2024 Americas RMR,7863
 furia,8297,Dust2,31,2024-11-14,Liquid,5973,13,3,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+furia,8297,Nuke,34,2025-11-16,Falcons,11283,13,9,W,BLAST Rivals 2025 Season 2,7908
+furia,8297,Nuke,34,2025-11-15,paiN,4773,13,3,W,BLAST Rivals 2025 Season 2,7908
+furia,8297,Nuke,34,2025-11-13,Vitality,9565,13,11,W,BLAST Rivals 2025 Season 2,7908
+furia,8297,Nuke,34,2025-11-12,paiN,4773,7,13,L,BLAST Rivals 2025 Season 2,7908
 furia,8297,Nuke,34,2025-10-19,Natus Vincere,4608,13,8,W,Thunderpick World Championship 2025,8067
 furia,8297,Nuke,34,2025-10-15,OG,10503,13,10,W,Thunderpick World Championship 2025,8067
 furia,8297,Nuke,34,2025-10-10,Vitality,9565,7,13,L,ESL Pro League Season 22,8040
@@ -146,6 +159,13 @@ furia,8297,Nuke,34,2025-03-01,Lynn Vision,8840,13,8,W,ESL Pro League Season 21 S
 furia,8297,Nuke,34,2025-02-03,Astralis,6665,11,13,L,IEM Katowice 2025,8034
 furia,8297,Nuke,34,2025-01-31,Wildcard,12257,16,13,W,IEM Katowice 2025 Play-in,8229
 furia,8297,Nuke,34,2024-12-02,BIG,7532,5,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
+furia,8297,Overpass,40,2025-11-15,paiN,4773,16,12,W,BLAST Rivals 2025 Season 2,7908
+furia,8297,Overpass,40,2025-11-13,Vitality,9565,13,16,L,BLAST Rivals 2025 Season 2,7908
+furia,8297,Overpass,40,2025-11-12,paiN,4773,13,6,W,BLAST Rivals 2025 Season 2,7908
+furia,8297,Overpass,40,2025-11-09,Vitality,9565,13,11,W,IEM Chengdu 2025,8041
+furia,8297,Overpass,40,2025-11-07,The MongolZ,6248,13,10,W,IEM Chengdu 2025,8041
+furia,8297,Overpass,40,2025-11-05,MOUZ,4494,13,11,W,IEM Chengdu 2025,8041
+furia,8297,Overpass,40,2025-11-04,G2,5995,16,14,W,IEM Chengdu 2025,8041
 furia,8297,Overpass,40,2025-11-03,Lynn Vision,8840,13,2,W,IEM Chengdu 2025,8041
 furia,8297,Overpass,40,2025-10-18,Aurora,11861,13,5,W,Thunderpick World Championship 2025,8067
 furia,8297,Overpass,40,2025-10-10,Vitality,9565,13,9,W,ESL Pro League Season 22,8040
@@ -162,6 +182,7 @@ furia,8297,Vertigo,46,2024-11-30,GamerLegion,9928,8,13,L,Perfect World Shanghai 
 furia,8297,Vertigo,46,2024-11-15,M80,12376,13,8,W,Perfect World Shanghai Major 2024 Americas RMR,7863
 furia,8297,Vertigo,46,2024-11-13,BOSS,12534,13,1,W,Perfect World Shanghai Major 2024 Americas RMR,7863
 furia,8297,Vertigo,46,2024-11-12,Case,10894,13,5,W,Perfect World Shanghai Major 2024 Americas RMR,7863
+furia,8297,Ancient,47,2025-11-09,Vitality,9565,13,11,W,IEM Chengdu 2025,8041
 furia,8297,Ancient,47,2025-07-17,SAW,10567,19,22,L,FISSURE Playground 1,8063
 furia,8297,Anubis,48,2025-07-15,SAW,10567,9,13,L,FISSURE Playground 1,8063
 furia,8297,Anubis,48,2025-06-20,paiN,4773,8,13,L,BLAST.tv Austin Major 2025,7902
@@ -186,6 +207,9 @@ furia,8297,Anubis,48,2024-11-30,Imperial,9455,13,11,W,Perfect World Shanghai Maj
 furia,8297,Anubis,48,2024-11-15,M80,12376,13,8,W,Perfect World Shanghai Major 2024 Americas RMR,7863
 furia,8297,Anubis,48,2024-11-15,9z,9996,13,8,W,Perfect World Shanghai Major 2024 Americas RMR,7863
 furia,8297,Anubis,48,2024-11-14,Liquid,5973,3,13,L,Perfect World Shanghai Major 2024 Americas RMR,7863
+furia,8297,Train,35,2025-11-16,Falcons,11283,19,15,W,BLAST Rivals 2025 Season 2,7908
+furia,8297,Train,35,2025-11-05,MOUZ,4494,14,16,L,IEM Chengdu 2025,8041
+furia,8297,Train,35,2025-11-04,G2,5995,13,5,W,IEM Chengdu 2025,8041
 furia,8297,Train,35,2025-10-19,Natus Vincere,4608,13,1,W,Thunderpick World Championship 2025,8067
 furia,8297,Train,35,2025-10-18,Aurora,11861,13,11,W,Thunderpick World Championship 2025,8067
 furia,8297,Train,35,2025-10-05,G2,5995,11,13,L,ESL Pro League Season 22,8040

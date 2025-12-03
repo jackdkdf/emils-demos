@@ -1,4 +1,5 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+fnatic,4991,Mirage,32,2025-11-26,NRG,6673,3,13,L,StarLadder Budapest Major 2025 Stage 1,8504
 fnatic,4991,Mirage,32,2025-10-28,MIBR,9215,13,5,W,PGL Masters Bucharest 2025,8046
 fnatic,4991,Mirage,32,2025-10-27,FlyQuest,12774,11,13,L,PGL Masters Bucharest 2025,8046
 fnatic,4991,Mirage,32,2025-10-26,Aurora,11861,14,16,L,PGL Masters Bucharest 2025,8046
@@ -59,6 +60,9 @@ fnatic,4991,Mirage,32,2025-01-25,Rebels,12642,8,13,L,CCT Season 2 Europe Series 
 fnatic,4991,Mirage,32,2025-01-23,AMKAL,12586,10,13,L,CCT Season 2 Europe Series 16,8289
 fnatic,4991,Mirage,32,2025-01-20,OG,10503,22,19,W,CCT Season 2 Europe Series 16,8289
 fnatic,4991,Mirage,32,2024-11-30,Wildcard,12257,11,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
+fnatic,4991,Inferno,33,2025-12-01,Passion UA,12426,7,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+fnatic,4991,Inferno,33,2025-11-29,3DMAX,4914,13,6,W,StarLadder Budapest Major 2025 Stage 2,8505
+fnatic,4991,Inferno,33,2025-11-26,NRG,6673,13,10,W,StarLadder Budapest Major 2025 Stage 1,8504
 fnatic,4991,Inferno,33,2025-10-28,MIBR,9215,13,3,W,PGL Masters Bucharest 2025,8046
 fnatic,4991,Inferno,33,2025-10-27,FlyQuest,12774,11,13,L,PGL Masters Bucharest 2025,8046
 fnatic,4991,Inferno,33,2025-10-17,3DMAX,4914,5,13,L,CS Asia Championships 2025,8027
@@ -100,6 +104,8 @@ fnatic,4991,Inferno,33,2025-01-30,B8,11241,8,13,L,CCT Season 2 Europe Series 16,
 fnatic,4991,Inferno,33,2024-12-01,Rare Atom,11514,10,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
 fnatic,4991,Inferno,33,2024-11-20,ECLOT,7441,11,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
 fnatic,4991,Inferno,33,2024-11-17,Natus Vincere,4608,9,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+fnatic,4991,Dust2,31,2025-11-30,Imperial,9455,10,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+fnatic,4991,Dust2,31,2025-11-26,NRG,6673,13,9,W,StarLadder Budapest Major 2025 Stage 1,8504
 fnatic,4991,Dust2,31,2025-10-26,Aurora,11861,8,13,L,PGL Masters Bucharest 2025,8046
 fnatic,4991,Dust2,31,2025-10-17,3DMAX,4914,9,13,L,CS Asia Championships 2025,8027
 fnatic,4991,Dust2,31,2025-10-16,HEROIC,7175,13,2,W,CS Asia Championships 2025,8027
@@ -145,6 +151,7 @@ fnatic,4991,Nuke,34,2025-01-25,Rebels,12642,16,12,W,CCT Season 2 Europe Series 1
 fnatic,4991,Nuke,34,2025-01-14,Spirit,7020,4,13,L,BLAST Bounty 2025 Season 1,7903
 fnatic,4991,Nuke,34,2024-11-20,ECLOT,7441,19,17,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
 fnatic,4991,Nuke,34,2024-11-18,BetBoom,12394,13,11,W,Perfect World Shanghai Major 2024 Europe RMR A,7864
+fnatic,4991,Overpass,40,2025-12-01,Passion UA,12426,11,13,L,StarLadder Budapest Major 2025 Stage 2,8505
 fnatic,4991,Overpass,40,2025-10-29,GamerLegion,9928,7,13,L,PGL Masters Bucharest 2025,8046
 fnatic,4991,Overpass,40,2025-10-14,paiN,4773,13,8,W,CS Asia Championships 2025,8027
 fnatic,4991,Overpass,40,2025-10-05,9INE,10278,16,14,W,Fragadelphia Blocktober 2025,8645
@@ -159,6 +166,8 @@ fnatic,4991,Overpass,40,2025-08-15,BetBoom,12394,13,8,W,StarLadder StarSeries Fa
 fnatic,4991,Overpass,40,2025-08-09,9INE,10278,13,9,W,CCT Season 3 Europe Series 4,8604
 fnatic,4991,Overpass,40,2025-08-08,Sashi,11712,13,9,W,CCT Season 3 Europe Series 4,8604
 fnatic,4991,Vertigo,46,2024-12-01,Rare Atom,11514,4,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
+fnatic,4991,Ancient,47,2025-11-29,B8,11241,11,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+fnatic,4991,Ancient,47,2025-11-24,RED Canids,7176,16,14,W,StarLadder Budapest Major 2025 Stage 1,8504
 fnatic,4991,Ancient,47,2025-10-05,9INE,10278,7,13,L,Fragadelphia Blocktober 2025,8645
 fnatic,4991,Ancient,47,2025-10-05,OG,10503,13,11,W,Fragadelphia Blocktober 2025,8645
 fnatic,4991,Ancient,47,2025-10-04,Metizport,11641,13,7,W,Fragadelphia Blocktober 2025,8645
@@ -231,6 +240,8 @@ fnatic,4991,Anubis,48,2025-03-10,Betclic,12916,14,16,L,PGL Bucharest 2025 Europe
 fnatic,4991,Anubis,48,2025-03-09,Leo,11446,14,16,L,PGL Bucharest 2025 Europe Closed Qualifier,8362
 fnatic,4991,Anubis,48,2025-01-30,B8,11241,13,4,W,CCT Season 2 Europe Series 16,8289
 fnatic,4991,Anubis,48,2024-11-19,FaZe,6667,5,13,L,Perfect World Shanghai Major 2024 Europe RMR A,7864
+fnatic,4991,Train,35,2025-11-25,Imperial,9455,13,3,W,StarLadder Budapest Major 2025 Stage 1,8504
+fnatic,4991,Train,35,2025-11-24,Fluxo,11837,9,13,L,StarLadder Budapest Major 2025 Stage 1,8504
 fnatic,4991,Train,35,2025-10-29,GamerLegion,9928,11,13,L,PGL Masters Bucharest 2025,8046
 fnatic,4991,Train,35,2025-10-17,3DMAX,4914,13,7,W,CS Asia Championships 2025,8027
 fnatic,4991,Train,35,2025-10-15,TYLOO,4863,16,14,W,CS Asia Championships 2025,8027

@@ -1,4 +1,7 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+betclic,12916,Mirage,32,2025-11-11,FORZE Reload,12857,10,13,L,Galaxy Battle 2025 Phase 5,8798
+betclic,12916,Mirage,32,2025-11-07,BetBoom,12394,5,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
+betclic,12916,Mirage,32,2025-11-07,Sashi,11712,7,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
 betclic,12916,Mirage,32,2025-10-08,ARCRED,10459,19,15,W,Exort The Proving Grounds Season 5,8745
 betclic,12916,Mirage,32,2025-10-04,Tricked,4602,9,13,L,Exort The Proving Grounds Season 5,8745
 betclic,12916,Mirage,32,2025-09-26,Nemesis,13355,11,13,L,Birch Cup 2025,8700
@@ -46,6 +49,7 @@ betclic,12916,Mirage,32,2024-11-26,Astralis Talent,10954,16,12,W,European Pro Le
 betclic,12916,Mirage,32,2024-11-25,Aurora Young Blud,12366,8,13,L,European Pro League 2nd Division Season 17,8195
 betclic,12916,Inferno,33,2025-08-26,Monte,11811,8,13,L,CCT Season 3 Europe Series 5,8629
 betclic,12916,Inferno,33,2025-02-19,Ninjas in Pyjamas,4411,3,13,L,CCT Season 2 Europe Series 19 Closed Qualifier,8387
+betclic,12916,Dust2,31,2025-11-11,FORZE Reload,12857,5,13,L,Galaxy Battle 2025 Phase 5,8798
 betclic,12916,Dust2,31,2025-10-25,StoichkovPeek,11024,7,13,L,Game Zone Masters 2025,8799
 betclic,12916,Dust2,31,2025-10-05,VP.Prodigy,10864,8,13,L,Exort The Proving Grounds Season 5,8745
 betclic,12916,Dust2,31,2025-09-28,1win,10621,6,13,L,CCT Season 3 Europe Series 7,8696
@@ -80,6 +84,7 @@ betclic,12916,Dust2,31,2024-11-30,kONO,12858,13,7,W,United21 League Season 23,82
 betclic,12916,Dust2,31,2024-11-29,Illuminar,8813,9,13,L,United21 League Season 23,8201
 betclic,12916,Dust2,31,2024-11-27,Gaimin Gladiators,11571,8,13,L,European Pro League 2nd Division Season 17,8195
 betclic,12916,Dust2,31,2024-11-22,Gaimin Gladiators,11571,16,14,W,European Pro League 2nd Division Season 17,8195
+betclic,12916,Nuke,34,2025-11-15,500,12000,7,13,L,Galaxy Battle 2025 Phase 5,8798
 betclic,12916,Nuke,34,2025-10-10,Gentle Mates,13404,4,13,L,Galaxy Battle 2025 Phase 4,8688
 betclic,12916,Nuke,34,2025-10-09,TPuDCATb TPu,13297,11,13,L,Exort The Proving Grounds Season 5,8745
 betclic,12916,Nuke,34,2025-10-07,Alliance,12474,13,16,L,Galaxy Battle 2025 Phase 4,8688
@@ -133,6 +138,7 @@ betclic,12916,Nuke,34,2024-12-02,Anonymo,10973,13,1,W,United21 League Season 23,
 betclic,12916,Nuke,34,2024-11-29,WOPA,12787,13,4,W,Chicken.GG Cup 2024,8196
 betclic,12916,Nuke,34,2024-11-26,Astralis Talent,10954,13,11,W,European Pro League 2nd Division Season 17,8195
 betclic,12916,Nuke,34,2024-11-22,Gaimin Gladiators,11571,7,13,L,European Pro League 2nd Division Season 17,8195
+betclic,12916,Overpass,40,2025-11-07,777,10943,8,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
 betclic,12916,Overpass,40,2025-10-25,StoichkovPeek,11024,4,13,L,Game Zone Masters 2025,8799
 betclic,12916,Overpass,40,2025-10-10,Gentle Mates,13404,10,13,L,Galaxy Battle 2025 Phase 4,8688
 betclic,12916,Overpass,40,2025-10-07,Alliance,12474,13,5,W,Galaxy Battle 2025 Phase 4,8688
@@ -149,6 +155,10 @@ betclic,12916,Vertigo,46,2024-12-22,9INE,10278,11,13,L,Skin.Club Christmas Cup 2
 betclic,12916,Vertigo,46,2024-12-20,9INE,10278,8,13,L,Skin.Club Christmas Cup 2024,8227
 betclic,12916,Vertigo,46,2024-12-12,Aurora Young Blud,12366,4,13,L,European Pro League Season 21,8204
 betclic,12916,Vertigo,46,2024-11-30,kONO,12858,13,7,W,United21 League Season 23,8201
+betclic,12916,Ancient,47,2025-11-15,500,12000,10,13,L,Galaxy Battle 2025 Phase 5,8798
+betclic,12916,Ancient,47,2025-11-11,FORZE Reload,12857,13,8,W,Galaxy Battle 2025 Phase 5,8798
+betclic,12916,Ancient,47,2025-11-07,Boys N Da HUD,13526,13,2,W,Red Bull GIBAWAY JOURNEY 2025,8768
+betclic,12916,Ancient,47,2025-11-07,Lilmix,9735,13,8,W,Red Bull GIBAWAY JOURNEY 2025,8768
 betclic,12916,Ancient,47,2025-10-09,TPuDCATb TPu,13297,14,16,L,Exort The Proving Grounds Season 5,8745
 betclic,12916,Ancient,47,2025-10-08,ARCRED,10459,13,7,W,Exort The Proving Grounds Season 5,8745
 betclic,12916,Ancient,47,2025-09-28,1win,10621,5,13,L,CCT Season 3 Europe Series 7,8696

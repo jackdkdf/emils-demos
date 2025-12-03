@@ -1,4 +1,5 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+metizport,11641,Mirage,32,2025-11-14,Johnny Speeds,12604,13,8,W,Svenska Cupen 2025,8792
 metizport,11641,Mirage,32,2025-09-11,AMKAL,12586,11,13,L,European Pro League Series 2,8660
 metizport,11641,Mirage,32,2025-08-24,Zero Tenacity,11523,3,13,L,CCT Season 3 Europe Series 5,8629
 metizport,11641,Mirage,32,2025-08-22,CYBERSHOKE,12380,13,9,W,CCT Season 3 Europe Series 5,8629
@@ -47,6 +48,12 @@ metizport,11641,Mirage,32,2024-11-14,Permitta,12009,13,5,W,IESF World Championsh
 metizport,11641,Mirage,32,2024-11-09,Ninjas in Pyjamas,4411,16,13,W,Svenska Cupen 2024,8080
 metizport,11641,Mirage,32,2024-11-08,Johnny Speeds,12604,13,10,W,Svenska Cupen 2024,8080
 metizport,11641,Mirage,32,2024-11-07,Kappa Bar,11321,13,4,W,Svenska Cupen 2024,8080
+metizport,11641,Inferno,33,2025-11-15,Alliance,12474,9,13,L,Svenska Cupen 2025,8792
+metizport,11641,Inferno,33,2025-11-14,Johnny Speeds,12604,13,6,W,Svenska Cupen 2025,8792
+metizport,11641,Inferno,33,2025-11-12,Alliance,12474,12,16,L,Svenska Cupen 2025,8792
+metizport,11641,Inferno,33,2025-11-12,megoshort,11018,13,11,W,Svenska Cupen 2025,8792
+metizport,11641,Inferno,33,2025-11-07,MASONIC,10867,13,5,W,Red Bull GIBAWAY JOURNEY 2025,8768
+metizport,11641,Inferno,33,2025-11-07,Johnny Speeds,12604,17,19,L,Red Bull GIBAWAY JOURNEY 2025,8768
 metizport,11641,Inferno,33,2025-10-31,JiJieHao,10245,9,13,L,Winline Insight Season 9,8772
 metizport,11641,Inferno,33,2025-08-24,Zero Tenacity,11523,1,13,L,CCT Season 3 Europe Series 5,8629
 metizport,11641,Inferno,33,2025-08-14,ECLOT,7441,16,13,W,Exort The Proving Grounds Season 3,8626
@@ -98,6 +105,9 @@ metizport,11641,Dust2,31,2024-12-22,PORTUGAL,11174,10,13,L,Wildz Invitational Se
 metizport,11641,Dust2,31,2024-12-11,Insilio,12124,13,7,W,CCT Season 2 Europe Series 15,8172
 metizport,11641,Dust2,31,2024-11-17,Nexus,7187,13,6,W,IESF World Championship 2024,7779
 metizport,11641,Dust2,31,2024-11-07,Kappa Bar,11321,9,13,L,Svenska Cupen 2024,8080
+metizport,11641,Nuke,34,2025-11-13,megoshort,11018,13,3,W,Svenska Cupen 2025,8792
+metizport,11641,Nuke,34,2025-11-08,BetBoom,12394,2,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
+metizport,11641,Nuke,34,2025-11-07,MASONIC,10867,2,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
 metizport,11641,Nuke,34,2025-10-29,Nexus,7187,13,10,W,Winline Insight Season 9,8772
 metizport,11641,Nuke,34,2025-10-28,JiJieHao,10245,9,13,L,Winline Insight Season 9,8772
 metizport,11641,Nuke,34,2025-09-25,Nexus,7187,11,13,L,DraculaN Season 2,8698
@@ -131,6 +141,10 @@ metizport,11641,Nuke,34,2024-12-22,Zero Tenacity,11523,13,6,W,Wildz Invitational
 metizport,11641,Nuke,34,2024-12-14,9INE,10278,11,13,L,CCT Season 2 Europe Series 15,8172
 metizport,11641,Nuke,34,2024-12-13,Monte,11811,13,7,W,CCT Season 2 Europe Series 15,8172
 metizport,11641,Nuke,34,2024-12-08,FLuffy Gangsters,6668,13,9,W,CCT Season 2 Europe Series 15,8172
+metizport,11641,Overpass,40,2025-11-15,Alliance,12474,7,13,L,Svenska Cupen 2025,8792
+metizport,11641,Overpass,40,2025-11-12,Alliance,12474,14,16,L,Svenska Cupen 2025,8792
+metizport,11641,Overpass,40,2025-11-08,BetBoom,12394,11,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
+metizport,11641,Overpass,40,2025-11-07,Acend,13518,13,10,W,Red Bull GIBAWAY JOURNEY 2025,8768
 metizport,11641,Overpass,40,2025-10-04,fnatic,4991,10,13,L,Fragadelphia Blocktober 2025,8645
 metizport,11641,Overpass,40,2025-09-25,FlyQuest,12774,6,13,L,DraculaN Season 2,8698
 metizport,11641,Overpass,40,2025-09-18,Sashi,11712,15,19,L,European Pro League Series 2,8660
@@ -152,6 +166,12 @@ metizport,11641,Vertigo,46,2024-12-14,9INE,10278,9,13,L,CCT Season 2 Europe Seri
 metizport,11641,Vertigo,46,2024-12-11,Insilio,12124,13,16,L,CCT Season 2 Europe Series 15,8172
 metizport,11641,Vertigo,46,2024-12-03,Into the Breach,11164,13,4,W,CCT Season 2 Europe Series 15,8172
 metizport,11641,Vertigo,46,2024-11-09,Ninjas in Pyjamas,4411,13,4,W,Svenska Cupen 2024,8080
+metizport,11641,Ancient,47,2025-11-15,Alliance,12474,7,13,L,Svenska Cupen 2025,8792
+metizport,11641,Ancient,47,2025-11-13,megoshort,11018,16,14,W,Svenska Cupen 2025,8792
+metizport,11641,Ancient,47,2025-11-07,MASONIC,10867,13,11,W,Red Bull GIBAWAY JOURNEY 2025,8768
+metizport,11641,Ancient,47,2025-11-07,Minkens finest,13525,13,10,W,Red Bull GIBAWAY JOURNEY 2025,8768
+metizport,11641,Ancient,47,2025-11-07,Inner Circle,13117,11,13,L,Red Bull GIBAWAY JOURNEY 2025,8768
+metizport,11641,Ancient,47,2025-11-07,Young Ninjas,10960,13,11,W,Red Bull GIBAWAY JOURNEY 2025,8768
 metizport,11641,Ancient,47,2025-10-04,fnatic,4991,7,13,L,Fragadelphia Blocktober 2025,8645
 metizport,11641,Ancient,47,2025-09-25,Nexus,7187,13,16,L,DraculaN Season 2,8698
 metizport,11641,Ancient,47,2025-09-15,CPH Wolves,4548,13,8,W,European Pro League Series 2,8660

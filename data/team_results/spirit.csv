@@ -1,4 +1,6 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+spirit,7020,Mirage,32,2025-11-14,Vitality,9565,13,16,L,BLAST Rivals 2025 Season 2,7908
+spirit,7020,Mirage,32,2025-11-05,The MongolZ,6248,6,13,L,IEM Chengdu 2025,8041
 spirit,7020,Mirage,32,2025-10-10,FaZe,6667,5,13,L,ESL Pro League Season 22,8040
 spirit,7020,Mirage,32,2025-10-06,G2,5995,13,9,W,ESL Pro League Season 22,8040
 spirit,7020,Mirage,32,2025-10-04,Inner Circle,13117,13,11,W,ESL Pro League Season 22,8040
@@ -33,6 +35,12 @@ spirit,7020,Mirage,32,2024-12-06,Natus Vincere,4608,13,2,W,Perfect World Shangha
 spirit,7020,Mirage,32,2024-11-24,Ninjas in Pyjamas,4411,13,5,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 spirit,7020,Mirage,32,2024-11-24,Sashi,11712,13,8,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 spirit,7020,Mirage,32,2024-11-23,G2,5995,13,5,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+spirit,7020,Dust2,31,2025-11-14,Vitality,9565,13,11,W,BLAST Rivals 2025 Season 2,7908
+spirit,7020,Dust2,31,2025-11-13,The MongolZ,6248,13,6,W,BLAST Rivals 2025 Season 2,7908
+spirit,7020,Dust2,31,2025-11-12,Falcons,11283,13,16,L,BLAST Rivals 2025 Season 2,7908
+spirit,7020,Dust2,31,2025-11-05,The MongolZ,6248,7,13,L,IEM Chengdu 2025,8041
+spirit,7020,Dust2,31,2025-11-05,HEROIC,7175,16,13,W,IEM Chengdu 2025,8041
+spirit,7020,Dust2,31,2025-11-04,Falcons,11283,6,13,L,IEM Chengdu 2025,8041
 spirit,7020,Dust2,31,2025-10-06,G2,5995,13,8,W,ESL Pro League Season 22,8040
 spirit,7020,Dust2,31,2025-10-05,HOTU,11581,13,6,W,ESL Pro League Season 22,8040
 spirit,7020,Dust2,31,2025-09-01,G2,5995,13,16,L,BLAST Open London 2025,7907
@@ -70,6 +78,8 @@ spirit,7020,Dust2,31,2024-12-07,HEROIC,7175,13,7,W,Perfect World Shanghai Major 
 spirit,7020,Dust2,31,2024-12-05,FURIA,8297,6,13,L,Perfect World Shanghai Major 2024,7524
 spirit,7020,Dust2,31,2024-11-22,Aurora,11861,13,7,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 spirit,7020,Dust2,31,2024-11-21,B8,11241,13,1,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+spirit,7020,Nuke,34,2025-11-14,Vitality,9565,16,19,L,BLAST Rivals 2025 Season 2,7908
+spirit,7020,Nuke,34,2025-11-12,Falcons,11283,8,13,L,BLAST Rivals 2025 Season 2,7908
 spirit,7020,Nuke,34,2025-11-03,paiN,4773,13,11,W,IEM Chengdu 2025,8041
 spirit,7020,Nuke,34,2025-10-10,FaZe,6667,9,13,L,ESL Pro League Season 22,8040
 spirit,7020,Nuke,34,2025-10-04,Inner Circle,13117,4,13,L,ESL Pro League Season 22,8040
@@ -103,11 +113,16 @@ spirit,7020,Nuke,34,2025-01-14,fnatic,4991,13,4,W,BLAST Bounty 2025 Season 1,790
 spirit,7020,Nuke,34,2024-12-15,FaZe,6667,13,8,W,Perfect World Shanghai Major 2024,7524
 spirit,7020,Nuke,34,2024-12-14,MOUZ,4494,7,13,L,Perfect World Shanghai Major 2024,7524
 spirit,7020,Nuke,34,2024-11-23,G2,5995,14,16,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+spirit,7020,Overpass,40,2025-11-05,HEROIC,7175,11,13,L,IEM Chengdu 2025,8041
 spirit,7020,Overpass,40,2025-10-05,HOTU,11581,13,7,W,ESL Pro League Season 22,8040
 spirit,7020,Overpass,40,2025-08-15,Virtus.pro,5378,13,3,W,BLAST Bounty 2025 Season 2 Finals,7910
 spirit,7020,Overpass,40,2025-07-29,MOUZ,4494,13,6,W,IEM Cologne 2025,8038
 spirit,7020,Vertigo,46,2024-11-24,Ninjas in Pyjamas,4411,13,11,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 spirit,7020,Vertigo,46,2024-11-24,Sashi,11712,13,6,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
+spirit,7020,Ancient,47,2025-11-13,The MongolZ,6248,13,10,W,BLAST Rivals 2025 Season 2,7908
+spirit,7020,Ancient,47,2025-11-05,The MongolZ,6248,19,16,W,IEM Chengdu 2025,8041
+spirit,7020,Ancient,47,2025-11-05,HEROIC,7175,13,6,W,IEM Chengdu 2025,8041
+spirit,7020,Ancient,47,2025-11-04,Falcons,11283,13,16,L,IEM Chengdu 2025,8041
 spirit,7020,Ancient,47,2025-11-03,paiN,4773,13,7,W,IEM Chengdu 2025,8041
 spirit,7020,Ancient,47,2025-10-04,Inner Circle,13117,13,4,W,ESL Pro League Season 22,8040
 spirit,7020,Ancient,47,2025-09-01,G2,5995,1,13,L,BLAST Open London 2025,7907

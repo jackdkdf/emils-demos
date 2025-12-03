@@ -1,4 +1,5 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+tyloo,4863,Mirage,32,2025-11-29,PARIVISION,12467,13,5,W,StarLadder Budapest Major 2025 Stage 2,8505
 tyloo,4863,Mirage,32,2025-10-16,FaZe,6667,8,13,L,CS Asia Championships 2025,8027
 tyloo,4863,Mirage,32,2025-09-16,Liquid,5973,8,13,L,FISSURE Playground 2,8064
 tyloo,4863,Mirage,32,2025-09-15,The MongolZ,6248,13,10,W,FISSURE Playground 2,8064
@@ -28,6 +29,9 @@ tyloo,4863,Mirage,32,2025-02-08,Fated Rise,13097,19,16,W,IEM Dallas 2025 Asia Op
 tyloo,4863,Mirage,32,2025-02-08,harizma,13115,13,5,W,IEM Dallas 2025 Asia Open Qualifier,8278
 tyloo,4863,Mirage,32,2025-01-23,NomadS,12900,13,4,W,ESL Challenger League Season 49 Asia-Pacific,8305
 tyloo,4863,Mirage,32,2025-01-21,harizma,13115,13,8,W,ESL Challenger League Season 49 Asia-Pacific,8305
+tyloo,4863,Inferno,33,2025-12-01,Liquid,5973,14,16,L,StarLadder Budapest Major 2025 Stage 2,8505
+tyloo,4863,Inferno,33,2025-11-12,Vitality,9565,11,13,L,BLAST Rivals 2025 Season 2,7908
+tyloo,4863,Inferno,33,2025-11-04,paiN,4773,11,13,L,IEM Chengdu 2025,8041
 tyloo,4863,Inferno,33,2025-11-03,Falcons,11283,8,13,L,IEM Chengdu 2025,8041
 tyloo,4863,Inferno,33,2025-10-16,FaZe,6667,7,13,L,CS Asia Championships 2025,8027
 tyloo,4863,Inferno,33,2025-10-15,fnatic,4991,10,13,L,CS Asia Championships 2025,8027
@@ -79,6 +83,10 @@ tyloo,4863,Inferno,33,2025-01-24,Just Swing,13053,16,13,W,ESL Challenger League 
 tyloo,4863,Inferno,33,2025-01-22,Chinggis Warriors,12646,13,8,W,ESL Challenger League Season 49 Asia-Pacific,8305
 tyloo,4863,Inferno,33,2025-01-21,harizma,13115,13,6,W,ESL Challenger League Season 49 Asia-Pacific,8305
 tyloo,4863,Inferno,33,2025-01-18,ATOX,12312,8,13,L,ZOWIE eXTREMESLAND Asia Open 2024,8120
+tyloo,4863,Nuke,34,2025-11-29,Ninjas in Pyjamas,4411,8,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+tyloo,4863,Nuke,34,2025-11-13,paiN,4773,7,13,L,BLAST Rivals 2025 Season 2,7908
+tyloo,4863,Nuke,34,2025-11-12,Vitality,9565,13,4,W,BLAST Rivals 2025 Season 2,7908
+tyloo,4863,Nuke,34,2025-11-04,paiN,4773,6,13,L,IEM Chengdu 2025,8041
 tyloo,4863,Nuke,34,2025-10-16,FaZe,6667,13,9,W,CS Asia Championships 2025,8027
 tyloo,4863,Nuke,34,2025-08-31,3DMAX,4914,11,13,L,Perfect World CS Challenge Series 1,8648
 tyloo,4863,Nuke,34,2025-08-31,Lynn Vision,8840,9,13,L,Perfect World CS Challenge Series 1,8648
@@ -98,6 +106,8 @@ tyloo,4863,Nuke,34,2025-03-03,GamerLegion,9928,13,5,W,ESL Pro League Season 21 S
 tyloo,4863,Nuke,34,2025-01-18,ATOX,12312,6,13,L,ZOWIE eXTREMESLAND Asia Open 2024,8120
 tyloo,4863,Nuke,34,2025-01-17,IHC,11585,13,9,W,ZOWIE eXTREMESLAND Asia Open 2024,8120
 tyloo,4863,Nuke,34,2025-01-14,SemperFi,12901,13,6,W,ZOWIE eXTREMESLAND Asia Open 2024,8120
+tyloo,4863,Overpass,40,2025-11-13,paiN,4773,10,13,L,BLAST Rivals 2025 Season 2,7908
+tyloo,4863,Overpass,40,2025-11-12,Vitality,9565,2,13,L,BLAST Rivals 2025 Season 2,7908
 tyloo,4863,Overpass,40,2025-09-15,The MongolZ,6248,10,13,L,FISSURE Playground 2,8064
 tyloo,4863,Overpass,40,2025-08-31,Lynn Vision,8840,13,7,W,Perfect World CS Challenge Series 1,8648
 tyloo,4863,Overpass,40,2025-08-29,3DMAX,4914,13,9,W,Perfect World CS Challenge Series 1,8648
@@ -105,6 +115,8 @@ tyloo,4863,Overpass,40,2025-08-29,B8,11241,9,13,L,Perfect World CS Challenge Ser
 tyloo,4863,Overpass,40,2025-08-20,Astralis,6665,13,7,W,Esports World Cup 2025,8039
 tyloo,4863,Overpass,40,2025-07-24,Complexity,5005,11,13,L,IEM Cologne 2025 Stage 1,8230
 tyloo,4863,Overpass,40,2025-07-23,Virtus.pro,5378,5,13,L,IEM Cologne 2025 Stage 1,8230
+tyloo,4863,Ancient,47,2025-12-01,Liquid,5973,13,9,W,StarLadder Budapest Major 2025 Stage 2,8505
+tyloo,4863,Ancient,47,2025-11-13,paiN,4773,13,9,W,BLAST Rivals 2025 Season 2,7908
 tyloo,4863,Ancient,47,2025-11-03,Falcons,11283,3,13,L,IEM Chengdu 2025,8041
 tyloo,4863,Ancient,47,2025-09-16,Liquid,5973,10,13,L,FISSURE Playground 2,8064
 tyloo,4863,Ancient,47,2025-09-15,The MongolZ,6248,7,13,L,FISSURE Playground 2,8064
@@ -152,6 +164,8 @@ tyloo,4863,Anubis,48,2025-03-02,Eternal Fire,11251,13,8,W,ESL Pro League Season 
 tyloo,4863,Anubis,48,2025-01-24,Just Swing,13053,13,4,W,ESL Challenger League Season 49 Asia-Pacific,8305
 tyloo,4863,Anubis,48,2025-01-23,NomadS,12900,13,7,W,ESL Challenger League Season 49 Asia-Pacific,8305
 tyloo,4863,Anubis,48,2025-01-22,Chinggis Warriors,12646,11,13,L,ESL Challenger League Season 49 Asia-Pacific,8305
+tyloo,4863,Train,35,2025-12-01,Liquid,5973,5,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+tyloo,4863,Train,35,2025-11-30,M80,12376,10,13,L,StarLadder Budapest Major 2025 Stage 2,8505
 tyloo,4863,Train,35,2025-10-15,fnatic,4991,14,16,L,CS Asia Championships 2025,8027
 tyloo,4863,Train,35,2025-10-14,Fluxo,11837,22,20,W,CS Asia Championships 2025,8027
 tyloo,4863,Train,35,2025-08-31,3DMAX,4914,15,19,L,Perfect World CS Challenge Series 1,8648

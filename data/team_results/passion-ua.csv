@@ -1,4 +1,7 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
+passion-ua,12426,Mirage,32,2025-11-29,MIBR,9215,13,10,W,StarLadder Budapest Major 2025 Stage 2,8505
+passion-ua,12426,Mirage,32,2025-11-23,FUT,13286,14,16,L,DraculaN Season 3,8841
+passion-ua,12426,Mirage,32,2025-11-13,Falcons,11283,10,13,L,BLAST Rivals 2025 Season 2,7908
 passion-ua,12426,Mirage,32,2025-08-13,BIG,7532,1,13,L,StarLadder StarSeries Fall 2025 Europe Closed Qualifier,8566
 passion-ua,12426,Mirage,32,2025-08-12,CPH Wolves,4548,13,8,W,Thunderpick World Championship 2025 European Series 2,8550
 passion-ua,12426,Mirage,32,2025-08-11,Betera,12431,5,13,L,ESL Challenger League Season 50 Europe Cup 1,8597
@@ -71,6 +74,12 @@ passion-ua,12426,Mirage,32,2024-11-23,HEROIC,7175,7,13,L,Perfect World Shanghai 
 passion-ua,12426,Mirage,32,2024-11-22,BIG,7532,9,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
 passion-ua,12426,Mirage,32,2024-11-21,Virtus.pro,5378,16,14,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 passion-ua,12426,Mirage,32,2024-11-06,500,12000,17,19,L,Hellcase Cup 11,8146
+passion-ua,12426,Inferno,33,2025-12-01,fnatic,4991,13,7,W,StarLadder Budapest Major 2025 Stage 2,8505
+passion-ua,12426,Inferno,33,2025-11-22,ECSTATIC,11419,6,13,L,DraculaN Season 3,8841
+passion-ua,12426,Inferno,33,2025-11-22,Nexus,7187,13,3,W,DraculaN Season 3,8841
+passion-ua,12426,Inferno,33,2025-11-21,Acend,13518,13,6,W,DraculaN Season 3,8841
+passion-ua,12426,Inferno,33,2025-11-14,paiN,4773,7,13,L,BLAST Rivals 2025 Season 2,7908
+passion-ua,12426,Inferno,33,2025-11-12,The MongolZ,6248,13,11,W,BLAST Rivals 2025 Season 2,7908
 passion-ua,12426,Inferno,33,2025-09-30,EYEBALLERS,11737,14,16,L,Urban Riga Open Season 1,8712
 passion-ua,12426,Inferno,33,2025-09-30,BIG,7532,12,16,L,Urban Riga Open Season 1,8712
 passion-ua,12426,Inferno,33,2025-09-30,Fingers Crossed,13466,10,13,L,Urban Riga Open Season 1,8712
@@ -99,6 +108,8 @@ passion-ua,12426,Inferno,33,2024-12-03,Wildcard,12257,6,13,L,Perfect World Shang
 passion-ua,12426,Inferno,33,2024-12-02,GamerLegion,9928,6,13,L,Perfect World Shanghai Major 2024 Opening Stage,7861
 passion-ua,12426,Inferno,33,2024-11-24,Astralis,6665,13,9,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 passion-ua,12426,Inferno,33,2024-11-06,500,12000,5,13,L,Hellcase Cup 11,8146
+passion-ua,12426,Dust2,31,2025-11-29,FaZe,6667,10,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+passion-ua,12426,Dust2,31,2025-11-22,Nexus,7187,11,13,L,DraculaN Season 3,8841
 passion-ua,12426,Dust2,31,2025-09-30,EYEBALLERS,11737,14,16,L,Urban Riga Open Season 1,8712
 passion-ua,12426,Dust2,31,2025-09-30,BIG,7532,13,7,W,Urban Riga Open Season 1,8712
 passion-ua,12426,Dust2,31,2025-09-28,BASEMENT BOYS,13181,13,5,W,DraculaN Season 2,8698
@@ -152,6 +163,8 @@ passion-ua,12426,Dust2,31,2025-03-07,BC.Game,12878,5,13,L,PGL Bucharest 2025 Eur
 passion-ua,12426,Dust2,31,2025-02-21,GUN5,12471,15,19,L,CCT Season 2 Europe Series 18,8345
 passion-ua,12426,Dust2,31,2025-02-05,BetBoom,12394,13,10,W,RES Showdown 1 Closed Qualifier,8346
 passion-ua,12426,Dust2,31,2024-11-22,BIG,7532,5,13,L,Perfect World Shanghai Major 2024 Europe RMR B,7865
+passion-ua,12426,Nuke,34,2025-11-14,paiN,4773,4,13,L,BLAST Rivals 2025 Season 2,7908
+passion-ua,12426,Nuke,34,2025-11-12,The MongolZ,6248,13,11,W,BLAST Rivals 2025 Season 2,7908
 passion-ua,12426,Nuke,34,2025-09-30,EYEBALLERS,11737,13,7,W,Urban Riga Open Season 1,8712
 passion-ua,12426,Nuke,34,2025-09-28,OG,10503,6,13,L,DraculaN Season 2,8698
 passion-ua,12426,Nuke,34,2025-09-27,Zero Tenacity,11523,22,19,W,DraculaN Season 2,8698
@@ -163,6 +176,10 @@ passion-ua,12426,Nuke,34,2025-05-11,Partizan,11838,13,6,W,CCT Season 3 Europe Se
 passion-ua,12426,Nuke,34,2025-05-06,Nexus,7187,9,13,L,CCT Season 3 Europe Series 1,8485
 passion-ua,12426,Nuke,34,2025-04-29,9INE,10278,10,13,L,Galaxy Battle 2025 Phase 1,8456
 passion-ua,12426,Nuke,34,2025-04-28,Zero Tenacity,11523,11,13,L,Thunderpick World Championship 2025 European Series 1,8472
+passion-ua,12426,Overpass,40,2025-12-01,fnatic,4991,13,11,W,StarLadder Budapest Major 2025 Stage 2,8505
+passion-ua,12426,Overpass,40,2025-11-22,ECSTATIC,11419,2,13,L,DraculaN Season 3,8841
+passion-ua,12426,Overpass,40,2025-11-21,GenOne,11609,13,2,W,DraculaN Season 3,8841
+passion-ua,12426,Overpass,40,2025-11-12,The MongolZ,6248,14,16,L,BLAST Rivals 2025 Season 2,7908
 passion-ua,12426,Overpass,40,2025-09-30,EYEBALLERS,11737,13,10,W,Urban Riga Open Season 1,8712
 passion-ua,12426,Overpass,40,2025-09-30,Fingers Crossed,13466,13,0,W,Urban Riga Open Season 1,8712
 passion-ua,12426,Overpass,40,2025-08-30,9INE,10278,8,13,L,DraculaN Season 1,8635
@@ -251,6 +268,11 @@ passion-ua,12426,Anubis,48,2024-11-30,Complexity,5005,13,9,W,Perfect World Shang
 passion-ua,12426,Anubis,48,2024-11-22,BIG,7532,13,9,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 passion-ua,12426,Anubis,48,2024-11-21,Spirit,7020,13,11,W,Perfect World Shanghai Major 2024 Europe RMR B,7865
 passion-ua,12426,Anubis,48,2024-11-06,500,12000,19,15,W,Hellcase Cup 11,8146
+passion-ua,12426,Train,35,2025-11-30,3DMAX,4914,3,13,L,StarLadder Budapest Major 2025 Stage 2,8505
+passion-ua,12426,Train,35,2025-11-23,FUT,13286,4,13,L,DraculaN Season 3,8841
+passion-ua,12426,Train,35,2025-11-22,Nexus,7187,13,11,W,DraculaN Season 3,8841
+passion-ua,12426,Train,35,2025-11-21,GenOne,11609,13,8,W,DraculaN Season 3,8841
+passion-ua,12426,Train,35,2025-11-13,Falcons,11283,11,13,L,BLAST Rivals 2025 Season 2,7908
 passion-ua,12426,Train,35,2025-09-30,BIG,7532,13,9,W,Urban Riga Open Season 1,8712
 passion-ua,12426,Train,35,2025-09-30,Fingers Crossed,13466,13,11,W,Urban Riga Open Season 1,8712
 passion-ua,12426,Train,35,2025-09-28,OG,10503,13,3,W,DraculaN Season 2,8698

@@ -1,5 +1,6 @@
 team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,score_them,result,event_name,event_id
 9ine,10278,Mirage,32,2025-08-13,Ninjas in Pyjamas,4411,6,13,L,StarLadder StarSeries Fall 2025 Europe Closed Qualifier,8566
+9ine,10278,Inferno,33,2025-11-14,BORING PLAYERS,12948,13,1,W,Perfect World CS Challenge Series 2,8834
 9ine,10278,Inferno,33,2025-10-19,Nemiga,7969,13,4,W,NODWIN Clutch Series 1,8739
 9ine,10278,Inferno,33,2025-10-10,TPuDCATb TPu,13297,13,11,W,Exort The Proving Grounds Season 5,8745
 9ine,10278,Inferno,33,2025-10-05,fnatic,4991,7,13,L,Fragadelphia Blocktober 2025,8645
@@ -68,6 +69,8 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 9ine,10278,Inferno,33,2024-11-05,Aurora,11861,6,13,L,Hellcase Cup 11,8146
 9ine,10278,Inferno,33,2024-11-04,ARCRED,10459,13,4,W,Hellcase Cup 11,8146
 9ine,10278,Inferno,33,2024-11-04,NAVI Junior,10371,11,13,L,European Pro League Season 20,8144
+9ine,10278,Dust2,31,2025-11-14,BORING PLAYERS,12948,13,4,W,Perfect World CS Challenge Series 2,8834
+9ine,10278,Dust2,31,2025-11-07,TPuDCATb TPu,13297,19,16,W,Exort Series 18,8829
 9ine,10278,Dust2,31,2025-10-18,RUBY,12694,16,14,W,NODWIN Clutch Series 1,8739
 9ine,10278,Dust2,31,2025-10-05,fnatic,4991,13,7,W,Fragadelphia Blocktober 2025,8645
 9ine,10278,Dust2,31,2025-10-04,SAW,10567,4,13,L,Fragadelphia Blocktober 2025,8645
@@ -136,6 +139,8 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 9ine,10278,Dust2,31,2024-11-25,Insilio,12124,8,13,L,Chicken.GG Cup 2024,8196
 9ine,10278,Dust2,31,2024-11-10,GUN5,12471,13,16,L,YaLLa Compass Fall 2024,8108
 9ine,10278,Dust2,31,2024-11-04,NAVI Junior,10371,6,13,L,European Pro League Season 20,8144
+9ine,10278,Nuke,34,2025-11-16,Gentle Mates,13404,10,13,L,Perfect World CS Challenge Series 2,8834
+9ine,10278,Nuke,34,2025-11-15,Lynn Vision,8840,9,13,L,Perfect World CS Challenge Series 2,8834
 9ine,10278,Nuke,34,2025-10-12,SINNERS,10577,8,13,L,Exort The Proving Grounds Season 5,8745
 9ine,10278,Nuke,34,2025-10-10,TPuDCATb TPu,13297,13,4,W,Exort The Proving Grounds Season 5,8745
 9ine,10278,Nuke,34,2025-10-05,ECSTATIC,11419,13,2,W,Fragadelphia Blocktober 2025,8645
@@ -238,6 +243,9 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 9ine,10278,Vertigo,46,2024-11-07,Gaimin Gladiators,11571,13,11,W,Winline Insight Season 6,8129
 9ine,10278,Vertigo,46,2024-11-06,Into the Breach,11164,11,13,L,YaLLa Compass Fall 2024,8108
 9ine,10278,Vertigo,46,2024-11-04,ECSTATIC,11419,13,8,W,Hellcase Cup 11,8146
+9ine,10278,Ancient,47,2025-11-29,GenOne,11609,10,13,L,DreamHack Knockout Stockholm 2025,8726
+9ine,10278,Ancient,47,2025-11-15,Lynn Vision,8840,7,13,L,Perfect World CS Challenge Series 2,8834
+9ine,10278,Ancient,47,2025-11-07,TPuDCATb TPu,13297,6,13,L,Exort Series 18,8829
 9ine,10278,Ancient,47,2025-10-19,Nemiga,7969,7,13,L,NODWIN Clutch Series 1,8739
 9ine,10278,Ancient,47,2025-10-18,RUBY,12694,23,25,L,NODWIN Clutch Series 1,8739
 9ine,10278,Ancient,47,2025-10-12,SINNERS,10577,5,13,L,Exort The Proving Grounds Season 5,8745
@@ -368,6 +376,9 @@ team_name,team_id,map_name,map_id,match_date,opponent_name,opponent_id,score_us,
 9ine,10278,Anubis,48,2024-11-10,GUN5,12471,6,13,L,YaLLa Compass Fall 2024,8108
 9ine,10278,Anubis,48,2024-11-07,Gaimin Gladiators,11571,11,13,L,Winline Insight Season 6,8129
 9ine,10278,Anubis,48,2024-11-06,Into the Breach,11164,13,9,W,YaLLa Compass Fall 2024,8108
+9ine,10278,Train,35,2025-11-29,GenOne,11609,6,13,L,DreamHack Knockout Stockholm 2025,8726
+9ine,10278,Train,35,2025-11-16,Gentle Mates,13404,2,13,L,Perfect World CS Challenge Series 2,8834
+9ine,10278,Train,35,2025-11-07,TPuDCATb TPu,13297,11,13,L,Exort Series 18,8829
 9ine,10278,Train,35,2025-10-19,Nemiga,7969,10,13,L,NODWIN Clutch Series 1,8739
 9ine,10278,Train,35,2025-10-18,RUBY,12694,13,5,W,NODWIN Clutch Series 1,8739
 9ine,10278,Train,35,2025-10-05,fnatic,4991,9,13,L,Fragadelphia Blocktober 2025,8645
