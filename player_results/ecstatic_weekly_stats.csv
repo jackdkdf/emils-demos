@@ -1,0 +1,954 @@
+team_name,map_name,start_date,end_date,player_name,overall_rating,utility_success,opening_rating
+ecstatic,Mirage,2024-12-02,2024-12-09,TMB,1.26,0.14,0.96
+ecstatic,Mirage,2024-12-02,2024-12-09,Kristou,0.92,1.0,1.17
+ecstatic,Mirage,2024-12-02,2024-12-09,nut nut,0.89,1.06,0.81
+ecstatic,Mirage,2024-12-02,2024-12-09,Anlelele,0.85,0.69,0.74
+ecstatic,Mirage,2024-12-02,2024-12-09,n1Xen,0.64,0.31,1.25
+ecstatic,Mirage,2024-12-09,2024-12-16,nut nut,1.2,1.16,1.02
+ecstatic,Mirage,2024-12-09,2024-12-16,Kristou,0.98,1.27,1.33
+ecstatic,Mirage,2024-12-09,2024-12-16,TMB,0.77,0.69,0.67
+ecstatic,Mirage,2024-12-09,2024-12-16,n1Xen,0.69,0.31,0.94
+ecstatic,Mirage,2024-12-09,2024-12-16,Anlelele,0.66,0.74,0.98
+ecstatic,Mirage,2024-12-23,2024-12-30,TMB,1.49,0.42,0.84
+ecstatic,Mirage,2024-12-23,2024-12-30,n1Xen,0.86,0.57,0.67
+ecstatic,Mirage,2024-12-23,2024-12-30,Kristou,0.75,1.0,1.19
+ecstatic,Mirage,2024-12-23,2024-12-30,nut nut,0.6,0.73,0.93
+ecstatic,Mirage,2024-12-30,2025-01-06,TMB,1.51,0.67,1.62
+ecstatic,Mirage,2024-12-30,2025-01-06,Kristou,1.39,1.05,0.98
+ecstatic,Mirage,2024-12-30,2025-01-06,nut nut,1.32,0.67,0.75
+ecstatic,Mirage,2024-12-30,2025-01-06,n1Xen,0.98,0.5,1.38
+ecstatic,Mirage,2024-12-30,2025-01-06,Anlelele,0.68,0.27,0.75
+ecstatic,Mirage,2025-01-06,2025-01-13,nut nut,1.05,0.58,0.0
+ecstatic,Mirage,2025-01-06,2025-01-13,Anlelele,0.88,1.5,0.86
+ecstatic,Mirage,2025-01-06,2025-01-13,Kristou,0.79,1.17,0.67
+ecstatic,Mirage,2025-01-06,2025-01-13,TMB,0.55,1.0,0.67
+ecstatic,Mirage,2025-01-27,2025-02-03,Anlelele,1.25,1.08,0.57
+ecstatic,Mirage,2025-01-27,2025-02-03,nut nut,0.82,0.93,0.0
+ecstatic,Mirage,2025-01-27,2025-02-03,Kristou,0.55,1.27,1.06
+ecstatic,Mirage,2025-01-27,2025-02-03,TMB,0.48,1.0,0.47
+ecstatic,Mirage,2025-01-27,2025-02-03,sirah,0.38,0.5,0.86
+ecstatic,Mirage,2025-02-03,2025-02-10,Anlelele,1.25,1.08,0.57
+ecstatic,Mirage,2025-02-03,2025-02-10,nut nut,0.82,0.93,0.0
+ecstatic,Mirage,2025-02-03,2025-02-10,Kristou,0.55,1.27,1.06
+ecstatic,Mirage,2025-02-03,2025-02-10,TMB,0.48,1.0,0.47
+ecstatic,Mirage,2025-02-03,2025-02-10,sirah,0.38,0.5,0.86
+ecstatic,Mirage,2025-02-17,2025-02-24,nut nut,1.56,0.47,0.98
+ecstatic,Mirage,2025-02-17,2025-02-24,Anlelele,1.05,0.6,0.75
+ecstatic,Mirage,2025-02-17,2025-02-24,sirah,0.94,0.69,0.67
+ecstatic,Mirage,2025-02-17,2025-02-24,Kristou,0.78,0.81,1.06
+ecstatic,Mirage,2025-02-17,2025-02-24,TMB,0.78,0.18,0.75
+ecstatic,Mirage,2025-02-24,2025-03-03,nut nut,1.97,0.65,0.82
+ecstatic,Mirage,2025-02-24,2025-03-03,Anlelele,1.62,0.76,1.5
+ecstatic,Mirage,2025-02-24,2025-03-03,Kristou,1.1,0.71,0.97
+ecstatic,Mirage,2025-02-24,2025-03-03,TMB,1.01,0.36,1.2
+ecstatic,Mirage,2025-02-24,2025-03-03,sirah,0.78,0.9,0.82
+ecstatic,Mirage,2025-05-05,2025-05-12,Kristou,1.37,0.66,1.27
+ecstatic,Mirage,2025-05-05,2025-05-12,Anlelele,1.24,0.52,1.2
+ecstatic,Mirage,2025-05-05,2025-05-12,sirah,1.23,0.45,1.17
+ecstatic,Mirage,2025-05-05,2025-05-12,TMB,1.07,0.61,0.97
+ecstatic,Mirage,2025-05-05,2025-05-12,nut nut,1.07,0.68,1.07
+ecstatic,Mirage,2025-05-12,2025-05-19,sirah,1.61,0.17,1.62
+ecstatic,Mirage,2025-05-12,2025-05-19,Kristou,1.59,0.87,2.02
+ecstatic,Mirage,2025-05-12,2025-05-19,nut nut,1.27,0.5,0.0
+ecstatic,Mirage,2025-05-12,2025-05-19,Anlelele,1.13,1.14,0.0
+ecstatic,Mirage,2025-05-12,2025-05-19,TMB,0.53,0.5,0.83
+ecstatic,Mirage,2025-06-09,2025-06-16,Anlelele,1.57,1.2,1.08
+ecstatic,Mirage,2025-06-09,2025-06-16,nut nut,1.22,0.59,0.88
+ecstatic,Mirage,2025-06-09,2025-06-16,sirah,1.03,0.56,0.88
+ecstatic,Mirage,2025-06-09,2025-06-16,TMB,0.99,0.94,1.08
+ecstatic,Mirage,2025-06-09,2025-06-16,Kristou,0.59,0.88,0.81
+ecstatic,Mirage,2025-08-11,2025-08-18,Anlelele,2.12,1.5,1.33
+ecstatic,Mirage,2025-08-11,2025-08-18,sirah,2.0,1.5,1.33
+ecstatic,Mirage,2025-08-11,2025-08-18,Kristou,1.66,0.67,1.78
+ecstatic,Mirage,2025-08-11,2025-08-18,nut nut,0.95,0.14,1.22
+ecstatic,Mirage,2025-08-11,2025-08-18,TMB,0.89,0.91,0.44
+ecstatic,Mirage,2025-08-25,2025-09-01,Anlelele,1.21,1.11,0.58
+ecstatic,Mirage,2025-08-25,2025-09-01,nut nut,1.04,0.58,0.75
+ecstatic,Mirage,2025-08-25,2025-09-01,sirah,0.68,0.86,1.0
+ecstatic,Mirage,2025-08-25,2025-09-01,TMB,0.39,0.67,0.33
+ecstatic,Mirage,2025-10-20,2025-10-27,nut nut,1.3,0.29,0.52
+ecstatic,Mirage,2025-10-20,2025-10-27,sirah,1.23,0.2,1.73
+ecstatic,Mirage,2025-10-20,2025-10-27,Anlelele,1.23,0.72,1.05
+ecstatic,Mirage,2025-10-20,2025-10-27,acoR,0.89,0.56,1.42
+ecstatic,Mirage,2025-10-20,2025-10-27,TMB,0.63,0.69,1.2
+ecstatic,Mirage,2025-10-27,2025-11-03,sirah,1.49,0.68,0.95
+ecstatic,Mirage,2025-10-27,2025-11-03,nut nut,1.42,0.68,1.07
+ecstatic,Mirage,2025-10-27,2025-11-03,TMB,1.26,0.44,0.67
+ecstatic,Mirage,2025-10-27,2025-11-03,Anlelele,1.15,0.95,0.78
+ecstatic,Mirage,2025-10-27,2025-11-03,acoR,0.9,0.75,0.95
+ecstatic,Inferno,2024-12-09,2024-12-16,Anlelele,1.54,0.27,1.98
+ecstatic,Inferno,2024-12-09,2024-12-16,TMB,1.3,0.31,1.26
+ecstatic,Inferno,2024-12-09,2024-12-16,nut nut,1.23,0.69,0.87
+ecstatic,Inferno,2024-12-09,2024-12-16,n1Xen,1.06,0.06,0.94
+ecstatic,Inferno,2024-12-09,2024-12-16,Kristou,0.87,0.6,1.06
+ecstatic,Inferno,2024-12-30,2025-01-06,Kristou,1.38,0.46,1.1
+ecstatic,Inferno,2024-12-30,2025-01-06,nut nut,1.36,0.3,0.52
+ecstatic,Inferno,2024-12-30,2025-01-06,Anlelele,1.27,0.65,0.59
+ecstatic,Inferno,2024-12-30,2025-01-06,n1Xen,0.95,0.29,1.1
+ecstatic,Inferno,2024-12-30,2025-01-06,TMB,0.93,0.53,0.74
+ecstatic,Inferno,2025-01-06,2025-01-13,Kristou,1.33,0.59,1.24
+ecstatic,Inferno,2025-01-06,2025-01-13,nut nut,0.9,0.71,0.59
+ecstatic,Inferno,2025-01-06,2025-01-13,TMB,0.76,0.79,0.63
+ecstatic,Inferno,2025-01-06,2025-01-13,Anlelele,0.66,0.53,1.2
+ecstatic,Inferno,2025-01-13,2025-01-20,TMB,1.15,0.64,0.76
+ecstatic,Inferno,2025-01-13,2025-01-20,Anlelele,1.06,0.75,0.67
+ecstatic,Inferno,2025-01-13,2025-01-20,Kristou,0.73,0.3,0.94
+ecstatic,Inferno,2025-01-13,2025-01-20,sirah,0.57,0.57,1.22
+ecstatic,Inferno,2025-01-13,2025-01-20,nut nut,0.53,0.5,0.67
+ecstatic,Inferno,2025-01-20,2025-01-27,Anlelele,1.48,0.71,1.59
+ecstatic,Inferno,2025-01-20,2025-01-27,sirah,1.41,0.79,1.27
+ecstatic,Inferno,2025-01-20,2025-01-27,nut nut,1.3,0.74,0.63
+ecstatic,Inferno,2025-01-20,2025-01-27,Kristou,1.06,0.73,0.99
+ecstatic,Inferno,2025-01-20,2025-01-27,TMB,0.78,0.52,1.02
+ecstatic,Inferno,2025-01-27,2025-02-03,Kristou,1.03,0.67,0.86
+ecstatic,Inferno,2025-01-27,2025-02-03,TMB,0.93,0.59,0.67
+ecstatic,Inferno,2025-01-27,2025-02-03,sirah,0.81,0.33,0.9
+ecstatic,Inferno,2025-01-27,2025-02-03,Anlelele,0.8,0.47,0.59
+ecstatic,Inferno,2025-01-27,2025-02-03,nut nut,0.68,0.8,0.82
+ecstatic,Inferno,2025-02-03,2025-02-10,Kristou,1.11,0.57,0.67
+ecstatic,Inferno,2025-02-03,2025-02-10,sirah,1.05,0.37,0.93
+ecstatic,Inferno,2025-02-03,2025-02-10,TMB,0.92,0.8,1.17
+ecstatic,Inferno,2025-02-03,2025-02-10,nut nut,0.91,0.84,0.86
+ecstatic,Inferno,2025-02-03,2025-02-10,Anlelele,0.75,0.69,1.03
+ecstatic,Inferno,2025-02-10,2025-02-17,sirah,1.55,0.5,1.38
+ecstatic,Inferno,2025-02-10,2025-02-17,nut nut,1.18,0.93,1.13
+ecstatic,Inferno,2025-02-10,2025-02-17,TMB,1.07,0.62,1.33
+ecstatic,Inferno,2025-02-10,2025-02-17,Kristou,1.03,0.4,0.79
+ecstatic,Inferno,2025-02-10,2025-02-17,Anlelele,0.89,0.52,1.21
+ecstatic,Inferno,2025-02-17,2025-02-24,Anlelele,1.12,0.43,1.56
+ecstatic,Inferno,2025-02-17,2025-02-24,TMB,0.9,0.68,1.07
+ecstatic,Inferno,2025-02-17,2025-02-24,sirah,0.84,0.47,0.95
+ecstatic,Inferno,2025-02-17,2025-02-24,nut nut,0.72,0.92,0.75
+ecstatic,Inferno,2025-02-17,2025-02-24,Kristou,0.61,0.63,0.91
+ecstatic,Inferno,2025-02-24,2025-03-03,nut nut,1.5,0.62,1.24
+ecstatic,Inferno,2025-02-24,2025-03-03,Anlelele,1.19,0.77,1.44
+ecstatic,Inferno,2025-02-24,2025-03-03,sirah,1.04,0.27,0.99
+ecstatic,Inferno,2025-02-24,2025-03-03,Kristou,1.02,0.59,1.03
+ecstatic,Inferno,2025-02-24,2025-03-03,TMB,0.87,0.61,1.03
+ecstatic,Inferno,2025-03-03,2025-03-10,nut nut,1.68,0.53,0.81
+ecstatic,Inferno,2025-03-03,2025-03-10,sirah,1.47,0.45,1.5
+ecstatic,Inferno,2025-03-03,2025-03-10,Kristou,0.9,0.6,0.88
+ecstatic,Inferno,2025-03-03,2025-03-10,Anlelele,0.72,0.56,0.46
+ecstatic,Inferno,2025-03-03,2025-03-10,TMB,0.71,0.58,0.53
+ecstatic,Inferno,2025-03-10,2025-03-17,Anlelele,1.3,0.58,0.91
+ecstatic,Inferno,2025-03-10,2025-03-17,TMB,1.19,0.43,1.0
+ecstatic,Inferno,2025-03-10,2025-03-17,Kristou,1.18,0.44,1.26
+ecstatic,Inferno,2025-03-10,2025-03-17,sirah,1.11,0.54,1.21
+ecstatic,Inferno,2025-03-10,2025-03-17,nut nut,1.07,0.54,1.0
+ecstatic,Inferno,2025-03-17,2025-03-24,Anlelele,1.21,0.75,1.05
+ecstatic,Inferno,2025-03-17,2025-03-24,sirah,1.12,0.42,1.03
+ecstatic,Inferno,2025-03-17,2025-03-24,TMB,1.01,0.45,0.94
+ecstatic,Inferno,2025-03-17,2025-03-24,nut nut,1.0,0.81,0.77
+ecstatic,Inferno,2025-03-17,2025-03-24,Kristou,0.95,0.44,1.09
+ecstatic,Inferno,2025-03-24,2025-03-31,sirah,1.97,1.0,1.16
+ecstatic,Inferno,2025-03-24,2025-03-31,Anlelele,1.27,0.75,1.84
+ecstatic,Inferno,2025-03-24,2025-03-31,Kristou,1.24,0.71,0.76
+ecstatic,Inferno,2025-03-24,2025-03-31,TMB,1.23,0.33,1.06
+ecstatic,Inferno,2025-03-24,2025-03-31,nut nut,1.22,0.2,1.16
+ecstatic,Inferno,2025-04-21,2025-04-28,nut nut,1.35,0.91,0.82
+ecstatic,Inferno,2025-04-21,2025-04-28,Anlelele,1.01,0.52,0.94
+ecstatic,Inferno,2025-04-21,2025-04-28,Kristou,0.92,0.81,1.13
+ecstatic,Inferno,2025-04-21,2025-04-28,sirah,0.85,0.52,0.98
+ecstatic,Inferno,2025-04-21,2025-04-28,TMB,0.66,0.5,0.59
+ecstatic,Inferno,2025-04-28,2025-05-05,Anlelele,1.39,0.49,1.57
+ecstatic,Inferno,2025-04-28,2025-05-05,nut nut,1.13,0.8,0.88
+ecstatic,Inferno,2025-04-28,2025-05-05,sirah,1.01,0.48,0.83
+ecstatic,Inferno,2025-04-28,2025-05-05,Kristou,0.83,0.59,0.8
+ecstatic,Inferno,2025-04-28,2025-05-05,TMB,0.77,0.62,0.88
+ecstatic,Inferno,2025-05-05,2025-05-12,nut nut,1.11,0.9,1.03
+ecstatic,Inferno,2025-05-05,2025-05-12,Kristou,0.98,0.82,1.24
+ecstatic,Inferno,2025-05-05,2025-05-12,TMB,0.95,0.34,0.91
+ecstatic,Inferno,2025-05-05,2025-05-12,sirah,0.84,0.5,1.11
+ecstatic,Inferno,2025-05-05,2025-05-12,Anlelele,0.83,0.96,0.99
+ecstatic,Inferno,2025-05-12,2025-05-19,sirah,1.13,0.65,1.09
+ecstatic,Inferno,2025-05-12,2025-05-19,Anlelele,1.09,0.79,1.4
+ecstatic,Inferno,2025-05-12,2025-05-19,Kristou,1.0,0.77,0.86
+ecstatic,Inferno,2025-05-12,2025-05-19,TMB,0.95,0.5,0.75
+ecstatic,Inferno,2025-05-12,2025-05-19,nut nut,0.84,0.81,0.61
+ecstatic,Inferno,2025-05-19,2025-05-26,TMB,1.45,0.6,1.28
+ecstatic,Inferno,2025-05-19,2025-05-26,Kristou,1.34,0.58,1.57
+ecstatic,Inferno,2025-05-19,2025-05-26,sirah,1.06,0.56,1.06
+ecstatic,Inferno,2025-05-19,2025-05-26,Anlelele,1.06,0.95,1.41
+ecstatic,Inferno,2025-05-19,2025-05-26,nut nut,0.9,0.6,0.75
+ecstatic,Inferno,2025-06-09,2025-06-16,Anlelele,1.15,0.94,1.15
+ecstatic,Inferno,2025-06-09,2025-06-16,sirah,1.11,0.44,0.82
+ecstatic,Inferno,2025-06-09,2025-06-16,nut nut,1.1,0.67,0.85
+ecstatic,Inferno,2025-06-09,2025-06-16,TMB,0.99,0.71,1.12
+ecstatic,Inferno,2025-06-09,2025-06-16,Kristou,0.99,0.81,0.88
+ecstatic,Inferno,2025-07-28,2025-08-04,nut nut,1.63,0.64,1.22
+ecstatic,Inferno,2025-07-28,2025-08-04,Anlelele,1.47,0.5,1.86
+ecstatic,Inferno,2025-07-28,2025-08-04,sirah,1.27,0.75,1.26
+ecstatic,Inferno,2025-07-28,2025-08-04,Kristou,1.04,0.71,1.14
+ecstatic,Inferno,2025-07-28,2025-08-04,TMB,1.04,0.72,0.79
+ecstatic,Inferno,2025-08-11,2025-08-18,Anlelele,1.23,1.1,0.79
+ecstatic,Inferno,2025-08-11,2025-08-18,nut nut,1.13,1.08,1.42
+ecstatic,Inferno,2025-08-11,2025-08-18,TMB,1.08,0.42,0.92
+ecstatic,Inferno,2025-08-11,2025-08-18,Kristou,1.06,0.83,1.25
+ecstatic,Inferno,2025-08-11,2025-08-18,sirah,1.02,0.67,1.0
+ecstatic,Inferno,2025-08-25,2025-09-01,Anlelele,1.21,0.42,1.18
+ecstatic,Inferno,2025-08-25,2025-09-01,sirah,0.98,0.47,1.07
+ecstatic,Inferno,2025-08-25,2025-09-01,TMB,0.93,0.74,0.49
+ecstatic,Inferno,2025-08-25,2025-09-01,nut nut,0.87,0.64,0.78
+ecstatic,Inferno,2025-09-08,2025-09-15,nut nut,1.68,0.44,0.82
+ecstatic,Inferno,2025-09-08,2025-09-15,sirah,1.23,0.39,0.67
+ecstatic,Inferno,2025-09-08,2025-09-15,Anlelele,1.18,0.68,1.21
+ecstatic,Inferno,2025-09-08,2025-09-15,TMB,1.1,0.83,1.02
+ecstatic,Inferno,2025-09-08,2025-09-15,acoR,0.9,0.58,1.05
+ecstatic,Inferno,2025-09-22,2025-09-29,TMB,1.42,0.7,0.99
+ecstatic,Inferno,2025-09-22,2025-09-29,sirah,1.34,0.54,1.48
+ecstatic,Inferno,2025-09-22,2025-09-29,nut nut,1.06,0.29,0.91
+ecstatic,Inferno,2025-09-22,2025-09-29,acoR,1.05,0.61,0.95
+ecstatic,Inferno,2025-09-22,2025-09-29,Anlelele,0.79,0.33,0.75
+ecstatic,Inferno,2025-09-29,2025-10-06,sirah,1.55,0.91,0.94
+ecstatic,Inferno,2025-09-29,2025-10-06,nut nut,1.34,0.43,0.78
+ecstatic,Inferno,2025-09-29,2025-10-06,acoR,1.12,0.79,0.98
+ecstatic,Inferno,2025-09-29,2025-10-06,TMB,0.84,1.03,1.09
+ecstatic,Inferno,2025-09-29,2025-10-06,Anlelele,0.82,1.26,1.13
+ecstatic,Inferno,2025-10-06,2025-10-13,nut nut,1.87,0.4,0.91
+ecstatic,Inferno,2025-10-06,2025-10-13,acoR,1.16,0.48,1.65
+ecstatic,Inferno,2025-10-06,2025-10-13,sirah,0.96,0.23,0.76
+ecstatic,Inferno,2025-10-06,2025-10-13,Anlelele,0.94,0.71,0.96
+ecstatic,Inferno,2025-10-06,2025-10-13,TMB,0.83,0.44,0.91
+ecstatic,Inferno,2025-10-13,2025-10-20,nut nut,1.87,0.4,0.91
+ecstatic,Inferno,2025-10-13,2025-10-20,acoR,1.16,0.48,1.65
+ecstatic,Inferno,2025-10-13,2025-10-20,sirah,0.96,0.23,0.76
+ecstatic,Inferno,2025-10-13,2025-10-20,Anlelele,0.94,0.71,0.96
+ecstatic,Inferno,2025-10-13,2025-10-20,TMB,0.83,0.44,0.91
+ecstatic,Inferno,2025-10-20,2025-10-27,sirah,1.26,0.59,0.99
+ecstatic,Inferno,2025-10-20,2025-10-27,nut nut,1.1,0.5,0.96
+ecstatic,Inferno,2025-10-20,2025-10-27,Anlelele,1.08,0.59,1.5
+ecstatic,Inferno,2025-10-20,2025-10-27,acoR,0.66,0.8,0.86
+ecstatic,Inferno,2025-10-20,2025-10-27,TMB,0.62,0.63,0.83
+ecstatic,Inferno,2025-10-27,2025-11-03,nut nut,1.76,0.29,1.29
+ecstatic,Inferno,2025-10-27,2025-11-03,Anlelele,1.69,0.57,2.02
+ecstatic,Inferno,2025-10-27,2025-11-03,acoR,1.62,0.38,0.0
+ecstatic,Inferno,2025-10-27,2025-11-03,TMB,1.36,0.78,1.29
+ecstatic,Inferno,2025-10-27,2025-11-03,sirah,1.3,0.5,0.98
+ecstatic,Inferno,2025-11-03,2025-11-10,sirah,1.36,0.76,1.36
+ecstatic,Inferno,2025-11-03,2025-11-10,Anlelele,1.22,0.55,0.94
+ecstatic,Inferno,2025-11-03,2025-11-10,acoR,0.87,0.68,1.01
+ecstatic,Inferno,2025-11-03,2025-11-10,TMB,0.74,0.6,0.39
+ecstatic,Inferno,2025-11-03,2025-11-10,nut nut,0.66,0.92,0.46
+ecstatic,Inferno,2025-11-17,2025-11-24,sirah,1.51,0.47,1.37
+ecstatic,Inferno,2025-11-17,2025-11-24,acoR,1.21,0.56,0.88
+ecstatic,Inferno,2025-11-17,2025-11-24,Anlelele,1.2,0.62,1.46
+ecstatic,Inferno,2025-11-17,2025-11-24,nut nut,1.16,0.97,1.03
+ecstatic,Inferno,2025-11-17,2025-11-24,TMB,1.13,0.68,1.22
+ecstatic,Dust2,2024-12-02,2024-12-09,nut nut,1.55,0.46,1.03
+ecstatic,Dust2,2024-12-02,2024-12-09,Kristou,0.95,0.18,1.25
+ecstatic,Dust2,2024-12-02,2024-12-09,TMB,0.83,0.71,0.52
+ecstatic,Dust2,2024-12-02,2024-12-09,n1Xen,0.82,0.95,0.74
+ecstatic,Dust2,2024-12-02,2024-12-09,Anlelele,0.73,0.6,0.45
+ecstatic,Dust2,2024-12-09,2024-12-16,nut nut,2.15,0.56,1.11
+ecstatic,Dust2,2024-12-09,2024-12-16,Anlelele,1.32,1.0,0.93
+ecstatic,Dust2,2024-12-09,2024-12-16,Kristou,1.28,1.38,1.46
+ecstatic,Dust2,2024-12-09,2024-12-16,n1Xen,0.87,0.96,0.75
+ecstatic,Dust2,2024-12-09,2024-12-16,TMB,0.87,0.8,0.93
+ecstatic,Dust2,2024-12-23,2024-12-30,Kristou,1.44,0.67,1.8
+ecstatic,Dust2,2024-12-23,2024-12-30,n1Xen,1.29,0.58,0.82
+ecstatic,Dust2,2024-12-23,2024-12-30,nut nut,1.04,0.83,0.67
+ecstatic,Dust2,2024-12-23,2024-12-30,TMB,0.86,0.82,0.74
+ecstatic,Dust2,2025-01-20,2025-01-27,sirah,1.52,0.72,1.14
+ecstatic,Dust2,2025-01-20,2025-01-27,Anlelele,1.24,0.82,1.74
+ecstatic,Dust2,2025-01-20,2025-01-27,nut nut,1.09,0.67,0.79
+ecstatic,Dust2,2025-01-20,2025-01-27,Kristou,1.07,0.9,0.9
+ecstatic,Dust2,2025-01-20,2025-01-27,TMB,0.7,0.86,1.14
+ecstatic,Dust2,2025-01-27,2025-02-03,nut nut,1.03,0.58,1.09
+ecstatic,Dust2,2025-01-27,2025-02-03,sirah,0.96,0.89,0.79
+ecstatic,Dust2,2025-01-27,2025-02-03,TMB,0.91,0.88,0.94
+ecstatic,Dust2,2025-01-27,2025-02-03,Anlelele,0.89,0.77,1.15
+ecstatic,Dust2,2025-01-27,2025-02-03,Kristou,0.88,1.07,1.09
+ecstatic,Dust2,2025-02-03,2025-02-10,sirah,1.39,0.46,0.58
+ecstatic,Dust2,2025-02-03,2025-02-10,Anlelele,1.19,0.56,1.37
+ecstatic,Dust2,2025-02-03,2025-02-10,nut nut,1.05,1.25,1.63
+ecstatic,Dust2,2025-02-03,2025-02-10,Kristou,0.85,1.25,1.11
+ecstatic,Dust2,2025-02-03,2025-02-10,TMB,0.34,1.46,0.84
+ecstatic,Dust2,2025-02-17,2025-02-24,nut nut,1.09,0.68,0.78
+ecstatic,Dust2,2025-02-17,2025-02-24,Anlelele,1.07,0.89,1.0
+ecstatic,Dust2,2025-02-17,2025-02-24,Kristou,0.97,1.01,1.31
+ecstatic,Dust2,2025-02-17,2025-02-24,sirah,0.89,0.96,0.86
+ecstatic,Dust2,2025-02-17,2025-02-24,TMB,0.7,0.64,0.94
+ecstatic,Dust2,2025-02-24,2025-03-03,nut nut,1.21,0.9,1.03
+ecstatic,Dust2,2025-02-24,2025-03-03,Anlelele,0.97,1.05,0.96
+ecstatic,Dust2,2025-02-24,2025-03-03,sirah,0.88,0.31,1.17
+ecstatic,Dust2,2025-02-24,2025-03-03,Kristou,0.86,1.08,0.81
+ecstatic,Dust2,2025-02-24,2025-03-03,TMB,0.79,0.96,0.88
+ecstatic,Dust2,2025-03-10,2025-03-17,sirah,1.29,0.73,0.93
+ecstatic,Dust2,2025-03-10,2025-03-17,Kristou,1.1,0.59,1.29
+ecstatic,Dust2,2025-03-10,2025-03-17,nut nut,0.96,0.39,1.24
+ecstatic,Dust2,2025-03-10,2025-03-17,Anlelele,0.82,0.78,0.67
+ecstatic,Dust2,2025-03-10,2025-03-17,TMB,0.8,0.74,0.77
+ecstatic,Dust2,2025-03-17,2025-03-24,sirah,1.06,1.04,0.99
+ecstatic,Dust2,2025-03-17,2025-03-24,Kristou,1.06,0.84,1.45
+ecstatic,Dust2,2025-03-17,2025-03-24,Anlelele,1.06,0.73,1.31
+ecstatic,Dust2,2025-03-17,2025-03-24,nut nut,0.92,0.85,0.71
+ecstatic,Dust2,2025-03-17,2025-03-24,TMB,0.87,0.66,0.76
+ecstatic,Dust2,2025-03-24,2025-03-31,Kristou,1.03,0.79,0.48
+ecstatic,Dust2,2025-03-24,2025-03-31,Anlelele,0.86,1.2,0.76
+ecstatic,Dust2,2025-03-24,2025-03-31,nut nut,0.83,0.73,0.39
+ecstatic,Dust2,2025-03-24,2025-03-31,sirah,0.64,1.2,1.5
+ecstatic,Dust2,2025-03-24,2025-03-31,TMB,0.42,1.0,0.02
+ecstatic,Dust2,2025-04-07,2025-04-14,Anlelele,1.89,1.21,1.83
+ecstatic,Dust2,2025-04-07,2025-04-14,sirah,1.29,0.71,0.83
+ecstatic,Dust2,2025-04-07,2025-04-14,Kristou,1.24,0.38,1.5
+ecstatic,Dust2,2025-04-07,2025-04-14,nut nut,1.2,1.43,0.83
+ecstatic,Dust2,2025-04-07,2025-04-14,TMB,0.88,0.27,1.33
+ecstatic,Dust2,2025-04-14,2025-04-21,Anlelele,1.37,0.97,1.3
+ecstatic,Dust2,2025-04-14,2025-04-21,nut nut,1.24,0.93,0.67
+ecstatic,Dust2,2025-04-14,2025-04-21,sirah,1.11,0.83,0.75
+ecstatic,Dust2,2025-04-14,2025-04-21,Kristou,1.07,1.04,1.3
+ecstatic,Dust2,2025-04-14,2025-04-21,TMB,0.87,0.47,0.98
+ecstatic,Dust2,2025-04-21,2025-04-28,Kristou,1.6,1.0,1.43
+ecstatic,Dust2,2025-04-21,2025-04-28,TMB,1.25,0.92,1.01
+ecstatic,Dust2,2025-04-21,2025-04-28,nut nut,1.23,0.75,0.81
+ecstatic,Dust2,2025-04-21,2025-04-28,Anlelele,1.07,1.08,0.81
+ecstatic,Dust2,2025-04-21,2025-04-28,sirah,0.7,0.39,1.22
+ecstatic,Dust2,2025-04-28,2025-05-05,nut nut,1.35,0.57,0.77
+ecstatic,Dust2,2025-04-28,2025-05-05,Kristou,1.21,0.96,1.09
+ecstatic,Dust2,2025-04-28,2025-05-05,Anlelele,1.08,1.02,1.04
+ecstatic,Dust2,2025-04-28,2025-05-05,TMB,0.98,0.9,1.06
+ecstatic,Dust2,2025-04-28,2025-05-05,sirah,0.84,0.57,0.79
+ecstatic,Dust2,2025-05-05,2025-05-12,Kristou,1.3,0.98,1.77
+ecstatic,Dust2,2025-05-05,2025-05-12,Anlelele,1.04,0.96,0.79
+ecstatic,Dust2,2025-05-05,2025-05-12,sirah,1.03,0.43,0.83
+ecstatic,Dust2,2025-05-05,2025-05-12,nut nut,1.0,0.65,0.84
+ecstatic,Dust2,2025-05-05,2025-05-12,TMB,0.93,0.51,1.27
+ecstatic,Dust2,2025-05-19,2025-05-26,TMB,1.82,1.04,1.46
+ecstatic,Dust2,2025-05-19,2025-05-26,nut nut,1.62,0.88,1.89
+ecstatic,Dust2,2025-05-19,2025-05-26,Kristou,1.11,0.8,1.19
+ecstatic,Dust2,2025-05-19,2025-05-26,Anlelele,0.98,1.25,1.11
+ecstatic,Dust2,2025-05-19,2025-05-26,sirah,0.8,0.27,0.58
+ecstatic,Dust2,2025-06-09,2025-06-16,Kristou,1.06,1.45,1.33
+ecstatic,Dust2,2025-06-09,2025-06-16,sirah,0.92,0.09,1.33
+ecstatic,Dust2,2025-06-09,2025-06-16,Anlelele,0.88,1.14,0.75
+ecstatic,Dust2,2025-06-09,2025-06-16,nut nut,0.63,0.75,0.33
+ecstatic,Dust2,2025-06-09,2025-06-16,TMB,0.53,0.71,0.58
+ecstatic,Dust2,2025-08-04,2025-08-11,nut nut,1.42,1.0,0.88
+ecstatic,Dust2,2025-08-04,2025-08-11,sirah,1.12,0.29,1.03
+ecstatic,Dust2,2025-08-04,2025-08-11,Kristou,1.02,0.81,1.39
+ecstatic,Dust2,2025-08-04,2025-08-11,Anlelele,0.7,0.95,0.67
+ecstatic,Dust2,2025-08-04,2025-08-11,TMB,0.62,0.87,0.59
+ecstatic,Dust2,2025-08-11,2025-08-18,nut nut,1.18,1.0,0.9
+ecstatic,Dust2,2025-08-11,2025-08-18,sirah,0.97,0.33,1.04
+ecstatic,Dust2,2025-08-11,2025-08-18,Kristou,0.88,0.83,1.06
+ecstatic,Dust2,2025-08-11,2025-08-18,Anlelele,0.88,0.91,0.83
+ecstatic,Dust2,2025-08-11,2025-08-18,TMB,0.57,0.73,0.67
+ecstatic,Dust2,2025-08-18,2025-08-25,sirah,1.91,0.67,2.26
+ecstatic,Dust2,2025-08-18,2025-08-25,Anlelele,1.28,0.6,0.88
+ecstatic,Dust2,2025-08-18,2025-08-25,nut nut,1.22,1.0,1.43
+ecstatic,Dust2,2025-08-18,2025-08-25,TMB,0.84,0.86,1.22
+ecstatic,Dust2,2025-08-18,2025-08-25,Kristou,0.75,0.5,0.88
+ecstatic,Dust2,2025-08-25,2025-09-01,sirah,0.9,0.75,1.44
+ecstatic,Dust2,2025-08-25,2025-09-01,Anlelele,0.81,0.4,0.67
+ecstatic,Dust2,2025-08-25,2025-09-01,nut nut,0.48,0.25,0.92
+ecstatic,Dust2,2025-08-25,2025-09-01,TMB,0.36,0.56,0.79
+ecstatic,Dust2,2025-09-08,2025-09-15,Anlelele,1.16,0.88,0.97
+ecstatic,Dust2,2025-09-08,2025-09-15,TMB,1.11,0.77,1.04
+ecstatic,Dust2,2025-09-08,2025-09-15,nut nut,0.96,0.63,1.27
+ecstatic,Dust2,2025-09-08,2025-09-15,sirah,0.8,0.83,0.85
+ecstatic,Dust2,2025-09-08,2025-09-15,acoR,0.79,0.68,0.97
+ecstatic,Dust2,2025-09-22,2025-09-29,Anlelele,1.49,1.07,0.9
+ecstatic,Dust2,2025-09-22,2025-09-29,sirah,0.97,0.27,0.98
+ecstatic,Dust2,2025-09-22,2025-09-29,TMB,0.82,0.38,0.9
+ecstatic,Dust2,2025-09-22,2025-09-29,acoR,0.76,1.0,1.78
+ecstatic,Dust2,2025-09-22,2025-09-29,nut nut,0.51,0.75,0.9
+ecstatic,Dust2,2025-09-29,2025-10-06,sirah,1.96,0.3,1.65
+ecstatic,Dust2,2025-09-29,2025-10-06,Anlelele,1.75,0.82,1.25
+ecstatic,Dust2,2025-09-29,2025-10-06,TMB,1.4,0.6,0.76
+ecstatic,Dust2,2025-09-29,2025-10-06,acoR,0.78,0.67,0.96
+ecstatic,Dust2,2025-09-29,2025-10-06,nut nut,0.78,0.88,0.57
+ecstatic,Dust2,2025-10-06,2025-10-13,sirah,1.13,0.67,0.72
+ecstatic,Dust2,2025-10-06,2025-10-13,nut nut,1.08,0.93,0.84
+ecstatic,Dust2,2025-10-06,2025-10-13,Anlelele,1.02,0.91,1.45
+ecstatic,Dust2,2025-10-06,2025-10-13,acoR,1.0,0.94,1.37
+ecstatic,Dust2,2025-10-06,2025-10-13,TMB,0.78,0.59,0.72
+ecstatic,Dust2,2025-10-13,2025-10-20,sirah,1.35,1.06,0.97
+ecstatic,Dust2,2025-10-13,2025-10-20,acoR,1.16,1.0,1.8
+ecstatic,Dust2,2025-10-13,2025-10-20,Anlelele,0.85,0.93,1.73
+ecstatic,Dust2,2025-10-13,2025-10-20,nut nut,0.69,1.0,0.52
+ecstatic,Dust2,2025-10-13,2025-10-20,TMB,0.66,0.47,0.89
+ecstatic,Dust2,2025-10-20,2025-10-27,acoR,1.31,0.52,1.3
+ecstatic,Dust2,2025-10-20,2025-10-27,Anlelele,1.26,0.75,0.59
+ecstatic,Dust2,2025-10-20,2025-10-27,sirah,1.25,0.58,1.11
+ecstatic,Dust2,2025-10-20,2025-10-27,nut nut,0.94,0.39,0.7
+ecstatic,Dust2,2025-10-20,2025-10-27,TMB,0.92,0.77,1.07
+ecstatic,Dust2,2025-10-27,2025-11-03,acoR,1.68,0.44,1.22
+ecstatic,Dust2,2025-10-27,2025-11-03,nut nut,1.13,1.4,0.6
+ecstatic,Dust2,2025-10-27,2025-11-03,Anlelele,0.97,0.78,1.29
+ecstatic,Dust2,2025-10-27,2025-11-03,sirah,0.81,0.61,0.53
+ecstatic,Dust2,2025-10-27,2025-11-03,TMB,0.62,0.53,1.36
+ecstatic,Dust2,2025-11-03,2025-11-10,acoR,1.88,0.77,2.33
+ecstatic,Dust2,2025-11-03,2025-11-10,Anlelele,1.76,1.0,1.08
+ecstatic,Dust2,2025-11-03,2025-11-10,sirah,1.45,0.73,0.75
+ecstatic,Dust2,2025-11-03,2025-11-10,nut nut,0.82,0.64,0.75
+ecstatic,Dust2,2025-11-03,2025-11-10,TMB,0.79,1.13,0.75
+ecstatic,Dust2,2025-11-17,2025-11-24,sirah,1.0,0.73,0.98
+ecstatic,Dust2,2025-11-17,2025-11-24,TMB,0.97,0.53,1.3
+ecstatic,Dust2,2025-11-17,2025-11-24,nut nut,0.91,1.14,1.06
+ecstatic,Dust2,2025-11-17,2025-11-24,Anlelele,0.71,0.6,0.75
+ecstatic,Dust2,2025-11-17,2025-11-24,acoR,0.7,0.29,1.06
+ecstatic,Dust2,2025-11-24,2025-12-01,Anlelele,1.23,0.7,1.64
+ecstatic,Dust2,2025-11-24,2025-12-01,sirah,1.18,0.75,0.81
+ecstatic,Dust2,2025-11-24,2025-12-01,TMB,0.95,0.6,1.29
+ecstatic,Dust2,2025-11-24,2025-12-01,nut nut,0.79,1.25,0.67
+ecstatic,Dust2,2025-11-24,2025-12-01,acoR,0.73,0.59,0.88
+ecstatic,Nuke,2024-12-02,2024-12-09,Kristou,1.84,0.25,1.08
+ecstatic,Nuke,2024-12-02,2024-12-09,Anlelele,1.41,0.71,0.67
+ecstatic,Nuke,2024-12-02,2024-12-09,n1Xen,1.36,1.0,0.83
+ecstatic,Nuke,2024-12-02,2024-12-09,TMB,1.21,0.62,1.42
+ecstatic,Nuke,2024-12-02,2024-12-09,nut nut,0.89,0.29,1.0
+ecstatic,Nuke,2024-12-09,2024-12-16,Anlelele,1.39,0.73,1.13
+ecstatic,Nuke,2024-12-09,2024-12-16,Kristou,1.14,0.93,1.1
+ecstatic,Nuke,2024-12-09,2024-12-16,nut nut,1.14,0.45,0.88
+ecstatic,Nuke,2024-12-09,2024-12-16,TMB,1.14,0.54,1.27
+ecstatic,Nuke,2024-12-09,2024-12-16,n1Xen,1.07,0.81,0.79
+ecstatic,Nuke,2024-12-23,2024-12-30,Kristou,1.56,0.43,1.04
+ecstatic,Nuke,2024-12-23,2024-12-30,n1Xen,1.21,0.5,0.85
+ecstatic,Nuke,2024-12-23,2024-12-30,TMB,1.19,0.57,0.94
+ecstatic,Nuke,2024-12-23,2024-12-30,nut nut,1.09,0.0,0.85
+ecstatic,Nuke,2025-01-06,2025-01-13,Anlelele,1.22,0.52,0.96
+ecstatic,Nuke,2025-01-06,2025-01-13,nut nut,1.18,1.06,1.0
+ecstatic,Nuke,2025-01-06,2025-01-13,Kristou,1.06,0.94,1.17
+ecstatic,Nuke,2025-01-06,2025-01-13,TMB,1.01,0.67,1.08
+ecstatic,Nuke,2025-01-13,2025-01-20,nut nut,1.18,0.62,0.83
+ecstatic,Nuke,2025-01-13,2025-01-20,Kristou,0.97,0.78,1.42
+ecstatic,Nuke,2025-01-13,2025-01-20,Anlelele,0.96,1.2,1.5
+ecstatic,Nuke,2025-01-13,2025-01-20,TMB,0.63,0.5,0.25
+ecstatic,Nuke,2025-01-13,2025-01-20,sirah,0.62,0.33,1.0
+ecstatic,Nuke,2025-01-20,2025-01-27,Kristou,1.35,1.0,1.54
+ecstatic,Nuke,2025-01-20,2025-01-27,TMB,1.01,0.4,1.37
+ecstatic,Nuke,2025-01-20,2025-01-27,sirah,0.77,1.33,0.58
+ecstatic,Nuke,2025-01-20,2025-01-27,nut nut,0.47,0.71,0.93
+ecstatic,Nuke,2025-01-20,2025-01-27,Anlelele,0.44,0.6,0.75
+ecstatic,Nuke,2025-01-27,2025-02-03,Kristou,2.52,0.59,1.38
+ecstatic,Nuke,2025-01-27,2025-02-03,nut nut,2.07,0.67,1.74
+ecstatic,Nuke,2025-01-27,2025-02-03,Anlelele,1.65,0.75,1.62
+ecstatic,Nuke,2025-01-27,2025-02-03,TMB,1.47,1.0,1.74
+ecstatic,Nuke,2025-01-27,2025-02-03,sirah,1.12,0.9,1.38
+ecstatic,Nuke,2025-02-03,2025-02-10,Kristou,1.74,0.62,1.07
+ecstatic,Nuke,2025-02-03,2025-02-10,nut nut,1.43,0.45,1.16
+ecstatic,Nuke,2025-02-03,2025-02-10,Anlelele,1.24,0.89,1.39
+ecstatic,Nuke,2025-02-03,2025-02-10,TMB,0.93,1.0,0.94
+ecstatic,Nuke,2025-02-03,2025-02-10,sirah,0.91,0.8,1.07
+ecstatic,Nuke,2025-02-10,2025-02-17,Kristou,1.26,0.8,1.02
+ecstatic,Nuke,2025-02-10,2025-02-17,nut nut,1.02,0.27,1.27
+ecstatic,Nuke,2025-02-10,2025-02-17,sirah,0.97,0.72,0.81
+ecstatic,Nuke,2025-02-10,2025-02-17,Anlelele,0.9,1.17,0.88
+ecstatic,Nuke,2025-02-10,2025-02-17,TMB,0.71,0.75,0.67
+ecstatic,Nuke,2025-02-24,2025-03-03,Anlelele,1.51,0.81,1.47
+ecstatic,Nuke,2025-02-24,2025-03-03,sirah,1.5,0.84,1.21
+ecstatic,Nuke,2025-02-24,2025-03-03,nut nut,1.08,0.64,0.93
+ecstatic,Nuke,2025-02-24,2025-03-03,TMB,0.98,0.56,0.69
+ecstatic,Nuke,2025-02-24,2025-03-03,Kristou,0.73,0.82,0.9
+ecstatic,Nuke,2025-03-03,2025-03-10,nut nut,1.53,0.61,0.79
+ecstatic,Nuke,2025-03-03,2025-03-10,sirah,1.31,0.57,0.93
+ecstatic,Nuke,2025-03-03,2025-03-10,Anlelele,1.02,0.83,0.93
+ecstatic,Nuke,2025-03-03,2025-03-10,Kristou,0.95,0.71,1.33
+ecstatic,Nuke,2025-03-03,2025-03-10,TMB,0.91,0.38,1.07
+ecstatic,Nuke,2025-03-10,2025-03-17,sirah,1.53,0.65,1.36
+ecstatic,Nuke,2025-03-10,2025-03-17,Anlelele,1.31,0.75,1.17
+ecstatic,Nuke,2025-03-10,2025-03-17,nut nut,1.17,0.46,0.82
+ecstatic,Nuke,2025-03-10,2025-03-17,TMB,0.86,0.53,1.33
+ecstatic,Nuke,2025-03-10,2025-03-17,Kristou,0.66,0.86,1.01
+ecstatic,Nuke,2025-03-17,2025-03-24,Anlelele,1.34,1.44,1.1
+ecstatic,Nuke,2025-03-17,2025-03-24,sirah,1.18,0.89,0.99
+ecstatic,Nuke,2025-03-17,2025-03-24,Kristou,1.07,0.95,1.17
+ecstatic,Nuke,2025-03-17,2025-03-24,nut nut,0.85,0.59,0.68
+ecstatic,Nuke,2025-03-17,2025-03-24,TMB,0.73,0.71,0.88
+ecstatic,Nuke,2025-03-24,2025-03-31,Kristou,1.31,0.63,1.24
+ecstatic,Nuke,2025-03-24,2025-03-31,Anlelele,1.24,0.9,1.22
+ecstatic,Nuke,2025-03-24,2025-03-31,nut nut,1.17,0.27,0.98
+ecstatic,Nuke,2025-03-24,2025-03-31,sirah,1.03,0.67,1.04
+ecstatic,Nuke,2025-03-24,2025-03-31,TMB,0.9,0.46,0.89
+ecstatic,Nuke,2025-04-14,2025-04-21,nut nut,1.34,0.75,0.94
+ecstatic,Nuke,2025-04-14,2025-04-21,Anlelele,1.12,1.14,1.1
+ecstatic,Nuke,2025-04-14,2025-04-21,sirah,1.07,0.67,0.94
+ecstatic,Nuke,2025-04-14,2025-04-21,Kristou,1.06,0.72,0.9
+ecstatic,Nuke,2025-04-14,2025-04-21,TMB,0.94,0.4,0.94
+ecstatic,Nuke,2025-04-21,2025-04-28,nut nut,1.23,0.61,0.82
+ecstatic,Nuke,2025-04-21,2025-04-28,sirah,1.05,0.61,0.97
+ecstatic,Nuke,2025-04-21,2025-04-28,Kristou,1.04,0.76,0.95
+ecstatic,Nuke,2025-04-21,2025-04-28,Anlelele,1.04,1.35,1.53
+ecstatic,Nuke,2025-04-21,2025-04-28,TMB,0.86,0.4,1.03
+ecstatic,Nuke,2025-04-28,2025-05-05,nut nut,1.34,0.61,0.99
+ecstatic,Nuke,2025-04-28,2025-05-05,sirah,1.33,0.59,0.98
+ecstatic,Nuke,2025-04-28,2025-05-05,Kristou,1.2,0.8,1.1
+ecstatic,Nuke,2025-04-28,2025-05-05,Anlelele,1.14,1.02,1.3
+ecstatic,Nuke,2025-04-28,2025-05-05,TMB,0.79,0.51,1.11
+ecstatic,Nuke,2025-05-05,2025-05-12,Kristou,1.24,0.77,0.98
+ecstatic,Nuke,2025-05-05,2025-05-12,sirah,1.2,0.4,1.12
+ecstatic,Nuke,2025-05-05,2025-05-12,Anlelele,1.15,1.43,1.24
+ecstatic,Nuke,2025-05-05,2025-05-12,nut nut,1.04,0.57,0.85
+ecstatic,Nuke,2025-05-05,2025-05-12,TMB,0.83,0.62,0.88
+ecstatic,Nuke,2025-05-12,2025-05-19,TMB,1.1,0.5,0.84
+ecstatic,Nuke,2025-05-12,2025-05-19,sirah,1.08,0.59,0.75
+ecstatic,Nuke,2025-05-12,2025-05-19,nut nut,0.96,0.58,0.93
+ecstatic,Nuke,2025-05-12,2025-05-19,Anlelele,0.72,0.33,0.4
+ecstatic,Nuke,2025-05-12,2025-05-19,Kristou,0.65,1.0,0.71
+ecstatic,Nuke,2025-05-19,2025-05-26,TMB,1.17,0.47,1.21
+ecstatic,Nuke,2025-05-19,2025-05-26,Kristou,1.14,0.89,1.24
+ecstatic,Nuke,2025-05-19,2025-05-26,sirah,1.11,0.68,0.81
+ecstatic,Nuke,2025-05-19,2025-05-26,Anlelele,1.07,1.0,1.01
+ecstatic,Nuke,2025-05-19,2025-05-26,nut nut,0.93,0.57,1.07
+ecstatic,Nuke,2025-06-09,2025-06-16,nut nut,1.11,0.74,1.5
+ecstatic,Nuke,2025-06-09,2025-06-16,sirah,1.09,0.83,0.7
+ecstatic,Nuke,2025-06-09,2025-06-16,Anlelele,1.05,1.0,1.36
+ecstatic,Nuke,2025-06-09,2025-06-16,Kristou,0.88,1.11,0.81
+ecstatic,Nuke,2025-06-09,2025-06-16,TMB,0.55,0.47,0.78
+ecstatic,Nuke,2025-07-28,2025-08-04,Anlelele,1.27,0.67,1.03
+ecstatic,Nuke,2025-07-28,2025-08-04,nut nut,1.13,0.25,0.71
+ecstatic,Nuke,2025-07-28,2025-08-04,sirah,1.06,0.54,1.03
+ecstatic,Nuke,2025-07-28,2025-08-04,Kristou,0.85,0.83,0.87
+ecstatic,Nuke,2025-07-28,2025-08-04,TMB,0.7,0.27,0.79
+ecstatic,Nuke,2025-08-11,2025-08-18,TMB,1.11,0.53,1.13
+ecstatic,Nuke,2025-08-11,2025-08-18,nut nut,1.09,0.64,0.39
+ecstatic,Nuke,2025-08-11,2025-08-18,Anlelele,0.92,0.57,0.94
+ecstatic,Nuke,2025-08-11,2025-08-18,sirah,0.6,1.07,0.67
+ecstatic,Nuke,2025-08-11,2025-08-18,Kristou,0.43,1.25,0.76
+ecstatic,Nuke,2025-08-18,2025-08-25,Anlelele,1.38,0.62,1.61
+ecstatic,Nuke,2025-08-18,2025-08-25,sirah,1.34,0.75,1.1
+ecstatic,Nuke,2025-08-18,2025-08-25,nut nut,0.89,0.85,1.03
+ecstatic,Nuke,2025-08-18,2025-08-25,TMB,0.73,0.33,0.74
+ecstatic,Nuke,2025-08-18,2025-08-25,Kristou,0.42,1.0,0.67
+ecstatic,Nuke,2025-09-08,2025-09-15,Anlelele,1.19,1.25,1.13
+ecstatic,Nuke,2025-09-08,2025-09-15,acoR,1.16,0.43,1.79
+ecstatic,Nuke,2025-09-08,2025-09-15,sirah,1.15,1.28,0.98
+ecstatic,Nuke,2025-09-08,2025-09-15,TMB,1.1,0.4,1.02
+ecstatic,Nuke,2025-09-08,2025-09-15,nut nut,1.02,0.67,1.09
+ecstatic,Nuke,2025-09-22,2025-09-29,sirah,1.37,0.8,1.32
+ecstatic,Nuke,2025-09-22,2025-09-29,acoR,1.29,0.62,1.1
+ecstatic,Nuke,2025-09-22,2025-09-29,Anlelele,1.14,1.17,1.61
+ecstatic,Nuke,2025-09-22,2025-09-29,nut nut,0.79,0.33,0.96
+ecstatic,Nuke,2025-09-22,2025-09-29,TMB,0.75,0.75,1.17
+ecstatic,Nuke,2025-09-29,2025-10-06,nut nut,1.05,0.72,0.79
+ecstatic,Nuke,2025-09-29,2025-10-06,TMB,1.01,0.72,1.02
+ecstatic,Nuke,2025-09-29,2025-10-06,sirah,0.91,0.5,0.83
+ecstatic,Nuke,2025-09-29,2025-10-06,Anlelele,0.89,1.1,1.34
+ecstatic,Nuke,2025-09-29,2025-10-06,acoR,0.69,0.67,0.79
+ecstatic,Nuke,2025-10-06,2025-10-13,Anlelele,1.7,2.29,1.54
+ecstatic,Nuke,2025-10-06,2025-10-13,nut nut,1.37,0.62,1.15
+ecstatic,Nuke,2025-10-06,2025-10-13,TMB,1.06,0.5,1.02
+ecstatic,Nuke,2025-10-06,2025-10-13,acoR,1.01,0.77,1.37
+ecstatic,Nuke,2025-10-06,2025-10-13,sirah,0.98,1.0,0.97
+ecstatic,Nuke,2025-10-13,2025-10-20,Anlelele,1.66,2.0,1.14
+ecstatic,Nuke,2025-10-13,2025-10-20,nut nut,1.22,0.71,1.06
+ecstatic,Nuke,2025-10-13,2025-10-20,acoR,0.92,1.08,1.62
+ecstatic,Nuke,2025-10-13,2025-10-20,TMB,0.76,0.2,0.59
+ecstatic,Nuke,2025-10-13,2025-10-20,sirah,0.68,0.4,0.75
+ecstatic,Nuke,2025-10-20,2025-10-27,sirah,1.29,0.33,1.42
+ecstatic,Nuke,2025-10-20,2025-10-27,Anlelele,1.21,1.14,0.97
+ecstatic,Nuke,2025-10-20,2025-10-27,acoR,0.95,0.57,0.67
+ecstatic,Nuke,2025-10-20,2025-10-27,TMB,0.77,0.38,0.82
+ecstatic,Nuke,2025-10-20,2025-10-27,nut nut,0.61,0.46,0.52
+ecstatic,Nuke,2025-10-27,2025-11-03,sirah,0.97,1.5,1.26
+ecstatic,Nuke,2025-10-27,2025-11-03,Anlelele,0.97,1.5,0.9
+ecstatic,Nuke,2025-10-27,2025-11-03,nut nut,0.82,0.6,1.26
+ecstatic,Nuke,2025-10-27,2025-11-03,acoR,0.59,1.0,1.62
+ecstatic,Nuke,2025-10-27,2025-11-03,TMB,0.38,0.0,0.43
+ecstatic,Nuke,2025-11-03,2025-11-10,acoR,1.25,0.67,0.87
+ecstatic,Nuke,2025-11-03,2025-11-10,nut nut,1.16,0.53,0.75
+ecstatic,Nuke,2025-11-03,2025-11-10,sirah,1.06,0.67,0.98
+ecstatic,Nuke,2025-11-03,2025-11-10,Anlelele,0.87,1.15,1.14
+ecstatic,Nuke,2025-11-03,2025-11-10,TMB,0.67,0.41,1.1
+ecstatic,Nuke,2025-11-17,2025-11-24,acoR,2.15,0.78,1.42
+ecstatic,Nuke,2025-11-17,2025-11-24,nut nut,1.27,0.56,1.75
+ecstatic,Nuke,2025-11-17,2025-11-24,TMB,1.16,1.0,0.92
+ecstatic,Nuke,2025-11-17,2025-11-24,sirah,1.0,0.44,0.92
+ecstatic,Nuke,2025-11-17,2025-11-24,Anlelele,0.76,1.0,0.67
+ecstatic,Nuke,2025-11-24,2025-12-01,sirah,1.31,0.86,0.59
+ecstatic,Nuke,2025-11-24,2025-12-01,nut nut,1.03,1.08,1.14
+ecstatic,Nuke,2025-11-24,2025-12-01,Anlelele,0.97,1.14,2.02
+ecstatic,Nuke,2025-11-24,2025-12-01,acoR,0.94,0.38,0.59
+ecstatic,Nuke,2025-11-24,2025-12-01,TMB,0.53,0.25,0.51
+ecstatic,Overpass,2025-08-11,2025-08-18,nut nut,1.27,1.19,1.3
+ecstatic,Overpass,2025-08-11,2025-08-18,Kristou,1.24,1.23,0.83
+ecstatic,Overpass,2025-08-11,2025-08-18,Anlelele,1.13,1.75,1.3
+ecstatic,Overpass,2025-08-11,2025-08-18,sirah,1.04,0.75,0.83
+ecstatic,Overpass,2025-08-11,2025-08-18,TMB,0.81,0.75,1.22
+ecstatic,Overpass,2025-08-18,2025-08-25,Anlelele,1.2,0.6,1.25
+ecstatic,Overpass,2025-08-18,2025-08-25,nut nut,1.03,0.65,0.52
+ecstatic,Overpass,2025-08-18,2025-08-25,sirah,1.02,0.25,1.25
+ecstatic,Overpass,2025-08-18,2025-08-25,TMB,0.76,1.0,0.81
+ecstatic,Overpass,2025-08-18,2025-08-25,Kristou,0.57,0.74,1.03
+ecstatic,Overpass,2025-08-25,2025-09-01,Anlelele,1.79,0.64,1.39
+ecstatic,Overpass,2025-08-25,2025-09-01,sirah,1.48,0.53,1.32
+ecstatic,Overpass,2025-08-25,2025-09-01,nut nut,1.34,1.1,1.03
+ecstatic,Overpass,2025-08-25,2025-09-01,TMB,0.86,0.85,0.52
+ecstatic,Overpass,2025-09-22,2025-09-29,nut nut,1.06,0.8,0.49
+ecstatic,Overpass,2025-09-22,2025-09-29,sirah,0.9,1.12,1.46
+ecstatic,Overpass,2025-09-22,2025-09-29,acoR,0.88,0.89,1.19
+ecstatic,Overpass,2025-09-22,2025-09-29,TMB,0.67,1.0,0.4
+ecstatic,Overpass,2025-09-22,2025-09-29,Anlelele,0.65,1.5,0.58
+ecstatic,Overpass,2025-10-20,2025-10-27,nut nut,1.36,0.38,0.76
+ecstatic,Overpass,2025-10-20,2025-10-27,TMB,1.14,0.45,0.62
+ecstatic,Overpass,2025-10-20,2025-10-27,Anlelele,1.12,1.04,1.18
+ecstatic,Overpass,2025-10-20,2025-10-27,sirah,0.95,0.67,1.36
+ecstatic,Overpass,2025-10-20,2025-10-27,acoR,0.7,0.6,1.45
+ecstatic,Overpass,2025-10-27,2025-11-03,acoR,1.52,0.5,1.46
+ecstatic,Overpass,2025-10-27,2025-11-03,Anlelele,1.44,1.5,0.98
+ecstatic,Overpass,2025-10-27,2025-11-03,nut nut,1.12,0.7,1.3
+ecstatic,Overpass,2025-10-27,2025-11-03,TMB,1.08,1.21,0.83
+ecstatic,Overpass,2025-10-27,2025-11-03,sirah,0.99,0.67,1.22
+ecstatic,Overpass,2025-11-17,2025-11-24,sirah,1.93,0.67,2.67
+ecstatic,Overpass,2025-11-17,2025-11-24,Anlelele,1.77,0.71,0.89
+ecstatic,Overpass,2025-11-17,2025-11-24,nut nut,1.54,0.44,1.67
+ecstatic,Overpass,2025-11-17,2025-11-24,TMB,1.12,0.26,1.0
+ecstatic,Overpass,2025-11-17,2025-11-24,acoR,1.0,0.6,1.22
+ecstatic,Vertigo,2024-11-04,2024-11-11,Anlelele,1.25,0.85,0.51
+ecstatic,Vertigo,2024-11-04,2024-11-11,nut nut,1.21,0.62,1.3
+ecstatic,Vertigo,2024-11-04,2024-11-11,n1Xen,1.03,1.0,0.98
+ecstatic,Vertigo,2024-11-04,2024-11-11,Kristou,0.74,1.71,1.06
+ecstatic,Vertigo,2024-11-04,2024-11-11,TMB,0.42,0.61,0.67
+ecstatic,Vertigo,2024-12-02,2024-12-09,Kristou,1.2,0.66,1.02
+ecstatic,Vertigo,2024-12-02,2024-12-09,Anlelele,1.19,0.4,1.02
+ecstatic,Vertigo,2024-12-02,2024-12-09,n1Xen,1.19,0.88,1.35
+ecstatic,Vertigo,2024-12-02,2024-12-09,nut nut,1.13,0.22,1.05
+ecstatic,Vertigo,2024-12-02,2024-12-09,TMB,1.01,0.68,0.9
+ecstatic,Vertigo,2024-12-09,2024-12-16,TMB,1.24,0.66,0.86
+ecstatic,Vertigo,2024-12-09,2024-12-16,n1Xen,1.22,0.5,1.42
+ecstatic,Vertigo,2024-12-09,2024-12-16,Kristou,1.03,0.55,0.84
+ecstatic,Vertigo,2024-12-09,2024-12-16,Anlelele,1.03,0.69,1.01
+ecstatic,Vertigo,2024-12-09,2024-12-16,nut nut,0.85,0.48,0.88
+ecstatic,Vertigo,2024-12-30,2025-01-06,n1Xen,1.76,0.33,1.4
+ecstatic,Vertigo,2024-12-30,2025-01-06,TMB,0.88,1.33,1.19
+ecstatic,Vertigo,2024-12-30,2025-01-06,Kristou,0.85,0.57,0.56
+ecstatic,Vertigo,2024-12-30,2025-01-06,nut nut,0.54,0.25,0.46
+ecstatic,Vertigo,2024-12-30,2025-01-06,Anlelele,0.52,1.12,0.98
+ecstatic,Vertigo,2025-01-06,2025-01-13,nut nut,1.52,0.54,1.78
+ecstatic,Vertigo,2025-01-06,2025-01-13,Anlelele,1.28,0.68,0.84
+ecstatic,Vertigo,2025-01-06,2025-01-13,TMB,0.99,0.77,1.01
+ecstatic,Vertigo,2025-01-06,2025-01-13,Kristou,0.84,0.61,0.88
+ecstatic,Ancient,2024-11-04,2024-11-11,Kristou,1.11,0.77,0.88
+ecstatic,Ancient,2024-11-04,2024-11-11,nut nut,0.97,0.94,0.74
+ecstatic,Ancient,2024-11-04,2024-11-11,n1Xen,0.95,0.33,0.94
+ecstatic,Ancient,2024-11-04,2024-11-11,Anlelele,0.85,0.5,0.88
+ecstatic,Ancient,2024-11-04,2024-11-11,TMB,0.82,0.73,0.74
+ecstatic,Ancient,2024-12-02,2024-12-09,nut nut,1.48,0.71,1.04
+ecstatic,Ancient,2024-12-02,2024-12-09,Kristou,1.11,0.85,1.15
+ecstatic,Ancient,2024-12-02,2024-12-09,Anlelele,1.1,0.46,1.0
+ecstatic,Ancient,2024-12-02,2024-12-09,TMB,1.02,0.71,1.04
+ecstatic,Ancient,2024-12-02,2024-12-09,n1Xen,0.79,0.54,1.0
+ecstatic,Ancient,2024-12-09,2024-12-16,Anlelele,1.31,0.64,1.31
+ecstatic,Ancient,2024-12-09,2024-12-16,nut nut,1.23,0.6,1.01
+ecstatic,Ancient,2024-12-09,2024-12-16,n1Xen,1.0,0.5,0.77
+ecstatic,Ancient,2024-12-09,2024-12-16,TMB,0.9,0.57,1.08
+ecstatic,Ancient,2024-12-09,2024-12-16,Kristou,0.84,0.55,1.01
+ecstatic,Ancient,2024-12-30,2025-01-06,TMB,1.21,0.71,1.05
+ecstatic,Ancient,2024-12-30,2025-01-06,nut nut,1.06,0.67,0.74
+ecstatic,Ancient,2024-12-30,2025-01-06,n1Xen,0.76,0.62,0.52
+ecstatic,Ancient,2024-12-30,2025-01-06,Kristou,0.69,0.6,0.74
+ecstatic,Ancient,2024-12-30,2025-01-06,Anlelele,0.62,0.33,0.44
+ecstatic,Ancient,2025-01-20,2025-01-27,Anlelele,1.18,0.63,1.14
+ecstatic,Ancient,2025-01-20,2025-01-27,sirah,1.11,0.93,1.26
+ecstatic,Ancient,2025-01-20,2025-01-27,TMB,1.06,0.75,0.87
+ecstatic,Ancient,2025-01-20,2025-01-27,Kristou,0.9,0.79,0.47
+ecstatic,Ancient,2025-01-20,2025-01-27,nut nut,0.64,0.76,0.63
+ecstatic,Ancient,2025-01-27,2025-02-03,sirah,1.28,0.68,1.26
+ecstatic,Ancient,2025-01-27,2025-02-03,nut nut,1.15,0.62,0.61
+ecstatic,Ancient,2025-01-27,2025-02-03,Kristou,1.06,0.61,1.34
+ecstatic,Ancient,2025-01-27,2025-02-03,Anlelele,1.01,0.8,1.05
+ecstatic,Ancient,2025-01-27,2025-02-03,TMB,0.91,0.44,0.91
+ecstatic,Ancient,2025-02-10,2025-02-17,nut nut,1.58,0.69,0.88
+ecstatic,Ancient,2025-02-10,2025-02-17,sirah,1.16,0.56,1.5
+ecstatic,Ancient,2025-02-10,2025-02-17,Kristou,1.04,0.71,0.54
+ecstatic,Ancient,2025-02-10,2025-02-17,Anlelele,0.84,0.64,1.25
+ecstatic,Ancient,2025-02-10,2025-02-17,TMB,0.79,0.61,0.83
+ecstatic,Ancient,2025-02-24,2025-03-03,Anlelele,1.42,0.67,0.94
+ecstatic,Ancient,2025-02-24,2025-03-03,Kristou,1.4,0.65,0.89
+ecstatic,Ancient,2025-02-24,2025-03-03,sirah,1.02,0.14,1.17
+ecstatic,Ancient,2025-02-24,2025-03-03,nut nut,0.95,0.36,1.33
+ecstatic,Ancient,2025-02-24,2025-03-03,TMB,0.91,0.29,1.11
+ecstatic,Ancient,2025-03-03,2025-03-10,Kristou,1.29,0.47,0.89
+ecstatic,Ancient,2025-03-03,2025-03-10,Anlelele,1.2,0.82,1.35
+ecstatic,Ancient,2025-03-03,2025-03-10,sirah,1.18,0.41,1.2
+ecstatic,Ancient,2025-03-03,2025-03-10,nut nut,1.03,0.56,1.42
+ecstatic,Ancient,2025-03-03,2025-03-10,TMB,0.98,0.44,0.89
+ecstatic,Ancient,2025-03-10,2025-03-17,nut nut,1.45,0.86,1.01
+ecstatic,Ancient,2025-03-10,2025-03-17,Anlelele,1.15,0.71,0.94
+ecstatic,Ancient,2025-03-10,2025-03-17,sirah,1.01,0.72,1.48
+ecstatic,Ancient,2025-03-10,2025-03-17,Kristou,1.01,0.61,0.67
+ecstatic,Ancient,2025-03-10,2025-03-17,TMB,1.0,0.65,0.99
+ecstatic,Ancient,2025-03-17,2025-03-24,sirah,1.26,0.66,1.47
+ecstatic,Ancient,2025-03-17,2025-03-24,nut nut,1.14,0.68,0.85
+ecstatic,Ancient,2025-03-17,2025-03-24,TMB,1.06,0.47,1.07
+ecstatic,Ancient,2025-03-17,2025-03-24,Anlelele,1.05,0.72,0.8
+ecstatic,Ancient,2025-03-17,2025-03-24,Kristou,1.02,0.78,0.87
+ecstatic,Ancient,2025-03-24,2025-03-31,sirah,1.56,0.71,1.21
+ecstatic,Ancient,2025-03-24,2025-03-31,nut nut,1.31,0.56,1.02
+ecstatic,Ancient,2025-03-24,2025-03-31,TMB,1.2,0.74,1.43
+ecstatic,Ancient,2025-03-24,2025-03-31,Kristou,1.14,0.53,0.75
+ecstatic,Ancient,2025-03-24,2025-03-31,Anlelele,1.14,0.87,1.19
+ecstatic,Ancient,2025-04-21,2025-04-28,nut nut,1.38,0.46,1.03
+ecstatic,Ancient,2025-04-21,2025-04-28,sirah,1.22,0.67,1.25
+ecstatic,Ancient,2025-04-21,2025-04-28,TMB,1.18,0.85,0.74
+ecstatic,Ancient,2025-04-21,2025-04-28,Kristou,1.12,0.71,1.46
+ecstatic,Ancient,2025-04-21,2025-04-28,Anlelele,1.1,0.75,0.96
+ecstatic,Ancient,2025-05-05,2025-05-12,Anlelele,1.27,0.58,0.9
+ecstatic,Ancient,2025-05-05,2025-05-12,nut nut,1.2,0.77,0.9
+ecstatic,Ancient,2025-05-05,2025-05-12,Kristou,1.17,1.07,1.46
+ecstatic,Ancient,2025-05-05,2025-05-12,TMB,1.06,0.74,0.94
+ecstatic,Ancient,2025-05-05,2025-05-12,sirah,0.73,0.68,1.1
+ecstatic,Ancient,2025-05-12,2025-05-19,sirah,1.48,1.0,1.15
+ecstatic,Ancient,2025-05-12,2025-05-19,Anlelele,1.22,0.8,1.29
+ecstatic,Ancient,2025-05-12,2025-05-19,TMB,1.16,0.71,1.29
+ecstatic,Ancient,2025-05-12,2025-05-19,Kristou,1.03,1.18,1.29
+ecstatic,Ancient,2025-05-12,2025-05-19,nut nut,0.92,0.88,1.08
+ecstatic,Ancient,2025-06-09,2025-06-16,Anlelele,1.2,0.54,1.26
+ecstatic,Ancient,2025-06-09,2025-06-16,nut nut,1.12,0.82,0.85
+ecstatic,Ancient,2025-06-09,2025-06-16,sirah,1.03,0.79,1.17
+ecstatic,Ancient,2025-06-09,2025-06-16,TMB,0.99,0.74,0.84
+ecstatic,Ancient,2025-06-09,2025-06-16,Kristou,0.98,0.8,0.92
+ecstatic,Ancient,2025-07-28,2025-08-04,Kristou,1.38,0.86,0.85
+ecstatic,Ancient,2025-07-28,2025-08-04,nut nut,1.16,0.93,1.26
+ecstatic,Ancient,2025-07-28,2025-08-04,Anlelele,1.16,0.89,1.26
+ecstatic,Ancient,2025-07-28,2025-08-04,TMB,0.93,0.59,0.85
+ecstatic,Ancient,2025-07-28,2025-08-04,sirah,0.83,0.68,1.0
+ecstatic,Ancient,2025-08-04,2025-08-11,Kristou,1.39,0.45,1.12
+ecstatic,Ancient,2025-08-04,2025-08-11,sirah,1.21,1.0,1.35
+ecstatic,Ancient,2025-08-04,2025-08-11,Anlelele,1.02,0.58,1.12
+ecstatic,Ancient,2025-08-04,2025-08-11,nut nut,0.71,0.92,0.59
+ecstatic,Ancient,2025-08-04,2025-08-11,TMB,0.65,0.2,0.21
+ecstatic,Ancient,2025-08-25,2025-09-01,sirah,1.07,1.0,1.46
+ecstatic,Ancient,2025-08-25,2025-09-01,TMB,0.99,0.55,0.51
+ecstatic,Ancient,2025-08-25,2025-09-01,Anlelele,0.78,0.5,1.3
+ecstatic,Ancient,2025-08-25,2025-09-01,nut nut,0.63,0.77,0.51
+ecstatic,Ancient,2025-09-08,2025-09-15,sirah,1.03,0.5,1.19
+ecstatic,Ancient,2025-09-08,2025-09-15,Anlelele,0.87,0.55,0.75
+ecstatic,Ancient,2025-09-08,2025-09-15,acoR,0.81,0.7,0.49
+ecstatic,Ancient,2025-09-08,2025-09-15,nut nut,0.75,0.2,1.11
+ecstatic,Ancient,2025-09-08,2025-09-15,TMB,0.63,1.0,0.93
+ecstatic,Ancient,2025-09-22,2025-09-29,acoR,1.37,0.56,1.21
+ecstatic,Ancient,2025-09-22,2025-09-29,Anlelele,1.13,1.15,1.21
+ecstatic,Ancient,2025-09-22,2025-09-29,nut nut,1.06,0.88,0.91
+ecstatic,Ancient,2025-09-22,2025-09-29,TMB,0.98,0.44,1.3
+ecstatic,Ancient,2025-09-22,2025-09-29,sirah,0.94,0.64,1.16
+ecstatic,Ancient,2025-09-29,2025-10-06,nut nut,1.26,0.52,0.98
+ecstatic,Ancient,2025-09-29,2025-10-06,sirah,1.08,0.52,0.88
+ecstatic,Ancient,2025-09-29,2025-10-06,acoR,0.86,0.58,0.88
+ecstatic,Ancient,2025-09-29,2025-10-06,Anlelele,0.83,0.75,0.84
+ecstatic,Ancient,2025-09-29,2025-10-06,TMB,0.81,0.46,0.6
+ecstatic,Ancient,2025-10-06,2025-10-13,sirah,1.65,0.57,1.38
+ecstatic,Ancient,2025-10-06,2025-10-13,Anlelele,1.52,0.73,1.86
+ecstatic,Ancient,2025-10-06,2025-10-13,nut nut,1.19,0.45,0.85
+ecstatic,Ancient,2025-10-06,2025-10-13,TMB,1.03,0.53,0.85
+ecstatic,Ancient,2025-10-06,2025-10-13,acoR,0.74,0.68,0.55
+ecstatic,Ancient,2025-10-20,2025-10-27,acoR,1.5,0.36,0.67
+ecstatic,Ancient,2025-10-20,2025-10-27,sirah,1.09,0.62,1.13
+ecstatic,Ancient,2025-10-20,2025-10-27,Anlelele,0.73,0.27,0.39
+ecstatic,Ancient,2025-10-20,2025-10-27,nut nut,0.54,0.54,0.39
+ecstatic,Ancient,2025-10-20,2025-10-27,TMB,0.37,1.0,0.57
+ecstatic,Ancient,2025-10-27,2025-11-03,acoR,2.15,0.5,0.96
+ecstatic,Ancient,2025-10-27,2025-11-03,Anlelele,1.51,1.33,1.45
+ecstatic,Ancient,2025-10-27,2025-11-03,TMB,1.28,0.33,1.55
+ecstatic,Ancient,2025-10-27,2025-11-03,sirah,1.09,0.5,0.57
+ecstatic,Ancient,2025-10-27,2025-11-03,nut nut,0.96,0.73,1.06
+ecstatic,Ancient,2025-11-03,2025-11-10,Anlelele,1.41,0.6,1.46
+ecstatic,Ancient,2025-11-03,2025-11-10,sirah,1.32,0.68,1.43
+ecstatic,Ancient,2025-11-03,2025-11-10,nut nut,1.12,0.42,0.88
+ecstatic,Ancient,2025-11-03,2025-11-10,TMB,1.09,0.97,0.9
+ecstatic,Ancient,2025-11-03,2025-11-10,acoR,1.08,0.37,1.01
+ecstatic,Ancient,2025-11-17,2025-11-24,acoR,1.87,0.83,1.22
+ecstatic,Ancient,2025-11-17,2025-11-24,nut nut,1.72,0.55,1.5
+ecstatic,Ancient,2025-11-17,2025-11-24,sirah,1.7,0.6,2.33
+ecstatic,Ancient,2025-11-17,2025-11-24,Anlelele,0.81,1.0,0.57
+ecstatic,Ancient,2025-11-17,2025-11-24,TMB,0.79,0.86,0.85
+ecstatic,Ancient,2025-11-24,2025-12-01,sirah,1.71,0.56,1.8
+ecstatic,Ancient,2025-11-24,2025-12-01,acoR,1.46,0.81,0.52
+ecstatic,Ancient,2025-11-24,2025-12-01,TMB,0.97,0.5,0.74
+ecstatic,Ancient,2025-11-24,2025-12-01,Anlelele,0.75,0.58,0.97
+ecstatic,Ancient,2025-11-24,2025-12-01,nut nut,0.75,0.59,0.44
+ecstatic,Anubis,2024-12-02,2024-12-09,nut nut,1.5,0.4,1.07
+ecstatic,Anubis,2024-12-02,2024-12-09,Anlelele,1.36,0.53,0.67
+ecstatic,Anubis,2024-12-02,2024-12-09,Kristou,1.28,1.26,1.3
+ecstatic,Anubis,2024-12-02,2024-12-09,TMB,0.82,0.42,0.78
+ecstatic,Anubis,2024-12-02,2024-12-09,n1Xen,0.81,0.21,0.84
+ecstatic,Anubis,2024-12-09,2024-12-16,Anlelele,1.24,0.59,0.67
+ecstatic,Anubis,2024-12-09,2024-12-16,nut nut,0.99,0.33,0.78
+ecstatic,Anubis,2024-12-09,2024-12-16,n1Xen,0.91,0.46,0.94
+ecstatic,Anubis,2024-12-09,2024-12-16,Kristou,0.83,1.02,0.81
+ecstatic,Anubis,2024-12-09,2024-12-16,TMB,0.6,0.36,0.69
+ecstatic,Anubis,2025-01-20,2025-01-27,TMB,1.7,0.71,0.83
+ecstatic,Anubis,2025-01-20,2025-01-27,sirah,1.16,0.25,1.83
+ecstatic,Anubis,2025-01-20,2025-01-27,Anlelele,1.04,0.71,0.83
+ecstatic,Anubis,2025-01-20,2025-01-27,nut nut,0.87,0.32,1.11
+ecstatic,Anubis,2025-01-20,2025-01-27,Kristou,0.59,1.0,0.61
+ecstatic,Anubis,2025-02-10,2025-02-17,sirah,1.48,0.55,0.9
+ecstatic,Anubis,2025-02-10,2025-02-17,TMB,1.38,0.31,1.54
+ecstatic,Anubis,2025-02-10,2025-02-17,Anlelele,1.25,0.4,1.3
+ecstatic,Anubis,2025-02-10,2025-02-17,Kristou,1.09,0.89,1.3
+ecstatic,Anubis,2025-02-10,2025-02-17,nut nut,0.73,0.33,1.06
+ecstatic,Anubis,2025-02-17,2025-02-24,nut nut,1.03,0.75,1.22
+ecstatic,Anubis,2025-02-17,2025-02-24,TMB,0.7,1.29,0.67
+ecstatic,Anubis,2025-02-17,2025-02-24,sirah,0.66,1.0,1.0
+ecstatic,Anubis,2025-02-17,2025-02-24,Kristou,0.6,1.0,1.56
+ecstatic,Anubis,2025-02-17,2025-02-24,Anlelele,0.28,1.0,0.33
+ecstatic,Anubis,2025-03-03,2025-03-10,TMB,1.17,0.3,1.08
+ecstatic,Anubis,2025-03-03,2025-03-10,Anlelele,1.07,0.46,1.17
+ecstatic,Anubis,2025-03-03,2025-03-10,sirah,0.96,0.83,1.33
+ecstatic,Anubis,2025-03-03,2025-03-10,Kristou,0.81,0.47,1.0
+ecstatic,Anubis,2025-03-03,2025-03-10,nut nut,0.69,0.43,1.08
+ecstatic,Anubis,2025-03-10,2025-03-17,nut nut,1.6,0.64,0.82
+ecstatic,Anubis,2025-03-10,2025-03-17,Anlelele,1.23,0.87,0.59
+ecstatic,Anubis,2025-03-10,2025-03-17,Kristou,1.15,0.75,1.42
+ecstatic,Anubis,2025-03-10,2025-03-17,sirah,1.14,0.33,0.82
+ecstatic,Anubis,2025-03-10,2025-03-17,TMB,0.88,0.2,1.35
+ecstatic,Anubis,2025-03-17,2025-03-24,TMB,1.58,0.61,1.31
+ecstatic,Anubis,2025-03-17,2025-03-24,sirah,1.39,0.17,1.39
+ecstatic,Anubis,2025-03-17,2025-03-24,Kristou,1.28,0.58,1.19
+ecstatic,Anubis,2025-03-17,2025-03-24,nut nut,1.19,0.63,1.03
+ecstatic,Anubis,2025-03-17,2025-03-24,Anlelele,1.02,0.52,1.08
+ecstatic,Anubis,2025-03-24,2025-03-31,nut nut,1.08,1.17,1.19
+ecstatic,Anubis,2025-03-24,2025-03-31,Anlelele,0.91,0.58,0.9
+ecstatic,Anubis,2025-03-24,2025-03-31,sirah,0.84,0.77,0.84
+ecstatic,Anubis,2025-03-24,2025-03-31,Kristou,0.72,0.79,1.16
+ecstatic,Anubis,2025-03-24,2025-03-31,TMB,0.6,0.34,0.84
+ecstatic,Anubis,2025-04-07,2025-04-14,nut nut,1.92,1.0,0.96
+ecstatic,Anubis,2025-04-07,2025-04-14,TMB,1.57,0.94,0.96
+ecstatic,Anubis,2025-04-07,2025-04-14,Kristou,1.53,0.33,2.04
+ecstatic,Anubis,2025-04-07,2025-04-14,Anlelele,1.19,0.12,1.45
+ecstatic,Anubis,2025-04-07,2025-04-14,sirah,0.83,0.71,0.57
+ecstatic,Anubis,2025-04-14,2025-04-21,sirah,1.01,1.0,0.83
+ecstatic,Anubis,2025-04-14,2025-04-21,nut nut,0.89,0.62,0.83
+ecstatic,Anubis,2025-04-14,2025-04-21,Anlelele,0.89,0.5,0.75
+ecstatic,Anubis,2025-04-14,2025-04-21,TMB,0.79,0.43,0.5
+ecstatic,Anubis,2025-04-14,2025-04-21,Kristou,0.63,0.73,0.75
+ecstatic,Anubis,2025-05-12,2025-05-19,Anlelele,1.12,0.79,0.95
+ecstatic,Anubis,2025-05-12,2025-05-19,sirah,0.89,0.6,0.5
+ecstatic,Anubis,2025-05-12,2025-05-19,Kristou,0.85,1.09,1.07
+ecstatic,Anubis,2025-05-12,2025-05-19,TMB,0.83,0.29,0.59
+ecstatic,Anubis,2025-05-12,2025-05-19,nut nut,0.6,0.32,0.67
+ecstatic,Anubis,2025-06-09,2025-06-16,nut nut,1.66,0.27,1.5
+ecstatic,Anubis,2025-06-09,2025-06-16,Kristou,1.01,1.13,0.74
+ecstatic,Anubis,2025-06-09,2025-06-16,Anlelele,0.68,1.0,0.82
+ecstatic,Anubis,2025-06-09,2025-06-16,TMB,0.61,1.09,1.05
+ecstatic,Anubis,2025-06-09,2025-06-16,sirah,0.6,0.5,0.89
+ecstatic,Train,2025-01-20,2025-01-27,Kristou,1.32,0.82,0.96
+ecstatic,Train,2025-01-20,2025-01-27,nut nut,1.27,1.35,1.04
+ecstatic,Train,2025-01-20,2025-01-27,Anlelele,1.19,0.48,1.22
+ecstatic,Train,2025-01-20,2025-01-27,sirah,1.1,0.6,1.06
+ecstatic,Train,2025-01-20,2025-01-27,TMB,0.95,0.94,1.09
+ecstatic,Train,2025-01-27,2025-02-03,Anlelele,1.36,0.42,1.39
+ecstatic,Train,2025-01-27,2025-02-03,nut nut,1.28,1.14,0.98
+ecstatic,Train,2025-01-27,2025-02-03,TMB,1.26,0.94,1.17
+ecstatic,Train,2025-01-27,2025-02-03,sirah,1.22,0.57,0.98
+ecstatic,Train,2025-01-27,2025-02-03,Kristou,0.93,0.65,0.91
+ecstatic,Train,2025-02-10,2025-02-17,TMB,1.63,1.25,1.2
+ecstatic,Train,2025-02-10,2025-02-17,Kristou,1.6,1.08,1.27
+ecstatic,Train,2025-02-10,2025-02-17,sirah,1.11,0.11,0.97
+ecstatic,Train,2025-02-10,2025-02-17,Anlelele,0.88,0.45,1.88
+ecstatic,Train,2025-02-10,2025-02-17,nut nut,0.87,1.42,0.89
+ecstatic,Train,2025-02-17,2025-02-24,TMB,1.6,0.94,1.29
+ecstatic,Train,2025-02-17,2025-02-24,sirah,1.35,0.37,1.12
+ecstatic,Train,2025-02-17,2025-02-24,Kristou,1.26,0.93,1.32
+ecstatic,Train,2025-02-17,2025-02-24,nut nut,1.08,1.31,0.95
+ecstatic,Train,2025-02-17,2025-02-24,Anlelele,0.97,0.57,0.95
+ecstatic,Train,2025-03-03,2025-03-10,nut nut,1.25,1.4,0.38
+ecstatic,Train,2025-03-03,2025-03-10,sirah,1.13,0.6,0.88
+ecstatic,Train,2025-03-03,2025-03-10,TMB,1.13,0.92,0.81
+ecstatic,Train,2025-03-03,2025-03-10,Anlelele,0.87,0.38,0.0
+ecstatic,Train,2025-03-03,2025-03-10,Kristou,0.78,0.86,0.67
+ecstatic,Train,2025-03-10,2025-03-17,nut nut,1.34,1.3,1.15
+ecstatic,Train,2025-03-10,2025-03-17,Kristou,1.29,1.21,1.2
+ecstatic,Train,2025-03-10,2025-03-17,sirah,1.27,0.75,1.39
+ecstatic,Train,2025-03-10,2025-03-17,Anlelele,0.96,0.7,0.72
+ecstatic,Train,2025-03-10,2025-03-17,TMB,0.78,0.77,1.18
+ecstatic,Train,2025-03-17,2025-03-24,Kristou,1.31,1.18,0.95
+ecstatic,Train,2025-03-17,2025-03-24,nut nut,1.2,1.26,0.64
+ecstatic,Train,2025-03-17,2025-03-24,Anlelele,1.16,0.54,1.2
+ecstatic,Train,2025-03-17,2025-03-24,sirah,1.1,0.61,1.28
+ecstatic,Train,2025-03-17,2025-03-24,TMB,0.99,0.82,1.07
+ecstatic,Train,2025-03-24,2025-03-31,Kristou,1.44,0.71,1.44
+ecstatic,Train,2025-03-24,2025-03-31,TMB,1.3,0.96,1.15
+ecstatic,Train,2025-03-24,2025-03-31,sirah,1.3,0.4,1.07
+ecstatic,Train,2025-03-24,2025-03-31,Anlelele,1.11,0.24,0.96
+ecstatic,Train,2025-03-24,2025-03-31,nut nut,1.0,1.26,0.89
+ecstatic,Train,2025-04-07,2025-04-14,Anlelele,1.38,0.4,0.91
+ecstatic,Train,2025-04-07,2025-04-14,nut nut,1.25,1.33,0.83
+ecstatic,Train,2025-04-07,2025-04-14,sirah,1.25,0.47,1.44
+ecstatic,Train,2025-04-07,2025-04-14,Kristou,1.19,0.44,1.4
+ecstatic,Train,2025-04-07,2025-04-14,TMB,0.99,0.73,0.5
+ecstatic,Train,2025-04-14,2025-04-21,Kristou,1.46,0.64,1.18
+ecstatic,Train,2025-04-14,2025-04-21,sirah,1.28,0.41,1.38
+ecstatic,Train,2025-04-14,2025-04-21,Anlelele,1.05,0.42,0.74
+ecstatic,Train,2025-04-14,2025-04-21,TMB,0.99,0.6,0.76
+ecstatic,Train,2025-04-14,2025-04-21,nut nut,0.93,1.31,0.94
+ecstatic,Train,2025-04-28,2025-05-05,Anlelele,1.41,0.78,1.03
+ecstatic,Train,2025-04-28,2025-05-05,TMB,1.2,0.77,0.87
+ecstatic,Train,2025-04-28,2025-05-05,nut nut,1.17,0.97,0.9
+ecstatic,Train,2025-04-28,2025-05-05,Kristou,1.1,1.19,1.3
+ecstatic,Train,2025-04-28,2025-05-05,sirah,0.87,0.37,1.03
+ecstatic,Train,2025-05-05,2025-05-12,sirah,1.3,0.6,1.29
+ecstatic,Train,2025-05-05,2025-05-12,Kristou,1.1,1.0,1.03
+ecstatic,Train,2025-05-05,2025-05-12,nut nut,0.99,1.14,0.82
+ecstatic,Train,2025-05-05,2025-05-12,Anlelele,0.97,0.79,1.01
+ecstatic,Train,2025-05-05,2025-05-12,TMB,0.96,0.82,0.96
+ecstatic,Train,2025-05-19,2025-05-26,Kristou,1.52,1.62,1.3
+ecstatic,Train,2025-05-19,2025-05-26,nut nut,1.31,1.06,0.55
+ecstatic,Train,2025-05-19,2025-05-26,Anlelele,1.14,0.11,0.72
+ecstatic,Train,2025-05-19,2025-05-26,sirah,0.75,0.5,0.72
+ecstatic,Train,2025-05-19,2025-05-26,TMB,0.73,0.27,0.9
+ecstatic,Train,2025-06-09,2025-06-16,nut nut,1.26,1.07,1.06
+ecstatic,Train,2025-06-09,2025-06-16,TMB,1.26,0.58,1.33
+ecstatic,Train,2025-06-09,2025-06-16,sirah,1.26,0.57,0.96
+ecstatic,Train,2025-06-09,2025-06-16,Anlelele,1.24,0.69,0.87
+ecstatic,Train,2025-06-09,2025-06-16,Kristou,0.92,1.28,1.07
+ecstatic,Train,2025-07-28,2025-08-04,nut nut,1.22,0.92,0.86
+ecstatic,Train,2025-07-28,2025-08-04,Kristou,1.19,1.37,1.0
+ecstatic,Train,2025-07-28,2025-08-04,sirah,0.97,0.57,1.1
+ecstatic,Train,2025-07-28,2025-08-04,Anlelele,0.95,0.35,0.95
+ecstatic,Train,2025-07-28,2025-08-04,TMB,0.81,0.69,0.81
+ecstatic,Train,2025-08-04,2025-08-11,Anlelele,1.1,0.5,0.98
+ecstatic,Train,2025-08-04,2025-08-11,sirah,1.05,0.29,1.04
+ecstatic,Train,2025-08-04,2025-08-11,nut nut,0.98,0.79,0.9
+ecstatic,Train,2025-08-04,2025-08-11,Kristou,0.92,1.02,1.18
+ecstatic,Train,2025-08-04,2025-08-11,TMB,0.83,0.67,0.76
+ecstatic,Train,2025-08-11,2025-08-18,Anlelele,1.29,0.67,1.03
+ecstatic,Train,2025-08-11,2025-08-18,sirah,1.07,0.27,1.05
+ecstatic,Train,2025-08-11,2025-08-18,Kristou,1.05,1.26,1.27
+ecstatic,Train,2025-08-11,2025-08-18,nut nut,0.92,1.17,0.78
+ecstatic,Train,2025-08-11,2025-08-18,TMB,0.77,0.69,0.87
+ecstatic,Train,2025-08-18,2025-08-25,sirah,1.43,0.25,0.99
+ecstatic,Train,2025-08-18,2025-08-25,nut nut,1.34,1.07,0.91
+ecstatic,Train,2025-08-18,2025-08-25,Kristou,1.26,1.48,1.07
+ecstatic,Train,2025-08-18,2025-08-25,TMB,1.05,0.29,1.03
+ecstatic,Train,2025-08-18,2025-08-25,Anlelele,1.04,0.67,1.07
+ecstatic,Train,2025-09-08,2025-09-15,Anlelele,1.38,0.46,0.98
+ecstatic,Train,2025-09-08,2025-09-15,nut nut,1.36,0.82,1.13
+ecstatic,Train,2025-09-08,2025-09-15,sirah,1.12,0.58,1.15
+ecstatic,Train,2025-09-08,2025-09-15,acoR,1.12,0.82,1.09
+ecstatic,Train,2025-09-08,2025-09-15,TMB,0.77,0.77,0.96
+ecstatic,Train,2025-09-22,2025-09-29,Anlelele,1.31,0.5,1.11
+ecstatic,Train,2025-09-22,2025-09-29,nut nut,1.26,0.47,1.11
+ecstatic,Train,2025-09-22,2025-09-29,acoR,1.23,1.14,0.93
+ecstatic,Train,2025-09-22,2025-09-29,sirah,1.07,0.13,1.48
+ecstatic,Train,2025-09-22,2025-09-29,TMB,0.96,0.78,0.89
+ecstatic,Train,2025-09-29,2025-10-06,Anlelele,1.58,1.14,0.93
+ecstatic,Train,2025-09-29,2025-10-06,nut nut,1.12,1.04,0.89
+ecstatic,Train,2025-09-29,2025-10-06,TMB,1.08,0.68,1.27
+ecstatic,Train,2025-09-29,2025-10-06,acoR,1.02,1.13,1.12
+ecstatic,Train,2025-09-29,2025-10-06,sirah,0.82,0.33,0.63
+ecstatic,Train,2025-10-06,2025-10-13,nut nut,1.43,0.86,0.9
+ecstatic,Train,2025-10-06,2025-10-13,sirah,1.3,0.23,1.65
+ecstatic,Train,2025-10-06,2025-10-13,Anlelele,1.23,0.67,0.93
+ecstatic,Train,2025-10-06,2025-10-13,TMB,1.06,0.83,0.99
+ecstatic,Train,2025-10-06,2025-10-13,acoR,0.96,0.81,0.99
+ecstatic,Train,2025-10-20,2025-10-27,TMB,1.36,0.62,1.06
+ecstatic,Train,2025-10-20,2025-10-27,Anlelele,1.23,0.54,1.17
+ecstatic,Train,2025-10-20,2025-10-27,sirah,1.19,0.3,1.28
+ecstatic,Train,2025-10-20,2025-10-27,nut nut,1.05,0.89,0.89
+ecstatic,Train,2025-10-20,2025-10-27,acoR,1.04,0.59,1.21
+ecstatic,Train,2025-10-27,2025-11-03,nut nut,1.37,0.93,0.36
+ecstatic,Train,2025-10-27,2025-11-03,sirah,1.26,0.17,0.67
+ecstatic,Train,2025-10-27,2025-11-03,TMB,0.92,0.43,1.2
+ecstatic,Train,2025-10-27,2025-11-03,acoR,0.89,0.92,0.97
+ecstatic,Train,2025-10-27,2025-11-03,Anlelele,0.64,1.25,0.59
+ecstatic,Train,2025-11-03,2025-11-10,sirah,1.53,0.47,1.22
+ecstatic,Train,2025-11-03,2025-11-10,acoR,1.19,0.76,1.07
+ecstatic,Train,2025-11-03,2025-11-10,nut nut,1.13,0.93,1.0
+ecstatic,Train,2025-11-03,2025-11-10,TMB,0.94,0.59,1.07
+ecstatic,Train,2025-11-03,2025-11-10,Anlelele,0.78,0.47,1.15
+ecstatic,Train,2025-11-17,2025-11-24,acoR,1.68,0.95,2.78
+ecstatic,Train,2025-11-17,2025-11-24,nut nut,1.19,1.0,1.0
+ecstatic,Train,2025-11-17,2025-11-24,TMB,0.82,0.5,0.44
+ecstatic,Train,2025-11-17,2025-11-24,Anlelele,0.78,0.7,1.28
+ecstatic,Train,2025-11-17,2025-11-24,sirah,0.73,0.42,0.83
