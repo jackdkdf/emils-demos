@@ -23,8 +23,8 @@ except ImportError:
 # --- Main Configuration ---
 
 # 1. Output CSV file for team rankings
-RANKINGS_CSV_FILE = "hltv_team_rankings.csv"
-PEAK_TEAMS_CSV_FILE = "teams_peak_36.csv"
+RANKINGS_CSV_FILE = "data/hltv_team_rankings.csv"
+PEAK_TEAMS_CSV_FILE = "data/teams_peak_36.csv"
 
 # 2. Date generation parameters (for -gen mode)
 # Note: HLTV ranking dates are always Mondays

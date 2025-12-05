@@ -4,3 +4,10 @@ scripts/team_html_pages/**
 /venv
 # Mac OS irrelevant file
 .DS_Store
+src/data/__pycache__/
+src/eval/__pycache__/
+src/run/__pycache__/
+plots/confusion_matrix.png
+plots/feature_importance.png
+plots/precision_recall_curve.png
+plots/roc_curve.png

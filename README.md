@@ -1,6 +1,6 @@
-# CS:GO Match Prediction ML Project
+# CS2 Match Prediction ML Project
 
-A machine learning project for predicting CS:GO match outcomes using team statistics, player performance, and historical data.
+A machine learning project for predicting CS2 match outcomes using team statistics, player performance, and historical data.
 
 ## Project Structure
 
@@ -107,21 +107,25 @@ python -m src.main about
 #### CLI Options
 
 **Preprocess Command:**
+
 ```bash
 python -m src.main preprocess [--project-root PATH] [--quiet]
 ```
 
 **Train Command:**
+
 ```bash
 python -m src.main train --data PATH [--no-balance] [--no-tuning] [--n-iter N] [--seed N] [--quiet]
 ```
 
 **Visualize Command:**
+
 ```bash
 python -m src.main visualize --data PATH [--output-dir DIR] [--no-train] [--model-path PATH] [--seed N] [--quiet] [--show]
 ```
 
 The visualize command creates:
+
 - Confusion matrix heatmap
 - ROC curve
 - Precision-Recall curve
@@ -273,11 +277,13 @@ black src/
 The `data/` folder is organized into three main categories:
 
 - **`raw/`**: Original, unprocessed data files
+
   - `team_results/`: Individual team match CSV files
   - `player_results/`: Player weekly statistics CSV files
   - `rankings/`: Team ranking files
 
 - **`preprocessed/`**: Processed and intermediate data files
+
   - Cumulative statistics
   - Match features
   - Final feature sets ready for training

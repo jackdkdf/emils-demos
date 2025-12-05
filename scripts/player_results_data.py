@@ -19,7 +19,7 @@ except ImportError:
     sys.exit(1)
 
 # --- Configuration ---
-OUTPUT_FOLDER = "player_results"
+OUTPUT_FOLDER = "data/player_results"
 TEAMS_INPUT_FILE = "data/teams_peak_36.csv"
 START_DATE_STR = "2024-11-04"
 END_DATE_STR = "2025-12-01"

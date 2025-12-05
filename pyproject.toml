@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "csgo-match-prediction"
 version = "0.1.0"
-description = "Machine learning project for predicting CS:GO match outcomes"
+description = "Machine learning project for predicting CS2 match outcomes"
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 

@@ -23,14 +23,14 @@ except ImportError:
 # --- Main Configuration ---
 
 # 1. Output FOLDER for team CSVs
-OUTPUT_FOLDER = "team_results"
+OUTPUT_FOLDER = "data/team_results"
 
 # 2. Date range for URL generation
 START_DATE_STR = "2024-11-04"
 END_DATE_STR = "2025-12-01"
 
 # 3. Input CSV file with team list
-TEAMS_INPUT_FILE = "teams_peak_36.csv"
+TEAMS_INPUT_FILE = "data/teams_peak_36.csv"
 
 # --- End Configuration ---
 
