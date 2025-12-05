@@ -147,14 +147,14 @@ Examples:
             )
 
     elif args.command == "train":
-        X_train, X_test, y_train, y_test = load_and_prepare_data(
+        X_train, X_test, y_train, y_test, original_distribution = load_and_prepare_data(
             data_file=args.data,
             balance_classes=not args.no_balance,
             random_seed=args.seed,
             verbose=not args.quiet,
         )
 
-        model, best_params = train_xgboost_model(
+        model, best_params, eval_results = train_xgboost_model(
             X_train=X_train,
             y_train=y_train,
             X_test=X_test,
@@ -181,22 +181,23 @@ Examples:
             with open(args.model_path, "rb") as f:
                 model = pickle.load(f)
 
-            X_train, X_test, y_train, y_test = load_and_prepare_data(
+            X_train, X_test, y_train, y_test, original_distribution = load_and_prepare_data(
                 data_file=args.data,
                 balance_classes=True,
                 random_seed=args.seed,
                 verbose=not args.quiet,
             )
+            eval_results = None
         else:
             logger.info("Training model for visualization...")
-            X_train, X_test, y_train, y_test = load_and_prepare_data(
+            X_train, X_test, y_train, y_test, original_distribution = load_and_prepare_data(
                 data_file=args.data,
                 balance_classes=True,
                 random_seed=args.seed,
                 verbose=not args.quiet,
             )
 
-            model, best_params = train_xgboost_model(
+            model, best_params, eval_results = train_xgboost_model(
                 X_train=X_train,
                 y_train=y_train,
                 X_test=X_test,
@@ -224,6 +225,10 @@ Examples:
             y_proba=y_proba,
             output_dir=output_dir,
             show=args.show,
+            eval_results=eval_results,
+            X_train=X_train if not args.no_train else None,
+            y_train=y_train if not args.no_train else None,
+            original_distribution=original_distribution,
         )
 
     elif args.command == "about":

@@ -135,6 +135,75 @@ def plot_precision_recall_curve(
         plt.close()
 
 
+def plot_class_distribution(
+    original_distribution: dict,
+    save_path: Optional[Path] = None,
+    show: bool = True
+) -> None:
+    """Plot class distribution before and after balancing.
+    
+    Args:
+        original_distribution: Dictionary with 'before' and 'after' keys containing class counts.
+        save_path: Optional path to save the figure.
+        show: Whether to display the figure.
+    """
+    if 'before' not in original_distribution or 'after' not in original_distribution:
+        logger.warning("Class distribution requires 'before' and 'after' keys")
+        return
+    
+    before_counts = original_distribution['before']
+    after_counts = original_distribution['after']
+    
+    # Prepare data for plotting
+    classes = sorted(set(list(before_counts.keys()) + list(after_counts.keys())))
+    class_labels = ['Team A Lost', 'Team A Won']  # Assuming binary classification
+    
+    before_values = [before_counts.get(cls, 0) for cls in classes]
+    after_values = [after_counts.get(cls, 0) for cls in classes]
+    
+    # Create figure with two subplots
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
+    
+    # Before balancing
+    bars1 = ax1.bar(class_labels, before_values, color=['#3498db', '#e74c3c'], alpha=0.8)
+    ax1.set_title('Class Distribution Before Balancing', fontsize=14, fontweight='bold')
+    ax1.set_ylabel('Number of Samples', fontsize=12)
+    ax1.set_xlabel('Class', fontsize=12)
+    ax1.grid(axis='y', alpha=0.3)
+    
+    # Add value labels on bars
+    for bar in bars1:
+        height = bar.get_height()
+        ax1.text(bar.get_x() + bar.get_width()/2., height,
+                f'{int(height)}\n({height/sum(before_values)*100:.1f}%)',
+                ha='center', va='bottom', fontsize=10)
+    
+    # After balancing
+    bars2 = ax2.bar(class_labels, after_values, color=['#3498db', '#e74c3c'], alpha=0.8)
+    ax2.set_title('Class Distribution After Balancing', fontsize=14, fontweight='bold')
+    ax2.set_ylabel('Number of Samples', fontsize=12)
+    ax2.set_xlabel('Class', fontsize=12)
+    ax2.grid(axis='y', alpha=0.3)
+    
+    # Add value labels on bars
+    for bar in bars2:
+        height = bar.get_height()
+        ax2.text(bar.get_x() + bar.get_width()/2., height,
+                f'{int(height)}\n({height/sum(after_values)*100:.1f}%)',
+                ha='center', va='bottom', fontsize=10)
+    
+    plt.tight_layout()
+    
+    if save_path:
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+        logger.info(f"Saved class distribution plot to: {save_path}")
+    
+    if show:
+        plt.show()
+    else:
+        plt.close()
+
+
 def plot_feature_importance(
     model,
     feature_names: list,
@@ -178,38 +247,132 @@ def plot_feature_importance(
         plt.close()
 
 
-def plot_training_history(
+def plot_loss_curves(
     eval_results: dict,
     save_path: Optional[Path] = None,
     show: bool = True
 ) -> None:
-    """Plot training history from XGBoost eval_set results.
+    """Plot loss curves from XGBoost eval_set results.
     
     Args:
-        eval_results: Dictionary with 'train' and 'test' keys containing lists of scores.
+        eval_results: Dictionary from XGBoost evals_result() method.
         save_path: Optional path to save the figure.
         show: Whether to display the figure.
     """
-    if 'train' not in eval_results or 'test' not in eval_results:
-        logger.warning("Training history requires 'train' and 'test' keys in eval_results")
+    if not eval_results:
+        logger.warning("No evaluation results available for loss curves")
         return
     
-    train_scores = eval_results['train']
-    test_scores = eval_results['test']
+    # XGBoost stores results as {'validation_0': {'logloss': [...]}, 'validation_1': {'logloss': [...]}}
+    # validation_0 is typically train, validation_1 is test
+    train_key = 'validation_0'
+    test_key = 'validation_1'
+    
+    if train_key not in eval_results or test_key not in eval_results:
+        logger.warning("Training history requires validation_0 and validation_1 keys")
+        return
+    
+    train_loss = eval_results[train_key].get('logloss', [])
+    test_loss = eval_results[test_key].get('logloss', [])
+    
+    if not train_loss or not test_loss:
+        logger.warning("No logloss data found in evaluation results")
+        return
     
     plt.figure(figsize=(10, 6))
-    plt.plot(train_scores, label='Train', marker='o')
-    plt.plot(test_scores, label='Test', marker='s')
-    plt.xlabel('Iteration', fontsize=12)
+    plt.plot(train_loss, label='Train Loss', marker='o', markersize=4)
+    plt.plot(test_loss, label='Validation Loss', marker='s', markersize=4)
+    plt.xlabel('Boosting Round', fontsize=12)
     plt.ylabel('Log Loss', fontsize=12)
-    plt.title('Training History (Log Loss)', fontsize=14, fontweight='bold')
+    plt.title('Training Loss Curves', fontsize=14, fontweight='bold')
     plt.legend()
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
     
     if save_path:
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
-        logger.info(f"Saved training history to: {save_path}")
+        logger.info(f"Saved loss curves to: {save_path}")
+    
+    if show:
+        plt.show()
+    else:
+        plt.close()
+
+
+def plot_accuracy_curves(
+    model,
+    X_train: pd.DataFrame,
+    y_train: pd.Series,
+    X_test: pd.DataFrame,
+    y_test: pd.Series,
+    save_path: Optional[Path] = None,
+    show: bool = True
+) -> None:
+    """Plot accuracy curves by evaluating model at different boosting rounds.
+    
+    Args:
+        model: Trained XGBoost model.
+        X_train: Training features.
+        y_train: Training labels.
+        X_test: Test features.
+        y_test: Test labels.
+        save_path: Optional path to save the figure.
+        show: Whether to display the figure.
+    """
+    import xgboost as xgb
+    from sklearn.metrics import accuracy_score
+    
+    if not isinstance(model, xgb.XGBClassifier):
+        logger.warning("Accuracy curves only available for XGBoost models")
+        return
+    
+    # Get the number of boosting rounds from the model
+    # XGBoost models store the actual number of trees used
+    try:
+        n_estimators = model.get_booster().num_boosted_rounds()
+    except:
+        n_estimators = model.get_params().get('n_estimators', 100)
+    
+    # Limit to reasonable number of evaluation points
+    max_points = 50
+    step = max(1, n_estimators // max_points)
+    eval_rounds = list(range(step, n_estimators + 1, step))
+    if eval_rounds[-1] != n_estimators:
+        eval_rounds.append(n_estimators)
+    
+    train_accuracies = []
+    test_accuracies = []
+    
+    # Evaluate model at different stages using iteration_range
+    for i in eval_rounds:
+        # Get predictions up to iteration i
+        train_pred_proba = model.predict_proba(X_train, iteration_range=(0, i))[:, 1]
+        test_pred_proba = model.predict_proba(X_test, iteration_range=(0, i))[:, 1]
+        
+        # Convert probabilities to binary predictions
+        train_pred = (train_pred_proba >= 0.5).astype(int)
+        test_pred = (test_pred_proba >= 0.5).astype(int)
+        
+        # Calculate accuracies
+        train_acc = accuracy_score(y_train, train_pred)
+        test_acc = accuracy_score(y_test, test_pred)
+        
+        train_accuracies.append(train_acc)
+        test_accuracies.append(test_acc)
+    
+    plt.figure(figsize=(10, 6))
+    plt.plot(eval_rounds, train_accuracies, label='Train Accuracy', marker='o', markersize=4)
+    plt.plot(eval_rounds, test_accuracies, label='Validation Accuracy', marker='s', markersize=4)
+    plt.xlabel('Boosting Round', fontsize=12)
+    plt.ylabel('Accuracy', fontsize=12)
+    plt.title('Training Accuracy Curves', fontsize=14, fontweight='bold')
+    plt.legend()
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+    
+    if save_path:
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+        logger.info(f"Saved accuracy curves to: {save_path}")
     
     if show:
         plt.show()
@@ -224,7 +387,11 @@ def create_all_visualizations(
     y_pred: np.ndarray,
     y_proba: Optional[np.ndarray] = None,
     output_dir: Optional[Path] = None,
-    show: bool = False
+    show: bool = False,
+    eval_results: Optional[dict] = None,
+    X_train: Optional[pd.DataFrame] = None,
+    y_train: Optional[pd.Series] = None,
+    original_distribution: Optional[dict] = None
 ) -> None:
     """Create all visualizations for model evaluation.
     
@@ -236,11 +403,20 @@ def create_all_visualizations(
         y_proba: Predicted probabilities (optional).
         output_dir: Directory to save plots.
         show: Whether to display plots.
+        eval_results: Optional evaluation results from XGBoost for loss curves.
+        X_train: Optional training features for accuracy curves.
+        y_train: Optional training labels for accuracy curves.
+        original_distribution: Optional dictionary with 'before' and 'after' class distributions.
     """
     if output_dir:
         output_dir.mkdir(parents=True, exist_ok=True)
     
     logger.info("Creating visualizations...")
+    
+    # Class Distribution (if available)
+    if original_distribution is not None:
+        dist_path = output_dir / "class_distribution.png" if output_dir else None
+        plot_class_distribution(original_distribution, save_path=dist_path, show=show)
     
     # Confusion Matrix
     cm_path = output_dir / "confusion_matrix.png" if output_dir else None
@@ -265,6 +441,19 @@ def create_all_visualizations(
                 save_path=fi_path,
                 show=show
             )
+            
+            # Loss curves (if eval_results available)
+            if eval_results is not None:
+                loss_path = output_dir / "loss_curves.png" if output_dir else None
+                plot_loss_curves(eval_results, save_path=loss_path, show=show)
+            
+            # Accuracy curves (if training data available)
+            if X_train is not None and y_train is not None:
+                acc_path = output_dir / "accuracy_curves.png" if output_dir else None
+                plot_accuracy_curves(
+                    model, X_train, y_train, X_test, y_test,
+                    save_path=acc_path, show=show
+                )
     except ImportError:
         pass
     

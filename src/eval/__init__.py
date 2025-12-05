@@ -6,7 +6,9 @@ from .visualize import (
     plot_roc_curve,
     plot_precision_recall_curve,
     plot_feature_importance,
-    plot_training_history,
+    plot_loss_curves,
+    plot_accuracy_curves,
+    plot_class_distribution,
     create_all_visualizations
 )
 
@@ -16,6 +18,8 @@ __all__ = [
     'plot_roc_curve',
     'plot_precision_recall_curve',
     'plot_feature_importance',
-    'plot_training_history',
+    'plot_loss_curves',
+    'plot_accuracy_curves',
+    'plot_class_distribution',
     'create_all_visualizations',
 ]

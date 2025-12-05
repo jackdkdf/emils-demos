@@ -31,7 +31,8 @@ def load_and_prepare_data(
         verbose: Whether to print progress messages.
         
     Returns:
-        Tuple of (X_train, X_test, y_train, y_test).
+        Tuple of (X_train, X_test, y_train, y_test, original_distribution).
+        original_distribution is a dict with 'before' and 'after' keys containing class counts.
     """
     np.random.seed(random_seed)
     
@@ -47,6 +48,9 @@ def load_and_prepare_data(
     target_col = 'team_a_won'
     X = df.drop(columns=[target_col])
     y = df[target_col]
+    
+    # Store original distribution
+    original_distribution = {'before': y.value_counts().to_dict()}
     
     if verbose:
         logger.info(f"\nFeatures: {X.shape[1]} columns")
@@ -71,8 +75,13 @@ def load_and_prepare_data(
         X = df_balanced.drop(columns=[target_col])
         y = df_balanced[target_col]
         
+        # Store balanced distribution
+        original_distribution['after'] = y.value_counts().to_dict()
+        
         if verbose:
             logger.info(f"After balancing: {len(df_balanced)} samples")
+    else:
+        original_distribution['after'] = original_distribution['before']
     
     # Split into train and test
     X_train, X_test, y_train, y_test = train_test_split(
@@ -83,7 +92,7 @@ def load_and_prepare_data(
         logger.info(f"\nTrain set: {X_train.shape[0]} samples")
         logger.info(f"Test set: {X_test.shape[0]} samples")
     
-    return X_train, X_test, y_train, y_test
+    return X_train, X_test, y_train, y_test, original_distribution
 
 
 def train_xgboost_model(
@@ -175,6 +184,7 @@ def train_xgboost_model(
         model = xgb.XGBClassifier(**best_params)
     
     # Final training with early stopping if test set provided
+    eval_results = None
     if X_test is not None and y_test is not None:
         if verbose:
             logger.info("\nFinal training with early stopping...")
@@ -186,10 +196,12 @@ def train_xgboost_model(
             eval_set=[(X_train, y_train), (X_test, y_test)],
             verbose=50 if verbose else False
         )
+        # Extract evaluation results
+        eval_results = model.evals_result()
     else:
         model.fit(X_train, y_train)
     
     if verbose:
         logger.info("\nModel training completed!")
     
-    return model, best_params
+    return model, best_params, eval_results
