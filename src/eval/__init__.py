@@ -21,5 +21,6 @@ __all__ = [
     'plot_loss_curves',
     'plot_accuracy_curves',
     'plot_class_distribution',
+    'analyze_prediction_errors',
     'create_all_visualizations',
 ]

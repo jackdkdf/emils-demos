@@ -380,6 +380,148 @@ def plot_accuracy_curves(
         plt.close()
 
 
+def analyze_prediction_errors(
+    X_test: pd.DataFrame,
+    y_test: np.ndarray,
+    y_pred: np.ndarray,
+    y_proba: Optional[np.ndarray] = None,
+    save_path: Optional[Path] = None,
+    show: bool = True
+) -> pd.DataFrame:
+    """Analyze prediction errors and identify patterns in misclassified samples.
+    
+    Args:
+        X_test: Test features.
+        y_test: True labels.
+        y_pred: Predicted labels.
+        y_proba: Predicted probabilities (optional).
+        save_path: Optional path to save error analysis report.
+        show: Whether to display plots.
+        
+    Returns:
+        DataFrame with error analysis summary.
+    """
+    # Create error analysis DataFrame
+    error_df = X_test.copy()
+    error_df['true_label'] = y_test
+    error_df['predicted_label'] = y_pred
+    error_df['is_correct'] = (y_test == y_pred).astype(int)
+    
+    if y_proba is not None:
+        error_df['predicted_probability'] = y_proba
+        error_df['confidence'] = np.abs(y_proba - 0.5) * 2  # 0 = uncertain, 1 = very confident
+    
+    # Identify error types
+    error_df['error_type'] = 'Correct'
+    error_df.loc[(error_df['true_label'] == 0) & (error_df['predicted_label'] == 1), 'error_type'] = 'False Positive'
+    error_df.loc[(error_df['true_label'] == 1) & (error_df['predicted_label'] == 0), 'error_type'] = 'False Negative'
+    
+    # Calculate error statistics
+    total_errors = len(error_df[error_df['is_correct'] == 0])
+    false_positives = len(error_df[error_df['error_type'] == 'False Positive'])
+    false_negatives = len(error_df[error_df['error_type'] == 'False Negative'])
+    
+    logger.info(f"\nError Analysis Summary:")
+    logger.info(f"  Total errors: {total_errors} ({total_errors/len(error_df)*100:.2f}%)")
+    logger.info(f"  False Positives: {false_positives} ({false_positives/len(error_df)*100:.2f}%)")
+    logger.info(f"  False Negatives: {false_negatives} ({false_negatives/len(error_df)*100:.2f}%)")
+    
+    # Analyze feature differences between correct and incorrect predictions
+    numeric_cols = error_df.select_dtypes(include=[np.number]).columns
+    numeric_cols = [col for col in numeric_cols if col not in ['true_label', 'predicted_label', 'is_correct', 'predicted_probability', 'confidence']]
+    
+    if len(numeric_cols) > 0:
+        correct_samples = error_df[error_df['is_correct'] == 1]
+        incorrect_samples = error_df[error_df['is_correct'] == 0]
+        
+        # Calculate mean differences
+        feature_diffs = []
+        for col in numeric_cols[:20]:  # Limit to top 20 features to avoid too many plots
+            if col in correct_samples.columns and col in incorrect_samples.columns:
+                correct_mean = correct_samples[col].mean()
+                incorrect_mean = incorrect_samples[col].mean()
+                diff = incorrect_mean - correct_mean
+                feature_diffs.append({
+                    'feature': col,
+                    'correct_mean': correct_mean,
+                    'incorrect_mean': incorrect_mean,
+                    'difference': diff,
+                    'abs_difference': abs(diff)
+                })
+        
+        feature_diff_df = pd.DataFrame(feature_diffs).sort_values('abs_difference', ascending=False)
+        
+        # Create visualization
+        fig, axes = plt.subplots(2, 2, figsize=(16, 12))
+        
+        # 1. Error type distribution
+        error_counts = error_df['error_type'].value_counts()
+        axes[0, 0].bar(error_counts.index, error_counts.values, color=['#2ecc71', '#e74c3c', '#f39c12'])
+        axes[0, 0].set_title('Error Type Distribution', fontsize=14, fontweight='bold')
+        axes[0, 0].set_ylabel('Count', fontsize=12)
+        axes[0, 0].tick_params(axis='x', rotation=45)
+        
+        # 2. Top features with largest differences
+        top_features = feature_diff_df.head(10)
+        axes[0, 1].barh(range(len(top_features)), top_features['difference'], 
+                        color=['#e74c3c' if x < 0 else '#3498db' for x in top_features['difference']])
+        axes[0, 1].set_yticks(range(len(top_features)))
+        axes[0, 1].set_yticklabels(top_features['feature'], fontsize=9)
+        axes[0, 1].set_title('Top 10 Features: Mean Difference (Incorrect - Correct)', fontsize=12, fontweight='bold')
+        axes[0, 1].set_xlabel('Difference', fontsize=10)
+        axes[0, 1].axvline(x=0, color='black', linestyle='--', alpha=0.3)
+        
+        # 3. Confidence distribution for errors vs correct
+        if 'confidence' in error_df.columns:
+            correct_conf = error_df[error_df['is_correct'] == 1]['confidence']
+            incorrect_conf = error_df[error_df['is_correct'] == 0]['confidence']
+            axes[1, 0].hist(correct_conf, bins=20, alpha=0.6, label='Correct', color='#2ecc71', density=True)
+            axes[1, 0].hist(incorrect_conf, bins=20, alpha=0.6, label='Incorrect', color='#e74c3c', density=True)
+            axes[1, 0].set_title('Prediction Confidence Distribution', fontsize=14, fontweight='bold')
+            axes[1, 0].set_xlabel('Confidence', fontsize=12)
+            axes[1, 0].set_ylabel('Density', fontsize=12)
+            axes[1, 0].legend()
+            axes[1, 0].grid(True, alpha=0.3)
+        
+        # 4. Error rate by prediction probability bins
+        if 'predicted_probability' in error_df.columns:
+            error_df['prob_bin'] = pd.cut(error_df['predicted_probability'], bins=10, labels=False)
+            bin_errors = error_df.groupby('prob_bin').agg({
+                'is_correct': ['count', lambda x: (x == 0).sum()]
+            }).reset_index()
+            bin_errors.columns = ['bin', 'total', 'errors']
+            bin_errors['error_rate'] = bin_errors['errors'] / bin_errors['total']
+            bin_centers = [(i + 0.5) / 10 for i in range(10)]
+            axes[1, 1].bar(bin_centers, bin_errors['error_rate'], width=0.08, color='#e74c3c', alpha=0.7)
+            axes[1, 1].set_title('Error Rate by Prediction Probability', fontsize=14, fontweight='bold')
+            axes[1, 1].set_xlabel('Predicted Probability (binned)', fontsize=12)
+            axes[1, 1].set_ylabel('Error Rate', fontsize=12)
+            axes[1, 1].grid(True, alpha=0.3, axis='y')
+        
+        plt.tight_layout()
+        
+        if save_path:
+            plt.savefig(save_path, dpi=300, bbox_inches='tight')
+            logger.info(f"Saved error analysis plot to: {save_path}")
+            
+            # Save detailed report as CSV
+            if save_path.suffix == '.png':
+                report_path = save_path.parent / (save_path.stem + '_report.csv')
+            else:
+                report_path = save_path.with_suffix('.csv')
+            feature_diff_df.to_csv(report_path, index=False)
+            logger.info(f"Saved error analysis report to: {report_path}")
+        
+        if show:
+            plt.show()
+        else:
+            plt.close()
+        
+        return feature_diff_df
+    
+    return pd.DataFrame()
+
+
 def create_all_visualizations(
     model,
     X_test: pd.DataFrame,
@@ -456,6 +598,18 @@ def create_all_visualizations(
                 )
     except ImportError:
         pass
+    
+    # Error Analysis
+    if y_proba is not None:
+        error_path = output_dir / "error_analysis.png" if output_dir else None
+        analyze_prediction_errors(
+            X_test=X_test,
+            y_test=y_test,
+            y_pred=y_pred,
+            y_proba=y_proba,
+            save_path=error_path,
+            show=show
+        )
     
     logger.info("Visualizations created successfully")
 
