@@ -38,6 +38,12 @@ Examples:
 
   # Create visualizations (confusion matrix, ROC curve, feature importance)
   python -m src.main visualize --data data/preprocessed/final_features.csv
+
+  # Predict match outcome from HLTV URL
+  python -m src.main predict --url https://www.hltv.org/matches/2388125/spirit-vs-falcons-...
+
+  # Predict match outcome manually
+  python -m src.main predict --team-a "Team Spirit" --team-b "Team Falcons" --map "Mirage" --date "2025-01-15"
         """,
     )
 
@@ -115,6 +121,56 @@ Examples:
         "--show", action="store_true", help="Display plots interactively"
     )
 
+    # Predict command
+    predict_parser = subparsers.add_parser(
+        "predict", help="Predict match outcome from HLTV URL or match details"
+    )
+    predict_parser.add_argument(
+        "--url",
+        type=str,
+        default=None,
+        help="HLTV match URL (e.g., https://www.hltv.org/matches/2388125/...)",
+    )
+    predict_parser.add_argument(
+        "--team-a",
+        type=str,
+        default=None,
+        help="Name of team A (required if --url not provided)",
+    )
+    predict_parser.add_argument(
+        "--team-b",
+        type=str,
+        default=None,
+        help="Name of team B (required if --url not provided)",
+    )
+    predict_parser.add_argument(
+        "--map",
+        type=str,
+        default=None,
+        help="Map name (required if --url not provided)",
+    )
+    predict_parser.add_argument(
+        "--date",
+        type=str,
+        default=None,
+        help="Match date in YYYY-MM-DD format (required if --url not provided)",
+    )
+    predict_parser.add_argument(
+        "--model-path",
+        type=Path,
+        default=None,
+        help="Path to saved model (default: models/xgboost_model.pkl)",
+    )
+    predict_parser.add_argument(
+        "--project-root",
+        type=Path,
+        default=None,
+        help="Root directory of the project",
+    )
+    predict_parser.add_argument(
+        "--quiet", action="store_true", help="Suppress verbose output"
+    )
+
     # About command
     subparsers.add_parser("about", help="Show project info")
 
@@ -168,6 +224,19 @@ Examples:
         # Evaluate on test set
         y_pred = model.predict(X_test)
         evaluate_model(y_test.values, y_pred, verbose=not args.quiet)
+        
+        # Save model
+        import pickle
+        project_root = getattr(args, 'project_root', None) or Path(__file__).resolve().parent.parent
+        models_dir = project_root / "models"
+        models_dir.mkdir(exist_ok=True)
+        model_path = models_dir / "xgboost_model.pkl"
+        
+        with open(model_path, "wb") as f:
+            pickle.dump(model, f)
+        
+        if not args.quiet:
+            logger.info(f"\nModel saved to: {model_path}")
 
     elif args.command == "visualize":
         import pickle
@@ -230,6 +299,60 @@ Examples:
             y_train=y_train if not args.no_train else None,
             original_distribution=original_distribution,
         )
+
+    elif args.command == "predict":
+        from .inference import predict_match
+        
+        project_root = args.project_root or Path(__file__).resolve().parent.parent
+        model_path = args.model_path or (project_root / "models" / "xgboost_model.pkl")
+        
+        result = predict_match(
+            match_url=args.url,
+            team_a=args.team_a,
+            team_b=args.team_b,
+            map_name=args.map,
+            match_date=args.date,
+            model_path=model_path if model_path.exists() else None,
+            project_root=project_root,
+            verbose=not args.quiet
+        )
+        
+        if result:
+            logger.info("\n" + "="*60)
+            logger.info("MATCH PREDICTION RESULTS")
+            logger.info("="*60)
+            logger.info(f"Match: {result['team_a']} vs {result['team_b']}")
+            logger.info(f"Map: {result['map'] or 'All Maps (map not decided)'}")
+            logger.info(f"Date: {result['match_date']}")
+            logger.info("")
+            
+            # Check if we have predictions for multiple maps
+            if 'predictions_by_map' in result:
+                logger.info("Predictions for all maps:")
+                logger.info("")
+                # Sort by team_a win probability (highest first)
+                sorted_maps = sorted(
+                    result['predictions_by_map'].items(),
+                    key=lambda x: x[1]['team_a_win_probability'],
+                    reverse=True
+                )
+                for map_name, pred in sorted_maps:
+                    logger.info(f"{map_name}:")
+                    logger.info(f"  {result['team_a']}: {pred['team_a_win_probability']:.2%}")
+                    logger.info(f"  {result['team_b']}: {pred['team_b_win_probability']:.2%}")
+                    logger.info(f"  Predicted Winner: {pred['predicted_winner']}")
+                    logger.info("")
+            else:
+                logger.info(f"Predicted Winner: {result['predicted_winner']}")
+                logger.info("")
+                logger.info("Win Probabilities:")
+                logger.info(f"  {result['team_a']}: {result['team_a_win_probability']:.2%}")
+                logger.info(f"  {result['team_b']}: {result['team_b_win_probability']:.2%}")
+            
+            logger.info("="*60)
+        else:
+            logger.error("Failed to generate prediction")
+            sys.exit(1)
 
     elif args.command == "about":
         print("CS2 Match Prediction ML Project")

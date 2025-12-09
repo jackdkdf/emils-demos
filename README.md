@@ -81,7 +81,7 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install pandas numpy scikit-learn xgboost matplotlib seaborn jupyter
+pip install pandas numpy scikit-learn xgboost matplotlib seaborn cloudscraper beautifulsoup4 jupyter
 ```
 
 ## Usage
@@ -99,6 +99,12 @@ python -m src.main train --data data/preprocessed/final_features.csv
 
 # Create visualizations (confusion matrix, ROC curve, feature importance)
 python -m src.main visualize --data data/preprocessed/final_features.csv
+
+# Predict match outcome from HLTV URL
+python -m src.main predict --url https://www.hltv.org/matches/2388125/spirit-vs-falcons-...
+
+# Predict match outcome manually
+python -m src.main predict --team-a "Team Spirit" --team-b "Team Falcons" --map "Mirage" --date "2025-01-15"
 
 # Show project info
 python -m src.main about
@@ -123,6 +129,22 @@ python -m src.main train --data PATH [--no-balance] [--no-tuning] [--n-iter N] [
 ```bash
 python -m src.main visualize --data PATH [--output-dir DIR] [--no-train] [--model-path PATH] [--seed N] [--quiet] [--show]
 ```
+
+**Predict Command:**
+
+```bash
+# Using HLTV URL (automatically extracts match info)
+python -m src.main predict --url URL [--model-path PATH] [--quiet]
+
+# Manual specification
+python -m src.main predict --team-a TEAM_A --team-b TEAM_B --map MAP_NAME --date YYYY-MM-DD [--model-path PATH] [--quiet]
+```
+
+The predict command:
+- Scrapes match information from HLTV match pages (if URL provided)
+- Computes features for the match using historical data
+- Loads a trained model and generates predictions
+- Returns win probabilities for both teams and the predicted winner
 
 The visualize command creates:
 
