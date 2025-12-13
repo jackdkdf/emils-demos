@@ -15,6 +15,7 @@ matplotlib = "^3.7"
 seaborn = "^0.12"
 cloudscraper = "^1.2"
 beautifulsoup4 = "^4.12"
+requests = "^2.31"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0"

@@ -48,42 +48,79 @@ def scrape_match_info(match_url: str) -> Optional[Dict[str, str]]:
     team_a = None
     team_b = None
     
-    # Try to find team names in the match header
-    team_elements = soup.find_all("div", class_=re.compile(r".*team.*", re.I))
-    if not team_elements:
-        # Try alternative selectors
-        team_elements = soup.find_all("a", href=re.compile(r"/team/\d+/"))
-    
+    # Strategy 1: Look for team links with specific structure
+    team_links = soup.find_all("a", href=re.compile(r"/team/\d+/"))
     team_names = []
-    for elem in team_elements:
-        # Look for team name in text or span
-        name_elem = elem.find("span") or elem
-        name = name_elem.get_text(strip=True)
-        if name and len(name) > 2:  # Filter out very short strings
-            # Check if it's a team link
-            href = elem.get("href", "")
-            if "/team/" in href:
-                # Get the actual team name from the link text, not parent elements
-                # This avoids picking up event names or other text
-                link_text = name_elem.get_text(strip=True)
-                if link_text:
-                    team_names.append(link_text)
+    
+    for link in team_links:
+        href = link.get("href", "")
+        # Extract team slug from URL (e.g., /team/11283/falcons -> "falcons")
+        slug_match = re.search(r"/team/\d+/([\w-]+)", href)
+        if slug_match:
+            team_slug = slug_match.group(1)
+            
+            # Try to find the team name in the link's direct children
+            # Look for span with class containing "name" or just the first text node
+            team_name = None
+            
+            # Check for span with name class
+            name_span = link.find("span", class_=re.compile(r".*name.*", re.I))
+            if name_span:
+                team_name = name_span.get_text(strip=True)
+            else:
+                # Get direct text content, avoiding nested elements
+                # Get all text nodes directly under the link
+                text_parts = []
+                for child in link.children:
+                    if isinstance(child, str):
+                        text_parts.append(child.strip())
+                    elif child.name == "span":
+                        span_text = child.get_text(strip=True)
+                        if span_text:
+                            text_parts.append(span_text)
+                
+                if text_parts:
+                    # Take the first non-empty text part
+                    team_name = text_parts[0] if text_parts[0] else (text_parts[1] if len(text_parts) > 1 else None)
+            
+            # If we found a name, clean it up
+            if team_name and len(team_name) > 2:
+                # Remove event-related text that might be concatenated
+                # Common patterns: "TeamName EventName" or "TeamName - EventName"
+                event_keywords = ["major", "championship", "cup", "league", "tournament", "starladder", "iem", "blast", "budapest", "cologne", "katowice"]
+                name_lower = team_name.lower()
+                
+                # Check if name contains event keywords - if so, try to extract just the team name
+                for keyword in event_keywords:
+                    if keyword in name_lower:
+                        # Try to split on common separators or take the first part
+                        # Common patterns: "Falcons Starladder" -> "Falcons"
+                        parts = re.split(r'\s+-\s+|\s+', team_name)
+                        if len(parts) > 1:
+                            # Take the first part that doesn't contain event keywords
+                            for part in parts:
+                                part_lower = part.lower()
+                                if not any(ek in part_lower for ek in event_keywords) and len(part) > 2:
+                                    team_name = part
+                                    break
+                        break
+                
+                # Final validation: reasonable length and no event keywords
+                if len(team_name) < 50 and not any(keyword in team_name.lower() for keyword in event_keywords):
+                    team_names.append((team_name, team_slug))
     
     # Remove duplicates while preserving order
     seen = set()
     unique_teams = []
-    for name in team_names:
-        # Filter out very long names (likely event names, not team names)
-        if len(name) > 50:
-            continue
+    for name, slug in team_names:
         name_lower = name.lower()
         if name_lower not in seen:
             seen.add(name_lower)
-            unique_teams.append(name)
+            unique_teams.append((name, slug))
     
     if len(unique_teams) >= 2:
-        team_a = unique_teams[0]
-        team_b = unique_teams[1]
+        team_a = unique_teams[0][0]
+        team_b = unique_teams[1][0]
     else:
         # Fallback: try to extract from URL slug
         url_slug_match = re.search(r'/([\w-]+)-vs-([\w-]+)-', match_url)

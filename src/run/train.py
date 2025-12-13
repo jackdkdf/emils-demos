@@ -204,4 +204,32 @@ def train_xgboost_model(
     if verbose:
         logger.info("\nModel training completed!")
     
-    return model, best_params, eval_results
+    # Calculate calibration metrics on test set if available
+    calibration_data = None
+    if X_test is not None and y_test is not None:
+        if verbose:
+            logger.info("Calculating calibration metrics...")
+        from ..eval.calibration import calculate_calibration_metrics
+        
+        y_proba = model.predict_proba(X_test)[:, 1]
+        calibration_data = calculate_calibration_metrics(
+            y_true=y_test.values,
+            y_proba=y_proba,
+            n_bins=50
+        )
+        
+        if verbose:
+            # Log some calibration stats
+            overall_accuracy = np.mean((y_proba > 0.5).astype(int) == y_test.values)
+            logger.info(f"Overall test accuracy: {overall_accuracy:.2%}")
+            logger.info(f"Calibration bins: {len(calibration_data['bin_accuracies'])}")
+            
+            # Log sample distribution across bins
+            bin_counts = calibration_data['bin_counts']
+            total_samples = sum(bin_counts)
+            logger.info(f"Total samples in calibration: {total_samples}")
+            logger.info(f"Average samples per bin: {total_samples / len(bin_counts):.1f}")
+            logger.info(f"Min samples in a bin: {min(bin_counts) if bin_counts else 0}")
+            logger.info(f"Max samples in a bin: {max(bin_counts) if bin_counts else 0}")
+    
+    return model, best_params, eval_results, calibration_data

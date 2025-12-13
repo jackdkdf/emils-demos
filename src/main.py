@@ -39,10 +39,13 @@ Examples:
   # Create visualizations (confusion matrix, ROC curve, feature importance)
   python -m src.main visualize --data data/preprocessed/final_features.csv
 
-  # Predict match outcome from HLTV URL
-  python -m src.main predict --url https://www.hltv.org/matches/2388125/spirit-vs-falcons-...
+  # Fetch match data from HLTV URL
+  python -m src.main fetch --url https://www.hltv.org/matches/2388125/spirit-vs-falcons-...
 
-  # Predict match outcome manually
+  # Predict match outcome from fetched data
+  python -m src.main predict --fetched-data data/fetched/match_2388125.json
+
+  # Predict match outcome manually (uses preprocessed data)
   python -m src.main predict --team-a "Team Spirit" --team-b "Team Falcons" --map "Mirage" --date "2025-01-15"
         """,
     )
@@ -121,39 +124,71 @@ Examples:
         "--show", action="store_true", help="Display plots interactively"
     )
 
+    # Fetch command
+    fetch_parser = subparsers.add_parser(
+        "fetch", help="Fetch match data from HLTV URL"
+    )
+    fetch_parser.add_argument(
+        "--url",
+        type=str,
+        required=True,
+        help="HLTV match URL (e.g., https://www.hltv.org/matches/2388125/...)",
+    )
+    fetch_parser.add_argument(
+        "--output",
+        type=Path,
+        default=None,
+        help="Output file path (default: data/fetched/match_{id}.json)",
+    )
+    fetch_parser.add_argument(
+        "--project-root",
+        type=Path,
+        default=None,
+        help="Root directory of the project",
+    )
+    fetch_parser.add_argument(
+        "--quiet", action="store_true", help="Suppress verbose output"
+    )
+
     # Predict command
     predict_parser = subparsers.add_parser(
-        "predict", help="Predict match outcome from HLTV URL or match details"
+        "predict", help="Predict match outcome from fetched data or manual parameters"
+    )
+    predict_parser.add_argument(
+        "--fetched-data",
+        type=Path,
+        default=None,
+        help="Path to JSON file with fetched match data (from fetch command)",
     )
     predict_parser.add_argument(
         "--url",
         type=str,
         default=None,
-        help="HLTV match URL (e.g., https://www.hltv.org/matches/2388125/...)",
+        help="HLTV match URL (deprecated - use fetch command first)",
     )
     predict_parser.add_argument(
         "--team-a",
         type=str,
         default=None,
-        help="Name of team A (required if --url not provided)",
+        help="Name of team A (required if --fetched-data not provided)",
     )
     predict_parser.add_argument(
         "--team-b",
         type=str,
         default=None,
-        help="Name of team B (required if --url not provided)",
+        help="Name of team B (required if --fetched-data not provided)",
     )
     predict_parser.add_argument(
         "--map",
         type=str,
         default=None,
-        help="Map name (required if --url not provided)",
+        help="Map name (required if --fetched-data not provided)",
     )
     predict_parser.add_argument(
         "--date",
         type=str,
         default=None,
-        help="Match date in YYYY-MM-DD format (required if --url not provided)",
+        help="Match date in YYYY-MM-DD format (required if --fetched-data not provided)",
     )
     predict_parser.add_argument(
         "--model-path",
@@ -210,7 +245,7 @@ Examples:
             verbose=not args.quiet,
         )
 
-        model, best_params, eval_results = train_xgboost_model(
+        model, best_params, eval_results, calibration_data = train_xgboost_model(
             X_train=X_train,
             y_train=y_train,
             X_test=X_test,
@@ -225,18 +260,26 @@ Examples:
         y_pred = model.predict(X_test)
         evaluate_model(y_test.values, y_pred, verbose=not args.quiet)
         
-        # Save model
+        # Save model and calibration data
         import pickle
         project_root = getattr(args, 'project_root', None) or Path(__file__).resolve().parent.parent
         models_dir = project_root / "models"
         models_dir.mkdir(exist_ok=True)
         model_path = models_dir / "xgboost_model.pkl"
+        calibration_path = models_dir / "calibration_data.pkl"
         
         with open(model_path, "wb") as f:
             pickle.dump(model, f)
         
-        if not args.quiet:
-            logger.info(f"\nModel saved to: {model_path}")
+        if calibration_data:
+            with open(calibration_path, "wb") as f:
+                pickle.dump(calibration_data, f)
+            if not args.quiet:
+                logger.info(f"\nModel saved to: {model_path}")
+                logger.info(f"Calibration data saved to: {calibration_path}")
+        else:
+            if not args.quiet:
+                logger.info(f"\nModel saved to: {model_path}")
 
     elif args.command == "visualize":
         import pickle
@@ -266,7 +309,7 @@ Examples:
                 verbose=not args.quiet,
             )
 
-            model, best_params, eval_results = train_xgboost_model(
+            model, best_params, eval_results, calibration_data = train_xgboost_model(
                 X_train=X_train,
                 y_train=y_train,
                 X_test=X_test,
@@ -300,6 +343,35 @@ Examples:
             original_distribution=original_distribution,
         )
 
+    elif args.command == "fetch":
+        from .inference.fetch_data import fetch_match_data
+        
+        project_root = args.project_root or Path(__file__).resolve().parent.parent
+        
+        fetched_data = fetch_match_data(
+            match_url=args.url,
+            output_file=args.output,
+            project_root=project_root,
+            verbose=not args.quiet
+        )
+        
+        if not fetched_data:
+            logger.error("Failed to fetch match data")
+            sys.exit(1)
+        
+        if not args.quiet:
+            logger.info("\nFetch completed successfully!")
+            if fetched_data and '_file_path' in fetched_data:
+                file_path = fetched_data['_file_path']
+                logger.info(f"Fetched data saved to: {file_path}")
+                # Output the full command to run
+                python_cmd = sys.executable or "python"
+                full_command = f"{python_cmd} -m src.main predict --fetched-data {file_path}"
+                logger.info(f"\nRun this command to make predictions:")
+                logger.info(f"  {full_command}")
+            else:
+                logger.info(f"Use the predict command with --fetched-data to make predictions")
+
     elif args.command == "predict":
         from .inference import predict_match
         
@@ -307,6 +379,7 @@ Examples:
         model_path = args.model_path or (project_root / "models" / "xgboost_model.pkl")
         
         result = predict_match(
+            fetched_data_file=args.fetched_data,
             match_url=args.url,
             team_a=args.team_a,
             team_b=args.team_b,
@@ -318,38 +391,31 @@ Examples:
         )
         
         if result:
-            logger.info("\n" + "="*60)
-            logger.info("MATCH PREDICTION RESULTS")
-            logger.info("="*60)
-            logger.info(f"Match: {result['team_a']} vs {result['team_b']}")
-            logger.info(f"Map: {result['map'] or 'All Maps (map not decided)'}")
-            logger.info(f"Date: {result['match_date']}")
-            logger.info("")
-            
             # Check if we have predictions for multiple maps
             if 'predictions_by_map' in result:
-                logger.info("Predictions for all maps:")
-                logger.info("")
                 # Sort by team_a win probability (highest first)
                 sorted_maps = sorted(
                     result['predictions_by_map'].items(),
                     key=lambda x: x[1]['team_a_win_probability'],
                     reverse=True
                 )
+                
+                print(f"\n{result['team_a']} vs {result['team_b']} - {result['match_date']}")
+                print("=" * 80)
                 for map_name, pred in sorted_maps:
-                    logger.info(f"{map_name}:")
-                    logger.info(f"  {result['team_a']}: {pred['team_a_win_probability']:.2%}")
-                    logger.info(f"  {result['team_b']}: {pred['team_b_win_probability']:.2%}")
-                    logger.info(f"  Predicted Winner: {pred['predicted_winner']}")
-                    logger.info("")
+                    calib_str = f" (Model Accuracy: {pred.get('calibration_accuracy', 0):.1%})" if pred.get('calibration_accuracy') else ""
+                    print(f"{map_name:12} | {result['team_a']:20} {pred['team_a_win_probability']:6.2%} | {result['team_b']:20} {pred['team_b_win_probability']:6.2%} | Winner: {pred['predicted_winner']}{calib_str}")
+                print("=" * 80)
             else:
-                logger.info(f"Predicted Winner: {result['predicted_winner']}")
-                logger.info("")
-                logger.info("Win Probabilities:")
-                logger.info(f"  {result['team_a']}: {result['team_a_win_probability']:.2%}")
-                logger.info(f"  {result['team_b']}: {result['team_b_win_probability']:.2%}")
-            
-            logger.info("="*60)
+                calib_str = f"\nModel Accuracy: {result.get('calibration_accuracy', 0):.1%}" if result.get('calibration_accuracy') else ""
+                print(f"\n{result['team_a']} vs {result['team_b']} - {result['map']} ({result['match_date']})")
+                print("=" * 80)
+                print(f"Predicted Winner: {result['predicted_winner']}")
+                print(f"{result['team_a']:30} {result['team_a_win_probability']:6.2%}")
+                print(f"{result['team_b']:30} {result['team_b_win_probability']:6.2%}")
+                if calib_str:
+                    print(calib_str)
+                print("=" * 80)
         else:
             logger.error("Failed to generate prediction")
             sys.exit(1)

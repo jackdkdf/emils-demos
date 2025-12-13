@@ -524,6 +524,7 @@ def prepare_features_for_model(features_df: pd.DataFrame, project_root: Optional
 
 def predict_match(
     match_url: Optional[str] = None,
+    fetched_data_file: Optional[Path] = None,
     team_a: Optional[str] = None,
     team_b: Optional[str] = None,
     map_name: Optional[str] = None,
@@ -577,8 +578,141 @@ def predict_match(
     with open(model_path, "rb") as f:
         model = pickle.load(f)
     
-    # Scrape match info and fetch historical data from URL
-    if match_url:
+    # Load calibration data if available
+    calibration_path = model_path.parent / "calibration_data.pkl"
+    calibration_data = None
+    if calibration_path.exists():
+        with open(calibration_path, "rb") as f:
+            calibration_data = pickle.load(f)
+    
+    # Load fetched data if provided
+    if fetched_data_file:
+        if not fetched_data_file.exists():
+            logger.error(f"Fetched data file not found: {fetched_data_file}")
+            return None
+        
+        import json
+        with open(fetched_data_file, 'r') as f:
+            fetched_data = json.load(f)
+        
+        team_a = fetched_data['team_a']
+        team_b = fetched_data['team_b']
+        map_name = fetched_data['map']
+        match_date = fetched_data['match_date']
+        historical_data_dict = fetched_data.get('historical_data', {})
+        
+        if verbose:
+            logger.info(f"Loaded match data: {team_a} vs {team_b} on {map_name or 'All Maps'} ({match_date})")
+        
+        # If multiple maps, predict for all
+        if not map_name and len(historical_data_dict) > 1:
+            predictions_by_map = {}
+            
+            for map_name_iter, hist_data in historical_data_dict.items():
+                if verbose:
+                    logger.info(f"Computing prediction for {map_name_iter}...")
+                
+                # Convert JSON data back to format expected by create_features_from_historical_data
+                historical_data = {
+                    "team_results": hist_data.get("team_results", []),
+                    "head_to_head": hist_data.get("head_to_head", []),
+                    "team_a_id": hist_data.get("team_a_id"),
+                    "team_b_id": hist_data.get("team_b_id"),
+                    "team_a_slug": hist_data.get("team_a_slug"),
+                    "team_b_slug": hist_data.get("team_b_slug"),
+                    "map_id": hist_data.get("map_id"),
+                }
+                
+                features_df = create_features_from_historical_data(
+                    team_a=team_a,
+                    team_b=team_b,
+                    map_name=map_name_iter,
+                    match_date=match_date,
+                    historical_data=historical_data,
+                    verbose=False
+                )
+                
+                if features_df is None:
+                    continue
+                
+                X = prepare_features_for_model(features_df, project_root=project_root)
+                
+                # Align columns
+                training_data_file = project_root / "data" / "preprocessed" / "final_features.csv"
+                if training_data_file.exists():
+                    training_df = pd.read_csv(training_data_file, nrows=1)
+                    training_cols = [col for col in training_df.columns if col != 'team_a_won']
+                    X_aligned = pd.DataFrame(0, index=X.index, columns=training_cols)
+                    for col in X.columns:
+                        if col in training_cols:
+                            X_aligned[col] = X[col].values
+                    X = X_aligned
+                
+                proba = model.predict_proba(X)[0]
+                team_a_win_prob = proba[1]
+                team_b_win_prob = proba[0]
+                predicted_winner = team_a if team_a_win_prob > 0.5 else team_b
+                
+                # Get calibration accuracy
+                # Use the probability of the predicted winner for calibration lookup
+                from ..eval.calibration import get_calibration_accuracy
+                calibration_accuracy = None
+                if calibration_data:
+                    prob_for_calibration = team_a_win_prob if predicted_winner == team_a else team_b_win_prob
+                    calibration_accuracy = get_calibration_accuracy(
+                        calibration_data, prob_for_calibration
+                    )
+                
+                predictions_by_map[map_name_iter] = {
+                    'team_a_win_probability': float(team_a_win_prob),
+                    'team_b_win_probability': float(team_b_win_prob),
+                    'predicted_winner': predicted_winner,
+                    'calibration_accuracy': float(calibration_accuracy) if calibration_accuracy is not None else None,
+                }
+            
+            return {
+                'team_a': team_a,
+                'team_b': team_b,
+                'map': None,
+                'match_date': match_date,
+                'predictions_by_map': predictions_by_map,
+            }
+        
+        # Single map prediction
+        elif map_name and map_name in historical_data_dict:
+            hist_data = historical_data_dict[map_name]
+            historical_data = {
+                "team_results": hist_data.get("team_results", []),
+                "head_to_head": hist_data.get("head_to_head", []),
+                "team_a_id": hist_data.get("team_a_id"),
+                "team_b_id": hist_data.get("team_b_id"),
+                "team_a_slug": hist_data.get("team_a_slug"),
+                "team_b_slug": hist_data.get("team_b_slug"),
+                "map_id": hist_data.get("map_id"),
+            }
+            
+            features_df = create_features_from_historical_data(
+                team_a=team_a,
+                team_b=team_b,
+                map_name=map_name,
+                match_date=match_date,
+                historical_data=historical_data,
+                verbose=verbose
+            )
+            
+            if features_df is None:
+                logger.error(f"Failed to create features from fetched data")
+                return None
+            # features_df is set, continue to prediction part below (skip elif/else blocks)
+        else:
+            if map_name:
+                logger.error(f"Historical data not found for map: {map_name}")
+            else:
+                logger.error("No historical data found in fetched file")
+            return None
+    
+    # Scrape match info and fetch historical data from URL (only if fetched_data_file was not used)
+    if not fetched_data_file and match_url:
         if verbose:
             logger.info(f"Fetching match information and historical data from URL: {match_url}")
         from .match_scraper import scrape_match_info
@@ -718,10 +852,11 @@ def predict_match(
         if features_df is None:
             logger.error("Failed to create features from historical data")
             return None
-    else:
-        # Manual specification - use preprocessed data
+    
+    # Manual specification - use preprocessed data (only if neither fetched_data_file nor match_url was used)
+    if not fetched_data_file and not match_url:
         if not all([team_a, team_b, map_name, match_date]):
-            logger.error("Either match_url or all of (team_a, team_b, map_name, match_date) must be provided")
+            logger.error("Either fetched_data_file, match_url, or all of (team_a, team_b, map_name, match_date) must be provided")
             return None
         
         if verbose:
@@ -743,35 +878,36 @@ def predict_match(
     X = prepare_features_for_model(features_df, project_root=project_root)
     
     # Ensure all columns match training data
-    # Load training data to get column order
     training_data_file = project_root / "data" / "preprocessed" / "final_features.csv"
     if training_data_file.exists():
         training_df = pd.read_csv(training_data_file, nrows=1)
         training_cols = [col for col in training_df.columns if col != 'team_a_won']
         
-        # Create a new DataFrame with all training columns, initialized to 0
         X_aligned = pd.DataFrame(0, index=X.index, columns=training_cols)
-        
-        # Copy values from X where columns match
         for col in X.columns:
             if col in training_cols:
                 X_aligned[col] = X[col].values
-        
         X = X_aligned
-    else:
-        logger.warning("Could not find training data to match columns, using features as-is")
     
     # Predict
-    if verbose:
-        logger.info("Making prediction...")
-    
     proba = model.predict_proba(X)[0]
-    team_a_win_prob = proba[1]  # Assuming class 1 is team_a_won
+    team_a_win_prob = proba[1]
     team_b_win_prob = proba[0]
-    
     predicted_winner = team_a if team_a_win_prob > 0.5 else team_b
     
-    result = {
+    # Get calibration accuracy
+    # Use the probability of the predicted winner, not team_a
+    from ..eval.calibration import get_calibration_accuracy
+    calibration_accuracy = None
+    if calibration_data:
+        # Use the probability of the predicted winner for calibration lookup
+        # If team_a wins, use team_a_win_prob; if team_b wins, use team_b_win_prob
+        prob_for_calibration = team_a_win_prob if predicted_winner == team_a else team_b_win_prob
+        calibration_accuracy = get_calibration_accuracy(
+            calibration_data, prob_for_calibration
+        )
+    
+    return {
         'team_a': team_a,
         'team_b': team_b,
         'map': map_name,
@@ -779,7 +915,6 @@ def predict_match(
         'team_a_win_probability': float(team_a_win_prob),
         'team_b_win_probability': float(team_b_win_prob),
         'predicted_winner': predicted_winner,
+        'calibration_accuracy': float(calibration_accuracy) if calibration_accuracy is not None else None,
     }
-    
-    return result
 
