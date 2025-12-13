@@ -19,7 +19,15 @@ emils-demos/
 │   ├── run/               # Training entrypoints
 │   │   └── train.py      # Model training scripts
 │   ├── eval/              # Evaluation scripts and metrics
-│   │   └── metrics.py
+│   │   ├── metrics.py
+│   │   ├── visualize.py
+│   │   └── calibration.py
+│   ├── inference/         # Match prediction and inference
+│   │   ├── match_scraper.py
+│   │   ├── historical_data.py
+│   │   ├── fetch_data.py
+│   │   ├── predict.py
+│   │   └── betting.py
 │   └── main.py           # Main CLI entrypoint
 ├── notebooks/             # Jupyter notebooks for exploration
 │   ├── preprocess.ipynb
@@ -40,6 +48,10 @@ emils-demos/
 │   └── mappings/         # Mapping/metadata files
 │       ├── team_name_to_id.csv
 │       └── map_name_to_id.csv
+│   └── temp/            # Temporary fetched match data (auto-generated)
+├── models/               # Trained models and calibration data
+│   ├── xgboost_model.pkl
+│   └── calibration_data.pkl
 ├── scripts/              # One-off utility scripts
 ├── tests/                # Unit and integration tests
 ├── plots/                # Generated visualization plots
@@ -100,8 +112,14 @@ python -m src.main train --data data/preprocessed/final_features.csv
 # Create visualizations (confusion matrix, ROC curve, feature importance)
 python -m src.main visualize --data data/preprocessed/final_features.csv
 
-# Predict match outcome from HLTV URL
-python -m src.main predict --url https://www.hltv.org/matches/2388125/spirit-vs-falcons-...
+# Fetch match data from HLTV URL
+python -m src.main fetch --url https://www.hltv.org/matches/2388125/spirit-vs-falcons-...
+
+# Predict match outcome from fetched data
+python -m src.main predict --fetched-data data/temp/match_2388125.json
+
+# Predict with betting analysis (prompts for odds)
+python -m src.main predict --fetched-data data/temp/match_2388125.json --bet
 
 # Predict match outcome manually
 python -m src.main predict --team-a "Team Spirit" --team-b "Team Falcons" --map "Mirage" --date "2025-01-15"
@@ -130,21 +148,41 @@ python -m src.main train --data PATH [--no-balance] [--no-tuning] [--n-iter N] [
 python -m src.main visualize --data PATH [--output-dir DIR] [--no-train] [--model-path PATH] [--seed N] [--quiet] [--show]
 ```
 
+**Fetch Command:**
+
+```bash
+# Fetch match data from HLTV URL
+python -m src.main fetch --url URL [--output PATH] [--quiet]
+```
+
+The fetch command:
+- Scrapes match information and historical data from HLTV
+- Saves fetched data to `data/temp/` directory (default)
+- Outputs the full predict command to run on the fetched data
+
 **Predict Command:**
 
 ```bash
+# Using fetched data (recommended workflow)
+python -m src.main predict --fetched-data PATH [--model-path PATH] [--bet] [--quiet]
+
 # Using HLTV URL (automatically extracts match info)
-python -m src.main predict --url URL [--model-path PATH] [--quiet]
+python -m src.main predict --url URL [--model-path PATH] [--bet] [--quiet]
 
 # Manual specification
-python -m src.main predict --team-a TEAM_A --team-b TEAM_B --map MAP_NAME --date YYYY-MM-DD [--model-path PATH] [--quiet]
+python -m src.main predict --team-a TEAM_A --team-b TEAM_B --map MAP_NAME --date YYYY-MM-DD [--model-path PATH] [--bet] [--quiet]
 ```
 
 The predict command:
-- Scrapes match information from HLTV match pages (if URL provided)
 - Computes features for the match using historical data
 - Loads a trained model and generates predictions
 - Returns win probabilities for both teams and the predicted winner
+- Shows model calibration accuracy for each prediction
+- With `--bet` flag: Prompts for betting odds (American format: +100, -120, etc.) and calculates:
+  - Expected Value (EV) for each team
+  - Expected profit per unit bet
+  - Betting recommendation (BET/AVOID)
+  - Best bet identification
 
 The visualize command creates:
 
@@ -203,8 +241,17 @@ python -m src.main train --data data/preprocessed/final_features.csv
 # 4. (Optional) Train without hyperparameter tuning for faster testing
 python -m src.main train --data data/preprocessed/final_features.csv --no-tuning
 
-# 6. (Optional) Train without class balancing
+# 5. (Optional) Train without class balancing
 python -m src.main train --data data/preprocessed/final_features.csv --no-balance
+
+# 6. Fetch match data from HLTV
+python -m src.main fetch --url https://www.hltv.org/matches/2388125/spirit-vs-falcons-...
+
+# 7. Make predictions
+python -m src.main predict --fetched-data data/temp/match_2388125.json
+
+# 8. Make predictions with betting analysis
+python -m src.main predict --fetched-data data/temp/match_2388125.json --bet
 ```
 
 ### Python API
@@ -265,9 +312,11 @@ The project uses **XGBoost** (Gradient Boosting) for match prediction:
 
 - **Objective**: Binary classification (team A wins vs loses)
 - **Hyperparameter Tuning**: RandomizedSearchCV with 50 random combinations
-- **Evaluation**: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+- **Evaluation**: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC AUC, Precision-Recall AUC
 - **Validation**: 80/20 train/test split for model evaluation
 - **Class Balancing**: Optional undersampling to balance classes (enabled by default)
+- **Model Calibration**: Calibration metrics calculated on test set for probability accuracy assessment
+- **Model Persistence**: Trained models saved to `models/xgboost_model.pkl` and calibration data to `models/calibration_data.pkl`
 
 ## Logging
 
@@ -299,7 +348,7 @@ black src/
 
 ## Data Organization
 
-The `data/` folder is organized into three main categories:
+The `data/` folder is organized into four main categories:
 
 - **`raw/`**: Original, unprocessed data files
 
@@ -317,6 +366,11 @@ The `data/` folder is organized into three main categories:
   - Team name to ID mappings
   - Map name to ID mappings
 
+- **`temp/`**: Temporary fetched match data
+  - JSON files containing scraped match data from HLTV
+  - Auto-generated when using the `fetch` command
+  - Can be safely deleted after use
+
 ## Output Files
 
 The `plots/` directory contains visualization outputs generated by the `visualize` command:
@@ -333,6 +387,29 @@ The `plots/` directory contains visualization outputs generated by the `visualiz
   - Top features with largest differences between correct and incorrect predictions
   - Confidence distribution comparison
   - Error rate by prediction probability bins
+
+The `models/` directory contains trained model artifacts:
+
+- **`xgboost_model.pkl`**: Trained XGBoost model (saved after training)
+- **`calibration_data.pkl`**: Model calibration metrics for probability accuracy assessment
+
+## Betting Analysis
+
+The `--bet` flag enables betting analysis for match predictions:
+
+- **Odds Format**: Accepts American odds format (+100, -120, +150, etc.)
+- **Expected Value (EV)**: Calculates expected value based on model probabilities and calibration accuracy
+- **Expected Profit**: Shows expected profit per unit bet
+- **Recommendations**: Provides BET/AVOID recommendations for each team
+- **Best Bet**: Identifies the most profitable betting option
+
+Example:
+```bash
+python -m src.main predict --fetched-data data/temp/match_2388125.json --bet
+# Prompts: Enter odds for Team A (e.g., +100 or -120): +100
+# Prompts: Enter odds for Team B (e.g., +100 or -120): -130
+# Output: Shows EV, expected profit, and betting recommendations for each map
+```
 
 ## License
 

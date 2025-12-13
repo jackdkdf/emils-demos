@@ -4,6 +4,7 @@ from .match_scraper import scrape_match_info
 from .historical_data import fetch_historical_data_for_match
 from .fetch_data import fetch_match_data
 from .predict import predict_match, create_match_features_for_inference, prepare_features_for_model, create_features_from_historical_data
+from .betting import american_to_decimal, calculate_expected_value, calculate_betting_recommendation
 
 __all__ = [
     'scrape_match_info',
@@ -13,4 +14,7 @@ __all__ = [
     'create_match_features_for_inference',
     'create_features_from_historical_data',
     'prepare_features_for_model',
+    'american_to_decimal',
+    'calculate_expected_value',
+    'calculate_betting_recommendation',
 ]

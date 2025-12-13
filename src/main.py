@@ -205,6 +205,9 @@ Examples:
     predict_parser.add_argument(
         "--quiet", action="store_true", help="Suppress verbose output"
     )
+    predict_parser.add_argument(
+        "--bet", action="store_true", help="Calculate betting recommendations (will prompt for odds)"
+    )
 
     # About command
     subparsers.add_parser("about", help="Show project info")
@@ -374,6 +377,8 @@ Examples:
 
     elif args.command == "predict":
         from .inference import predict_match
+        from .inference.betting import american_to_decimal, calculate_betting_recommendation
+        from .eval.calibration import get_calibration_accuracy
         
         project_root = args.project_root or Path(__file__).resolve().parent.parent
         model_path = args.model_path or (project_root / "models" / "xgboost_model.pkl")
@@ -390,6 +395,86 @@ Examples:
             verbose=not args.quiet
         )
         
+        # Handle betting calculations if --bet flag is set
+        betting_info = None
+        if args.bet and result:
+            # Load calibration data
+            calibration_data = None
+            calibration_file = project_root / "models" / "calibration_data.pkl"
+            if calibration_file.exists():
+                try:
+                    import pickle
+                    with open(calibration_file, 'rb') as f:
+                        calibration_data = pickle.load(f)
+                except Exception:
+                    pass
+            
+            # Prompt for odds
+            print("\n" + "=" * 80)
+            print("Betting Odds Input")
+            print("=" * 80)
+            
+            team_a_name = result.get('team_a', 'Team A')
+            team_b_name = result.get('team_b', 'Team B')
+            
+            # Get odds for team A
+            while True:
+                odds_a_input = input(f"Enter odds for {team_a_name} (American format, e.g., +100 or -120): ").strip()
+                decimal_odds_a = american_to_decimal(odds_a_input)
+                if decimal_odds_a:
+                    break
+                print("Invalid format. Please enter odds in American format (e.g., +100, -120, +150)")
+            
+            # Get odds for team B
+            while True:
+                odds_b_input = input(f"Enter odds for {team_b_name} (American format, e.g., +100 or -120): ").strip()
+                decimal_odds_b = american_to_decimal(odds_b_input)
+                if decimal_odds_b:
+                    break
+                print("Invalid format. Please enter odds in American format (e.g., +100, -120, +150)")
+            
+            # Calculate betting recommendations
+            if 'predictions_by_map' in result:
+                # Multiple maps - calculate for each map
+                betting_info = {}
+                for map_name, pred in result['predictions_by_map'].items():
+                    team_a_prob = pred['team_a_win_probability']
+                    team_b_prob = pred['team_b_win_probability']
+                    
+                    team_a_calib = None
+                    team_b_calib = None
+                    if calibration_data:
+                        team_a_calib = get_calibration_accuracy(calibration_data, team_a_prob)
+                        team_b_calib = get_calibration_accuracy(calibration_data, team_b_prob)
+                    
+                    betting_info[map_name] = calculate_betting_recommendation(
+                        team_a_prob=team_a_prob,
+                        team_b_prob=team_b_prob,
+                        team_a_odds=decimal_odds_a,
+                        team_b_odds=decimal_odds_b,
+                        team_a_calib_acc=team_a_calib,
+                        team_b_calib_acc=team_b_calib
+                    )
+            else:
+                # Single map
+                team_a_prob = result['team_a_win_probability']
+                team_b_prob = result['team_b_win_probability']
+                
+                team_a_calib = None
+                team_b_calib = None
+                if calibration_data:
+                    team_a_calib = get_calibration_accuracy(calibration_data, team_a_prob)
+                    team_b_calib = get_calibration_accuracy(calibration_data, team_b_prob)
+                
+                betting_info = calculate_betting_recommendation(
+                    team_a_prob=team_a_prob,
+                    team_b_prob=team_b_prob,
+                    team_a_odds=decimal_odds_a,
+                    team_b_odds=decimal_odds_b,
+                    team_a_calib_acc=team_a_calib,
+                    team_b_calib_acc=team_b_calib
+                )
+        
         if result:
             # Check if we have predictions for multiple maps
             if 'predictions_by_map' in result:
@@ -404,18 +489,95 @@ Examples:
                 print("=" * 80)
                 for map_name, pred in sorted_maps:
                     calib_str = f" (Model Accuracy: {pred.get('calibration_accuracy', 0):.1%})" if pred.get('calibration_accuracy') else ""
-                    print(f"{map_name:12} | {result['team_a']:20} {pred['team_a_win_probability']:6.2%} | {result['team_b']:20} {pred['team_b_win_probability']:6.2%} | Winner: {pred['predicted_winner']}{calib_str}")
+                    betting_str = ""
+                    if betting_info and map_name in betting_info:
+                        bet_info = betting_info[map_name]
+                        if bet_info.get('best_bet'):
+                            best_team = bet_info['best_bet']
+                            profit = bet_info[best_team]['expected_profit']
+                            if profit > 0:
+                                betting_str = f" | Expected Profit: {profit:+.1%}"
+                    print(f"{map_name:12} | {result['team_a']:20} {pred['team_a_win_probability']:6.2%} | {result['team_b']:20} {pred['team_b_win_probability']:6.2%} | Winner: {pred['predicted_winner']}{calib_str}{betting_str}")
                 print("=" * 80)
+                
+                # Display betting recommendations if --bet was used
+                if betting_info:
+                    print("\nBetting Recommendations:")
+                    print("=" * 80)
+                    for map_name, pred in sorted_maps:
+                        if map_name in betting_info:
+                            bet_info = betting_info[map_name]
+                            team_a_bet = bet_info.get('team_a', {})
+                            team_b_bet = bet_info.get('team_b', {})
+                            
+                            print(f"\n{map_name}:")
+                            if team_a_bet.get('odds'):
+                                profit_a = team_a_bet.get('expected_profit', 0)
+                                rec_a = team_a_bet.get('recommendation', 'avoid')
+                                odds_a = team_a_bet.get('odds', 0)
+                                print(f"  {result['team_a']:30} | Odds: {odds_a:.2f} | Expected Profit: {profit_a:+.2%} | {rec_a.upper()}")
+                            
+                            if team_b_bet.get('odds'):
+                                profit_b = team_b_bet.get('expected_profit', 0)
+                                rec_b = team_b_bet.get('recommendation', 'avoid')
+                                odds_b = team_b_bet.get('odds', 0)
+                                print(f"  {result['team_b']:30} | Odds: {odds_b:.2f} | Expected Profit: {profit_b:+.2%} | {rec_b.upper()}")
+                            
+                            best_bet = bet_info.get('best_bet')
+                            if best_bet:
+                                best_team_name = result[best_bet]
+                                best_profit = bet_info[best_bet]['expected_profit']
+                                print(f"  Best Bet: {best_team_name} (Expected Profit: {best_profit:+.2%})")
+                            else:
+                                print(f"  No profitable bets found")
+                    print("=" * 80)
             else:
                 calib_str = f"\nModel Accuracy: {result.get('calibration_accuracy', 0):.1%}" if result.get('calibration_accuracy') else ""
+                betting_str = ""
+                if betting_info:
+                    bet_info = betting_info
+                    if bet_info.get('best_bet'):
+                        best_team = bet_info['best_bet']
+                        profit = bet_info[best_team]['expected_profit']
+                        if profit > 0:
+                            betting_str = f" | Expected Profit: {profit:+.1%}"
+                
                 print(f"\n{result['team_a']} vs {result['team_b']} - {result['map']} ({result['match_date']})")
                 print("=" * 80)
-                print(f"Predicted Winner: {result['predicted_winner']}")
+                print(f"Predicted Winner: {result['predicted_winner']}{betting_str}")
                 print(f"{result['team_a']:30} {result['team_a_win_probability']:6.2%}")
                 print(f"{result['team_b']:30} {result['team_b_win_probability']:6.2%}")
                 if calib_str:
                     print(calib_str)
                 print("=" * 80)
+                
+                # Display betting recommendations if --bet was used
+                if betting_info:
+                    print("\nBetting Recommendations:")
+                    print("=" * 80)
+                    team_a_bet = betting_info.get('team_a', {})
+                    team_b_bet = betting_info.get('team_b', {})
+                    
+                    if team_a_bet.get('odds'):
+                        profit_a = team_a_bet.get('expected_profit', 0)
+                        rec_a = team_a_bet.get('recommendation', 'avoid')
+                        odds_a = team_a_bet.get('odds', 0)
+                        print(f"{result['team_a']:30} | Odds: {odds_a:.2f} | Expected Profit: {profit_a:+.2%} | {rec_a.upper()}")
+                    
+                    if team_b_bet.get('odds'):
+                        profit_b = team_b_bet.get('expected_profit', 0)
+                        rec_b = team_b_bet.get('recommendation', 'avoid')
+                        odds_b = team_b_bet.get('odds', 0)
+                        print(f"{result['team_b']:30} | Odds: {odds_b:.2f} | Expected Profit: {profit_b:+.2%} | {rec_b.upper()}")
+                    
+                    best_bet = betting_info.get('best_bet')
+                    if best_bet:
+                        best_team_name = result[best_bet]
+                        best_profit = betting_info[best_bet]['expected_profit']
+                        print(f"\nBest Bet: {best_team_name} (Expected Profit: {best_profit:+.2%})")
+                    else:
+                        print(f"\nNo profitable bets found")
+                    print("=" * 80)
         else:
             logger.error("Failed to generate prediction")
             sys.exit(1)
